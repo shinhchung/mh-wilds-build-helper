@@ -1,0 +1,68 @@
+import { Decoration } from '../types';
+
+export const decorations: Decoration[] = [
+  {
+    id: 'attack-jewel-1',
+    name: 'Attack Jewel 1',
+    slotSize: 1,
+    skillId: 'attack-boost',
+    skillLevel: 1,
+    description: 'Adds one level of Attack Boost.',
+  },
+  {
+    id: 'expert-jewel-2',
+    name: 'Expert Jewel 2',
+    slotSize: 2,
+    skillId: 'critical-eye',
+    skillLevel: 1,
+    description: 'Adds one level of Critical Eye.',
+  },
+  {
+    id: 'tenderizer-jewel-3',
+    name: 'Tenderizer Jewel 3',
+    slotSize: 3,
+    skillId: 'weakness-exploit',
+    skillLevel: 1,
+    description: 'Adds one level of Weakness Exploit.',
+  },
+  {
+    id: 'guardian-jewel-2',
+    name: 'Guardian Jewel 2',
+    slotSize: 2,
+    skillId: 'guard',
+    skillLevel: 1,
+    description: 'Adds one level of Guard.',
+  },
+  {
+    id: 'blessing-jewel-2',
+    name: 'Blessing Jewel 2',
+    slotSize: 2,
+    skillId: 'divine-blessing',
+    skillLevel: 1,
+    description: 'Adds one level of Divine Blessing.',
+  },
+  {
+    id: 'vitality-jewel-1',
+    name: 'Vitality Jewel 1',
+    slotSize: 1,
+    skillId: 'health-boost',
+    skillLevel: 1,
+    description: 'Adds one level of Health Boost.',
+  },
+  {
+    id: 'evasion-jewel-2',
+    name: 'Evasion Jewel 2',
+    slotSize: 2,
+    skillId: 'evade-window',
+    skillLevel: 1,
+    description: 'Adds one level of Evade Window.',
+  },
+  {
+    id: 'grinder-jewel-1',
+    name: 'Grinder Jewel 1',
+    slotSize: 1,
+    skillId: 'speed-sharpening',
+    skillLevel: 1,
+    description: 'Adds one level of Speed Sharpening.',
+  },
+];

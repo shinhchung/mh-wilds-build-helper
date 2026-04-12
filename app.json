@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "MH Wilds Build Helper",
+    "slug": "mh-wilds-build-helper",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
