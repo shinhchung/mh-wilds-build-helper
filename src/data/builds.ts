@@ -1,5 +1,13 @@
 import { Build } from '../types';
 
+// ────────────────────────────────────────────────────────────────
+// 支援型：廣域加奶配裝
+// 影蜘蛛×2 + 水獸×2 + 桃毛獸王×1
+// 套裝：影蜘蛛2件、水獸2件
+// 孔位總計：[1,1] + [2,1] + [2,1] + [1,1] + [2] + [1] = 3×2孔 + 6×1孔
+// 技能總計：廣域化5・加速進食3・體力增強3・精靈加護3・攻擊5
+// ────────────────────────────────────────────────────────────────
+
 export const builds: Build[] = [
   // ────────────────────────────────────────────────────────────────
   // 攻擊型：百暴弱特配裝
@@ -369,6 +377,126 @@ export const builds: Build[] = [
       '攻擊、看破均達Lv5，弱點特效Lv3，輸出效率接近攻擊型但容錯更高。',
       '若覺得生存壓力不大，可將2顆加護珠換成看破珠II升至看破Lv5後再加攻擊珠。',
       '迴避性能Lv2已具備一定的無敵幀延長，靈活閃避的武器（雙劍、弓）效果更佳。',
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
+  // 支援型：廣域加奶配裝
+  // ────────────────────────────────────────────────────────────────
+  {
+    id: 'support-build',
+    playstyle: 'support',
+    title: '廣域加奶配裝',
+    summary: '廣域化Lv5令所有回復道具效果100%傳遞給全隊，加速進食Lv3縮短用藥時間。自身亦達攻擊Lv5，不影響輸出節奏。',
+    weapon: {
+      label: '任何武器',
+      weaponType: '片手劍',
+      reason: '片手劍可不收刀使用道具，加奶效率最高。',
+    },
+    armor: [
+      {
+        id: 'sup-head',
+        name: '影蜘蛛頭盔β',
+        slot: 'head',
+        rarity: 7,
+        defense: 68,
+        slots: [1, 1],
+        skillBonuses: [{ skillId: 'wide-range', level: 2 }],
+      },
+      {
+        id: 'sup-chest',
+        name: '影蜘蛛鎧甲β',
+        slot: 'chest',
+        rarity: 7,
+        defense: 72,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'wide-range', level: 2 }],
+      },
+      {
+        id: 'sup-arms',
+        name: '水獸臂甲β',
+        slot: 'arms',
+        rarity: 6,
+        defense: 64,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'speed-eating', level: 2 }],
+      },
+      {
+        id: 'sup-waist',
+        name: '水獸腰甲β',
+        slot: 'waist',
+        rarity: 6,
+        defense: 62,
+        slots: [1, 1],
+        skillBonuses: [{ skillId: 'divine-blessing', level: 1 }],
+      },
+      {
+        id: 'sup-legs',
+        name: '桃毛獸王護腿β',
+        slot: 'legs',
+        rarity: 6,
+        defense: 66,
+        slots: [2],
+        skillBonuses: [{ skillId: 'health-boost', level: 2 }],
+      },
+      {
+        id: 'sup-talisman',
+        name: '廣域護石II',
+        slot: 'talisman',
+        rarity: 6,
+        defense: 0,
+        slots: [1],
+        skillBonuses: [{ skillId: 'wide-range', level: 1 }],
+      },
+    ],
+    // 填滿全部9個孔位：
+    //   頭[1]        → 加速珠【1】           加速進食 2→3
+    //   頭[1]        → 加護珠【1】           精靈加護 1→2
+    //   胸[2]        → 攻擊珠II【2】          攻擊 0→1
+    //   胸[1]        → 加護珠【1】           精靈加護 2→3
+    //   手[2]        → 攻擊珠II【2】          攻擊 1→2
+    //   手[1]        → 體力珠【1】           體力 2→3
+    //   腰[1]        → 攻擊珠【1】           攻擊 2→3
+    //   腰[1]        → 攻擊珠【1】           攻擊 3→4
+    //   腳[2]        → 攻擊珠II【2】          攻擊 4→5
+    //   護石[1]      → 攻擊珠【1】           攻擊補至Lv5... 但護石 1 slot
+    //   （廣域化已由裝甲達Lv5，護石孔填攻擊）
+    decorations: [
+      { id: 'sup-d1', name: '加速珠【1】',    slotSize: 1, skillId: 'speed-eating',    skillLevel: 1, description: '加速進食+1 → Lv3（頭[1]）' },
+      { id: 'sup-d2', name: '加護珠【1】',    slotSize: 1, skillId: 'divine-blessing', skillLevel: 1, description: '精靈加護+1（頭[1]）' },
+      { id: 'sup-d3', name: '攻擊珠II【2】',  slotSize: 2, skillId: 'attack-boost',    skillLevel: 1, description: '攻擊+1（胸[2]）' },
+      { id: 'sup-d4', name: '加護珠【1】',    slotSize: 1, skillId: 'divine-blessing', skillLevel: 1, description: '精靈加護+1 → Lv3（胸[1]）' },
+      { id: 'sup-d5', name: '攻擊珠II【2】',  slotSize: 2, skillId: 'attack-boost',    skillLevel: 1, description: '攻擊+1（手[2]）' },
+      { id: 'sup-d6', name: '體力珠【1】',    slotSize: 1, skillId: 'health-boost',    skillLevel: 1, description: '體力增強+1 → Lv3（手[1]）' },
+      { id: 'sup-d7', name: '攻擊珠【1】',    slotSize: 1, skillId: 'attack-boost',    skillLevel: 1, description: '攻擊+1（腰[1]）' },
+      { id: 'sup-d8', name: '攻擊珠【1】',    slotSize: 1, skillId: 'attack-boost',    skillLevel: 1, description: '攻擊+1（腰[1]）' },
+      { id: 'sup-d9', name: '攻擊珠II【2】',  slotSize: 2, skillId: 'attack-boost',    skillLevel: 1, description: '攻擊+1 → Lv5（腳[2]）' },
+    ],
+    setBonuses: [
+      {
+        setName: '影蜘蛛',
+        piecesRequired: 2,
+        bonusName: '蛛絲牽引',
+        description: '廣域化效果量+10%（等效Lv5效果量提升至110%），隊友回復量更多。',
+      },
+      {
+        setName: '水獸',
+        piecesRequired: 2,
+        bonusName: '浪息加護',
+        description: '水屬性抗性+10，回復道具效果+5%。對水系魔物場合額外提升生存力。',
+      },
+    ],
+    highlightedSkillIds: ['wide-range', 'speed-eating', 'divine-blessing', 'health-boost'],
+    defenseStats: {
+      physical: 332,
+      elemental: 18,
+      resistances: { fire: -2, water: 12, thunder: 0, ice: 4, dragon: -4 },
+    },
+    notes: [
+      '廣域化Lv5：大回復藥、強化藥、解毒藥均100%傳遞全隊，組隊必備。',
+      '加速進食Lv3：用藥速度最快＋回復量+30，快速補血後立即回到輸出位置。',
+      '片手劍不收刀用藥令廣域化發動更流暢；大鎚、長槍等同樣適合此配裝。',
+      '如隊伍輸出已足夠，可將3顆攻擊珠換成廣域珠【2】，確保廣域加成更穩定。',
     ],
   },
 ];

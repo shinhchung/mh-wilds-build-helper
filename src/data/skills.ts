@@ -101,4 +101,28 @@ export const skills: Skill[] = [
       { level: 5, description: '無敵時間顯著延長' },
     ],
   },
+  {
+    id: 'wide-range',
+    name: '廣域化',
+    category: 'utility',
+    description: '使用回復藥、解毒藥等消耗品時，效果擴散至周圍隊友。隊伍支援核心技能。',
+    levels: [
+      { level: 1, description: '部分道具效果擴散至隊友，效果量50%' },
+      { level: 2, description: '回復藥・解毒藥等擴散，效果量60%' },
+      { level: 3, description: '回復藥大・強化藥等擴散，效果量70%' },
+      { level: 4, description: '幾乎所有回復道具擴散，效果量80%' },
+      { level: 5, description: '所有適用道具擴散至全隊，效果量100%（完整傳遞）' },
+    ],
+  },
+  {
+    id: 'speed-eating',
+    name: '加速進食',
+    category: 'utility',
+    description: '縮短使用消耗品的動作時間，並提升回復藥的回復量。',
+    levels: [
+      { level: 1, description: '進食速度提升，回復藥+10HP' },
+      { level: 2, description: '進食速度大幅提升，回復藥+20HP' },
+      { level: 3, description: '進食速度最快，回復藥+30HP・大回復藥+30HP' },
+    ],
+  },
 ];

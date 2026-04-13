@@ -1,4 +1,4 @@
-export type Playstyle = 'attack' | 'defense' | 'balanced';
+export type Playstyle = 'attack' | 'defense' | 'balanced' | 'support';
 
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon' | 'none';
 

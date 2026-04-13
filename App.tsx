@@ -25,6 +25,7 @@ const playstyleConfig: Record<Playstyle, { label: string; icon: string; desc: st
   attack:  { label: '攻擊型', icon: '⚔', desc: '極限傷害' },
   defense: { label: '防守型', icon: '◈', desc: '穩定生存' },
   balanced:{ label: '全能型', icon: '◇', desc: '攻守兼備' },
+  support: { label: '加奶型', icon: '◎', desc: '廣域支援' },
 };
 
 // ─── Palico component ────────────────────────────────────────────
@@ -181,7 +182,7 @@ export default function App() {
             </View>
           ) : (
             <View style={styles.playstyleRow}>
-              {(['attack', 'defense', 'balanced'] as Playstyle[]).map((p) => {
+              {(['attack', 'defense', 'balanced', 'support'] as Playstyle[]).map((p) => {
                 const cfg = playstyleConfig[p];
                 const active = playstyle === p;
                 return (
@@ -431,10 +432,10 @@ const styles = StyleSheet.create({
   // Playstyle selector
   playstyleRow: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: 8,
   },
   playstyleBtn: {
-    flex: 1,
     alignItems: 'center',
     paddingVertical: 14,
     borderRadius: 6,
@@ -442,6 +443,8 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
     backgroundColor: colors.card,
     gap: 4,
+    minWidth: '46%',
+    flex: 1,
   },
   playstyleBtnActive: {
     borderColor: colors.primary,

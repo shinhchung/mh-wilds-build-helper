@@ -81,4 +81,20 @@ export const decorations: Decoration[] = [
     skillLevel: 1,
     description: '看破+1',
   },
+  {
+    id: 'wide-range-jewel-2',
+    name: '廣域珠【2】',
+    slotSize: 2,
+    skillId: 'wide-range',
+    skillLevel: 1,
+    description: '廣域化+1',
+  },
+  {
+    id: 'speed-eating-jewel-1',
+    name: '加速珠【1】',
+    slotSize: 1,
+    skillId: 'speed-eating',
+    skillLevel: 1,
+    description: '加速進食+1',
+  },
 ];
