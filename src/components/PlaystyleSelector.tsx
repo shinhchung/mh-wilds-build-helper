@@ -15,6 +15,10 @@ const labels: Record<Playstyle, { title: string; description: string }> = {
     title: '全能型',
     description: '輸出、防守、手感比較平均，適合大部分玩家。',
   },
+  support: {
+    title: '加奶裝',
+    description: '廣域化支援隊友，回復道具100%傳遞全隊。',
+  },
 };
 
 type Props = {

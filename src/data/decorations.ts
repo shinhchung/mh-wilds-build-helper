@@ -97,4 +97,28 @@ export const decorations: Decoration[] = [
     skillLevel: 1,
     description: '加速進食+1',
   },
+  {
+    id: 'challenger-jewel-2',
+    name: '挑戰珠【2】',
+    slotSize: 2,
+    skillId: 'agitator',
+    skillLevel: 1,
+    description: '挑戰者+1',
+  },
+  {
+    id: 'critical-element-jewel-2',
+    name: '屬爆珠【2】',
+    slotSize: 2,
+    skillId: 'critical-element',
+    skillLevel: 1,
+    description: '屬性暴擊+1',
+  },
+  {
+    id: 'burst-jewel-1',
+    name: '連擊珠【1】',
+    slotSize: 1,
+    skillId: 'burst',
+    skillLevel: 1,
+    description: '連擊+1',
+  },
 ];

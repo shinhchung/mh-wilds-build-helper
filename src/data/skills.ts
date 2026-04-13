@@ -125,4 +125,39 @@ export const skills: Skill[] = [
       { level: 3, description: '進食速度最快，回復藥+30HP・大回復藥+30HP' },
     ],
   },
+  {
+    id: 'agitator',
+    name: '挑戰者',
+    category: 'offense',
+    description: '魔物進入憤怒狀態時，攻擊力與會心率提升。高手流攻擊技能。',
+    levels: [
+      { level: 1, description: '攻擊力+4，會心率+3%' },
+      { level: 2, description: '攻擊力+8，會心率+5%' },
+      { level: 3, description: '攻擊力+12，會心率+7%' },
+      { level: 4, description: '攻擊力+16，會心率+10%' },
+      { level: 5, description: '攻擊力+20，會心率+15%' },
+    ],
+  },
+  {
+    id: 'critical-element',
+    name: '屬性暴擊',
+    category: 'offense',
+    description: '會心攻擊時，屬性傷害額外提升。屬性速射輕弩的核心技能。',
+    levels: [
+      { level: 1, description: '會心時屬性傷害×1.05' },
+      { level: 2, description: '會心時屬性傷害×1.10' },
+      { level: 3, description: '會心時屬性傷害×1.15' },
+    ],
+  },
+  {
+    id: 'burst',
+    name: '連擊',
+    category: 'offense',
+    description: '連續命中魔物時，逐步提升傷害。維持攻擊節奏的核心技能。',
+    levels: [
+      { level: 1, description: '連擊3發後攻擊力+5' },
+      { level: 2, description: '連擊3發後攻擊力+10' },
+      { level: 3, description: '連擊3發後攻擊力+15' },
+    ],
+  },
 ];
