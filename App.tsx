@@ -3,9 +3,21 @@ import { useMemo, useState } from 'react';
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { PlaystyleSelector } from './src/components/PlaystyleSelector';
 import { SectionCard } from './src/components/SectionCard';
+import { skills } from './src/data';
 import { recommendBuild } from './src/logic/recommendBuild';
 import { colors } from './src/theme/colors';
-import { Playstyle } from './src/types';
+import { ArmorPieceSlot, Playstyle } from './src/types';
+
+const skillNameMap = Object.fromEntries(skills.map((s) => [s.id, s.name]));
+
+const slotLabels: Record<ArmorPieceSlot, string> = {
+  head: '頭部',
+  chest: '身體',
+  arms: '手部',
+  waist: '腰部',
+  legs: '腳部',
+  talisman: '護石',
+};
 
 export default function App() {
   const [playstyle, setPlaystyle] = useState<Playstyle>('attack');
@@ -39,13 +51,13 @@ export default function App() {
           {build.armor.map((piece) => (
             <View key={piece.id} style={styles.rowBlock}>
               <Text style={styles.rowTitle}>
-                {piece.slot.toUpperCase()} · {piece.name}
+                {slotLabels[piece.slot]} · {piece.name}
               </Text>
               <Text style={styles.bodyText}>
                 防禦 {piece.defense} · 孔位 {piece.slots.length ? piece.slots.join('/') : '無'}
               </Text>
               <Text style={styles.bodyText}>
-                技能: {piece.skillBonuses.map((bonus) => `${bonus.skillId} Lv.${bonus.level}`).join(', ')}
+                技能: {piece.skillBonuses.map((bonus) => `${skillNameMap[bonus.skillId] ?? bonus.skillId} Lv.${bonus.level}`).join(', ')}
               </Text>
             </View>
           ))}
