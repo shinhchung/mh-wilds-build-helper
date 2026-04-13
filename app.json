@@ -9,6 +9,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0f172a"
     },
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": ["**/*"],
+    "experiments": {
+      "baseUrl": "/mh-wilds-build-helper"
+    }
   }
 }
