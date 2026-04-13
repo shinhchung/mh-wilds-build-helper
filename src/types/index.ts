@@ -1,22 +1,6 @@
 export type Playstyle = 'attack' | 'defense' | 'balanced';
 
-export type AppMode = 'preset' | 'skill-search';
-
-export type SkillTarget = {
-  skillId: string;
-  targetLevel: number;
-};
-
-export type ArmorSearchResult = {
-  armor: ArmorPiece[];
-  decorations: Decoration[];
-  achievedSkills: Array<{
-    skillId: string;
-    achievedLevel: number;
-    targetLevel: number;
-  }>;
-  totalDefense: number;
-};
+export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon' | 'none';
 
 export type ResistanceSet = {
   fire: number;

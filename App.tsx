@@ -1,16 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { useMemo, useState } from 'react';
 import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { SearchResults } from './src/components/SearchResults';
+import { ElementSelector } from './src/components/ElementSelector';
 import { SectionCard } from './src/components/SectionCard';
-import { SkillPicker } from './src/components/SkillPicker';
 import { WeaponSelector } from './src/components/WeaponSelector';
 import { skills } from './src/data';
 import { getWeaponRecommendation } from './src/data/weapons';
-import { searchArmorBySkills } from './src/logic/armorSearch';
 import { recommendBuild } from './src/logic/recommendBuild';
 import { colors } from './src/theme/colors';
-import { AppMode, ArmorPieceSlot, ArmorSearchResult, Playstyle, SkillTarget } from './src/types';
+import { ArmorPieceSlot, ElementType, Playstyle } from './src/types';
 
 const skillNameMap = Object.fromEntries(skills.map((s) => [s.id, s.name]));
 
@@ -24,9 +22,9 @@ const slotLabels: Record<ArmorPieceSlot, string> = {
 };
 
 const playstyleConfig: Record<Playstyle, { label: string; icon: string; desc: string }> = {
-  attack: { label: '攻擊型', icon: '⚔', desc: '極限傷害' },
+  attack:  { label: '攻擊型', icon: '⚔', desc: '極限傷害' },
   defense: { label: '防守型', icon: '◈', desc: '穩定生存' },
-  balanced: { label: '全能型', icon: '◇', desc: '攻守兼備' },
+  balanced:{ label: '全能型', icon: '◇', desc: '攻守兼備' },
 };
 
 // ─── Palico component ────────────────────────────────────────────
@@ -76,15 +74,9 @@ const divider = StyleSheet.create({
 
 // ─── Main App ─────────────────────────────────────────────────────
 export default function App() {
-  const [mode, setMode] = useState<AppMode>('preset');
-
-  // Preset mode state
   const [selectedWeapon, setSelectedWeapon] = useState<string | null>(null);
+  const [selectedElement, setSelectedElement] = useState<ElementType | null>(null);
   const [playstyle, setPlaystyle] = useState<Playstyle | null>(null);
-
-  // Skill search state
-  const [skillTargets, setSkillTargets] = useState<SkillTarget[]>([]);
-  const [searchResult, setSearchResult] = useState<ArmorSearchResult | null>(null);
 
   const armorBuild = useMemo(
     () => (playstyle ? recommendBuild(playstyle) : null),
@@ -92,11 +84,25 @@ export default function App() {
   );
 
   const weaponRec = useMemo(
-    () => (selectedWeapon && playstyle ? getWeaponRecommendation(selectedWeapon, playstyle) : null),
-    [selectedWeapon, playstyle],
+    () =>
+      selectedWeapon && selectedElement
+        ? getWeaponRecommendation(selectedWeapon, selectedElement)
+        : null,
+    [selectedWeapon, selectedElement],
   );
 
   const showResults = armorBuild && weaponRec;
+
+  const handleWeaponSelect = (id: string) => {
+    setSelectedWeapon(id);
+    setSelectedElement(null);
+    setPlaystyle(null);
+  };
+
+  const handleElementSelect = (el: ElementType) => {
+    setSelectedElement(el);
+    setPlaystyle(null);
+  };
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -107,7 +113,7 @@ export default function App() {
         <View style={styles.hero}>
           <Text style={styles.heroEyebrow}>◆ MONSTER HUNTER WILDS ◆</Text>
           <Text style={styles.heroTitle}>陪裝助手</Text>
-          <Text style={styles.heroSub}>揀武器、選風格、即時出配裝</Text>
+          <Text style={styles.heroSub}>揀武器、選屬性、即時出配裝</Text>
           <View style={styles.palicos}>
             <Palico face="ฅ^•ﻌ•^ฅ" speech="係我最強！" />
             <Palico face="(=^･ω･^=)" speech="打邊隻好？" />
@@ -115,225 +121,169 @@ export default function App() {
           </View>
         </View>
 
-        {/* ── Mode Toggle ───────────────────────────── */}
-        <View style={styles.modeRow}>
-          <Pressable
-            onPress={() => setMode('preset')}
-            style={[styles.modeBtn, mode === 'preset' && styles.modeBtnActive]}
-          >
-            <Text style={[styles.modeBtnText, mode === 'preset' && styles.modeBtnTextActive]}>
-              ⚔ 武器配裝
-            </Text>
-          </Pressable>
-          <Pressable
-            onPress={() => setMode('skill-search')}
-            style={[styles.modeBtn, mode === 'skill-search' && styles.modeBtnActive]}
-          >
-            <Text
-              style={[styles.modeBtnText, mode === 'skill-search' && styles.modeBtnTextActive]}
-            >
-              ◈ 技能搜裝
-            </Text>
-          </Pressable>
-        </View>
+        {/* ── Step 1: Weapon ────────────────────────── */}
+        <SectionCard title="選擇武器種類" step={1}>
+          <WeaponSelector selected={selectedWeapon} onSelect={handleWeaponSelect} />
+        </SectionCard>
 
-        {/* ══════════════════════════════════════════ */}
-        {/* MODE: 武器配裝                             */}
-        {/* ══════════════════════════════════════════ */}
-        {mode === 'preset' && (
+        {/* ── Step 2: Element ───────────────────────── */}
+        <SectionCard
+          title="選擇武器屬性"
+          step={2}
+          subtitle={!selectedWeapon ? '請先選擇武器種類' : undefined}
+        >
+          {!selectedWeapon ? (
+            <View style={styles.lockedRow}>
+              <Text style={styles.lockedText}>ฅ^•ﻌ•^ฅ  先揀武器先！</Text>
+            </View>
+          ) : (
+            <ElementSelector selected={selectedElement} onSelect={handleElementSelect} />
+          )}
+        </SectionCard>
+
+        {/* ── Step 3: Playstyle ─────────────────────── */}
+        <SectionCard
+          title="選擇狩獵風格"
+          step={3}
+          subtitle={!selectedElement ? '請先選擇武器屬性' : undefined}
+        >
+          {!selectedElement ? (
+            <View style={styles.lockedRow}>
+              <Text style={styles.lockedText}>(=^･ω･^=)  再揀屬性呀！</Text>
+            </View>
+          ) : (
+            <View style={styles.playstyleRow}>
+              {(['attack', 'defense', 'balanced'] as Playstyle[]).map((p) => {
+                const cfg = playstyleConfig[p];
+                const active = playstyle === p;
+                return (
+                  <Pressable
+                    key={p}
+                    onPress={() => setPlaystyle(p)}
+                    style={[styles.playstyleBtn, active && styles.playstyleBtnActive]}
+                  >
+                    <Text style={[styles.playstyleIcon, active && styles.playstyleIconActive]}>
+                      {cfg.icon}
+                    </Text>
+                    <Text style={[styles.playstyleLabel, active && styles.playstyleLabelActive]}>
+                      {cfg.label}
+                    </Text>
+                    <Text style={styles.playstyleDesc}>{cfg.desc}</Text>
+                  </Pressable>
+                );
+              })}
+            </View>
+          )}
+        </SectionCard>
+
+        {/* ── Results ───────────────────────────────── */}
+        {showResults && (
           <>
-            {/* Step 1 - Weapon */}
-            <SectionCard title="選擇武器種類" step={1}>
-              <WeaponSelector selected={selectedWeapon} onSelect={setSelectedWeapon} />
+            <MhDivider />
+
+            {/* Weapon result */}
+            <SectionCard title={`${weaponRec.weaponType} 推薦`}>
+              <Text style={styles.weaponName}>{weaponRec.name}</Text>
+              <Text style={styles.bodyText}>{weaponRec.tip}</Text>
             </SectionCard>
 
-            {/* Step 2 - Playstyle (unlock after weapon) */}
-            <SectionCard
-              title="選擇狩獵風格"
-              step={2}
-              subtitle={!selectedWeapon ? '請先選擇武器' : undefined}
-            >
-              {!selectedWeapon ? (
-                <View style={styles.lockedRow}>
-                  <Text style={styles.lockedText}>ฅ^•ﻌ•^ฅ  先揀武器先！</Text>
+            {/* Armor */}
+            <SectionCard title="推薦防具配置">
+              {armorBuild.build.armor.map((piece) => (
+                <View key={piece.id} style={styles.armorRow}>
+                  <View style={styles.slotBadge}>
+                    <Text style={styles.slotText}>{slotLabels[piece.slot]}</Text>
+                  </View>
+                  <View style={styles.armorInfo}>
+                    <Text style={styles.armorName}>{piece.name}</Text>
+                    <Text style={styles.bodyText}>
+                      防禦 {piece.defense} · 孔位{' '}
+                      {piece.slots.length ? piece.slots.join('/') : '無'}
+                    </Text>
+                    <Text style={styles.bodyText}>
+                      {piece.skillBonuses
+                        .map((b) => `${skillNameMap[b.skillId] ?? b.skillId} Lv.${b.level}`)
+                        .join('  ')}
+                    </Text>
+                  </View>
                 </View>
-              ) : (
-                <View style={styles.playstyleRow}>
-                  {(['attack', 'defense', 'balanced'] as Playstyle[]).map((p) => {
-                    const cfg = playstyleConfig[p];
-                    const active = playstyle === p;
-                    return (
-                      <Pressable
-                        key={p}
-                        onPress={() => setPlaystyle(p)}
-                        style={[styles.playstyleBtn, active && styles.playstyleBtnActive]}
-                      >
-                        <Text style={[styles.playstyleIcon, active && styles.playstyleIconActive]}>
-                          {cfg.icon}
-                        </Text>
-                        <Text style={[styles.playstyleLabel, active && styles.playstyleLabelActive]}>
-                          {cfg.label}
-                        </Text>
-                        <Text style={styles.playstyleDesc}>{cfg.desc}</Text>
-                      </Pressable>
-                    );
-                  })}
-                </View>
-              )}
+              ))}
             </SectionCard>
 
-            {/* Results */}
-            {showResults && (
-              <>
-                <MhDivider />
-
-                {/* Weapon result */}
-                <SectionCard title={`${weaponRec.weaponType} 推薦`}>
-                  <Text style={styles.weaponName}>{weaponRec.name}</Text>
-                  <Text style={styles.bodyText}>{weaponRec.tip}</Text>
-                </SectionCard>
-
-                {/* Armor */}
-                <SectionCard title="推薦防具配置">
-                  {armorBuild.build.armor.map((piece) => (
-                    <View key={piece.id} style={styles.armorRow}>
-                      <View style={styles.slotBadge}>
-                        <Text style={styles.slotText}>{slotLabels[piece.slot]}</Text>
-                      </View>
-                      <View style={styles.armorInfo}>
-                        <Text style={styles.armorName}>{piece.name}</Text>
-                        <Text style={styles.bodyText}>
-                          防禦 {piece.defense} · 孔位{' '}
-                          {piece.slots.length ? piece.slots.join('/') : '無'}
-                        </Text>
-                        <Text style={styles.bodyText}>
-                          {piece.skillBonuses
-                            .map(
-                              (b) =>
-                                `${skillNameMap[b.skillId] ?? b.skillId} Lv.${b.level}`,
-                            )
-                            .join('  ')}
-                        </Text>
-                      </View>
-                    </View>
-                  ))}
-                </SectionCard>
-
-                {/* Decorations */}
-                <SectionCard title="建議裝飾珠">
-                  <View style={styles.decoGrid}>
-                    {armorBuild.build.decorations.map((jewel) => (
-                      <View key={jewel.id} style={styles.decoChip}>
-                        <Text style={styles.decoSlot}>【{jewel.slotSize}】</Text>
-                        <Text style={styles.decoName}>{jewel.name}</Text>
-                      </View>
-                    ))}
+            {/* Decorations */}
+            <SectionCard title="建議裝飾珠">
+              <View style={styles.decoGrid}>
+                {armorBuild.build.decorations.map((jewel) => (
+                  <View key={jewel.id} style={styles.decoChip}>
+                    <Text style={styles.decoSlot}>【{jewel.slotSize}】</Text>
+                    <Text style={styles.decoName}>{jewel.name}</Text>
                   </View>
-                </SectionCard>
+                ))}
+              </View>
+            </SectionCard>
 
-                {/* Skills */}
-                <SectionCard title="核心技能詳解">
-                  {armorBuild.highlightedSkills.map((skill) => (
-                    <View key={skill.id} style={styles.skillBlock}>
-                      <View style={styles.skillHeader}>
-                        <Text style={styles.skillName}>{skill.name}</Text>
-                        <Text style={styles.skillCat}>
-                          {skill.category === 'offense'
-                            ? '攻擊'
-                            : skill.category === 'defense'
-                              ? '防禦'
-                              : '輔助'}
-                        </Text>
-                      </View>
-                      <Text style={styles.bodyText}>{skill.description}</Text>
-                      {skill.levels.map((lv) => (
-                        <Text key={lv.level} style={styles.levelLine}>
-                          ▸ Lv.{lv.level}  {lv.description}
-                        </Text>
-                      ))}
-                    </View>
-                  ))}
-                </SectionCard>
-
-                {/* Defense */}
-                <SectionCard title="整體防禦資料">
-                  <View style={styles.statsGrid}>
-                    <View style={styles.statItem}>
-                      <Text style={styles.statValue}>{armorBuild.build.defenseStats.physical}</Text>
-                      <Text style={styles.statLabel}>物理防禦</Text>
-                    </View>
-                    {Object.entries(armorBuild.build.defenseStats.resistances).map(
-                      ([key, val]) => (
-                        <View key={key} style={styles.statItem}>
-                          <Text style={[styles.statValue, val < 0 && { color: colors.danger }]}>
-                            {val > 0 ? `+${val}` : val}
-                          </Text>
-                          <Text style={styles.statLabel}>
-                            {key === 'fire'
-                              ? '火'
-                              : key === 'water'
-                                ? '水'
-                                : key === 'thunder'
-                                  ? '雷'
-                                  : key === 'ice'
-                                    ? '冰'
-                                    : '龍'}
-                          </Text>
-                        </View>
-                      ),
-                    )}
+            {/* Skills */}
+            <SectionCard title="核心技能詳解">
+              {armorBuild.highlightedSkills.map((skill) => (
+                <View key={skill.id} style={styles.skillBlock}>
+                  <View style={styles.skillHeader}>
+                    <Text style={styles.skillName}>{skill.name}</Text>
+                    <Text style={styles.skillCat}>
+                      {skill.category === 'offense'
+                        ? '攻擊'
+                        : skill.category === 'defense'
+                          ? '防禦'
+                          : '輔助'}
+                    </Text>
                   </View>
-                </SectionCard>
-
-                {/* Notes */}
-                <SectionCard title="備註">
-                  {armorBuild.build.notes.map((note) => (
-                    <Text key={note} style={styles.note}>
-                      ◆ {note}
+                  <Text style={styles.bodyText}>{skill.description}</Text>
+                  {skill.levels.map((lv) => (
+                    <Text key={lv.level} style={styles.levelLine}>
+                      ▸ Lv.{lv.level}  {lv.description}
                     </Text>
                   ))}
-                </SectionCard>
-
-                {/* Celebration palico */}
-                <View style={styles.celebRow}>
-                  <Palico face="(✧ᵕ✧)" speech="配裝完成！" />
-                  <View style={styles.celebText}>
-                    <Text style={styles.celebTitle}>配裝完成！出去打怪喇～</Text>
-                    <Text style={styles.bodyText}>Good luck, hunter!</Text>
-                  </View>
-                  <Palico face="ฅ^•ﻌ•^ฅ" speech="加油！" />
                 </View>
-              </>
-            )}
-          </>
-        )}
-
-        {/* ══════════════════════════════════════════ */}
-        {/* MODE: 技能搜裝                             */}
-        {/* ══════════════════════════════════════════ */}
-        {mode === 'skill-search' && (
-          <>
-            <SectionCard
-              title="選擇想要嘅技能"
-              subtitle="㩒技能選擇，再設定目標等級。"
-            >
-              <SkillPicker selectedTargets={skillTargets} onTargetsChange={setSkillTargets} />
+              ))}
             </SectionCard>
 
-            {skillTargets.length > 0 && (
-              <Pressable
-                style={styles.searchBtn}
-                onPress={() => setSearchResult(searchArmorBySkills(skillTargets))}
-              >
-                <Text style={styles.searchBtnText}>◆ 搜尋最佳配裝 ◆</Text>
-              </Pressable>
-            )}
+            {/* Defense */}
+            <SectionCard title="整體防禦資料">
+              <View style={styles.statsGrid}>
+                <View style={styles.statItem}>
+                  <Text style={styles.statValue}>{armorBuild.build.defenseStats.physical}</Text>
+                  <Text style={styles.statLabel}>物理防禦</Text>
+                </View>
+                {Object.entries(armorBuild.build.defenseStats.resistances).map(([key, val]) => (
+                  <View key={key} style={styles.statItem}>
+                    <Text style={[styles.statValue, val < 0 && { color: colors.danger }]}>
+                      {val > 0 ? `+${val}` : val}
+                    </Text>
+                    <Text style={styles.statLabel}>
+                      {key === 'fire' ? '火' : key === 'water' ? '水' : key === 'thunder' ? '雷' : key === 'ice' ? '冰' : '龍'}
+                    </Text>
+                  </View>
+                ))}
+              </View>
+            </SectionCard>
 
-            {searchResult && searchResult.armor.length > 0 && (
-              <SectionCard title="搜尋結果">
-                <SearchResults result={searchResult} />
-              </SectionCard>
-            )}
+            {/* Notes */}
+            <SectionCard title="備註">
+              {armorBuild.build.notes.map((note) => (
+                <Text key={note} style={styles.note}>
+                  ◆ {note}
+                </Text>
+              ))}
+            </SectionCard>
+
+            {/* Celebration palico */}
+            <View style={styles.celebRow}>
+              <Palico face="(✧ᵕ✧)" speech="配裝完成！" />
+              <View style={styles.celebText}>
+                <Text style={styles.celebTitle}>配裝完成！出去打怪喇～</Text>
+                <Text style={styles.bodyText}>Good luck, hunter!</Text>
+              </View>
+              <Palico face="ฅ^•ﻌ•^ฅ" speech="加油！" />
+            </View>
           </>
         )}
 
@@ -384,36 +334,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 20,
     marginTop: 8,
-  },
-
-  // Mode toggle
-  modeRow: {
-    flexDirection: 'row',
-    gap: 8,
-    backgroundColor: colors.card,
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: 8,
-    padding: 4,
-  },
-  modeBtn: {
-    flex: 1,
-    paddingVertical: 10,
-    borderRadius: 6,
-    alignItems: 'center',
-  },
-  modeBtnActive: {
-    backgroundColor: colors.primaryDim,
-    borderWidth: 1,
-    borderColor: colors.primary,
-  },
-  modeBtnText: {
-    color: colors.subtext,
-    fontSize: 13,
-    fontWeight: '700',
-  },
-  modeBtnTextActive: {
-    color: colors.primaryMuted,
   },
 
   // Locked state
@@ -616,20 +536,6 @@ const styles = StyleSheet.create({
     color: colors.primaryMuted,
     fontSize: 16,
     fontWeight: '800',
-  },
-
-  // Skill search button
-  searchBtn: {
-    backgroundColor: colors.primary,
-    paddingVertical: 14,
-    borderRadius: 6,
-    alignItems: 'center',
-  },
-  searchBtnText: {
-    color: colors.background,
-    fontSize: 15,
-    fontWeight: '800',
-    letterSpacing: 1,
   },
 
   // Shared
