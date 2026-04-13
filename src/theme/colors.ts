@@ -1,12 +1,15 @@
 export const colors = {
   background: '#020617',
-  card: '#0f172a',
-  elevatedCard: '#111827',
+  card: '#0a1120',
+  elevatedCard: '#0f1e35',
   primary: '#f59e0b',
   primaryMuted: '#fcd34d',
+  primaryDim: '#78350f',
   text: '#e5e7eb',
   subtext: '#94a3b8',
-  border: '#1f2937',
+  border: '#1e2d45',
+  borderBright: '#2d4263',
   success: '#22c55e',
   danger: '#ef4444',
+  red: '#7f1d1d',
 };
