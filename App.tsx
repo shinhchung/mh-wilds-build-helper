@@ -6,7 +6,7 @@ import { SectionCard } from './src/components/SectionCard';
 import { WeaponSelector } from './src/components/WeaponSelector';
 import { skills } from './src/data';
 import { getWeaponRecommendation } from './src/data/weapons';
-import { recommendBuild } from './src/logic/recommendBuild';
+import { recommendBuilds } from './src/logic/recommendBuild';
 import { colors } from './src/theme/colors';
 import { ArmorPieceSlot, ElementType, Playstyle } from './src/types';
 
@@ -78,11 +78,13 @@ export default function App() {
   const [selectedWeapon, setSelectedWeapon] = useState<string | null>(null);
   const [selectedElement, setSelectedElement] = useState<ElementType | null>(null);
   const [playstyle, setPlaystyle] = useState<Playstyle | null>(null);
+  const [buildIdx, setBuildIdx] = useState<number>(0);
 
-  const armorBuild = useMemo(
-    () => (playstyle ? recommendBuild(playstyle) : null),
+  const armorBuilds = useMemo(
+    () => (playstyle ? recommendBuilds(playstyle) : []),
     [playstyle],
   );
+  const armorBuild = armorBuilds[buildIdx] ?? null;
 
   const weaponRec = useMemo(
     () =>
@@ -126,11 +128,18 @@ export default function App() {
     setSelectedWeapon(id);
     setSelectedElement(null);
     setPlaystyle(null);
+    setBuildIdx(0);
   };
 
   const handleElementSelect = (el: ElementType) => {
     setSelectedElement(el);
     setPlaystyle(null);
+    setBuildIdx(0);
+  };
+
+  const handlePlaystyleSelect = (p: Playstyle) => {
+    setPlaystyle(p);
+    setBuildIdx(0);
   };
 
   return (
@@ -188,7 +197,7 @@ export default function App() {
                 return (
                   <Pressable
                     key={p}
-                    onPress={() => setPlaystyle(p)}
+                    onPress={() => handlePlaystyleSelect(p)}
                     style={[styles.playstyleBtn, active && styles.playstyleBtnActive]}
                   >
                     <Text style={[styles.playstyleIcon, active && styles.playstyleIconActive]}>
@@ -209,6 +218,26 @@ export default function App() {
         {showResults && (
           <>
             <MhDivider />
+
+            {/* Build variant selector */}
+            {armorBuilds.length > 1 && (
+              <SectionCard title="配裝方案">
+                <View style={styles.buildVariantRow}>
+                  {armorBuilds.map((b, i) => (
+                    <Pressable
+                      key={b.build.id}
+                      onPress={() => setBuildIdx(i)}
+                      style={[styles.buildVariantChip, buildIdx === i && styles.buildVariantChipActive]}
+                    >
+                      <Text style={[styles.buildVariantText, buildIdx === i && styles.buildVariantTextActive]}>
+                        {b.build.title}
+                      </Text>
+                    </Pressable>
+                  ))}
+                </View>
+                <Text style={[styles.bodyText, { marginTop: 8 }]}>{armorBuild.build.summary}</Text>
+              </SectionCard>
+            )}
 
             {/* Weapon result */}
             <SectionCard title={`${weaponRec.weaponType} 推薦`}>
@@ -468,6 +497,37 @@ const styles = StyleSheet.create({
   playstyleDesc: {
     color: colors.subtext,
     fontSize: 10,
+  },
+
+  // Build variant selector
+  buildVariantRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  buildVariantChip: {
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.card,
+    flex: 1,
+    minWidth: '44%',
+    alignItems: 'center',
+  },
+  buildVariantChipActive: {
+    borderColor: colors.primary,
+    backgroundColor: colors.primaryDim,
+  },
+  buildVariantText: {
+    color: colors.subtext,
+    fontSize: 13,
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  buildVariantTextActive: {
+    color: colors.primaryMuted,
   },
 
   // Weapon result

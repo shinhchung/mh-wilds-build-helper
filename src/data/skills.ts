@@ -160,4 +160,15 @@ export const skills: Skill[] = [
       { level: 3, description: '連擊3發後攻擊力+15' },
     ],
   },
+  {
+    id: 'mushroomancer',
+    name: '菌類研究者',
+    category: 'utility',
+    description: '可使用各種菇類道具，搭配廣域化可將攻防增益傳遞給隊友。',
+    levels: [
+      { level: 1, description: '可使用硝石菇（攻擊力提升效果）' },
+      { level: 2, description: '+麻痺菇（解除異常）・勝利菇（防禦力提升）' },
+      { level: 3, description: '+龍香菇（增強藥效果）・所有菇類均可使用，廣域傳遞效果最大化' },
+    ],
+  },
 ];

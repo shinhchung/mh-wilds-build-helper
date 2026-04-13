@@ -6,19 +6,13 @@ export type BuildRecommendation = {
   highlightedSkills: Skill[];
 };
 
-export function recommendBuild(playstyle: Playstyle): BuildRecommendation {
-  const build = builds.find((entry) => entry.playstyle === playstyle);
-
-  if (!build) {
-    throw new Error(`No build configured for playstyle: ${playstyle}`);
-  }
-
-  const highlightedSkills = build.highlightedSkillIds
-    .map((id) => skills.find((skill) => skill.id === id))
-    .filter((skill): skill is Skill => Boolean(skill));
-
-  return {
+export function recommendBuilds(playstyle: Playstyle): BuildRecommendation[] {
+  const matching = builds.filter((b) => b.playstyle === playstyle);
+  if (!matching.length) throw new Error(`No builds for playstyle: ${playstyle}`);
+  return matching.map((build) => ({
     build,
-    highlightedSkills,
-  };
+    highlightedSkills: build.highlightedSkillIds
+      .map((id) => skills.find((s) => s.id === id))
+      .filter((s): s is Skill => Boolean(s)),
+  }));
 }

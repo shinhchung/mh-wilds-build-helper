@@ -121,4 +121,12 @@ export const decorations: Decoration[] = [
     skillLevel: 1,
     description: '連擊+1',
   },
+  {
+    id: 'mushroomancer-jewel-2',
+    name: '菌類珠【2】',
+    slotSize: 2,
+    skillId: 'mushroomancer',
+    skillLevel: 1,
+    description: '菌類研究者+1',
+  },
 ];
