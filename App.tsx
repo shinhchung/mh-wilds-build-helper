@@ -93,6 +93,34 @@ export default function App() {
 
   const showResults = armorBuild && weaponRec;
 
+  // Compute total skill levels from armor + decorations
+  const skillTotals = useMemo(() => {
+    if (!armorBuild) return [];
+    const map: Record<string, number> = {};
+    armorBuild.build.armor.forEach((piece) =>
+      piece.skillBonuses.forEach((b) => {
+        map[b.skillId] = (map[b.skillId] ?? 0) + b.level;
+      }),
+    );
+    armorBuild.build.decorations.forEach((d) => {
+      map[d.skillId] = (map[d.skillId] ?? 0) + d.skillLevel;
+    });
+    return Object.entries(map)
+      .map(([id, level]) => ({ id, name: skillNameMap[id] ?? id, level }))
+      .sort((a, b) => b.level - a.level);
+  }, [armorBuild]);
+
+  // Group duplicate decorations for display
+  const decoGrouped = useMemo(() => {
+    if (!armorBuild) return [];
+    const map: Record<string, { name: string; slotSize: number; count: number; skillId: string }> = {};
+    armorBuild.build.decorations.forEach((d) => {
+      if (!map[d.name]) map[d.name] = { name: d.name, slotSize: d.slotSize, count: 0, skillId: d.skillId };
+      map[d.name].count++;
+    });
+    return Object.values(map).sort((a, b) => b.slotSize - a.slotSize);
+  }, [armorBuild]);
+
   const handleWeaponSelect = (id: string) => {
     setSelectedWeapon(id);
     setSelectedElement(null);
@@ -210,13 +238,67 @@ export default function App() {
               ))}
             </SectionCard>
 
-            {/* Decorations */}
-            <SectionCard title="建議裝飾珠">
+            {/* Set bonuses */}
+            <SectionCard title="套裝技能">
+              {armorBuild.build.setBonuses.map((sb, i) => (
+                <View key={i} style={styles.setBonusRow}>
+                  <View style={styles.setBonusHeader}>
+                    <View style={styles.setNameBadge}>
+                      <Text style={styles.setNameText}>{sb.setName}</Text>
+                    </View>
+                    <Text style={styles.setPiecesText}>{sb.piecesRequired}件效果</Text>
+                    <Text style={styles.setBonusName}>{sb.bonusName}</Text>
+                  </View>
+                  <Text style={styles.bodyText}>{sb.description}</Text>
+                </View>
+              ))}
+            </SectionCard>
+
+            {/* Decorations grouped */}
+            <SectionCard title="建議裝飾珠" subtitle="填滿所有可用孔位的最優珠子配置">
               <View style={styles.decoGrid}>
-                {armorBuild.build.decorations.map((jewel) => (
-                  <View key={jewel.id} style={styles.decoChip}>
-                    <Text style={styles.decoSlot}>【{jewel.slotSize}】</Text>
-                    <Text style={styles.decoName}>{jewel.name}</Text>
+                {decoGrouped.map((g) => (
+                  <View key={g.name} style={styles.decoChip}>
+                    <Text style={styles.decoSlot}>【{g.slotSize}】</Text>
+                    <Text style={styles.decoName}>{g.name}</Text>
+                    {g.count > 1 && (
+                      <View style={styles.decoCount}>
+                        <Text style={styles.decoCountText}>×{g.count}</Text>
+                      </View>
+                    )}
+                  </View>
+                ))}
+              </View>
+            </SectionCard>
+
+            {/* Skill totals */}
+            <SectionCard title="技能總覽" subtitle="裝備＋裝飾珠後的最終技能等級">
+              <View style={styles.skillTotalsGrid}>
+                {skillTotals.map((s) => (
+                  <View
+                    key={s.id}
+                    style={[
+                      styles.skillTotalChip,
+                      s.level >= 5 && styles.skillTotalChipMax,
+                      s.level >= 3 && s.level < 5 && styles.skillTotalChipMid,
+                    ]}
+                  >
+                    <Text
+                      style={[
+                        styles.skillTotalName,
+                        s.level >= 5 && styles.skillTotalNameMax,
+                      ]}
+                    >
+                      {s.name}
+                    </Text>
+                    <Text
+                      style={[
+                        styles.skillTotalLevel,
+                        s.level >= 5 && styles.skillTotalLevelMax,
+                      ]}
+                    >
+                      Lv.{s.level}
+                    </Text>
                   </View>
                 ))}
               </View>
@@ -424,6 +506,44 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 
+  // Set bonuses
+  setBonusRow: {
+    paddingBottom: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.border,
+    gap: 6,
+  },
+  setBonusHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    flexWrap: 'wrap',
+  },
+  setNameBadge: {
+    backgroundColor: colors.primaryDim,
+    borderWidth: 1,
+    borderColor: colors.primary,
+    borderRadius: 4,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+  },
+  setNameText: {
+    color: colors.primaryMuted,
+    fontSize: 11,
+    fontWeight: '800',
+  },
+  setPiecesText: {
+    color: colors.subtext,
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  setBonusName: {
+    color: colors.text,
+    fontSize: 13,
+    fontWeight: '700',
+    flex: 1,
+  },
+
   // Decoration chips
   decoGrid: {
     flexDirection: 'row',
@@ -450,6 +570,60 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontSize: 13,
     fontWeight: '600',
+  },
+  decoCount: {
+    marginLeft: 2,
+    backgroundColor: colors.primaryDim,
+    borderRadius: 4,
+    paddingHorizontal: 6,
+    paddingVertical: 1,
+  },
+  decoCountText: {
+    color: colors.primaryMuted,
+    fontSize: 11,
+    fontWeight: '800',
+  },
+
+  // Skill totals grid
+  skillTotalsGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  skillTotalChip: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingVertical: 7,
+    paddingHorizontal: 12,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.card,
+  },
+  skillTotalChipMid: {
+    borderColor: colors.borderBright,
+    backgroundColor: colors.elevatedCard,
+  },
+  skillTotalChipMax: {
+    borderColor: colors.primary,
+    backgroundColor: colors.primaryDim,
+  },
+  skillTotalName: {
+    color: colors.subtext,
+    fontSize: 13,
+    fontWeight: '700',
+  },
+  skillTotalNameMax: {
+    color: colors.primaryMuted,
+  },
+  skillTotalLevel: {
+    color: colors.subtext,
+    fontSize: 12,
+    fontWeight: '800',
+  },
+  skillTotalLevelMax: {
+    color: colors.primary,
   },
 
   // Skills

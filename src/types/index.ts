@@ -60,6 +60,13 @@ export type WeaponRecommendation = {
   reason: string;
 };
 
+export type SetBonus = {
+  setName: string;
+  piecesRequired: number;
+  bonusName: string;
+  description: string;
+};
+
 export type Build = {
   id: string;
   playstyle: Playstyle;
@@ -68,6 +75,7 @@ export type Build = {
   weapon: WeaponRecommendation;
   armor: ArmorPiece[];
   decorations: Decoration[];
+  setBonuses: SetBonus[];
   highlightedSkillIds: string[];
   defenseStats: DefenseStats;
   notes: string[];

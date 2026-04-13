@@ -65,4 +65,20 @@ export const decorations: Decoration[] = [
     skillLevel: 1,
     description: '迴避性能+1',
   },
+  {
+    id: 'attack-jewel-2',
+    name: '攻擊珠II【2】',
+    slotSize: 2,
+    skillId: 'attack-boost',
+    skillLevel: 1,
+    description: '攻擊+1',
+  },
+  {
+    id: 'expert-jewel-2',
+    name: '看破珠II【2】',
+    slotSize: 2,
+    skillId: 'critical-eye',
+    skillLevel: 1,
+    description: '看破+1',
+  },
 ];
