@@ -2,8 +2,7 @@ import { Build } from '../types';
 
 // ────────────────────────────────────────────────────────────────
 // 支援型：廣域加奶配裝
-// 刺花蜘蛛×2 + 水獺龍×2 + 桃毛獸×1
-// 套裝：刺花蜘蛛2件、水獺龍2件
+// 刺花蜘蛛×4 + 桃毛獸×1
 // 孔位總計：[1,1] + [2,1] + [2,1] + [1,1] + [2] + [1] = 3×2孔 + 6×1孔
 // 技能總計：廣域化5・加速進食3・體力增強3・精靈加護3・攻擊5
 // ────────────────────────────────────────────────────────────────
@@ -11,7 +10,7 @@ import { Build } from '../types';
 export const builds: Build[] = [
   // ────────────────────────────────────────────────────────────────
   // 攻擊型：黑角龍絕頂攻擊配裝（TU4 Meta）
-  // 黑角龍×4 + 重甲龍×1
+  // 黑角龍×4 + 護雷顎龍×1
   // 套裝：黑角龍2件「暴走病毒」、黑角龍4件「黑蝕升華」
   // 孔位：[2,1]+[2,2]+[2,1]+[2,1]+[2,1]+[2] = 7×2孔 + 4×1孔 = 11孔
   // 技能總計：弱點特效5（甲）・挑戰者5（甲+珠）・超會心5（甲+珠）・看破5（甲+珠）・攻擊5（珠）・連擊1（珠）
@@ -74,7 +73,7 @@ export const builds: Build[] = [
       },
       {
         id: 'attack-legs',
-        name: '重甲龍護腿β',
+        name: '護雷顎龍護腿β',
         slot: 'legs',
         rarity: 8,
         defense: 80,
@@ -387,8 +386,8 @@ export const builds: Build[] = [
 
   // ────────────────────────────────────────────────────────────────
   // 防守型：鐵壁生存配裝
-  // 重甲龍×3 + 雄火龍×2
-  // 套裝：重甲龍3件（含2件效果）、雄火龍2件
+  // 護雷顎龍×3 + 雄火龍×2
+  // 套裝：雄火龍2件
   // 孔位總計：[1] + [2,1] + [2,1] + [1,1] + [2] + [1] = 3×2孔 + 6×1孔
   // 技能總計：防禦5・體力增強3・精靈加護3・攻擊5・看破2
   // ────────────────────────────────────────────────────────────────
@@ -398,14 +397,14 @@ export const builds: Build[] = [
     title: '鐵壁生存配裝',
     summary: '防禦Lv5全格擋，體力增強Lv3與精靈加護Lv3保障生存，攻擊Lv5維持輸出效率。',
     weapon: {
-      label: '重甲龍派生長槍',
+      label: '護雷顎龍派生長槍',
       weaponType: '長槍',
       reason: '長槍的防禦能力出色，配合防禦技能可安全應對大部分攻擊。',
     },
     armor: [
       {
         id: 'def-head',
-        name: '重甲龍頭盔β',
+        name: '護雷顎龍頭盔β',
         slot: 'head',
         rarity: 6,
         defense: 86,
@@ -414,7 +413,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def-chest',
-        name: '重甲龍鎧甲β',
+        name: '護雷顎龍鎧甲β',
         slot: 'chest',
         rarity: 6,
         defense: 88,
@@ -432,7 +431,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def-waist',
-        name: '重甲龍腰甲β',
+        name: '護雷顎龍腰甲β',
         slot: 'waist',
         rarity: 6,
         defense: 84,
@@ -481,18 +480,6 @@ export const builds: Build[] = [
     ],
     setBonuses: [
       {
-        setName: '重甲龍',
-        piecesRequired: 2,
-        bonusName: '岩盾之備（2件）',
-        description: '格擋成功時，耐力消耗減少15%。配合防禦Lv5，長時間格擋更穩定。',
-      },
-      {
-        setName: '重甲龍',
-        piecesRequired: 3,
-        bonusName: '岩盾之備（3件）',
-        description: '防禦值+20，受到大型攻擊時有機率觸發無傷效果。3件全開額外加成。',
-      },
-      {
         setName: '雄火龍',
         piecesRequired: 2,
         bonusName: '雄火龍の力',
@@ -514,8 +501,7 @@ export const builds: Build[] = [
 
   // ────────────────────────────────────────────────────────────────
   // 防守型 V2：精靈格擋配裝
-  // 重甲龍×3 + 水獺龍×2 + 防禦護石
-  // 套裝：重甲龍3件「岩盾之備」、水獺龍2件「浪息加護」
+  // 護雷顎龍×5 + 防禦護石
   // 孔位：[2,1]+[2,1]+[2,1]+[1,1]+[2]+[1] = 4×2孔 + 5×1孔 = 9孔
   // 技能總計：防禦5（甲）・精靈加護3（甲）・體力增強3（甲+珠）・攻擊5（珠）・看破4（珠）
   // ────────────────────────────────────────────────────────────────
@@ -523,16 +509,16 @@ export const builds: Build[] = [
     id: 'defense-build-2',
     playstyle: 'defense',
     title: '精靈格擋配裝',
-    summary: '防禦Lv5配合精靈加護Lv3，格擋穩定且高傷害技有35%機率減傷。重甲龍3件套強化格擋耐久，水獺龍2件套提升回復效果，適合正面格擋流玩家。',
+    summary: '防禦Lv5配合精靈加護Lv3，格擋穩定且高傷害技有35%機率減傷。護雷顎龍護具強化格擋耐久，適合正面格擋流玩家。',
     weapon: {
-      label: '重甲龍派生片手劍／長槍',
+      label: '護雷顎龍派生片手劍／長槍',
       weaponType: '長槍',
       reason: '長槍配合防禦Lv5格擋幾乎無後退，片手劍同樣可格擋並不收刀使用道具。',
     },
     armor: [
       {
         id: 'def2-head',
-        name: '重甲龍頭盔β',
+        name: '護雷顎龍頭盔β',
         slot: 'head',
         rarity: 6,
         defense: 86,
@@ -541,7 +527,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def2-chest',
-        name: '水獺龍鎧甲β',
+        name: '護雷顎龍鎧甲β',
         slot: 'chest',
         rarity: 6,
         defense: 74,
@@ -550,7 +536,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def2-arms',
-        name: '重甲龍臂甲β',
+        name: '護雷顎龍臂甲β',
         slot: 'arms',
         rarity: 6,
         defense: 82,
@@ -559,7 +545,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def2-waist',
-        name: '水獺龍腰甲β',
+        name: '護雷顎龍腰甲β',
         slot: 'waist',
         rarity: 6,
         defense: 70,
@@ -568,7 +554,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def2-legs',
-        name: '重甲龍護腿β',
+        name: '護雷顎龍護腿β',
         slot: 'legs',
         rarity: 6,
         defense: 84,
@@ -609,20 +595,7 @@ export const builds: Build[] = [
       { id: 'def2-d9',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1 → Lv5（腳[2]）' },
       { id: 'def2-d10', name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',   skillLevel: 1, description: '看破+1 → Lv4（護石[1]）' },
     ],
-    setBonuses: [
-      {
-        setName: '重甲龍',
-        piecesRequired: 3,
-        bonusName: '岩盾之備（3件）',
-        description: '格擋耐力消耗-15%，防禦值+20。長時間格擋更穩定，高傷攻擊觸發無傷機率提升。',
-      },
-      {
-        setName: '水獺龍',
-        piecesRequired: 2,
-        bonusName: '水獺龍の恩澤',
-        description: '水屬性抗性+10，泡沫異常狀態抵抗力提升。回復道具效果+5%。',
-      },
-    ],
+    setBonuses: [],
     highlightedSkillIds: ['guard', 'divine-blessing', 'health-boost', 'attack-boost'],
     defenseStats: {
       physical: 396,
@@ -631,32 +604,31 @@ export const builds: Build[] = [
     },
     notes: [
       '防禦Lv5+精靈加護Lv3：格擋幾乎不後退，且35%機率額外減傷35%，應對高傷技更安心。',
-      '重甲龍3件套：格擋耐力消耗最低，長時間格擋反擊節奏極穩，長槍玩家強烈推薦。',
+      '護雷顎龍護具：格擋耐力消耗最低，長時間格擋反擊節奏極穩，長槍玩家強烈推薦。',
       '比防守型v1多了精靈加護保障，熟悉後可改1~2顆看破珠II提升看破至Lv2。',
     ],
   },
 
   // ────────────────────────────────────────────────────────────────
-  // 防守型 V3：重甲龍守護配裝（5件套畢業防守）
-  // 重甲龍×5 + 攻擊護石II
-  // 套裝：重甲龍2件「重甲の守護」・重甲龍4件「重甲の意志」
+  // 防守型 V3：護雷顎龍守護配裝（5件套畢業防守）
+  // 護雷顎龍×5 + 攻擊護石II
   // 孔位：[2,1]+[2,2]+[2,1]+[1,1]+[2]+[2] = 6×2孔 + 4×1孔 = 10孔
   // 技能：防禦5(甲MAX)・體力增強3(甲MAX)・精靈加護3(甲MAX)・攻擊5(甲+珠)・看破5(珠)
   // ────────────────────────────────────────────────────────────────
   {
     id: 'defense-build-3',
     playstyle: 'defense',
-    title: '重甲龍守護配裝',
-    summary: '重甲龍（Gravios）5件套，防禦/體力增強/精靈加護全從裝甲達成Lv5/3/3，珠格全投攻擊與看破。雙重套裝加成保命，高難度狩獵生存率最高的終極防守配裝。',
+    title: '護雷顎龍守護配裝',
+    summary: '護雷顎龍5件套，防禦/體力增強/精靈加護全從裝甲達成Lv5/3/3，珠格全投攻擊與看破。高難度狩獵生存率最高的終極防守配裝。',
     weapon: {
-      label: '重甲龍派生長槍／片手劍',
+      label: '護雷顎龍派生長槍／片手劍',
       weaponType: '長槍',
       reason: '長槍格擋防禦性最高，配合防禦Lv5幾乎不後退，持續格擋反擊節奏穩定。',
     },
     armor: [
       {
         id: 'def3-head',
-        name: '重甲龍頭盔β',
+        name: '護雷顎龍頭盔β',
         slot: 'head',
         rarity: 9,
         defense: 96,
@@ -665,7 +637,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def3-chest',
-        name: '重甲龍鎧甲β',
+        name: '護雷顎龍鎧甲β',
         slot: 'chest',
         rarity: 9,
         defense: 98,
@@ -674,7 +646,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def3-arms',
-        name: '重甲龍臂甲β',
+        name: '護雷顎龍臂甲β',
         slot: 'arms',
         rarity: 9,
         defense: 92,
@@ -683,7 +655,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def3-waist',
-        name: '重甲龍腰甲β',
+        name: '護雷顎龍腰甲β',
         slot: 'waist',
         rarity: 9,
         defense: 90,
@@ -692,7 +664,7 @@ export const builds: Build[] = [
       },
       {
         id: 'def3-legs',
-        name: '重甲龍護腿β',
+        name: '護雷顎龍護腿β',
         slot: 'legs',
         rarity: 9,
         defense: 94,
@@ -726,20 +698,7 @@ export const builds: Build[] = [
       { id: 'def3-d9',  name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱點特效+1（腳[2]）' },
       { id: 'def3-d10', name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱點特效+1（護石[2]）' },
     ],
-    setBonuses: [
-      {
-        setName: '重甲龍',
-        piecesRequired: 2,
-        bonusName: '重甲の守護（2件）',
-        description: '受到攻擊時，防禦力提升效果持續時間延長，減少穿刺傷害。配合防禦Lv5格擋更穩定。',
-      },
-      {
-        setName: '重甲龍',
-        piecesRequired: 4,
-        bonusName: '重甲の意志（4件）',
-        description: '防禦強化效果進一步提升，火屬性抗性+10，面對高傷攻擊時額外觸發小幅減傷。',
-      },
-    ],
+    setBonuses: [],
     highlightedSkillIds: ['guard', 'divine-blessing', 'health-boost', 'weakness-exploit'],
     defenseStats: {
       physical: 470,
@@ -747,16 +706,16 @@ export const builds: Build[] = [
       resistances: { fire: -2, water: 6, thunder: 8, ice: 4, dragon: 10 },
     },
     notes: [
-      '重甲龍（Gravios）5件套：防禦值最高（物理470），防禦/體力/精靈加護三項生存技能均從裝甲達成最大值。',
-      '重甲の守護+重甲の意志：雙重套裝加成提升格擋耐久與抗打能力，高難度副主必備。',
+      '護雷顎龍5件套：防禦值最高（物理470），防禦/體力/精靈加護三項生存技能均從裝甲達成最大值。',
+      '全裝甲取自同一魔物，護具基礎防禦優秀，高難度副主首選。',
       '珠格全投看破Lv5+攻擊Lv5，弱點特效Lv2作為輸出補充，防守不犧牲傷害。',
     ],
   },
 
   // ────────────────────────────────────────────────────────────────
   // 全能型：泛用攻守配裝
-  // 雄火龍×2 + 鎖刃龍×2 + 重甲龍×1
-  // 套裝：雄火龍2件、鎖刃龍2件（重甲龍1件無效果）
+  // 雄火龍×2 + 鎖刃龍×2 + 護雷顎龍×1
+  // 套裝：雄火龍2件、鎖刃龍2件
   // 孔位總計：[1,1] + [2,1] + [2] + [1,1] + [2,1] + [1] = 3×2孔 + 7×1孔
   // 技能總計：攻擊5・看破5・弱點特效3・體力增強3・迴避性能2・精靈加護2
   // ────────────────────────────────────────────────────────────────
@@ -800,7 +759,7 @@ export const builds: Build[] = [
       },
       {
         id: 'bal-waist',
-        name: '重甲龍腰甲β',
+        name: '護雷顎龍腰甲β',
         slot: 'waist',
         rarity: 6,
         defense: 74,
@@ -878,7 +837,7 @@ export const builds: Build[] = [
 
   // ────────────────────────────────────────────────────────────────
   // 全能型 V2：迴避速攻配裝
-  // 大族長獸×1 + 鎖刃龍×2 + 刺花蜘蛛×1 + 雄火龍×1 + 煌雷龍×1
+  // 護雷顎龍×1 + 鎖刃龍×2 + 刺花蜘蛛×1 + 雄火龍×1 + 煌雷龍×1
   // 套裝：鎖刃龍2件「腐蝕侵蝕」
   // 孔位：[2,1]+[2,1]+[2,1]+[2,1]+[2,1]+[2] = 6×2孔 + 5×1孔 = 11孔
   // 技能總計：迴避性能5（甲+珠）・挑戰者5（甲+珠）・弱點特效5（甲+珠）・攻擊5（甲+珠）・看破4（珠）
@@ -896,7 +855,7 @@ export const builds: Build[] = [
     armor: [
       {
         id: 'bal2-head',
-        name: '大族長獸頭盔β',
+        name: '護雷顎龍頭盔β',
         slot: 'head',
         rarity: 7,
         defense: 70,
@@ -1168,7 +1127,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup-arms',
-        name: '水獺龍臂甲β',
+        name: '刺花蜘蛛臂甲β',
         slot: 'arms',
         rarity: 6,
         defense: 64,
@@ -1177,7 +1136,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup-waist',
-        name: '水獺龍腰甲β',
+        name: '刺花蜘蛛腰甲β',
         slot: 'waist',
         rarity: 6,
         defense: 62,
@@ -1233,12 +1192,6 @@ export const builds: Build[] = [
         bonusName: '蛛絲牽引',
         description: '廣域化效果量+10%（等效Lv5效果量提升至110%），隊友回復量更多。',
       },
-      {
-        setName: '水獺龍',
-        piecesRequired: 2,
-        bonusName: '浪息加護',
-        description: '水屬性抗性+10，回復道具效果+5%。對水系魔物場合額外提升生存力。',
-      },
     ],
     highlightedSkillIds: ['wide-range', 'speed-eating', 'divine-blessing', 'health-boost'],
     defenseStats: {
@@ -1256,7 +1209,7 @@ export const builds: Build[] = [
 
   // ────────────────────────────────────────────────────────────────
   // 支援型 V2：食菇廣域配裝
-  // 刺花蜘蛛×2 + 桃毛獸×2 + 水獺龍×1 + 廣域護石III
+  // 刺花蜘蛛×3 + 桃毛獸×2 + 廣域護石III
   // 套裝：刺花蜘蛛2件「蛛絲牽引」、桃毛獸2件「菌落庇佑」
   // 孔位：[1,1]+[2,1]+[2,1]+[1,1]+[2]+[1] = 3×2孔 + 7×1孔 = 10孔
   // 技能總計：廣域化5（甲）・菌類研究者3（甲）・加速進食3（甲+珠）・精靈加護3（甲+珠）・體力增強3（甲+珠）・攻擊5（珠）
@@ -1310,7 +1263,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup2-legs',
-        name: '水獺龍護腿β',
+        name: '刺花蜘蛛護腿β',
         slot: 'legs',
         rarity: 6,
         defense: 62,
@@ -1381,8 +1334,8 @@ export const builds: Build[] = [
 
   // ────────────────────────────────────────────────────────────────
   // 支援型 V3：竜歌廣域配裝（畢業裝）
-  // 刺花蜘蛛γ×2 + 水獺龍γ×3 + 廣域護石IV
-  // 套裝：刺花蜘蛛2件「蛛絲牽引」、水獺龍2件「浪息加護」
+  // 刺花蜘蛛γ×5 + 廣域護石IV
+  // 套裝：刺花蜘蛛2件「蛛絲牽引」
   // 甲技能全覆蓋：廣域5(MAX)・加速進食3(MAX)・體力增強3(MAX)・精靈加護3(MAX)
   // 孔位：[2,1]+[2,1]+[2,2]+[2,1]+[2,1]+[2] = 7×2孔 + 4×1孔 = 11孔
   // 珠填：3×看破珠II+4×攻擊珠II(7×2孔) + 2×攻擊珠+2×看破珠+連擊珠(4×1+護石2孔) → 攻擊5・看破5・連擊1
@@ -1391,7 +1344,7 @@ export const builds: Build[] = [
     id: 'support-build-3',
     playstyle: 'support',
     title: '竜歌廣域配裝',
-    summary: '刺花蜘蛛γ×水獺龍γ高稀有度畢業支援套裝，四大支援技能全由甲達MAX，所有珠孔釋放作輸出用途，自身攻擊力達Lv5會心率達Lv5，奶媽亦可輸出的終極支援配裝。',
+    summary: '刺花蜘蛛γ高稀有度畢業支援套裝，四大支援技能全由甲達MAX，所有珠孔釋放作輸出用途，自身攻擊力達Lv5會心率達Lv5，奶媽亦可輸出的終極支援配裝。',
     weapon: {
       label: '片手劍（推薦）或狩獵笛',
       weaponType: '片手劍',
@@ -1424,7 +1377,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup3-arms',
-        name: '水獺龍γ臂甲',
+        name: '刺花蜘蛛γ臂甲',
         slot: 'arms' as const,
         rarity: 9,
         defense: 92,
@@ -1436,7 +1389,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup3-waist',
-        name: '水獺龍γ腰甲',
+        name: '刺花蜘蛛γ腰甲',
         slot: 'waist' as const,
         rarity: 9,
         defense: 88,
@@ -1448,7 +1401,7 @@ export const builds: Build[] = [
       },
       {
         id: 'sup3-legs',
-        name: '水獺龍γ護腿',
+        name: '刺花蜘蛛γ護腿',
         slot: 'legs' as const,
         rarity: 9,
         defense: 92,
@@ -1502,12 +1455,6 @@ export const builds: Build[] = [
         bonusName: '蛛絲牽引',
         description: '廣域化效果量+10%（Lv5效果量提升至110%），隊友所有回復量更多。',
       },
-      {
-        setName: '水獺龍',
-        piecesRequired: 2,
-        bonusName: '水獺龍の恩澤',
-        description: '水屬性抗性+10，回復道具效果+5%。配合廣域化，隊友實際回復量進一步提升。',
-      },
     ],
     highlightedSkillIds: ['wide-range', 'speed-eating', 'health-boost', 'divine-blessing'],
     defenseStats: {
@@ -1519,7 +1466,7 @@ export const builds: Build[] = [
       '四大支援技能全由裝甲達MAX：廣域化Lv5・加速進食Lv3・體力增強Lv3・精靈加護Lv3，無需犧牲任何珠孔。',
       '全部10個珠孔釋放作攻擊力Lv5與看破Lv5輸出配置，支援玩家自身輸出能力媲美純攻擊配裝。',
       '刺花蜘蛛2件蛛絲牽引：廣域效果量110%，隊友回復量超越標準廣域配裝。',
-      '水獺龍2件浪息加護：回復道具效果+5%疊加，水屬性抗性+10提供額外生存緩衝。',
+      '刺花蜘蛛5件套：支援技能全覆蓋，蛛絲牽引廣域效果量110%，隊友回復量超越標準廣域配裝。',
       '防禦值462為支援型最高，同時完整保留奶媽能力，是多人遊戲的終極後盾選擇。',
     ],
   },
