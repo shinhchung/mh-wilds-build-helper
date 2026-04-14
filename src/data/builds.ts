@@ -149,124 +149,239 @@ export const builds: Build[] = [
   },
 
   // ────────────────────────────────────────────────────────────────
-  // 攻擊型 V2：入門弱特配裝（無需黑角龍）
-  // 護雷顎龍×2 + 鎖刃龍×1 + 黑蝕龍×2
-  // 套裝：護雷顎龍2件「震雷加護」、黑蝕龍2件「腐蝕侵蝕」
-  // 孔位：[2]+[3,1]+[2,1]+[2]+[2,1]+[2] = 1×3孔 + 4×2孔 + 2×1孔 = 9孔
-  // 技能總計：弱點特效5（甲）・超會心5（甲+珠）・看破5（甲+珠）・攻擊5（珠）
+  // 攻擊型 V2：炎王龍鋒刃配裝（業火無雙）
+  // 炎王龍×2 + 黑角龍×3 + 看破護石II
+  // 套裝：炎王龍2件「業火無雙」・黑角龍2件「暴走病毒」
+  // 孔位：[2,1]+[2,2]+[2,1]+[2,1]+[2,1]+[2] = 7×2孔 + 4×1孔 = 11孔
+  // 技能：超會心5(甲MAX)・弱特5(甲MAX)・看破5(甲MAX)・挑戰者5(珠)・攻擊5(珠)・連擊3(珠)
   // ────────────────────────────────────────────────────────────────
   {
     id: 'attack-build-2',
     playstyle: 'attack',
-    title: '入門弱特配裝',
-    summary: '無需黑角龍素材的入門攻擊配裝。護雷顎龍+黑蝕龍雙套裝，弱點特效Lv5・超會心Lv5・看破Lv5・攻擊Lv5全達成，適合剛踏入高難度的狩獵人。',
+    title: '炎王龍鋒刃配裝',
+    summary: '炎王龍2件套「業火無雙」——100%會心率下每次攻擊不磨刀，刃部永遠最鋒利。超會心Lv5・弱點特效Lv5・看破Lv5全從裝甲達成，珠格全投挑戰者與輸出。',
     weapon: {
-      label: '護雷顎龍派生太刀／大鎚',
+      label: '炎王龍派生太刀／大劍',
       weaponType: '太刀',
-      reason: '護雷顎龍武器雷屬性+震雷加護套裝傷害加成，打弱雷系魔物事半功倍。',
+      reason: '太刀/大劍刃部消耗量高，業火無雙令刃部不消耗，不磨刀爭取更多攻擊時間。',
     },
     armor: [
       {
         id: 'atk2-head',
-        name: '護雷顎龍頭盔β',
+        name: '炎王龍頭盔β',
         slot: 'head',
-        rarity: 7,
-        defense: 82,
-        slots: [2],
-        skillBonuses: [{ skillId: 'weakness-exploit', level: 2 }],
+        rarity: 9,
+        defense: 92,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'critical-boost', level: 2 }, { skillId: 'weakness-exploit', level: 1 }],
       },
       {
         id: 'atk2-chest',
-        name: '鎖刃龍鎧甲β',
+        name: '炎王龍鎧甲β',
         slot: 'chest',
-        rarity: 8,
-        defense: 84,
-        slots: [3, 1],
-        skillBonuses: [{ skillId: 'critical-boost', level: 2 }],
+        rarity: 9,
+        defense: 94,
+        slots: [2, 2],
+        skillBonuses: [{ skillId: 'critical-boost', level: 2 }, { skillId: 'attack-boost', level: 1 }],
       },
       {
         id: 'atk2-arms',
-        name: '護雷顎龍臂甲β',
+        name: '黑角龍臂甲β',
         slot: 'arms',
-        rarity: 7,
-        defense: 80,
+        rarity: 8,
+        defense: 84,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'weakness-exploit', level: 2 }, { skillId: 'critical-boost', level: 1 }],
+      },
+      {
+        id: 'atk2-waist',
+        name: '黑角龍腰甲β',
+        slot: 'waist',
+        rarity: 8,
+        defense: 86,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'agitator', level: 2 }, { skillId: 'critical-eye', level: 1 }],
+      },
+      {
+        id: 'atk2-legs',
+        name: '黑角龍護腿β',
+        slot: 'legs',
+        rarity: 8,
+        defense: 84,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'critical-eye', level: 2 }, { skillId: 'weakness-exploit', level: 2 }],
+      },
+      {
+        id: 'atk2-talisman',
+        name: '看破護石II',
+        slot: 'talisman',
+        rarity: 8,
+        defense: 0,
+        slots: [2],
+        skillBonuses: [{ skillId: 'critical-eye', level: 2 }],
+      },
+    ],
+    // 甲技能：CB=2+2+1=5(MAX)・WEX=1+2+2=5(MAX)・CE=1+2+2=5(MAX)・ATK=1・Ag=2
+    // 填滿11孔：
+    //   頭[2]→挑戰珠   腰[2]→攻擊珠II   腳[2]→連擊珠(入2孔)
+    //   頭[1]→攻擊珠   腰[1]→連擊珠     腳[1]→連擊珠
+    //   胸[2]→挑戰珠   手[2]→攻擊珠II   護石[2]→迴避珠
+    //   胸[2]→挑戰珠   手[1]→攻擊珠
+    decorations: [
+      { id: 'atk2-d1',  name: '挑戰珠【2】', slotSize: 2, skillId: 'agitator',    skillLevel: 1, description: '挑戰者+1（頭[2]）' },
+      { id: 'atk2-d2',  name: '攻擊珠【1】', slotSize: 1, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（頭[1]）' },
+      { id: 'atk2-d3',  name: '挑戰珠【2】', slotSize: 2, skillId: 'agitator',    skillLevel: 1, description: '挑戰者+1（胸[2]）' },
+      { id: 'atk2-d4',  name: '挑戰珠【2】', slotSize: 2, skillId: 'agitator',    skillLevel: 1, description: '挑戰者+1 → Lv5（胸[2]）' },
+      { id: 'atk2-d5',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（手[2]）' },
+      { id: 'atk2-d6',  name: '攻擊珠【1】', slotSize: 1, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（手[1]）' },
+      { id: 'atk2-d7',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（腰[2]）' },
+      { id: 'atk2-d8',  name: '連擊珠【1】', slotSize: 1, skillId: 'burst',        skillLevel: 1, description: '連擊+1（腰[1]）' },
+      { id: 'atk2-d9',  name: '連擊珠【1】', slotSize: 1, skillId: 'burst',        skillLevel: 1, description: '連擊+1（腳[2]→入1孔）' },
+      { id: 'atk2-d10', name: '連擊珠【1】', slotSize: 1, skillId: 'burst',        skillLevel: 1, description: '連擊+1 → Lv3（腳[1]）' },
+      { id: 'atk2-d11', name: '迴避珠【2】', slotSize: 2, skillId: 'evade-window', skillLevel: 1, description: '迴避性能+1（護石[2]）' },
+    ],
+    setBonuses: [
+      {
+        setName: '炎王龍',
+        piecesRequired: 2,
+        bonusName: '業火無雙',
+        description: '會心擊時，不消耗武器刃部。搭配100%以上會心率，全程保持最高鋒利度，徹底省去磨刀時間。',
+      },
+      {
+        setName: '黑角龍',
+        piecesRequired: 2,
+        bonusName: '暴走病毒',
+        description: '狩獵中感染暴走病毒，克服後會心率永久+10%，與業火無雙協同發揮最大效益。',
+      },
+    ],
+    highlightedSkillIds: ['critical-boost', 'weakness-exploit', 'agitator', 'burst'],
+    defenseStats: {
+      physical: 440,
+      elemental: 26,
+      resistances: { fire: 12, water: -6, thunder: 6, ice: -8, dragon: 8 },
+    },
+    notes: [
+      '業火無雙：100%以上會心率下每擊不消耗刃部，太刀・大劍・充能斧等高刃部消耗武器受益巨大。',
+      '超會心Lv5（甲MAX）+挑戰者Lv5：憤怒時暴擊傷害×1.40＋攻擊+20＋會心+15%，傷害天花板極高。',
+      '連擊Lv3：持續輸出時攻擊力+15，大劍蓄力連段・太刀見切斬節奏特別受益。',
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
+  // 攻擊型 V3：護雷顎龍屬性速射配裝（屬性暴擊昇華）
+  // 護雷顎龍×4 + 黑角龍×1 + 超心護石II
+  // 套裝：護雷顎龍4件「屬性暴擊昇華」・黑角龍2件「暴走病毒」
+  // 孔位：[2,1]+[2,2]+[2,1]+[2,1]+[2,1]+[2] = 7×2孔 + 4×1孔 = 11孔
+  // 技能：看破5(甲MAX)・超會心5(甲MAX)・弱特5(珠)・挑戰者5(珠)・攻擊5(珠)・屬性暴擊Lv3(套裝)
+  // ────────────────────────────────────────────────────────────────
+  {
+    id: 'attack-build-3',
+    playstyle: 'attack',
+    title: '屬性速射配裝',
+    summary: '護雷顎龍4件套「屬性暴擊昇華」——會心擊時屬性傷害×1.15，免珠格提供屬性暴擊Lv3。弓・輕弩速射、雙劍、操虫棍等高連打頻率武器的終極屬性配裝。',
+    weapon: {
+      label: '護雷顎龍輕弩／弓',
+      weaponType: '輕弩',
+      reason: '輕弩屬性速射每發觸發屬性暴擊，3發速射×1.15倍屬性，傷害暴增。弓雙重距離暴擊同等受益。',
+    },
+    armor: [
+      {
+        id: 'atk3-head',
+        name: '護雷顎龍頭盔β',
+        slot: 'head',
+        rarity: 8,
+        defense: 90,
         slots: [2, 1],
         skillBonuses: [{ skillId: 'critical-eye', level: 2 }],
       },
       {
-        id: 'atk2-waist',
-        name: '黑蝕龍腰甲β',
-        slot: 'waist',
-        rarity: 7,
-        defense: 78,
-        slots: [2],
-        skillBonuses: [{ skillId: 'critical-boost', level: 2 }],
-      },
-      {
-        id: 'atk2-legs',
-        name: '黑蝕龍護腿β',
-        slot: 'legs',
-        rarity: 7,
-        defense: 76,
-        slots: [2, 1],
+        id: 'atk3-chest',
+        name: '護雷顎龍鎧甲β',
+        slot: 'chest',
+        rarity: 8,
+        defense: 92,
+        slots: [2, 2],
         skillBonuses: [{ skillId: 'weakness-exploit', level: 2 }],
       },
       {
-        id: 'atk2-talisman',
-        name: '痛擊護石II',
+        id: 'atk3-arms',
+        name: '護雷顎龍臂甲β',
+        slot: 'arms',
+        rarity: 8,
+        defense: 88,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'critical-eye', level: 2 }],
+      },
+      {
+        id: 'atk3-waist',
+        name: '黑角龍腰甲β',
+        slot: 'waist',
+        rarity: 8,
+        defense: 86,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'agitator', level: 2 }, { skillId: 'critical-boost', level: 1 }],
+      },
+      {
+        id: 'atk3-legs',
+        name: '護雷顎龍護腿β',
+        slot: 'legs',
+        rarity: 8,
+        defense: 88,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'critical-boost', level: 2 }, { skillId: 'weakness-exploit', level: 2 }],
+      },
+      {
+        id: 'atk3-talisman',
+        name: '超心護石II',
         slot: 'talisman',
-        rarity: 6,
+        rarity: 8,
         defense: 0,
         slots: [2],
-        skillBonuses: [{ skillId: 'weakness-exploit', level: 1 }],
+        skillBonuses: [{ skillId: 'critical-boost', level: 2 }],
       },
     ],
-    // 甲技能：弱特5(MAX)・超會心4・看破2
-    // 填滿全部9個孔位：
-    //   頭[2]   → 超心珠【2】          超會心 4→5
-    //   胸[3]   → 攻擊珠II【2】（入3孔）攻擊 0→1
-    //   胸[1]   → 看破珠【1】          看破 2→3
-    //   手[2]   → 攻擊珠II【2】        攻擊 1→2
-    //   手[1]   → 看破珠【1】          看破 3→4
-    //   腰[2]   → 攻擊珠II【2】        攻擊 2→3
-    //   腳[2]   → 攻擊珠II【2】        攻擊 3→4
-    //   腳[1]   → 看破珠【1】          看破 4→5
-    //   護石[2] → 攻擊珠II【2】        攻擊 4→5
+    // 甲技能：CE=2+2=4・WEX=2+2=4・CB=1+2+2=5(MAX)・Ag=2
+    // 填滿11孔：
+    //   頭[2]→挑戰珠  胸[2]→痛擊珠   手[1]→看破珠   腳[1]→攻擊珠
+    //   頭[1]→看破珠  胸[2]→挑戰珠   腰[2]→攻擊珠II  護石[2]→攻擊珠II
+    //   手[2]→挑戰珠  腰[1]→攻擊珠   腳[2]→攻擊珠II
     decorations: [
-      { id: 'atk2-d1', name: '超心珠【2】',   slotSize: 2, skillId: 'critical-boost', skillLevel: 1, description: '超會心+1 → Lv5（頭[2]）' },
-      { id: 'atk2-d2', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1（胸[3]→入2孔珠）' },
-      { id: 'atk2-d3', name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',   skillLevel: 1, description: '看破+1（胸[1]）' },
-      { id: 'atk2-d4', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1（手[2]）' },
-      { id: 'atk2-d5', name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',   skillLevel: 1, description: '看破+1（手[1]）' },
-      { id: 'atk2-d6', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1（腰[2]）' },
-      { id: 'atk2-d7', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1（腳[2]）' },
-      { id: 'atk2-d8', name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',   skillLevel: 1, description: '看破+1 → Lv5（腳[1]）' },
-      { id: 'atk2-d9', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',   skillLevel: 1, description: '攻擊+1 → Lv5（護石[2]）' },
+      { id: 'atk3-d1',  name: '挑戰珠【2】',   slotSize: 2, skillId: 'agitator',         skillLevel: 1, description: '挑戰者+1（頭[2]）' },
+      { id: 'atk3-d2',  name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1 → Lv5（頭[1]）' },
+      { id: 'atk3-d3',  name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱特+1（胸[2]）' },
+      { id: 'atk3-d4',  name: '挑戰珠【2】',   slotSize: 2, skillId: 'agitator',         skillLevel: 1, description: '挑戰者+1（胸[2]）' },
+      { id: 'atk3-d5',  name: '挑戰珠【2】',   slotSize: 2, skillId: 'agitator',         skillLevel: 1, description: '挑戰者+1 → Lv5（手[2]）' },
+      { id: 'atk3-d6',  name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1（手[1]）' },
+      { id: 'atk3-d7',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腰[2]）' },
+      { id: 'atk3-d8',  name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腰[1]）' },
+      { id: 'atk3-d9',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腳[2]）' },
+      { id: 'atk3-d10', name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腳[1]）' },
+      { id: 'atk3-d11', name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱特+1 → Lv5（護石[2]）' },
     ],
     setBonuses: [
       {
         setName: '護雷顎龍',
-        piecesRequired: 2,
-        bonusName: '震雷加護',
-        description: '雷屬性攻擊力+10，雷抗性+5。追打大量弱雷系魔物（多數飛龍種）時傷害顯著提升。',
+        piecesRequired: 4,
+        bonusName: '屬性暴擊昇華',
+        description: '會心擊時，屬性傷害倍率提升至×1.15（等同屬性暴擊Lv3效果）。免珠格，弓・輕弩速射每發均觸發，屬性傷害大幅提升。',
       },
       {
-        setName: '黑蝕龍',
+        setName: '黑角龍',
         piecesRequired: 2,
-        bonusName: '腐蝕侵蝕',
-        description: '攻擊魔物傷口時，會心率額外+5%。配合弱點特效Lv5，傷口命中時最高可達+55%。',
+        bonusName: '暴走病毒',
+        description: '克服暴走病毒後，會心率永久+10%，疊加高會心配裝輕鬆達到100%以上。',
       },
     ],
-    highlightedSkillIds: ['weakness-exploit', 'critical-boost', 'critical-eye', 'attack-boost'],
+    highlightedSkillIds: ['critical-element', 'weakness-exploit', 'agitator', 'critical-boost'],
     defenseStats: {
-      physical: 400,
-      elemental: 22,
-      resistances: { fire: 6, water: -2, thunder: 8, ice: -4, dragon: 2 },
+      physical: 444,
+      elemental: 26,
+      resistances: { fire: 4, water: -2, thunder: 14, ice: -6, dragon: 2 },
     },
     notes: [
-      '無需黑角龍素材，適合剛解鎖高等素材的狩獵人，輸出效能已非常高。',
-      '弱點特效Lv5：弱點+30%・傷口+50%，配合看破Lv5後會心率穩定超過100%。',
-      '熟悉後可逐步升級為黑角龍4件套版本，享受挑戰者與黑蝕升華加成。',
+      '護雷顎龍4件套：免費提供屬性暴擊Lv3，省出珠格全投攻擊技能，屬性武器專用最強配裝。',
+      '適合輕弩屬性速射（每速射3發均觸發）、弓、雙劍、操虫棍等高連打頻率武器。',
+      '挑戰者Lv5+弱點特效Lv5：憤怒+傷口時會心率高達95%+，結合屬性暴擊輸出驚天。',
     ],
   },
 
@@ -522,6 +637,123 @@ export const builds: Build[] = [
   },
 
   // ────────────────────────────────────────────────────────────────
+  // 防守型 V3：倒弩龍守護配裝（5件套畢業防守）
+  // 倒弩龍×5 + 攻擊護石II
+  // 套裝：倒弩龍2件「倒弩の守護」・倒弩龍4件「倒弩の意志」
+  // 孔位：[2,1]+[2,2]+[2,1]+[1,1]+[2]+[2] = 6×2孔 + 4×1孔 = 10孔
+  // 技能：防禦5(甲MAX)・體力增強3(甲MAX)・精靈加護3(甲MAX)・攻擊5(甲+珠)・看破5(珠)
+  // ────────────────────────────────────────────────────────────────
+  {
+    id: 'defense-build-3',
+    playstyle: 'defense',
+    title: '倒弩龍守護配裝',
+    summary: '倒弩龍5件套，防禦/體力增強/精靈加護全從裝甲達成Lv5/3/3，珠格全投攻擊與看破。2件套+4件套雙重保命效果，高難度狩獵生存率最高的終極防守配裝。',
+    weapon: {
+      label: '倒弩龍派生長槍／片手劍',
+      weaponType: '長槍',
+      reason: '長槍格擋防禦性最高，倒弩龍4件套低血量自回血與長槍持續格擋節奏完美契合。',
+    },
+    armor: [
+      {
+        id: 'def3-head',
+        name: '倒弩龍頭盔β',
+        slot: 'head',
+        rarity: 9,
+        defense: 96,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'guard', level: 2 }, { skillId: 'health-boost', level: 1 }],
+      },
+      {
+        id: 'def3-chest',
+        name: '倒弩龍鎧甲β',
+        slot: 'chest',
+        rarity: 9,
+        defense: 98,
+        slots: [2, 2],
+        skillBonuses: [{ skillId: 'guard', level: 2 }, { skillId: 'divine-blessing', level: 1 }],
+      },
+      {
+        id: 'def3-arms',
+        name: '倒弩龍臂甲β',
+        slot: 'arms',
+        rarity: 9,
+        defense: 92,
+        slots: [2, 1],
+        skillBonuses: [{ skillId: 'guard', level: 1 }, { skillId: 'health-boost', level: 1 }],
+      },
+      {
+        id: 'def3-waist',
+        name: '倒弩龍腰甲β',
+        slot: 'waist',
+        rarity: 9,
+        defense: 90,
+        slots: [1, 1],
+        skillBonuses: [{ skillId: 'divine-blessing', level: 2 }],
+      },
+      {
+        id: 'def3-legs',
+        name: '倒弩龍護腿β',
+        slot: 'legs',
+        rarity: 9,
+        defense: 94,
+        slots: [2],
+        skillBonuses: [{ skillId: 'health-boost', level: 1 }, { skillId: 'attack-boost', level: 2 }],
+      },
+      {
+        id: 'def3-talisman',
+        name: '攻擊護石II',
+        slot: 'talisman',
+        rarity: 8,
+        defense: 0,
+        slots: [2],
+        skillBonuses: [{ skillId: 'attack-boost', level: 2 }],
+      },
+    ],
+    // 甲技能：guard=5(MAX)・health=3(MAX)・divine=3(MAX)・ATK=4
+    // 填滿10孔：
+    //   頭[2]→攻擊珠II  胸[2]→看破珠II  腰[1]→連擊珠   護石[2]→痛擊珠
+    //   頭[1]→攻擊珠    胸[2]→看破珠II  腰[1]→連擊珠
+    //   手[2]→看破珠II  手[1]→看破珠    腳[2]→痛擊珠
+    decorations: [
+      { id: 'def3-d1',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1 → Lv5（頭[2]）' },
+      { id: 'def3-d2',  name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊確認滿（頭[1]）' },
+      { id: 'def3-d3',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1（胸[2]）' },
+      { id: 'def3-d4',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1（胸[2]）' },
+      { id: 'def3-d5',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1（手[2]）' },
+      { id: 'def3-d6',  name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1（手[1]）' },
+      { id: 'def3-d7',  name: '連擊珠【1】',   slotSize: 1, skillId: 'burst',            skillLevel: 1, description: '連擊+1（腰[1]）' },
+      { id: 'def3-d8',  name: '連擊珠【1】',   slotSize: 1, skillId: 'burst',            skillLevel: 1, description: '連擊+1（腰[1]）' },
+      { id: 'def3-d9',  name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱點特效+1（腳[2]）' },
+      { id: 'def3-d10', name: '痛擊珠【2】',   slotSize: 2, skillId: 'weakness-exploit', skillLevel: 1, description: '弱點特效+1（護石[2]）' },
+    ],
+    setBonuses: [
+      {
+        setName: '倒弩龍',
+        piecesRequired: 2,
+        bonusName: '倒弩の守護',
+        description: '血量低於30%時，防禦力自動提升15%，精靈加護觸發機率提升。緊急關頭自動減傷。',
+      },
+      {
+        setName: '倒弩龍',
+        piecesRequired: 4,
+        bonusName: '倒弩の意志',
+        description: '受到連續攻擊後，每15秒自動小幅回復血量。搭配精靈加護Lv3，長期戰鬥耐久度極高。',
+      },
+    ],
+    highlightedSkillIds: ['guard', 'divine-blessing', 'health-boost', 'weakness-exploit'],
+    defenseStats: {
+      physical: 470,
+      elemental: 30,
+      resistances: { fire: -2, water: 6, thunder: 8, ice: 4, dragon: 10 },
+    },
+    notes: [
+      '倒弩龍5件套：防禦值最高（物理470），防禦/體力/精靈加護三項生存技能均從裝甲達成最大值。',
+      '倒弩の守護+倒弩の意志：低血量減傷+被攻擊後自回血，雙重保命機制，高難度副主必備。',
+      '珠格全投看破Lv5+攻擊Lv5，弱點特效Lv2作為輸出補充，防守不犧牲傷害。',
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
   // 全能型：泛用攻守配裝
   // 雄火龍×2 + 黑蝕龍×2 + 鎧龍×1
   // 套裝：雄火龍2件、黑蝕龍2件（鎧龍1件無效果）
@@ -761,6 +993,144 @@ export const builds: Build[] = [
       '迴避性能Lv5：無敵時間最大延長，配合閃避節奏攻擊的武器（片手劍、雙劍、弓）超強。',
       '挑戰者Lv5：魔物憤怒時+20攻擊+15%會心，主動挑釁配合快速閃避更安全輸出。',
       '技術要求比全能v1高，但熟練後傷害超越全能型，適合追求走位樂趣的玩家。',
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
+  // 均衡型：挑戰者均衡配裝（畢業裝）
+  // ────────────────────────────────────────────────────────────────
+  {
+    id: 'balanced-build-3',
+    playstyle: 'balanced',
+    title: '挑戰者均衡配裝',
+    summary: '黑角龍×3件觸發暴走病毒+護雷顎龍×2件觸發震雷加護，弱點特效MAX、超會心MAX、挑戰者MAX，魔物憤怒後輸出爆發力與迴避均衡配裝持平，同時多出會心率緩衝。',
+    weapon: {
+      label: '通用',
+      weaponType: '大劍',
+      reason: '弱點特效5+超會心5+挑戰者5組合適合任何重擊型武器（大劍、大鎚、充能斧等）。',
+    },
+    armor: [
+      {
+        id: 'bal3-head',
+        name: '黑角龍頭盔β',
+        slot: 'head' as const,
+        rarity: 8,
+        defense: 82,
+        skillBonuses: [
+          { skillId: 'critical-eye', level: 2 },
+          { skillId: 'agitator', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'bal3-chest',
+        name: '黑角龍鎧甲β',
+        slot: 'chest' as const,
+        rarity: 8,
+        defense: 96,
+        skillBonuses: [
+          { skillId: 'weakness-exploit', level: 2 },
+          { skillId: 'critical-boost', level: 1 },
+        ],
+        slots: [2, 2],
+      },
+      {
+        id: 'bal3-arms',
+        name: '黑角龍臂甲β',
+        slot: 'arms' as const,
+        rarity: 8,
+        defense: 82,
+        skillBonuses: [
+          { skillId: 'critical-boost', level: 2 },
+          { skillId: 'weakness-exploit', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'bal3-waist',
+        name: '護雷顎龍腰甲β',
+        slot: 'waist' as const,
+        rarity: 9,
+        defense: 90,
+        skillBonuses: [
+          { skillId: 'critical-eye', level: 2 },
+          { skillId: 'agitator', level: 2 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'bal3-legs',
+        name: '護雷顎龍護腿β',
+        slot: 'legs' as const,
+        rarity: 9,
+        defense: 90,
+        skillBonuses: [
+          { skillId: 'health-boost', level: 2 },
+          { skillId: 'divine-blessing', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'bal3-charm',
+        name: '弱點護石II',
+        slot: 'talisman' as const,
+        rarity: 7,
+        defense: 0,
+        skillBonuses: [{ skillId: 'weakness-exploit', level: 2 }],
+        slots: [2],
+      },
+    ],
+    // 甲技能：WEX=5(MAX)・CE=4・CB=3・Ag=3・health=2・divine=1
+    // 填滿11個孔位：
+    //   頭[2]   → 超心珠【2】     CB 3→4
+    //   頭[1]   → 體力珠【1】     health 2→3
+    //   胸[2]   → 超心珠【2】     CB 4→5
+    //   胸[2]   → 挑戰珠【2】     Ag 3→4
+    //   手[2]   → 挑戰珠【2】     Ag 4→5
+    //   手[1]   → 看破珠【1】     CE 4→5
+    //   腰[2]   → 攻擊珠II【2】   ATK 0→1
+    //   腰[1]   → 攻擊珠【1】     ATK 1→2
+    //   腳[2]   → 攻擊珠II【2】   ATK 2→3
+    //   腳[1]   → 攻擊珠【1】     ATK 3→4
+    //   護石[2] → 攻擊珠II【2】   ATK 4→5
+    decorations: [
+      { id: 'bal3-d1',  name: '超心珠【2】',   slotSize: 2, skillId: 'critical-boost',   skillLevel: 1, description: '超會心+1（頭[2]）' },
+      { id: 'bal3-d2',  name: '體力珠【1】',   slotSize: 1, skillId: 'health-boost',     skillLevel: 1, description: '體力增強+1→Lv3（頭[1]）' },
+      { id: 'bal3-d3',  name: '超心珠【2】',   slotSize: 2, skillId: 'critical-boost',   skillLevel: 1, description: '超會心+1→Lv5（胸[2]）' },
+      { id: 'bal3-d4',  name: '挑戰珠【2】',   slotSize: 2, skillId: 'agitator',         skillLevel: 1, description: '挑戰者+1（胸[2]）' },
+      { id: 'bal3-d5',  name: '挑戰珠【2】',   slotSize: 2, skillId: 'agitator',         skillLevel: 1, description: '挑戰者+1→Lv5（手[2]）' },
+      { id: 'bal3-d6',  name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye',     skillLevel: 1, description: '看破+1→Lv5（手[1]）' },
+      { id: 'bal3-d7',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腰[2]）' },
+      { id: 'bal3-d8',  name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腰[1]）' },
+      { id: 'bal3-d9',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腳[2]）' },
+      { id: 'bal3-d10', name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1（腳[1]）' },
+      { id: 'bal3-d11', name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost',     skillLevel: 1, description: '攻擊+1→Lv5（護石[2]）' },
+    ],
+    setBonuses: [
+      {
+        setName: '黑角龍',
+        piecesRequired: 3,
+        bonusName: '暴走病毒',
+        description: '克服暴走病毒後，會心率永久+10%，使100%會心率更易達成。',
+      },
+      {
+        setName: '護雷顎龍',
+        piecesRequired: 2,
+        bonusName: '震雷加護',
+        description: '雷屬性抵抗+20，受雷擊傷害時額外觸發會心率+5%加成（持續30秒）。',
+      },
+    ],
+    highlightedSkillIds: ['weakness-exploit', 'critical-boost', 'agitator', 'attack-boost'],
+    defenseStats: {
+      physical: 440,
+      elemental: 25,
+      resistances: { fire: 6, water: -2, thunder: 12, ice: -4, dragon: 4 },
+    },
+    notes: [
+      '弱點特效Lv5：弱點部位會心+30%，傷口部位再+50%，配合黑角龍套暴走病毒輕鬆達100%會心率。',
+      '超會心Lv5：會心攻擊傷害倍率1.40倍（基礎1.25），高暴擊率下輸出顯著超越純攻擊流。',
+      '挑戰者Lv5：魔物憤怒時攻擊+20、會心+15%，主動使用道具或誘導憤怒可持續觸發。',
+      '護雷顎龍2件震雷加護提供額外迴避與抗打，兼顧攻防比均衡型v1/v2更上一層。',
     ],
   },
 
@@ -1006,6 +1376,151 @@ export const builds: Build[] = [
       '攻防BUFF同時分享：開戰前連食硝石菇+勝利菇，全隊攻防同步提升，比純回復型更全面。',
       '片手劍不收刀食菇令BUFF補給無縫銜接；狩獵笛玩家可換廣域護石II+笛旋律進一步強化隊伍。',
       '防禦較低，請留意走位，需要時可換部分攻擊珠為迴避珠II提升生存能力。',
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────────
+  // 支援型 V3：竜歌廣域配裝（畢業裝）
+  // 影蜘蛛γ×2 + 水獸γ×3 + 廣域護石IV
+  // 套裝：影蜘蛛2件「蛛絲牽引」、水獸2件「浪息加護」
+  // 甲技能全覆蓋：廣域5(MAX)・加速進食3(MAX)・體力增強3(MAX)・精靈加護3(MAX)
+  // 孔位：[2,1]+[2,1]+[2,2]+[2,1]+[2,1]+[2] = 7×2孔 + 4×1孔 = 11孔
+  // 珠填：3×看破珠II+4×攻擊珠II(7×2孔) + 2×攻擊珠+2×看破珠+連擊珠(4×1+護石2孔) → 攻擊5・看破5・連擊1
+  // ────────────────────────────────────────────────────────────────
+  {
+    id: 'support-build-3',
+    playstyle: 'support',
+    title: '竜歌廣域配裝',
+    summary: '影蜘蛛γ×水獸γ高稀有度畢業支援套裝，四大支援技能全由甲達MAX，所有珠孔釋放作輸出用途，自身攻擊力達Lv5會心率達Lv5，奶媽亦可輸出的終極支援配裝。',
+    weapon: {
+      label: '片手劍（推薦）或狩獵笛',
+      weaponType: '片手劍',
+      reason: '片手劍不收刀用藥、食菇，廣域效果無縫發動。狩獵笛可額外用笛旋律為隊伍增益。',
+    },
+    armor: [
+      {
+        id: 'sup3-head',
+        name: '影蜘蛛γ頭盔',
+        slot: 'head' as const,
+        rarity: 9,
+        defense: 92,
+        skillBonuses: [
+          { skillId: 'wide-range', level: 2 },
+          { skillId: 'speed-eating', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'sup3-chest',
+        name: '影蜘蛛γ鎧甲',
+        slot: 'chest' as const,
+        rarity: 9,
+        defense: 98,
+        skillBonuses: [
+          { skillId: 'wide-range', level: 2 },
+          { skillId: 'speed-eating', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'sup3-arms',
+        name: '水獸γ臂甲',
+        slot: 'arms' as const,
+        rarity: 9,
+        defense: 92,
+        skillBonuses: [
+          { skillId: 'wide-range', level: 1 },
+          { skillId: 'health-boost', level: 2 },
+        ],
+        slots: [2, 2],
+      },
+      {
+        id: 'sup3-waist',
+        name: '水獸γ腰甲',
+        slot: 'waist' as const,
+        rarity: 9,
+        defense: 88,
+        skillBonuses: [
+          { skillId: 'divine-blessing', level: 2 },
+          { skillId: 'speed-eating', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'sup3-legs',
+        name: '水獸γ護腿',
+        slot: 'legs' as const,
+        rarity: 9,
+        defense: 92,
+        skillBonuses: [
+          { skillId: 'divine-blessing', level: 1 },
+          { skillId: 'health-boost', level: 1 },
+        ],
+        slots: [2, 1],
+      },
+      {
+        id: 'sup3-charm',
+        name: '廣域護石IV',
+        slot: 'talisman' as const,
+        rarity: 8,
+        defense: 0,
+        skillBonuses: [{ skillId: 'wide-range', level: 1 }],
+        slots: [2],
+      },
+    ],
+    // 甲技能：wide-range=6(→5MAX)・speed-eating=3(MAX)・health-boost=3(MAX)・divine-blessing=3(MAX)
+    // 填滿10個孔位：
+    //   頭[2]   → 看破珠II【2】   CE 0→1
+    //   頭[1]   → 攻擊珠【1】     ATK 0→1
+    //   胸[2]   → 看破珠II【2】   CE 1→2
+    //   胸[1]   → 攻擊珠【1】     ATK 1→2
+    //   手[2]   → 看破珠II【2】   CE 2→3
+    //   手[2]   → 攻擊珠II【2】   ATK 2→3
+    //   腰[2]   → 攻擊珠II【2】   ATK 3→4
+    //   腰[1]   → 看破珠【1】     CE 3→4
+    //   腳[2]   → 攻擊珠II【2】   ATK 4→5
+    //   腳[1]   → 看破珠【1】     CE 4→5
+    //   護石[2] → 攻擊珠II【2】   (已ATK 5，改連擊珠提升連擊輸出)
+    // ※ 護石[2]改用連擊珠【2】，攻擊5由手[2]攻擊珠II提升至5
+    decorations: [
+      { id: 'sup3-d1',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye', skillLevel: 1, description: '看破+1（頭[2]）' },
+      { id: 'sup3-d2',  name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（頭[1]）' },
+      { id: 'sup3-d3',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye', skillLevel: 1, description: '看破+1（胸[2]）' },
+      { id: 'sup3-d4',  name: '攻擊珠【1】',   slotSize: 1, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（胸[1]）' },
+      { id: 'sup3-d5',  name: '看破珠II【2】', slotSize: 2, skillId: 'critical-eye', skillLevel: 1, description: '看破+1→Lv3（手[2]）' },
+      { id: 'sup3-d6',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（手[2]）' },
+      { id: 'sup3-d7',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1（腰[2]）' },
+      { id: 'sup3-d8',  name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye', skillLevel: 1, description: '看破+1→Lv4（腰[1]）' },
+      { id: 'sup3-d9',  name: '攻擊珠II【2】', slotSize: 2, skillId: 'attack-boost', skillLevel: 1, description: '攻擊+1→Lv5（腳[2]）' },
+      { id: 'sup3-d10', name: '看破珠【1】',   slotSize: 1, skillId: 'critical-eye', skillLevel: 1, description: '看破+1→Lv5（腳[1]）' },
+      { id: 'sup3-d11', name: '連擊珠【1】',   slotSize: 1, skillId: 'burst',        skillLevel: 1, description: '連擊+1（護石[2]借位）' },
+    ],
+    setBonuses: [
+      {
+        setName: '影蜘蛛',
+        piecesRequired: 2,
+        bonusName: '蛛絲牽引',
+        description: '廣域化效果量+10%（Lv5效果量提升至110%），隊友所有回復量更多。',
+      },
+      {
+        setName: '水獸',
+        piecesRequired: 2,
+        bonusName: '浪息加護',
+        description: '水屬性抗性+10，回復道具效果+5%。配合廣域化，隊友實際回復量進一步提升。',
+      },
+    ],
+    highlightedSkillIds: ['wide-range', 'speed-eating', 'health-boost', 'divine-blessing'],
+    defenseStats: {
+      physical: 462,
+      elemental: 28,
+      resistances: { fire: -4, water: 18, thunder: -2, ice: 6, dragon: -6 },
+    },
+    notes: [
+      '四大支援技能全由裝甲達MAX：廣域化Lv5・加速進食Lv3・體力增強Lv3・精靈加護Lv3，無需犧牲任何珠孔。',
+      '全部10個珠孔釋放作攻擊力Lv5與看破Lv5輸出配置，支援玩家自身輸出能力媲美純攻擊配裝。',
+      '影蜘蛛2件蛛絲牽引：廣域效果量110%，隊友回復量超越標準廣域配裝。',
+      '水獸2件浪息加護：回復道具效果+5%疊加，水屬性抗性+10提供額外生存緩衝。',
+      '防禦值462為支援型最高，同時完整保留奶媽能力，是多人遊戲的終極後盾選擇。',
     ],
   },
 ];
