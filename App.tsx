@@ -334,7 +334,7 @@ export default function App() {
 
             {/* Weapon result */}
             <SectionCard title={`${weaponLabelMap[selectedWeapon] ?? selectedWeapon} 武器推薦`}>
-              {weaponRecommendations.map(({ weapon, score, matchingSkills, hasGogmapocalypse }, index) => (
+              {weaponRecommendations.map(({ weapon, score, matchingSkills }, index) => (
                 <View key={weapon.id} style={styles.weaponCard}>
                   {weapon.imageUrl && (
                     <Image source={{ uri: weapon.imageUrl }} style={styles.weaponThumb} />
@@ -353,11 +353,6 @@ export default function App() {
                         ? ` · 武器技能 ${matchingSkills.map((skill) => `${skillNameMap[skill.skillId] ?? skill.skillId} Lv.${skill.level}`).join(' / ')}`
                         : ''}
                     </Text>
-                    {hasGogmapocalypse && (
-                      <Text style={styles.weaponSystemNote}>
-                        巨戟系統：目前配裝含「巨戟龍的啟示錄」，已優先推高屬性武器權重。
-                      </Text>
-                    )}
                   </View>
                 </View>
               ))}
@@ -702,13 +697,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '900',
   },
-  weaponSystemNote: {
-    color: colors.primaryMuted,
-    fontSize: 12,
-    lineHeight: 17,
-    fontWeight: '700',
-  },
-
   // Armor rows
   armorRow: {
     flexDirection: 'row',
