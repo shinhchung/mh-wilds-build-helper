@@ -1,18 +1,36 @@
 import { StatusBar } from 'expo-status-bar';
 import { useMemo, useState } from 'react';
-import { ImageBackground, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, ImageBackground, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 import heroImage from './assets/mh-wilds-hero.png';
 import { ElementSelector } from './src/components/ElementSelector';
 import { SectionCard } from './src/components/SectionCard';
 import { WeaponSelector } from './src/components/WeaponSelector';
-import { skills } from './src/data';
-import { getWeaponRecommendation } from './src/data/weapons';
+import { skills, weapons } from './src/data';
+import { weaponTypes } from './src/data/weapons';
 import { recommendBuilds } from './src/logic/recommendBuild';
 import { colors } from './src/theme/colors';
-import { ArmorPieceSlot, ElementType, Playstyle } from './src/types';
+import { ArmorPieceSlot, ElementType, Playstyle, Weapon } from './src/types';
 
 const skillNameMap = Object.fromEntries(skills.map((s) => [s.id, s.name]));
 const skillMetaMap = Object.fromEntries(skills.map((s) => [s.id, s]));
+const weaponLabelMap = Object.fromEntries(weaponTypes.map((w) => [w.id, w.name]));
+
+const weaponKindMap: Record<string, string> = {
+  longsword: 'long-sword',
+  greatsword: 'great-sword',
+  swordshield: 'sword-shield',
+  dualblades: 'dual-blades',
+  hammer: 'hammer',
+  huntinghorn: 'hunting-horn',
+  lance: 'lance',
+  gunlance: 'gunlance',
+  switchaxe: 'switch-axe',
+  chargeblade: 'charge-blade',
+  insectglaive: 'insect-glaive',
+  bow: 'bow',
+  heavybowgun: 'heavy-bowgun',
+  lightbowgun: 'light-bowgun',
+};
 
 const slotLabels: Record<ArmorPieceSlot, string> = {
   head: '頭',
@@ -29,6 +47,16 @@ const playstyleConfig: Record<Playstyle, { label: string; icon: string; desc: st
   balanced:{ label: '全能型', icon: '◇', desc: '攻守兼備' },
   support: { label: '加奶型', icon: '◎', desc: '廣域支援' },
 };
+
+function weaponElementLabel(weapon: Weapon): string {
+  const specials = weapon.specials
+    .map((special) => {
+      if (special.kind !== 'element' || !special.element || special.hidden) return null;
+      return `${special.element} ${special.damage?.display ?? special.damage?.raw ?? 0}`;
+    })
+    .filter(Boolean);
+  return specials.length ? specials.join(' / ') : 'ç„¡å±¬æ€§';
+}
 
 // ─── Palico component ────────────────────────────────────────────
 function Palico({ face, speech }: { face: string; speech: string }) {
@@ -88,15 +116,7 @@ export default function App() {
   );
   const armorBuild = armorBuilds[buildIdx] ?? null;
 
-  const weaponRec = useMemo(
-    () =>
-      selectedWeapon && selectedElement
-        ? getWeaponRecommendation(selectedWeapon, selectedElement)
-        : null,
-    [selectedWeapon, selectedElement],
-  );
-
-  const showResults = armorBuild && weaponRec;
+  const showResults = armorBuild && selectedWeapon && selectedElement;
 
   // Compute total skill levels from armor + decorations
   const skillTotals = useMemo(() => {
@@ -127,6 +147,55 @@ export default function App() {
       .map(([id, level]) => ({ id, name: skillNameMap[id] ?? id, level }))
       .sort((a, b) => b.level - a.level);
   }, [armorBuild]);
+
+  const weaponRecommendations = useMemo(() => {
+    if (!armorBuild || !selectedWeapon || !selectedElement) return [];
+
+    const weaponKind = weaponKindMap[selectedWeapon];
+    if (!weaponKind) return [];
+
+    const armorSkillIds = new Set<string>();
+    armorBuild.build.armor.forEach((piece) =>
+      piece.skillBonuses.forEach((bonus) => armorSkillIds.add(bonus.skillId)),
+    );
+    armorBuild.build.decorations.forEach((deco) => armorSkillIds.add(deco.skillId));
+
+    const hasGogmapocalypse = armorSkillIds.has('gogmapocalypse');
+    const wantedElement = selectedElement === 'none' ? null : selectedElement;
+
+    return weapons
+      .filter((weapon) => weapon.kind === weaponKind)
+      .map((weapon) => {
+        const raw = weapon.damage.raw;
+        const affinityScore = raw * ((weapon.affinity ?? 0) / 400);
+        const slotScore = weapon.slots.reduce((sum, slot) => sum + slot, 0) * 3;
+        const matchingSkills = weapon.skills.filter((skill) => armorSkillIds.has(skill.skillId));
+        const skillScore = matchingSkills.reduce((sum, skill) => sum + skill.level * 30, 0);
+        const elementSpecial = weapon.specials.find(
+          (special) => special.kind === 'element' && special.element === wantedElement && !special.hidden,
+        );
+        const anyElement = weapon.specials.find(
+          (special) => special.kind === 'element' && !special.hidden,
+        );
+        const elementScore = wantedElement
+          ? elementSpecial
+            ? 120 + (elementSpecial.damage?.raw ?? 0) * 2
+            : -80
+          : anyElement
+            ? -20
+            : 60;
+        const gogScore = hasGogmapocalypse && anyElement ? 80 + (anyElement.damage?.raw ?? 0) : 0;
+
+        return {
+          weapon,
+          score: raw + affinityScore + slotScore + skillScore + elementScore + gogScore,
+          matchingSkills,
+          hasGogmapocalypse,
+        };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5);
+  }, [armorBuild, selectedElement, selectedWeapon]);
 
   // Group duplicate decorations for display
   const decoGrouped = useMemo(() => {
@@ -264,9 +333,34 @@ export default function App() {
             )}
 
             {/* Weapon result */}
-            <SectionCard title={`${weaponRec.weaponType} 推薦`}>
-              <Text style={styles.weaponName}>{weaponRec.name}</Text>
-              <Text style={styles.bodyText}>{weaponRec.tip}</Text>
+            <SectionCard title={`${weaponLabelMap[selectedWeapon] ?? selectedWeapon} 武器推薦`}>
+              {weaponRecommendations.map(({ weapon, score, matchingSkills, hasGogmapocalypse }, index) => (
+                <View key={weapon.id} style={styles.weaponCard}>
+                  {weapon.imageUrl && (
+                    <Image source={{ uri: weapon.imageUrl }} style={styles.weaponThumb} />
+                  )}
+                  <View style={styles.weaponInfo}>
+                    <View style={styles.weaponHeader}>
+                      <Text style={styles.weaponRank}>#{index + 1}</Text>
+                      <Text style={styles.weaponName}>{weapon.name}</Text>
+                    </View>
+                    <Text style={styles.bodyText}>
+                      Raw {weapon.damage.raw} · Affinity {weapon.affinity}% · {weaponElementLabel(weapon)} · Score {score.toFixed(1)}
+                    </Text>
+                    <Text style={styles.bodyText}>
+                      孔位 {weapon.slots.length ? weapon.slots.join('/') : '無'}
+                      {matchingSkills.length
+                        ? ` · 武器技能 ${matchingSkills.map((skill) => `${skillNameMap[skill.skillId] ?? skill.skillId} Lv.${skill.level}`).join(' / ')}`
+                        : ''}
+                    </Text>
+                    {hasGogmapocalypse && (
+                      <Text style={styles.weaponSystemNote}>
+                        巨戟系統：目前配裝含「巨戟龍的啟示錄」，已優先推高屬性武器權重。
+                      </Text>
+                    )}
+                  </View>
+                </View>
+              ))}
             </SectionCard>
 
             {/* Armor */}
@@ -577,6 +671,42 @@ const styles = StyleSheet.create({
     color: colors.primaryMuted,
     fontSize: 17,
     fontWeight: '800',
+  },
+  weaponCard: {
+    flexDirection: 'row',
+    gap: 12,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.card,
+    borderRadius: 8,
+    padding: 10,
+    marginBottom: 8,
+  },
+  weaponThumb: {
+    width: 54,
+    height: 54,
+    borderRadius: 6,
+    backgroundColor: colors.elevatedCard,
+  },
+  weaponInfo: {
+    flex: 1,
+    gap: 3,
+  },
+  weaponHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  weaponRank: {
+    color: colors.primary,
+    fontSize: 12,
+    fontWeight: '900',
+  },
+  weaponSystemNote: {
+    color: colors.primaryMuted,
+    fontSize: 12,
+    lineHeight: 17,
+    fontWeight: '700',
   },
 
   // Armor rows

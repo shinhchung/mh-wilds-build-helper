@@ -2,5 +2,8 @@ export * from './generated/skills';
 export * from './generated/decorations';
 export * from './generated/builds';
 export * from './generated/armor';
+export * from './generated/charms';
+export * from './generated/weapons';
+export * from './generated/monsters';
 export * from './generated/sourceMeta';
 export * from './weapons';
