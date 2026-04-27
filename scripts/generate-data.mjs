@@ -78,6 +78,7 @@ const monsterNameZh = buildLocalizedNameMap(enMonsters, zhMonsters);
 const kiranicoWeaponByName = new Map(extractKiranicoRows(kiranicoWeaponsHtml, 'tex_thumbnail').map((row) => [row.name, row]));
 const kiranicoMonsterByName = new Map(extractKiranicoRows(kiranicoMonstersHtml, 'em_icon').map((row) => [row.name, row]));
 const kiranicoWeaponTypeIcons = [...kiranicoWeaponsHtml.matchAll(/src="([^"]*weapon_type_\d+\.png)"/g)].map((match) => match[1]);
+const invalidWildsWeaponNamePatterns = ['熊神'];
 
 const skills = enSkills.map((skill) => ({
   id: skillId(skill),
@@ -151,10 +152,13 @@ const normalizedDecorations = enDecorations
     };
   });
 
-const normalizedWeapons = enWeapons.map((weapon) => {
+const normalizedWeapons = enWeapons.flatMap((weapon) => {
   const name = weaponNameZh.get(weapon.id) ?? weapon.name;
+  if (invalidWildsWeaponNamePatterns.some((pattern) => name.includes(pattern))) {
+    return [];
+  }
   const kiranico = kiranicoWeaponByName.get(name);
-  return {
+  return [{
     id: `weapon-${weapon.kind}-${weapon.id}`,
     sourceId: weapon.id,
     gameId: weapon.gameId,
@@ -177,7 +181,7 @@ const normalizedWeapons = enWeapons.map((weapon) => {
     crafting: weapon.crafting ?? null,
     kiranicoUrl: kiranico?.href ?? null,
     imageUrl: kiranico?.imageUrl ?? null,
-  };
+  }];
 });
 
 const normalizedCharms = enCharms.flatMap((charm) =>
