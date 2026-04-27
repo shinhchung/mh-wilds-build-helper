@@ -154,7 +154,31 @@ export type Weapon = {
     skillId: string;
     level: number;
   }>;
-  crafting?: unknown;
+  crafting?: {
+    craftable: boolean;
+    craftingZennyCost: number;
+    upgradeZennyCost: number;
+    previous?: {
+      id: number;
+      name: string;
+    } | null;
+    branches: Array<{
+      id: number;
+      name: string;
+    }>;
+    craftingMaterials: Array<{
+      itemId: number;
+      gameId?: number;
+      name: string;
+      quantity: number;
+    }>;
+    upgradeMaterials: Array<{
+      itemId: number;
+      gameId?: number;
+      name: string;
+      quantity: number;
+    }>;
+  } | null;
   kiranicoUrl?: string | null;
   imageUrl?: string | null;
 };

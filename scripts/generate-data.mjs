@@ -70,6 +70,7 @@ const armorNameZh = buildLocalizedNameMap(enArmor, zhArmor);
 const decoNameZh = buildLocalizedNameMap(enDecorations, zhDecorations);
 const armorSetNameZh = buildLocalizedNameMap(enArmorSets, zhArmorSets);
 const weaponNameZh = buildLocalizedNameMap(enWeapons, zhWeapons);
+const zhWeaponById = new Map(zhWeapons.map((weapon) => [weapon.id, weapon]));
 const charmNameZh = new Map();
 for (const charm of zhCharms) {
   for (const rank of charm.ranks ?? []) charmNameZh.set(`${charm.id}-${rank.level}`, rank.name);
@@ -157,6 +158,8 @@ const normalizedWeapons = enWeapons.flatMap((weapon) => {
   if (invalidWildsWeaponNamePatterns.some((pattern) => name.includes(pattern))) {
     return [];
   }
+  const zhWeapon = zhWeaponById.get(weapon.id);
+  const crafting = zhWeapon?.crafting ?? weapon.crafting ?? null;
   const kiranico = kiranicoWeaponByName.get(name);
   return [{
     id: `weapon-${weapon.kind}-${weapon.id}`,
@@ -178,7 +181,35 @@ const normalizedWeapons = enWeapons.flatMap((weapon) => {
       hidden: special.hidden ?? false,
     })),
     skills: (weapon.skills ?? []).map((rank) => ({ skillId: skillId(rank.skill), level: rank.level })),
-    crafting: weapon.crafting ?? null,
+    crafting: crafting
+      ? {
+          craftable: crafting.craftable ?? false,
+          craftingZennyCost: crafting.craftingZennyCost ?? 0,
+          upgradeZennyCost: crafting.upgradeZennyCost ?? 0,
+          previous: crafting.previous
+            ? {
+                id: crafting.previous.id,
+                name: crafting.previous.name,
+              }
+            : null,
+          branches: (crafting.branches ?? []).map((branch) => ({
+            id: branch.id,
+            name: branch.name,
+          })),
+          craftingMaterials: (crafting.craftingMaterials ?? []).map((cost) => ({
+            itemId: cost.item.id,
+            gameId: cost.item.gameId,
+            name: cost.item.name,
+            quantity: cost.quantity,
+          })),
+          upgradeMaterials: (crafting.upgradeMaterials ?? []).map((cost) => ({
+            itemId: cost.item.id,
+            gameId: cost.item.gameId,
+            name: cost.item.name,
+            quantity: cost.quantity,
+          })),
+        }
+      : null,
     kiranicoUrl: kiranico?.href ?? null,
     imageUrl: kiranico?.imageUrl ?? null,
   }];

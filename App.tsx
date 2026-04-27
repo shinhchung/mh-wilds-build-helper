@@ -58,6 +58,28 @@ function weaponElementLabel(weapon: Weapon): string {
   return specials.length ? specials.join(' / ') : '無屬性';
 }
 
+function weaponMaterialLabel(weapon: Weapon): string | null {
+  const crafting = weapon.crafting;
+  if (!crafting) return null;
+
+  const materials = crafting.upgradeMaterials.length
+    ? crafting.upgradeMaterials
+    : crafting.craftingMaterials;
+  if (!materials.length) return null;
+
+  const cost = crafting.upgradeMaterials.length
+    ? crafting.upgradeZennyCost
+    : crafting.craftingZennyCost;
+  const materialText = materials
+    .slice(0, 4)
+    .map((material) => `${material.name} x${material.quantity}`)
+    .join(' / ');
+  const extra = materials.length > 4 ? ` / +${materials.length - 4}` : '';
+  const zenny = cost > 0 ? ` · ${cost}z` : '';
+
+  return `素材 ${materialText}${extra}${zenny}`;
+}
+
 // ─── Palico component ────────────────────────────────────────────
 function Palico({ face, speech }: { face: string; speech: string }) {
   return (
@@ -334,28 +356,34 @@ export default function App() {
 
             {/* Weapon result */}
             <SectionCard title={`${weaponLabelMap[selectedWeapon] ?? selectedWeapon} 武器推薦`}>
-              {weaponRecommendations.map(({ weapon, score, matchingSkills }, index) => (
-                <View key={weapon.id} style={styles.weaponCard}>
-                  {weapon.imageUrl && (
-                    <Image source={{ uri: weapon.imageUrl }} style={styles.weaponThumb} />
-                  )}
-                  <View style={styles.weaponInfo}>
-                    <View style={styles.weaponHeader}>
-                      <Text style={styles.weaponRank}>#{index + 1}</Text>
-                      <Text style={styles.weaponName}>{weapon.name}</Text>
+              {weaponRecommendations.map(({ weapon, score, matchingSkills }, index) => {
+                const materialLabel = weaponMaterialLabel(weapon);
+                return (
+                  <View key={weapon.id} style={styles.weaponCard}>
+                    {weapon.imageUrl && (
+                      <Image source={{ uri: weapon.imageUrl }} style={styles.weaponThumb} />
+                    )}
+                    <View style={styles.weaponInfo}>
+                      <View style={styles.weaponHeader}>
+                        <Text style={styles.weaponRank}>#{index + 1}</Text>
+                        <Text style={styles.weaponName}>{weapon.name}</Text>
+                      </View>
+                      <Text style={styles.bodyText}>
+                        Raw {weapon.damage.raw} · Affinity {weapon.affinity}% · {weaponElementLabel(weapon)} · Score {score.toFixed(1)}
+                      </Text>
+                      <Text style={styles.bodyText}>
+                        孔位 {weapon.slots.length ? weapon.slots.join('/') : '無'}
+                        {matchingSkills.length
+                          ? ` · 武器技能 ${matchingSkills.map((skill) => `${skillNameMap[skill.skillId] ?? skill.skillId} Lv.${skill.level}`).join(' / ')}`
+                          : ''}
+                      </Text>
+                      {materialLabel && (
+                        <Text style={styles.materialText}>{materialLabel}</Text>
+                      )}
                     </View>
-                    <Text style={styles.bodyText}>
-                      Raw {weapon.damage.raw} · Affinity {weapon.affinity}% · {weaponElementLabel(weapon)} · Score {score.toFixed(1)}
-                    </Text>
-                    <Text style={styles.bodyText}>
-                      孔位 {weapon.slots.length ? weapon.slots.join('/') : '無'}
-                      {matchingSkills.length
-                        ? ` · 武器技能 ${matchingSkills.map((skill) => `${skillNameMap[skill.skillId] ?? skill.skillId} Lv.${skill.level}`).join(' / ')}`
-                        : ''}
-                    </Text>
                   </View>
-                </View>
-              ))}
+                );
+              })}
             </SectionCard>
 
             {/* Armor */}
@@ -696,6 +724,11 @@ const styles = StyleSheet.create({
     color: colors.primary,
     fontSize: 12,
     fontWeight: '900',
+  },
+  materialText: {
+    color: colors.subtext,
+    fontSize: 11,
+    lineHeight: 16,
   },
   // Armor rows
   armorRow: {
