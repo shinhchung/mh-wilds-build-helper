@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { GENERATED_DIR, NORMALIZED_DIR, RAW_DIR, ensureDir, readJson, slugify, toTsArray, toTsConst, writeJson } from './data-utils.mjs';
 import { optimizeArmorBuild } from './optimizer.mjs';
@@ -32,6 +32,21 @@ function buildLocalizedNameMap(enItems, zhItems) {
   return map;
 }
 
+function extractKiranicoRows(html, imageNeedle) {
+  const rows = [];
+  const rowRegex = /<tr[\s\S]*?<\/tr>/g;
+  for (const rowMatch of html.matchAll(rowRegex)) {
+    const row = rowMatch[0];
+    const img = row.match(/<img[^>]+src="([^"]+)"/)?.[1];
+    const href = row.match(/<a[^>]+href="([^"]+)"/)?.[1];
+    const name = row.match(/<span>([^<]+)<\/span>/)?.[1];
+    if (img?.includes(imageNeedle) && href && name) {
+      rows.push({ name, href: `https://mhwilds.kiranico.com${href}`, imageUrl: img });
+    }
+  }
+  return rows;
+}
+
 const manifest = await readJson(path.join(RAW_DIR, 'manifest.json'));
 const enArmor = await readJson(path.join(RAW_DIR, 'mhdb', 'en', 'armor.json'));
 const zhArmor = await readJson(path.join(RAW_DIR, 'mhdb', 'zh-Hant', 'armor.json'));
@@ -43,12 +58,26 @@ const enArmorSets = await readJson(path.join(RAW_DIR, 'mhdb', 'en', 'armor__sets
 const zhArmorSets = await readJson(path.join(RAW_DIR, 'mhdb', 'zh-Hant', 'armor__sets.json'));
 const enWeapons = await readJson(path.join(RAW_DIR, 'mhdb', 'en', 'weapons.json'));
 const zhWeapons = await readJson(path.join(RAW_DIR, 'mhdb', 'zh-Hant', 'weapons.json'));
+const enCharms = await readJson(path.join(RAW_DIR, 'mhdb', 'en', 'charms.json'));
+const zhCharms = await readJson(path.join(RAW_DIR, 'mhdb', 'zh-Hant', 'charms.json'));
+const enMonsters = await readJson(path.join(RAW_DIR, 'mhdb', 'en', 'monsters.json'));
+const zhMonsters = await readJson(path.join(RAW_DIR, 'mhdb', 'zh-Hant', 'monsters.json'));
+const kiranicoWeaponsHtml = await readFile(path.join(RAW_DIR, 'kiranico', 'zh-Hant', 'weapons.html'), 'utf8').catch(() => '');
+const kiranicoMonstersHtml = await readFile(path.join(RAW_DIR, 'kiranico', 'zh-Hant', 'monsters.html'), 'utf8').catch(() => '');
 
 const skillNameZh = buildLocalizedNameMap(enSkills, zhSkills);
 const armorNameZh = buildLocalizedNameMap(enArmor, zhArmor);
 const decoNameZh = buildLocalizedNameMap(enDecorations, zhDecorations);
 const armorSetNameZh = buildLocalizedNameMap(enArmorSets, zhArmorSets);
 const weaponNameZh = buildLocalizedNameMap(enWeapons, zhWeapons);
+const charmNameZh = new Map();
+for (const charm of zhCharms) {
+  for (const rank of charm.ranks ?? []) charmNameZh.set(`${charm.id}-${rank.level}`, rank.name);
+}
+const monsterNameZh = buildLocalizedNameMap(enMonsters, zhMonsters);
+const kiranicoWeaponByName = new Map(extractKiranicoRows(kiranicoWeaponsHtml, 'tex_thumbnail').map((row) => [row.name, row]));
+const kiranicoMonsterByName = new Map(extractKiranicoRows(kiranicoMonstersHtml, 'em_icon').map((row) => [row.name, row]));
+const kiranicoWeaponTypeIcons = [...kiranicoWeaponsHtml.matchAll(/src="([^"]*weapon_type_\d+\.png)"/g)].map((match) => match[1]);
 
 const skills = enSkills.map((skill) => ({
   id: skillId(skill),
@@ -121,20 +150,90 @@ const normalizedDecorations = enDecorations
     };
   });
 
-const normalizedWeapons = enWeapons.map((weapon) => ({
-  id: `weapon-${weapon.kind}-${weapon.id}`,
-  sourceId: weapon.id,
-  gameId: weapon.gameId,
-  name: weaponNameZh.get(weapon.id) ?? weapon.name,
-  nameEn: weapon.name,
-  kind: weapon.kind,
-  rarity: weapon.rarity,
-  damage: weapon.damage,
-  affinity: weapon.affinity,
-  slots: weapon.slots ?? [],
-  skills: (weapon.skills ?? []).map((rank) => ({ skillId: skillId(rank.skill), level: rank.level })),
-  crafting: weapon.crafting ?? null,
-}));
+const normalizedWeapons = enWeapons.map((weapon) => {
+  const name = weaponNameZh.get(weapon.id) ?? weapon.name;
+  const kiranico = kiranicoWeaponByName.get(name);
+  return {
+    id: `weapon-${weapon.kind}-${weapon.id}`,
+    sourceId: weapon.id,
+    gameId: weapon.gameId,
+    name,
+    nameEn: weapon.name,
+    kind: weapon.kind,
+    rarity: weapon.rarity,
+    damage: weapon.damage,
+    affinity: weapon.affinity,
+    defenseBonus: weapon.defenseBonus ?? 0,
+    slots: weapon.slots ?? [],
+    specials: (weapon.specials ?? []).map((special) => ({
+      kind: special.kind,
+      element: special.element ?? null,
+      status: special.status ?? null,
+      damage: special.damage ?? null,
+      hidden: special.hidden ?? false,
+    })),
+    skills: (weapon.skills ?? []).map((rank) => ({ skillId: skillId(rank.skill), level: rank.level })),
+    crafting: weapon.crafting ?? null,
+    kiranicoUrl: kiranico?.href ?? null,
+    imageUrl: kiranico?.imageUrl ?? null,
+  };
+});
+
+const normalizedCharms = enCharms.flatMap((charm) =>
+  (charm.ranks ?? []).map((rank) => ({
+    id: `charm-${charm.id}-${rank.level}`,
+    sourceId: charm.id,
+    rankId: rank.id,
+    gameId: rank.gameId,
+    name: charmNameZh.get(`${charm.id}-${rank.level}`) ?? rank.name,
+    nameEn: rank.name,
+    level: rank.level,
+    rarity: rank.rarity,
+    skills: (rank.skills ?? []).map((entry) => ({
+      skillId: skillId(entry.skill),
+      level: entry.level,
+    })),
+    crafting: rank.crafting
+      ? {
+          zennyCost: rank.crafting.zennyCost,
+          craftable: rank.crafting.craftable,
+          materials: (rank.crafting.materials ?? []).map((cost) => ({
+            itemId: cost.item.id,
+            gameId: cost.item.gameId,
+            name: cost.item.name,
+            quantity: cost.quantity,
+          })),
+        }
+      : null,
+  })),
+);
+
+const normalizedMonsters = enMonsters.map((monster) => {
+  const name = monsterNameZh.get(monster.id) ?? monster.name;
+  const zh = zhMonsters.find((item) => item.id === monster.id);
+  const kiranico = kiranicoMonsterByName.get(name);
+  return {
+    id: `monster-${monster.id}`,
+    sourceId: monster.id,
+    gameId: monster.gameId,
+    name,
+    nameEn: monster.name,
+    kind: monster.kind,
+    species: monster.species,
+    description: zh?.description ?? monster.description ?? '',
+    locations: (zh?.locations ?? monster.locations ?? []).map((location) => location.name),
+    weaknesses: (monster.weaknesses ?? []).map((weakness) => ({
+      kind: weakness.kind,
+      element: weakness.element ?? null,
+      status: weakness.status ?? null,
+      effect: weakness.effect ?? null,
+      level: weakness.level ?? 0,
+      condition: weakness.condition ?? null,
+    })),
+    kiranicoUrl: kiranico?.href ?? null,
+    imageUrl: kiranico?.imageUrl ?? null,
+  };
+});
 
 const targetSets = [
   {
@@ -273,6 +372,8 @@ await writeJson(path.join(NORMALIZED_DIR, 'armor.json'), normalizedArmor);
 await writeJson(path.join(NORMALIZED_DIR, 'decorations.json'), normalizedDecorations);
 await writeJson(path.join(NORMALIZED_DIR, 'skills.json'), skills);
 await writeJson(path.join(NORMALIZED_DIR, 'weapons.json'), normalizedWeapons);
+await writeJson(path.join(NORMALIZED_DIR, 'charms.json'), normalizedCharms);
+await writeJson(path.join(NORMALIZED_DIR, 'monsters.json'), normalizedMonsters);
 await writeJson(path.join(NORMALIZED_DIR, 'builds.json'), builds);
 
 await ensureDir(GENERATED_DIR);
@@ -280,17 +381,24 @@ await writeFile(path.join(GENERATED_DIR, 'skills.ts'), toTsArray('skills', 'Skil
 await writeFile(path.join(GENERATED_DIR, 'armor.ts'), toTsArray('armorDatabase', 'ArmorPiece', normalizedArmor.map(toAppArmor)), 'utf8');
 await writeFile(path.join(GENERATED_DIR, 'decorations.ts'), toTsArray('decorations', 'Decoration', normalizedDecorations.map(toAppDecoration)), 'utf8');
 await writeFile(path.join(GENERATED_DIR, 'builds.ts'), toTsArray('builds', 'Build', builds), 'utf8');
+await writeFile(path.join(GENERATED_DIR, 'charms.ts'), toTsArray('charms', 'Charm', normalizedCharms), 'utf8');
+await writeFile(path.join(GENERATED_DIR, 'weapons.ts'), toTsArray('weapons', 'Weapon', normalizedWeapons), 'utf8');
+await writeFile(path.join(GENERATED_DIR, 'monsters.ts'), toTsArray('monsters', 'Monster', normalizedMonsters), 'utf8');
 await writeFile(path.join(GENERATED_DIR, 'sourceMeta.ts'), toTsConst('dataSourceMeta', {
   generatedAt: new Date().toISOString(),
   mhdbFetchedAt: manifest.fetchedAt,
   mhdbEndpoints: manifest.mhdb,
   kiranicoSnapshots: manifest.kiranico,
+  kiranicoWeaponTypeIcons,
 }), 'utf8');
 await writeFile(path.join(GENERATED_DIR, 'index.ts'), [
   "export * from './skills';",
   "export * from './decorations';",
   "export * from './builds';",
   "export * from './armor';",
+  "export * from './charms';",
+  "export * from './weapons';",
+  "export * from './monsters';",
   "export * from './sourceMeta';",
   '',
 ].join('\n'), 'utf8');
@@ -298,4 +406,7 @@ await writeFile(path.join(GENERATED_DIR, 'index.ts'), [
 console.log(`generated ${normalizedArmor.length} armor pieces`);
 console.log(`generated ${normalizedDecorations.length} decorations`);
 console.log(`generated ${skills.length} skills`);
+console.log(`generated ${normalizedCharms.length} charms`);
+console.log(`generated ${normalizedWeapons.length} weapons`);
+console.log(`generated ${normalizedMonsters.length} monsters`);
 console.log(`generated ${builds.length} build presets`);

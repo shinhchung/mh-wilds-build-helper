@@ -52,3 +52,22 @@ export function parseSkillTargets(value) {
       return { skillId, targetLevel };
     });
 }
+
+export function parseOwnedCounts(value) {
+  if (!value || value === 'all') return null;
+  if (value === 'none') return new Map();
+  return new Map(
+    value
+      .split(/[,\s]+/)
+      .map((part) => part.trim())
+      .filter(Boolean)
+      .map((part) => {
+        const [id, rawCount] = part.split(':');
+        const count = Number(rawCount ?? 1);
+        if (!id || !Number.isFinite(count) || count < 0) {
+          throw new Error(`Invalid owned decoration entry: ${part}`);
+        }
+        return [id, count];
+      }),
+  );
+}

@@ -99,6 +99,87 @@ export type ArmorSearchResult = {
   totalDefense: number;
 };
 
+export type Charm = {
+  id: string;
+  sourceId?: number;
+  rankId?: number;
+  gameId?: number;
+  name: string;
+  nameEn?: string;
+  level: number;
+  rarity: number;
+  skills: Array<{
+    skillId: string;
+    level: number;
+  }>;
+  crafting?: {
+    zennyCost?: number;
+    craftable?: boolean;
+    materials: Array<{
+      itemId: number;
+      gameId?: number;
+      name: string;
+      quantity: number;
+    }>;
+  } | null;
+};
+
+export type Weapon = {
+  id: string;
+  sourceId?: number;
+  gameId?: number;
+  name: string;
+  nameEn?: string;
+  kind: string;
+  rarity: number;
+  damage: {
+    raw: number;
+    display: number;
+  };
+  affinity: number;
+  defenseBonus: number;
+  slots: number[];
+  specials: Array<{
+    kind: string;
+    element?: ElementType | null;
+    status?: string | null;
+    damage?: {
+      raw: number;
+      display: number;
+    } | null;
+    hidden?: boolean;
+  }>;
+  skills: Array<{
+    skillId: string;
+    level: number;
+  }>;
+  crafting?: unknown;
+  kiranicoUrl?: string | null;
+  imageUrl?: string | null;
+};
+
+export type Monster = {
+  id: string;
+  sourceId?: number;
+  gameId?: number;
+  name: string;
+  nameEn?: string;
+  kind: 'large' | 'small';
+  species: string;
+  description: string;
+  locations: string[];
+  weaknesses: Array<{
+    kind: string;
+    element?: ElementType | null;
+    status?: string | null;
+    effect?: string | null;
+    level: number;
+    condition?: string | null;
+  }>;
+  kiranicoUrl?: string | null;
+  imageUrl?: string | null;
+};
+
 export type WeaponRecommendation = {
   label: string;
   weaponType: string;

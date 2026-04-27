@@ -5,8 +5,8 @@ import { ensureDir, RAW_DIR, writeJson } from './data-utils.mjs';
 const MHDB_BASE = 'https://wilds.mhdb.io';
 const KIRANICO_BASE = 'https://mhwilds.kiranico.com';
 const mhdbLocales = ['en', 'zh-Hant'];
-const mhdbEndpoints = ['armor', 'armor/sets', 'skills', 'decorations', 'charms', 'weapons', 'items'];
-const kiranicoPages = ['skills', 'armor-series', 'decorations', 'weapons', 'items'];
+const mhdbEndpoints = ['armor', 'armor/sets', 'skills', 'decorations', 'charms', 'weapons', 'items', 'monsters'];
+const kiranicoPages = ['skills', 'armor-series', 'decorations', 'weapons', 'items', 'monsters'];
 
 async function fetchWithRetry(url, asJson) {
   let lastError;

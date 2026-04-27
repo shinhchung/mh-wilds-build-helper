@@ -110,17 +110,24 @@ Main generated inputs:
 - `data/normalized/*.json` - local optimizer-ready data
 - `src/data/generated/*.ts` - app-facing generated data
 
-Run the MVP armor optimizer directly:
+Run the optimizer directly:
 
 ```bash
-node scripts/optimize-build.mjs --skills=weakness-exploit:3,agitator:3,peak-performance:3 --limit=5
+node scripts/optimize-build.mjs --skills=weakness-exploit:3,agitator:3,focus:3 --weapon-kind=great-sword --monster=煌雷龍 --limit=5
 ```
 
-The first optimizer pass covers high-rank armor, armor decorations, decoration slots, target skill scoring, defense score, and basic set-piece preference. Weapon-skill optimization is intentionally separate because Wilds splits weapon and armor skill sources.
+Useful options:
+
+- `--weapon-kind=great-sword` - restrict weapon type. Valid values include `great-sword`, `long-sword`, `sword-shield`, `dual-blades`, `hammer`, `hunting-horn`, `lance`, `gunlance`, `switch-axe`, `charge-blade`, `insect-glaive`, `bow`, `heavy-bowgun`, `light-bowgun`.
+- `--monster=煌雷龍` - boost weapons that match elemental weakness.
+- `--owned-decorations=none` - test without decorations.
+- `--owned-decorations=deco-123:1,weakness-exploit:2` - limit by decoration id/source id or skill id.
+
+The second optimizer pass covers high-rank armor, charms, armor/weapon decorations, owned-decoration limits, weapon stats, weapon skills, weapon slots, monster elemental weakness, target skill scoring, defense score, and basic set-piece preference.
 
 ## Next recommended upgrades
 
-1. Add weapon-aware optimization and monster weakness scoring
+1. Add UI controls for optimizer inputs
 2. Add filtering by weapon type
 3. Add search and favorite builds
 4. Add richer stat calculations
@@ -130,4 +137,5 @@ The first optimizer pass covers high-rank armor, armor decorations, decoration s
 
 - Build presets are generated from local MHDB snapshots and only reference equipment available in normalized data.
 - Kiranico `zh-Hant` snapshots are stored for source cross-checking.
+- Kiranico monster icons are linked for all normalized monsters. Weapon thumbnails are linked where the current Kiranico weapon page exposes a matching row; unmatched weapons keep `imageUrl: null`.
 - This project is still an offline helper; verify final in-game values against your current game version/patch notes.

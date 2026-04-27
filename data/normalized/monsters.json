@@ -1,0 +1,2653 @@
+[
+  {
+    "id": "monster-1",
+    "sourceId": 1,
+    "gameId": -2003468672,
+    "name": "白熾龍",
+    "nameEn": "Zoh Shia",
+    "kind": "large",
+    "species": "construct",
+    "description": "被造成龍都救世主的護龍。寄生在龍燈上， 一面吸取龍燈龐大的能量一面沉眠。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/bai-chi-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0164_50_0.webp"
+  },
+  {
+    "id": "monster-2",
+    "sourceId": 2,
+    "gameId": -1916429696,
+    "name": "護闢獸",
+    "nameEn": "Guardian Doshaguma",
+    "kind": "large",
+    "species": "construct",
+    "description": "古代文明創造的造龍種，帶有闢獸之力。擁有 非常強韌的肉體，會吐出酸性液體。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hu-pi-shou",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0150_50_0.webp"
+  },
+  {
+    "id": "monster-3",
+    "sourceId": 3,
+    "gameId": -1547364608,
+    "name": "煌雷龍",
+    "nameEn": "Rey Dau",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "君臨天塹沙原生態系頂點的飛龍種。適應了雷電 交加的沙塵暴，並會利用帶電能力襲擊獵物。",
+    "locations": [
+      "天塹沙原"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "ice",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/huang-lei-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0156_00_0.webp"
+  },
+  {
+    "id": "monster-4",
+    "sourceId": 4,
+    "gameId": -1528962176,
+    "name": "刺花蜘蛛",
+    "nameEn": "Lala Barina",
+    "kind": "large",
+    "species": "temnoceran",
+    "description": "棲息在緋紅森林的鉗角種，特徵是會像舞者一面 旋轉一面移動。射向獵物和外敵的絨毛帶有麻痺 效果。",
+    "locations": [
+      "緋紅森林",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/ci-hua-zhi-zhu",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0154_00_0.webp"
+  },
+  {
+    "id": "monster-5",
+    "sourceId": 5,
+    "gameId": -1440201088,
+    "name": "桃毛獸王",
+    "nameEn": "Congalala",
+    "kind": "large",
+    "species": "fanged-beast",
+    "description": "擁有桃色毛皮的大型牙獸種。能按食下的蘑菇的 特性使出各種不同的吐息，並使獵人陷入無法 使用回復道具的惡臭狀態，需要多加留意。",
+    "locations": [
+      "緋紅森林",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/tao-mao-shou-wang",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0021_00_0.webp"
+  },
+  {
+    "id": "monster-6",
+    "sourceId": 6,
+    "gameId": -1363370496,
+    "name": "影蜘蛛",
+    "nameEn": "Nerscylla",
+    "kind": "large",
+    "species": "temnoceran",
+    "description": "會讓對手陷入毒、睡眠、繩束縛等各種狀態異常 的鉗角種。會巧妙地把獵物逼進絕路，再用發達 的大鉗角殺死獵物。",
+    "locations": [
+      "湧油山谷",
+      "龍都遺跡",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": "More effective once the mantle is broken."
+      },
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/ying-zhi-zhu",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0070_00_0.webp"
+  },
+  {
+    "id": "monster-7",
+    "sourceId": 7,
+    "gameId": -758250816,
+    "name": "黑蝕龍",
+    "nameEn": "Gore Magala",
+    "kind": "large",
+    "species": "demi-elder",
+    "description": "黑蝕龍全身被宛如黑色斗篷的翼膜包覆。牠沒有 眼睛，但會利用自己散布的鱗粉感知對象並攻擊。",
+    "locations": [
+      "龍都遺跡",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hei-shi-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0071_00_0.webp"
+  },
+  {
+    "id": "monster-8",
+    "sourceId": 8,
+    "gameId": -535078400,
+    "name": "鎧龍",
+    "nameEn": "Gravios",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "湧油山谷中出現的大型飛龍。身體以堅固外殼 包覆，能釋放出強力的熱線。",
+    "locations": [
+      "湧油山谷",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/kai-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0005_00_0.webp"
+  },
+  {
+    "id": "monster-9",
+    "sourceId": 9,
+    "gameId": -283654400,
+    "name": "護鎖刃龍",
+    "nameEn": "Guardian Arkveld",
+    "kind": "large",
+    "species": "construct",
+    "description": "古代文明創造的造龍種，帶有鎖刃龍之力。 其原種早已滅絕，是傳說中的生物。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hu-suo-ren-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0160_50_0.webp"
+  },
+  {
+    "id": "monster-10",
+    "sourceId": 10,
+    "gameId": -34937520,
+    "name": "炎尾龍",
+    "nameEn": "Quematrice",
+    "kind": "large",
+    "species": "brute-wyvern",
+    "description": "獸龍種，會在灑下易揮發的點火物質後，再利用 尾巴磨擦點燃，引發火焰。習性獨特，會搶奪 其他魔物殺死的獵物。",
+    "locations": [
+      "天塹沙原",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/yan-wei-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0153_00_0.webp"
+  },
+  {
+    "id": "monster-11",
+    "sourceId": 11,
+    "gameId": 15,
+    "name": "闢獸",
+    "nameEn": "Doshaguma",
+    "kind": "large",
+    "species": "fanged-beast",
+    "description": "闢獸的特徵在於強壯的身軀。牠們地盤意識極強， 行動範圍廣且攻擊性高，偶爾也能目擊到大規模 的群體。",
+    "locations": [
+      "天塹沙原",
+      "緋紅森林",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/pi-shou",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0150_00_0.webp"
+  },
+  {
+    "id": "monster-12",
+    "sourceId": 12,
+    "gameId": 16,
+    "name": "沙海龍",
+    "nameEn": "Balahara",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "棲息在沙地的海龍種。會以柔軟扭曲的身體形成 流沙並用作陷阱。牠們潛入沙中時，使用音爆彈 會相當有效。",
+    "locations": [
+      "天塹沙原"
+    ],
+    "weaknesses": [
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "noise",
+        "level": 1,
+        "condition": "Effective only while burrowing."
+      },
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/sha-hai-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0151_00_0.webp"
+  },
+  {
+    "id": "monster-13",
+    "sourceId": 13,
+    "gameId": 26,
+    "name": "雌火龍",
+    "nameEn": "Rathian",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "雌火龍的特徵是出色的奔跑能力，以及具有猛毒的 尾巴。這些特徵讓牠獲得了「陸地女王」的外號。",
+    "locations": [
+      "湧油山谷",
+      "天塹沙原",
+      "緋紅森林"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/ci-huo-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0001_00_0.webp"
+  },
+  {
+    "id": "monster-14",
+    "sourceId": 14,
+    "gameId": 33,
+    "name": "纏蛙",
+    "nameEn": "Chatacabra",
+    "kind": "large",
+    "species": "amphibian",
+    "description": "兩棲種，會利用帶黏性的唾液將礦石等物質附著在 前腳上，藉此強化自己。若瞄準並破壞附著物， 就會出現攻擊的機會。弱點是舌頭。",
+    "locations": [
+      "天塹沙原"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/chan-wa",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0152_00_0.webp"
+  },
+  {
+    "id": "monster-15",
+    "sourceId": 15,
+    "gameId": 32634,
+    "name": "泡狐龍",
+    "nameEn": "Mizutsune",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "經歷獨特的進化，能利用體毛摩擦特殊分泌液來 製造泡沫，並巧妙運用，因此得泡狐龍之名。",
+    "locations": [
+      "緋紅森林",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/pao-hu-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0082_00_0.webp"
+  },
+  {
+    "id": "monster-16",
+    "sourceId": 16,
+    "gameId": 107194928,
+    "name": "護雷顎龍",
+    "nameEn": "Guardian Fulgur Anjanath",
+    "kind": "large",
+    "species": "construct",
+    "description": "古代文明創造的造龍種，帶有雷顎龍之力。 不但會釋放身上的雷電，還會施展強力的 撕咬攻擊。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "ice",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hu-lei-e-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0100_51_0.webp"
+  },
+  {
+    "id": "monster-17",
+    "sourceId": 17,
+    "gameId": 222933952,
+    "name": "風鋏龍",
+    "nameEn": "Hirabami",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "棲息在冰霧斷崖的海龍種。尾巴有鉗狀的尾爪， 會以獨特方式飛行，更能利用頸部的特殊膜乘風 飄浮。",
+    "locations": [
+      "龍都遺跡",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/feng-jia-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0161_00_0.webp"
+  },
+  {
+    "id": "monster-18",
+    "sourceId": 18,
+    "gameId": 402056736,
+    "name": "怪鳥",
+    "nameEn": "Yian Kut-Ku",
+    "kind": "large",
+    "species": "bird-wyvern",
+    "description": "有一對大耳朵和強壯喙部的鳥龍種。雖然天性 膽小，但面對外敵時會勇敢迎戰。常常能目擊 牠們捕食蟲子的模樣。",
+    "locations": [
+      "緋紅森林",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "noise",
+        "level": 1,
+        "condition": "Effective against any state but enraged."
+      },
+      {
+        "kind": "element",
+        "element": "ice",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/guai-niao",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0008_00_0.webp"
+  },
+  {
+    "id": "monster-19",
+    "sourceId": 19,
+    "gameId": 567628288,
+    "name": "沼噴龍",
+    "nameEn": "Rompopolo",
+    "kind": "large",
+    "species": "brute-wyvern",
+    "description": "在湧油山谷盤據的獸龍種，身上帶有斑紋。能從舌 尖噴射毒性瓦斯，還能從尾巴尖端往地下注入瓦斯 並引發爆炸。",
+    "locations": [
+      "湧油山谷"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/zhao-pen-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0155_00_0.webp"
+  },
+  {
+    "id": "monster-20",
+    "sourceId": 20,
+    "gameId": 746996864,
+    "name": "鎖刃龍",
+    "nameEn": "Arkveld",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "擁有鎖鏈形翅膀的飛龍。翅膀上的鎖刃伸縮自如， 不但能橫掃獵物，還能吸收屬性能量。",
+    "locations": [
+      "湧油山谷",
+      "天塹沙原",
+      "緋紅森林",
+      "龍都遺跡",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/suo-ren-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0160_00_0.webp"
+  },
+  {
+    "id": "monster-21",
+    "sourceId": 21,
+    "gameId": 777460864,
+    "name": "赫猿獸",
+    "nameEn": "Ajarakan",
+    "kind": "large",
+    "species": "fanged-beast",
+    "description": "牙獸種，會摩擦身體上附著的金屬產生高溫並引發 爆炸。在奔火節期間，可目擊到牠們成群結隊行動 的樣子。",
+    "locations": [
+      "湧油山谷",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/he-yuan-shou",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0159_00_0.webp"
+  },
+  {
+    "id": "monster-22",
+    "sourceId": 22,
+    "gameId": 1049705664,
+    "name": "毒怪鳥",
+    "nameEn": "Gypceros",
+    "kind": "large",
+    "species": "bird-wyvern",
+    "description": "毒怪鳥的特徵是其頭冠。牠們會敲打頭冠發出 閃光，剝奪外敵的視野，並吐出毒液加以削弱。",
+    "locations": [
+      "湧油山谷",
+      "天塹沙原",
+      "龍都遺跡",
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/du-guai-niao",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0009_00_0.webp"
+  },
+  {
+    "id": "monster-23",
+    "sourceId": 23,
+    "gameId": 1401863296,
+    "name": "暗器鱆",
+    "nameEn": "Xu Wu",
+    "kind": "large",
+    "species": "cephalopod",
+    "description": "盤據在龍都遺跡的頭足種，會捕食護龍。有時候 會和護龍互相打鬥。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "ice",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/an-qi-zhang",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0163_00_0.webp"
+  },
+  {
+    "id": "monster-24",
+    "sourceId": 24,
+    "gameId": 1411933184,
+    "name": "護火龍",
+    "nameEn": "Guardian Rathalos",
+    "kind": "large",
+    "species": "construct",
+    "description": "古代文明創造的造龍種，帶有火龍之力。 利爪攻擊時會釋放能量，非常強力。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hu-huo-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0002_50_0.webp"
+  },
+  {
+    "id": "monster-25",
+    "sourceId": 25,
+    "gameId": 1467998976,
+    "name": "波衣龍",
+    "nameEn": "Uth Duna",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "君臨緋紅森林生態系頂點的海龍種。能將水分變成 液膜來保護自身，並以強力的一擊引發波浪衝走 敵人。",
+    "locations": [
+      "緋紅森林"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/bo-yi-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0157_00_0.webp"
+  },
+  {
+    "id": "monster-26",
+    "sourceId": 26,
+    "gameId": 1553456768,
+    "name": "凍峰龍",
+    "nameEn": "Jin Dahaad",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "君臨冰霧斷崖生態系頂點的海龍種。有巨大身軀， 能以冷卻器官吸收汽化熱，將周遭降至超低溫。",
+    "locations": [
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/dong-feng-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0162_00_0.webp"
+  },
+  {
+    "id": "monster-27",
+    "sourceId": 27,
+    "gameId": 1657778432,
+    "name": "獄焰鱆",
+    "nameEn": "Nu Udra",
+    "kind": "large",
+    "species": "cephalopod",
+    "description": "君臨湧油山谷生態系頂點的頭足種。全身被有如 煉獄般猛烈的火焰籠罩著，會利用多隻觸手與 猛烈燃燒的油泥將獵物逼入絕路。",
+    "locations": [
+      "湧油山谷"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/yu-yan-zhang",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0158_00_0.webp"
+  },
+  {
+    "id": "monster-28",
+    "sourceId": 28,
+    "gameId": 1663995904,
+    "name": "護兇爪龍",
+    "nameEn": "Guardian Ebony Odogaron",
+    "kind": "large",
+    "species": "construct",
+    "description": "古代文明創造的造龍種，帶有兇爪龍之力。 以前腳施展的銳爪連續攻擊非常具威脅。",
+    "locations": [
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "water",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 3,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hu-xiong-zhua-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0113_51_0.webp"
+  },
+  {
+    "id": "monster-29",
+    "sourceId": 29,
+    "gameId": 1965232896,
+    "name": "火龍",
+    "nameEn": "Rathalos",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "擁有天空王者之名，受人畏懼的飛龍。會以優異的 飛行能力從高空迅速降下，並使用帶毒的強力爪擊 攻擊敵人。",
+    "locations": [
+      "湧油山谷",
+      "緋紅森林",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "dragon",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/huo-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0002_00_0.webp"
+  },
+  {
+    "id": "monster-30",
+    "sourceId": 30,
+    "gameId": 2129596800,
+    "name": "雪獅子王",
+    "nameEn": "Blangonga",
+    "kind": "large",
+    "species": "fanged-beast",
+    "description": "統率雪獅子的大型白色牙獸。會率領群體攻擊入侵 地盤的生物，在冰天雪地的環境中動作尤其多變。",
+    "locations": [
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/xue-shi-zi-wang",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0022_00_0.webp"
+  },
+  {
+    "id": "monster-31",
+    "sourceId": 31,
+    "gameId": -1083842944,
+    "name": "海龍",
+    "nameEn": "Lagiacrus",
+    "kind": "large",
+    "species": "leviathan",
+    "description": "立於海洋食物鏈頂端的魔物，並以整類物種的名字 為名。受到緋紅森林的豐饒水域吸引而出現。",
+    "locations": [
+      "緋紅森林"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "fire",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/hai-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0046_00_0.webp"
+  },
+  {
+    "id": "monster-32",
+    "sourceId": 32,
+    "gameId": 25,
+    "name": "千刃龍",
+    "nameEn": "Seregios",
+    "kind": "large",
+    "species": "flying-wyvern",
+    "description": "地盤意識非常強烈的飛龍種，全身鋪滿名為「刃 鱗」的銳利鱗片，因此得「千刃龍」之名。",
+    "locations": [
+      "天塹沙原",
+      "龍都遺跡"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "poison",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "sleep",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "flash",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "exhaust",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/qian-ren-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0077_00_0.webp"
+  },
+  {
+    "id": "monster-33",
+    "sourceId": 33,
+    "gameId": 21849,
+    "name": "遊星歐米茄",
+    "nameEn": "Omega Planetes",
+    "kind": "large",
+    "species": "machine",
+    "description": "為了尋找要侵略的星球與更強的生命，而透過時空 狹縫來到封禁之地的其中一台歐米茄框架。",
+    "locations": [
+      "冰霧斷崖"
+    ],
+    "weaknesses": [
+      {
+        "kind": "element",
+        "element": "thunder",
+        "status": null,
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "paralysis",
+        "effect": null,
+        "level": 1,
+        "condition": null
+      },
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/you-xing-ou-mi-qie",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0166_00_0.webp"
+  },
+  {
+    "id": "monster-34",
+    "sourceId": 34,
+    "gameId": 13052,
+    "name": "巨戟龍",
+    "nameEn": "Gogmazios",
+    "kind": "large",
+    "species": "elder-dragon",
+    "description": "全身滿佈黑色黏液的神秘古龍。被觀測到 在火窯之村阿茲茲發現的地下空洞中休眠。",
+    "locations": [
+      "湧油山谷"
+    ],
+    "weaknesses": [
+      {
+        "kind": "status",
+        "element": null,
+        "status": "blastblight",
+        "effect": null,
+        "level": 2,
+        "condition": null
+      },
+      {
+        "kind": "effect",
+        "element": null,
+        "status": null,
+        "effect": "stun",
+        "level": 1,
+        "condition": null
+      }
+    ],
+    "kiranicoUrl": "https://mhwilds.kiranico.com/zh-Hant/data/monsters/ju-ji-long",
+    "imageUrl": "https://mhwilds.kiranico.net/em_icon/EM0078_00_0.webp"
+  }
+]
