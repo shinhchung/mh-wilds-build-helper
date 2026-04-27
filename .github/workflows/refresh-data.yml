@@ -1,0 +1,41 @@
+name: Refresh MH Wilds Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh data
+        run: npm run data:refresh
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build web
+        run: npm run build:web
+
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh MH Wilds data"
+          file_pattern: "data/raw data/normalized src/data/generated"
