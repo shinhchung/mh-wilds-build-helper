@@ -402,7 +402,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #1 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -806,7 +806,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #2 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -1216,7 +1216,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #3 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -1626,7 +1626,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #4 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -2038,7 +2038,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #5 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -2471,7 +2471,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #1 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -2904,7 +2904,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #2 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -3330,7 +3330,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #3 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -3767,7 +3767,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #4 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -4168,7 +4168,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #5 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -4549,7 +4549,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #1 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -4927,7 +4927,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #2 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -5303,7 +5303,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #3 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -5680,7 +5680,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #4 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -6062,7 +6062,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #5 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -6460,7 +6460,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #1 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -6858,7 +6858,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #2 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -7292,7 +7292,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #3 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -7726,7 +7726,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #4 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
@@ -8128,7 +8128,7 @@ export const builds: Build[] = [
     },
     "notes": [
       "方案排名 #5 / 5",
-      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Data source: MHDB API snapshot 2026-04-27T23:20:12.642Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
