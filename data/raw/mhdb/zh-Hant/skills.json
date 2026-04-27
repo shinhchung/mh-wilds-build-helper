@@ -1,0 +1,6749 @@
+[
+  {
+    "name": "龍耐性",
+    "kind": "armor",
+    "description": "增加龍耐性。提升技能等級後， 也會影響防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 1
+        },
+        "level": 1,
+        "name": null,
+        "description": "龍耐性+6",
+        "setPiecesRequired": null,
+        "id": 1
+      },
+      {
+        "skill": {
+          "id": 1
+        },
+        "level": 2,
+        "name": null,
+        "description": "龍耐性+12",
+        "setPiecesRequired": null,
+        "id": 2
+      },
+      {
+        "skill": {
+          "id": 1
+        },
+        "level": 3,
+        "name": null,
+        "description": "龍耐性+20，防禦力+10",
+        "setPiecesRequired": null,
+        "id": 3
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 1,
+    "gameId": -2125233152
+  },
+  {
+    "name": "散彈・剛射強化",
+    "kind": "weapon",
+    "description": "增加弩槍的散彈和弓的剛射、迅雷閃擊 的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 2
+        },
+        "level": 1,
+        "name": null,
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null,
+        "id": 4
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 2,
+    "gameId": -2123993856
+  },
+  {
+    "name": "看破",
+    "kind": "weapon",
+    "description": "增加會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 3
+        },
+        "level": 1,
+        "name": null,
+        "description": "會心率+4%",
+        "setPiecesRequired": null,
+        "id": 5
+      },
+      {
+        "skill": {
+          "id": 3
+        },
+        "level": 2,
+        "name": null,
+        "description": "會心率+8%",
+        "setPiecesRequired": null,
+        "id": 6
+      },
+      {
+        "skill": {
+          "id": 3
+        },
+        "level": 3,
+        "name": null,
+        "description": "會心率+12%",
+        "setPiecesRequired": null,
+        "id": 7
+      },
+      {
+        "skill": {
+          "id": 3
+        },
+        "level": 4,
+        "name": null,
+        "description": "會心率+16%",
+        "setPiecesRequired": null,
+        "id": 8
+      },
+      {
+        "skill": {
+          "id": 3
+        },
+        "level": 5,
+        "name": null,
+        "description": "會心率+20%",
+        "setPiecesRequired": null,
+        "id": 9
+      }
+    ],
+    "icon": {
+      "id": 2,
+      "kind": "affinity"
+    },
+    "id": 3,
+    "gameId": -2096489472
+  },
+  {
+    "name": "護龍的守護",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 4
+        },
+        "level": 1,
+        "name": "龍都的庇護",
+        "description": "位於龍都遺跡時，減輕屬性傷害與 特殊傷害。",
+        "setPiecesRequired": 3,
+        "id": 10
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 4,
+    "gameId": -2041451904
+  },
+  {
+    "name": "爆破瓶追加",
+    "kind": "weapon",
+    "description": "裝備弓時可裝填爆破瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 5
+        },
+        "level": 1,
+        "name": null,
+        "description": "可裝填爆破瓶",
+        "setPiecesRequired": null,
+        "id": 11
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 5,
+    "gameId": -2022542848
+  },
+  {
+    "name": "通常彈・通常箭強化",
+    "kind": "weapon",
+    "description": "增加弩槍的通常彈和弓的通常射擊、 飛燕射擊的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 6
+        },
+        "level": 1,
+        "name": null,
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null,
+        "id": 12
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 6,
+    "gameId": -1961297152
+  },
+  {
+    "name": "高速變形",
+    "kind": "weapon",
+    "description": "提升斬擊斧與充能斧的變形動作的 速度和威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 7
+        },
+        "level": 1,
+        "name": null,
+        "description": "變形速度1.1倍",
+        "setPiecesRequired": null,
+        "id": 13
+      },
+      {
+        "skill": {
+          "id": 7
+        },
+        "level": 2,
+        "name": null,
+        "description": "變形速度1.2倍，變形攻擊威力1.1倍",
+        "setPiecesRequired": null,
+        "id": 14
+      },
+      {
+        "skill": {
+          "id": 7
+        },
+        "level": 3,
+        "name": null,
+        "description": "變形速度1.3倍，變形攻擊威力1.2倍",
+        "setPiecesRequired": null,
+        "id": 15
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 7,
+    "gameId": -1961116288
+  },
+  {
+    "name": "拔刀術【力】",
+    "kind": "weapon",
+    "description": "追加/強化武器拔刀攻擊的昏厥值， 並小幅增加該攻擊的攻擊力。 （策騎時不會發動）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 8
+        },
+        "level": 1,
+        "name": null,
+        "description": "武器拔刀攻擊的基礎攻擊力+3， 並附加少量昏厥值",
+        "setPiecesRequired": null,
+        "id": 16
+      },
+      {
+        "skill": {
+          "id": 8
+        },
+        "level": 2,
+        "name": null,
+        "description": "武器拔刀攻擊的基礎攻擊力+5， 並附加昏厥值",
+        "setPiecesRequired": null,
+        "id": 17
+      },
+      {
+        "skill": {
+          "id": 8
+        },
+        "level": 3,
+        "name": null,
+        "description": "武器拔刀攻擊的基礎攻擊力+7， 並附加大量昏厥值",
+        "setPiecesRequired": null,
+        "id": 18
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 8,
+    "gameId": -1946345856
+  },
+  {
+    "name": "麻痺屬性強化",
+    "kind": "weapon",
+    "description": "強化武器的麻痺屬性累積值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 9
+        },
+        "level": 1,
+        "name": null,
+        "description": "麻痺累積值1.05倍後+10",
+        "setPiecesRequired": null,
+        "id": 19
+      },
+      {
+        "skill": {
+          "id": 9
+        },
+        "level": 2,
+        "name": null,
+        "description": "麻痺累積值1.1倍後+20",
+        "setPiecesRequired": null,
+        "id": 20
+      },
+      {
+        "skill": {
+          "id": 9
+        },
+        "level": 3,
+        "name": null,
+        "description": "麻痺累積值1.2倍後+50",
+        "setPiecesRequired": null,
+        "id": 21
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 9,
+    "gameId": -1863702144
+  },
+  {
+    "name": "霸主的自尊",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 10
+        },
+        "level": 1,
+        "name": "激勵",
+        "description": "發動於一定範圍內對同伴生效的效果 （如旋律效果）時，一定時間內附加 攻擊力上升效果。",
+        "setPiecesRequired": 3,
+        "id": 22
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 10,
+    "gameId": -1769550080
+  },
+  {
+    "name": "雷顎龍之鬥志",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 11
+        },
+        "level": 1,
+        "name": "無窮盡Ⅰ",
+        "description": "獲得額外耐力計量表。",
+        "setPiecesRequired": 2,
+        "id": 23
+      },
+      {
+        "skill": {
+          "id": 11
+        },
+        "level": 2,
+        "name": "無窮盡Ⅱ",
+        "description": "獲得較長的額外耐力計量表。",
+        "setPiecesRequired": 4,
+        "id": 24
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 11,
+    "gameId": -1768553344
+  },
+  {
+    "name": "毒屬性強化",
+    "kind": "weapon",
+    "description": "強化武器的毒屬性累積值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 12
+        },
+        "level": 1,
+        "name": null,
+        "description": "毒累積值1.05倍後+10",
+        "setPiecesRequired": null,
+        "id": 25
+      },
+      {
+        "skill": {
+          "id": 12
+        },
+        "level": 2,
+        "name": null,
+        "description": "毒累積值1.1倍後+20",
+        "setPiecesRequired": null,
+        "id": 26
+      },
+      {
+        "skill": {
+          "id": 12
+        },
+        "level": 3,
+        "name": null,
+        "description": "毒累積值1.2倍後+50",
+        "setPiecesRequired": null,
+        "id": 27
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 12,
+    "gameId": -1716324608
+  },
+  {
+    "name": "轉禍為福",
+    "kind": "armor",
+    "description": "解除狀態異常或屬性異常後，增加 一定時間內的屬性值和狀態異常值。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 13
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值小幅上升",
+        "setPiecesRequired": null,
+        "id": 28
+      },
+      {
+        "skill": {
+          "id": 13
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值上升",
+        "setPiecesRequired": null,
+        "id": 29
+      },
+      {
+        "skill": {
+          "id": 13
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值大幅上升",
+        "setPiecesRequired": null,
+        "id": 30
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 13,
+    "gameId": -1700743296
+  },
+  {
+    "name": "體術",
+    "kind": "armor",
+    "description": "消耗定量耐力的行動（例如迴避） 所需的耐力消耗量減少。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 14
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少定量耐力消耗量10%",
+        "setPiecesRequired": null,
+        "id": 31
+      },
+      {
+        "skill": {
+          "id": 14
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少定量耐力消耗量20%",
+        "setPiecesRequired": null,
+        "id": 32
+      },
+      {
+        "skill": {
+          "id": 14
+        },
+        "level": 3,
+        "name": null,
+        "description": "減少定量耐力消耗量30%",
+        "setPiecesRequired": null,
+        "id": 33
+      },
+      {
+        "skill": {
+          "id": 14
+        },
+        "level": 4,
+        "name": null,
+        "description": "減少定量耐力消耗量40%",
+        "setPiecesRequired": null,
+        "id": 34
+      },
+      {
+        "skill": {
+          "id": 14
+        },
+        "level": 5,
+        "name": null,
+        "description": "減少定量耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 35
+      }
+    ],
+    "icon": {
+      "id": 8,
+      "kind": "stamina"
+    },
+    "id": 14,
+    "gameId": -1689391744
+  },
+  {
+    "name": "道具使用強化",
+    "kind": "armor",
+    "description": "延長部分道具的效果時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 15
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果時間1.1倍",
+        "setPiecesRequired": null,
+        "id": 36
+      },
+      {
+        "skill": {
+          "id": 15
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果時間1.25倍",
+        "setPiecesRequired": null,
+        "id": 37
+      },
+      {
+        "skill": {
+          "id": 15
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果時間1.5倍",
+        "setPiecesRequired": null,
+        "id": 38
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 15,
+    "gameId": -1684613760
+  },
+  {
+    "name": "防禦強化",
+    "kind": "weapon",
+    "description": "減少防禦時的傷害，並可以防禦一般 無法防禦的攻擊。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 16
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少傷害10%，並於滿足條件時 再減少20%",
+        "setPiecesRequired": null,
+        "id": 39
+      },
+      {
+        "skill": {
+          "id": 16
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少傷害20%，並於滿足條件時 再減少30%",
+        "setPiecesRequired": null,
+        "id": 40
+      },
+      {
+        "skill": {
+          "id": 16
+        },
+        "level": 3,
+        "name": null,
+        "description": "減少傷害30%，並於滿足條件時 再減少50%",
+        "setPiecesRequired": null,
+        "id": 41
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 16,
+    "gameId": -1674114176
+  },
+  {
+    "name": "堆疊鱗片的手藝",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 17
+        },
+        "level": 1,
+        "name": "振奮",
+        "description": "體力降至40%或以下時， 減少一定時間內的耐力消耗量。",
+        "setPiecesRequired": 3,
+        "id": 42
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 17,
+    "gameId": -1664678272
+  },
+  {
+    "name": "無我境界",
+    "kind": "armor",
+    "description": "感染狂龍病毒時較容易克服， 並增加克服狀態的會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 18
+        },
+        "level": 1,
+        "name": null,
+        "description": "感染狂龍病毒時稍微容易克服， 克服時會心率+3%",
+        "setPiecesRequired": null,
+        "id": 43
+      },
+      {
+        "skill": {
+          "id": 18
+        },
+        "level": 2,
+        "name": null,
+        "description": "感染狂龍病毒時容易克服， 克服時會心率+6%",
+        "setPiecesRequired": null,
+        "id": 44
+      },
+      {
+        "skill": {
+          "id": 18
+        },
+        "level": 3,
+        "name": null,
+        "description": "感染狂龍病毒時更容易克服， 克服時會心率+10%",
+        "setPiecesRequired": null,
+        "id": 45
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 18,
+    "gameId": -1662120192
+  },
+  {
+    "name": "皮革製品的柔韌性",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 19
+        },
+        "level": 1,
+        "name": "採集達人",
+        "description": "加快採集行動的速度，並且採集和剝取時 即使受攻擊也不會後仰。",
+        "setPiecesRequired": 3,
+        "id": 46
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 19,
+    "gameId": -1648695680
+  },
+  {
+    "name": "前輩的指引",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 20
+        },
+        "level": 1,
+        "name": "探索者之幸運",
+        "description": "提高活躍化採集點的發生率。",
+        "setPiecesRequired": 3,
+        "id": 47
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 20,
+    "gameId": -1642078720
+  },
+  {
+    "name": "毒傷害強化",
+    "kind": "weapon",
+    "description": "延長魔物處於毒狀態的時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 21
+        },
+        "level": 1,
+        "name": null,
+        "description": "毒的效果時間1.2倍",
+        "setPiecesRequired": null,
+        "id": 48
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 21,
+    "gameId": -1629629184
+  },
+  {
+    "name": "超會心",
+    "kind": "weapon",
+    "description": "增加會心攻擊的傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 22
+        },
+        "level": 1,
+        "name": null,
+        "description": "會心攻擊時的傷害倍率增強至1.28倍",
+        "setPiecesRequired": null,
+        "id": 49
+      },
+      {
+        "skill": {
+          "id": 22
+        },
+        "level": 2,
+        "name": null,
+        "description": "會心攻擊時的傷害倍率增強至1.31倍",
+        "setPiecesRequired": null,
+        "id": 50
+      },
+      {
+        "skill": {
+          "id": 22
+        },
+        "level": 3,
+        "name": null,
+        "description": "會心攻擊時的傷害倍率增強至1.34倍",
+        "setPiecesRequired": null,
+        "id": 51
+      },
+      {
+        "skill": {
+          "id": 22
+        },
+        "level": 4,
+        "name": null,
+        "description": "會心攻擊時的傷害倍率增強至1.37倍",
+        "setPiecesRequired": null,
+        "id": 52
+      },
+      {
+        "skill": {
+          "id": 22
+        },
+        "level": 5,
+        "name": null,
+        "description": "會心攻擊時的傷害倍率增強至1.4倍",
+        "setPiecesRequired": null,
+        "id": 53
+      }
+    ],
+    "icon": {
+      "id": 2,
+      "kind": "affinity"
+    },
+    "id": 22,
+    "gameId": -1607763456
+  },
+  {
+    "name": "速射強化",
+    "kind": "weapon",
+    "description": "強化輕弩槍的速射威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 23
+        },
+        "level": 1,
+        "name": null,
+        "description": "速射威力1.05倍",
+        "setPiecesRequired": null,
+        "id": 54
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 23,
+    "gameId": -1507579776
+  },
+  {
+    "name": "蓄力大師",
+    "kind": "weapon",
+    "description": "增加蓄力攻擊的屬性值與狀態異常 累積值。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 24
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null,
+        "id": 55
+      },
+      {
+        "skill": {
+          "id": 24
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null,
+        "id": 56
+      },
+      {
+        "skill": {
+          "id": 24
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null,
+        "id": 57
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 24,
+    "gameId": -1475134080
+  },
+  {
+    "name": "暗器鱆之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 25
+        },
+        "level": 1,
+        "name": "蠻勇的餐桌Ⅰ",
+        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+15。",
+        "setPiecesRequired": 2,
+        "id": 58
+      },
+      {
+        "skill": {
+          "id": 25
+        },
+        "level": 2,
+        "name": "蠻勇的餐桌Ⅱ",
+        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+30。",
+        "setPiecesRequired": 4,
+        "id": 59
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 25,
+    "gameId": -1468066176
+  },
+  {
+    "name": "護鎖刃龍之命脈",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 26
+        },
+        "level": 1,
+        "name": "破壞衝動Ⅰ",
+        "description": "破壞大型魔物的傷口時回復少量體力。",
+        "setPiecesRequired": 2,
+        "id": 60
+      },
+      {
+        "skill": {
+          "id": 26
+        },
+        "level": 2,
+        "name": "破壞衝動Ⅱ",
+        "description": "破壞大型魔物的傷口時回復體力。",
+        "setPiecesRequired": 4,
+        "id": 61
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 26,
+    "gameId": -1432692352
+  },
+  {
+    "name": "護龍的脈動",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 27
+        },
+        "level": 1,
+        "name": "龍乳活性",
+        "description": "接近龍乳結晶時，提升體力的紅色計量表 及耐力的回復速度。",
+        "setPiecesRequired": 3,
+        "id": 62
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 27,
+    "gameId": -1305836672
+  },
+  {
+    "name": "飛身躍入",
+    "kind": "armor",
+    "description": "可朝著大型魔物使用跳躍迴避， 並延長跳躍距離。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 28
+        },
+        "level": 1,
+        "name": null,
+        "description": "可發動技能",
+        "setPiecesRequired": null,
+        "id": 63
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 28,
+    "gameId": -1304512512
+  },
+  {
+    "name": "吹笛名人",
+    "kind": "weapon",
+    "description": "延長狩獵笛旋律效果的時間。 （此技能會於切換武器後失效）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 29
+        },
+        "level": 1,
+        "name": null,
+        "description": "延長狩獵笛的旋律效果時間， 並增加體力回復的上升率",
+        "setPiecesRequired": null,
+        "id": 64
+      },
+      {
+        "skill": {
+          "id": 29
+        },
+        "level": 2,
+        "name": null,
+        "description": "進一步延長狩獵笛的旋律效果時間",
+        "setPiecesRequired": null,
+        "id": 65
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 29,
+    "gameId": -1237438336
+  },
+  {
+    "name": "體力回復量上升",
+    "kind": "armor",
+    "description": "提高體力回復時的回復量。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 30
+        },
+        "level": 1,
+        "name": null,
+        "description": "極小幅增加回復量",
+        "setPiecesRequired": null,
+        "id": 66
+      },
+      {
+        "skill": {
+          "id": 30
+        },
+        "level": 2,
+        "name": null,
+        "description": "小幅增加回復量",
+        "setPiecesRequired": null,
+        "id": 67
+      },
+      {
+        "skill": {
+          "id": 30
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅增加回復量",
+        "setPiecesRequired": null,
+        "id": 68
+      }
+    ],
+    "icon": {
+      "id": 7,
+      "kind": "health"
+    },
+    "id": 30,
+    "gameId": -1235658624
+  },
+  {
+    "name": "回復速度",
+    "kind": "armor",
+    "description": "提升體力計量表的紅色部分的回復速度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 31
+        },
+        "level": 1,
+        "name": null,
+        "description": "紅色計量表的自動回復速度2倍",
+        "setPiecesRequired": null,
+        "id": 69
+      },
+      {
+        "skill": {
+          "id": 31
+        },
+        "level": 2,
+        "name": null,
+        "description": "紅色計量表的自動回復速度3倍",
+        "setPiecesRequired": null,
+        "id": 70
+      },
+      {
+        "skill": {
+          "id": 31
+        },
+        "level": 3,
+        "name": null,
+        "description": "紅色計量表的自動回復速度4倍",
+        "setPiecesRequired": null,
+        "id": 71
+      }
+    ],
+    "icon": {
+      "id": 7,
+      "kind": "health"
+    },
+    "id": 31,
+    "gameId": -1121468544
+  },
+  {
+    "name": "收刀術",
+    "kind": "armor",
+    "description": "加快收刀的速度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 32
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升速度",
+        "setPiecesRequired": null,
+        "id": 72
+      },
+      {
+        "skill": {
+          "id": 32
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升速度",
+        "setPiecesRequired": null,
+        "id": 73
+      },
+      {
+        "skill": {
+          "id": 32
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅提升速度",
+        "setPiecesRequired": null,
+        "id": 74
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 32,
+    "gameId": -1073401280
+  },
+  {
+    "name": "鎖刃龍之飢餓",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 33
+        },
+        "level": 1,
+        "name": "加速再生Ⅰ",
+        "description": "攻擊不斷命中魔物時回復少量體力。 （回復量依武器種類而不同）",
+        "setPiecesRequired": 2,
+        "id": 75
+      },
+      {
+        "skill": {
+          "id": 33
+        },
+        "level": 2,
+        "name": "加速再生Ⅱ",
+        "description": "攻擊不斷命中魔物時回復體力。 （回復量依武器種類而不同）",
+        "setPiecesRequired": 4,
+        "id": 76
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 33,
+    "gameId": -964369920
+  },
+  {
+    "name": "花舞祈願",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 34
+        },
+        "level": 1,
+        "name": "大地恩惠【花舞】Ⅰ",
+        "description": "於花舞之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2,
+        "id": 77
+      },
+      {
+        "skill": {
+          "id": 34
+        },
+        "level": 2,
+        "name": "大地恩惠【花舞】Ⅱ",
+        "description": "於花舞之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4,
+        "id": 78
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 34,
+    "gameId": -911441792
+  },
+  {
+    "name": "風壓耐性",
+    "kind": "armor",
+    "description": "擁有對風壓的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 35
+        },
+        "level": 1,
+        "name": null,
+        "description": "使風壓【小】無效，並將風壓【大】的 影響減半",
+        "setPiecesRequired": null,
+        "id": 79
+      },
+      {
+        "skill": {
+          "id": 35
+        },
+        "level": 2,
+        "name": null,
+        "description": "使風壓【小】和【大】無效， 並使龍風壓的影響減半",
+        "setPiecesRequired": null,
+        "id": 80
+      },
+      {
+        "skill": {
+          "id": 35
+        },
+        "level": 3,
+        "name": null,
+        "description": "使全部風壓無效",
+        "setPiecesRequired": null,
+        "id": 81
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 35,
+    "gameId": -895828480
+  },
+  {
+    "name": "KO術",
+    "kind": "weapon",
+    "description": "容易讓魔物陷入昏厥狀態。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 36
+        },
+        "level": 1,
+        "name": null,
+        "description": "昏厥威力1.2倍",
+        "setPiecesRequired": null,
+        "id": 82
+      },
+      {
+        "skill": {
+          "id": 36
+        },
+        "level": 2,
+        "name": null,
+        "description": "昏厥威力1.3倍",
+        "setPiecesRequired": null,
+        "id": 83
+      },
+      {
+        "skill": {
+          "id": 36
+        },
+        "level": 3,
+        "name": null,
+        "description": "昏厥威力1.4倍",
+        "setPiecesRequired": null,
+        "id": 84
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 36,
+    "gameId": -893407296
+  },
+  {
+    "name": "炸彈客",
+    "kind": "armor",
+    "description": "提高爆彈系道具的傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 37
+        },
+        "level": 1,
+        "name": null,
+        "description": "威力1.1倍",
+        "setPiecesRequired": null,
+        "id": 85
+      },
+      {
+        "skill": {
+          "id": 37
+        },
+        "level": 2,
+        "name": null,
+        "description": "威力1.2倍",
+        "setPiecesRequired": null,
+        "id": 86
+      },
+      {
+        "skill": {
+          "id": 37
+        },
+        "level": 3,
+        "name": null,
+        "description": "威力1.3倍",
+        "setPiecesRequired": null,
+        "id": 87
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 37,
+    "gameId": -857543744
+  },
+  {
+    "name": "鎖刃刺擊",
+    "kind": "armor",
+    "description": "容易造成創傷，並於以攻擊累積傷害後 造成額外無屬性傷害。（部分攻擊除外）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 38
+        },
+        "level": 1,
+        "name": null,
+        "description": "稍微容易造成創傷，並造成額外 無屬性傷害",
+        "setPiecesRequired": null,
+        "id": 88
+      },
+      {
+        "skill": {
+          "id": 38
+        },
+        "level": 2,
+        "name": null,
+        "description": "容易造成創傷，並極小幅提升 額外無屬性傷害",
+        "setPiecesRequired": null,
+        "id": 89
+      },
+      {
+        "skill": {
+          "id": 38
+        },
+        "level": 3,
+        "name": null,
+        "description": "很容易造成創傷，並小幅提升 額外無屬性傷害",
+        "setPiecesRequired": null,
+        "id": 90
+      },
+      {
+        "skill": {
+          "id": 38
+        },
+        "level": 4,
+        "name": null,
+        "description": "非常容易造成創傷，並提升 額外無屬性傷害",
+        "setPiecesRequired": null,
+        "id": 91
+      },
+      {
+        "skill": {
+          "id": 38
+        },
+        "level": 5,
+        "name": null,
+        "description": "極容易造成創傷，並大幅提升 額外無屬性傷害",
+        "setPiecesRequired": null,
+        "id": 92
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 38,
+    "gameId": -856322816
+  },
+  {
+    "name": "濡濕刀紋",
+    "kind": "weapon",
+    "description": "被水沾濕或陷入泡沫狀態時，增加一定 時間內的會心率。（滿足各個條件後可 重複發動）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 39
+        },
+        "level": 1,
+        "name": null,
+        "description": "被水沾濕時，會心率+3%； 陷入泡沫狀態時，會心率+7%",
+        "setPiecesRequired": null,
+        "id": 93
+      },
+      {
+        "skill": {
+          "id": 39
+        },
+        "level": 2,
+        "name": null,
+        "description": "被水沾濕時，會心率+6%； 陷入泡沫狀態時，會心率+14%",
+        "setPiecesRequired": null,
+        "id": 94
+      },
+      {
+        "skill": {
+          "id": 39
+        },
+        "level": 3,
+        "name": null,
+        "description": "被水沾濕時，會心率+9%； 陷入泡沫狀態時，會心率+21%",
+        "setPiecesRequired": null,
+        "id": 95
+      }
+    ],
+    "icon": {
+      "id": 2,
+      "kind": "affinity"
+    },
+    "id": 39,
+    "gameId": -847539392
+  },
+  {
+    "name": "爆破屬性強化",
+    "kind": "weapon",
+    "description": "強化武器的爆破屬性累積值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 40
+        },
+        "level": 1,
+        "name": null,
+        "description": "爆破累積值1.05倍後+10",
+        "setPiecesRequired": null,
+        "id": 96
+      },
+      {
+        "skill": {
+          "id": 40
+        },
+        "level": 2,
+        "name": null,
+        "description": "爆破累積值1.1倍後+20",
+        "setPiecesRequired": null,
+        "id": 97
+      },
+      {
+        "skill": {
+          "id": 40
+        },
+        "level": 3,
+        "name": null,
+        "description": "爆破累積值1.2倍後+50",
+        "setPiecesRequired": null,
+        "id": 98
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 40,
+    "gameId": -844978880
+  },
+  {
+    "name": "龍屬性攻擊強化",
+    "kind": "weapon",
+    "description": "強化武器的龍屬性值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 41
+        },
+        "level": 1,
+        "name": null,
+        "description": "龍屬性攻擊值+40",
+        "setPiecesRequired": null,
+        "id": 99
+      },
+      {
+        "skill": {
+          "id": 41
+        },
+        "level": 2,
+        "name": null,
+        "description": "龍屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null,
+        "id": 100
+      },
+      {
+        "skill": {
+          "id": 41
+        },
+        "level": 3,
+        "name": null,
+        "description": "龍屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null,
+        "id": 101
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 41,
+    "gameId": -776946176
+  },
+  {
+    "name": "攀岩者",
+    "kind": "armor",
+    "description": "攀爬藤蔓時所需耐力消耗量變少。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 42
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 102
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 42,
+    "gameId": -692636288
+  },
+  {
+    "name": "跑者",
+    "kind": "armor",
+    "description": "逐漸消耗耐力的行動（例如衝刺） 所需的耐力消耗量減少。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 43
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少持續耐力消耗量15%",
+        "setPiecesRequired": null,
+        "id": 103
+      },
+      {
+        "skill": {
+          "id": 43
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少持續耐力消耗量30%",
+        "setPiecesRequired": null,
+        "id": 104
+      },
+      {
+        "skill": {
+          "id": 43
+        },
+        "level": 3,
+        "name": null,
+        "description": "減少持續耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 105
+      }
+    ],
+    "icon": {
+      "id": 8,
+      "kind": "stamina"
+    },
+    "id": 43,
+    "gameId": -682586176
+  },
+  {
+    "name": "麻痺瓶追加",
+    "kind": "weapon",
+    "description": "裝備弓時可裝填麻痺瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 44
+        },
+        "level": 1,
+        "name": null,
+        "description": "可裝填麻痺瓶",
+        "setPiecesRequired": null,
+        "id": 106
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 44,
+    "gameId": -676967744
+  },
+  {
+    "name": "緩衝",
+    "kind": "armor",
+    "description": "攻擊命中同行的夥伴，或被夥伴的攻擊 命中時，消除受傷反應。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 45
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 107
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 45,
+    "gameId": -632440576
+  },
+  {
+    "name": "耐震",
+    "kind": "armor",
+    "description": "擁有對地面震動的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 46
+        },
+        "level": 1,
+        "name": null,
+        "description": "使震動【極小】無效，並將震動【小】 的影響減半",
+        "setPiecesRequired": null,
+        "id": 108
+      },
+      {
+        "skill": {
+          "id": 46
+        },
+        "level": 2,
+        "name": null,
+        "description": "使震動【極小】和【小】無效， 並大幅減輕震動【大】的影響",
+        "setPiecesRequired": null,
+        "id": 109
+      },
+      {
+        "skill": {
+          "id": 46
+        },
+        "level": 3,
+        "name": null,
+        "description": "使全部震動無效",
+        "setPiecesRequired": null,
+        "id": 110
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 46,
+    "gameId": -609509888
+  },
+  {
+    "name": "砲術",
+    "kind": "weapon",
+    "description": "提升帶爆炸攻擊的攻擊力，例如銃槍的 砲擊、龍擊砲、充能斧的瓶攻擊，以及 徹甲榴彈。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 47
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+30",
+        "setPiecesRequired": null,
+        "id": 111
+      },
+      {
+        "skill": {
+          "id": 47
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+60",
+        "setPiecesRequired": null,
+        "id": 112
+      },
+      {
+        "skill": {
+          "id": 47
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+90",
+        "setPiecesRequired": null,
+        "id": 113
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 47,
+    "gameId": -596764096
+  },
+  {
+    "name": "環境利用知識",
+    "kind": "armor",
+    "description": "使用可任意發動效果的環境物時 額外回復體力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 48
+        },
+        "level": 1,
+        "name": null,
+        "description": "回復50體力",
+        "setPiecesRequired": null,
+        "id": 114
+      },
+      {
+        "skill": {
+          "id": 48
+        },
+        "level": 2,
+        "name": null,
+        "description": "回復80體力",
+        "setPiecesRequired": null,
+        "id": 115
+      },
+      {
+        "skill": {
+          "id": 48
+        },
+        "level": 3,
+        "name": null,
+        "description": "回復100體力",
+        "setPiecesRequired": null,
+        "id": 116
+      }
+    ],
+    "icon": {
+      "id": 7,
+      "kind": "health"
+    },
+    "id": 48,
+    "gameId": -593005376
+  },
+  {
+    "name": "屬性異常耐性",
+    "kind": "armor",
+    "description": "擁有對所有屬性異常的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 49
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少所有屬性異常的效果時間50％",
+        "setPiecesRequired": null,
+        "id": 117
+      },
+      {
+        "skill": {
+          "id": 49
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少所有屬性異常的效果時間75%",
+        "setPiecesRequired": null,
+        "id": 118
+      },
+      {
+        "skill": {
+          "id": 49
+        },
+        "level": 3,
+        "name": null,
+        "description": "使所有屬性異常無效",
+        "setPiecesRequired": null,
+        "id": 119
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 49,
+    "gameId": -568838336
+  },
+  {
+    "name": "火屬性攻擊強化",
+    "kind": "weapon",
+    "description": "強化武器的火屬性值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 50
+        },
+        "level": 1,
+        "name": null,
+        "description": "火屬性攻擊值+40",
+        "setPiecesRequired": null,
+        "id": 120
+      },
+      {
+        "skill": {
+          "id": 50
+        },
+        "level": 2,
+        "name": null,
+        "description": "火屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null,
+        "id": 121
+      },
+      {
+        "skill": {
+          "id": 50
+        },
+        "level": 3,
+        "name": null,
+        "description": "火屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null,
+        "id": 122
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 50,
+    "gameId": -562534336
+  },
+  {
+    "name": "白熾龍的脈動",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 51
+        },
+        "level": 1,
+        "name": "超回復力Ⅰ",
+        "description": "即使體力計量表沒有紅色部分， 仍會緩緩自動回復至上限",
+        "setPiecesRequired": 2,
+        "id": 123
+      },
+      {
+        "skill": {
+          "id": 51
+        },
+        "level": 2,
+        "name": "超回復力Ⅱ",
+        "description": "即使體力計量表沒有紅色部分， 仍會自動回復至上限",
+        "setPiecesRequired": 4,
+        "id": 124
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 51,
+    "gameId": -555494336
+  },
+  {
+    "name": "最愛菇類",
+    "kind": "armor",
+    "description": "可以吃下平常無法食用的菇類， 獲得有益效果。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 52
+        },
+        "level": 1,
+        "name": null,
+        "description": "可進食青菇與毒菇",
+        "setPiecesRequired": null,
+        "id": 125
+      },
+      {
+        "skill": {
+          "id": 52
+        },
+        "level": 2,
+        "name": null,
+        "description": "可進食青菇、毒菇、爆炸菇與麻痺菇",
+        "setPiecesRequired": null,
+        "id": 126
+      },
+      {
+        "skill": {
+          "id": 52
+        },
+        "level": 3,
+        "name": null,
+        "description": "可進食青菇、毒菇、爆炸菇、麻痺菇、 風茄、鬼爆炸菇與心跳加速菇",
+        "setPiecesRequired": null,
+        "id": 127
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 52,
+    "gameId": -481419552
+  },
+  {
+    "name": "彈道強化",
+    "kind": "weapon",
+    "description": "延長彈藥、箭矢發揮最大威力的距離， 並於技能等級上升時提升射擊威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 53
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅延長最有效距離",
+        "setPiecesRequired": null,
+        "id": 128
+      },
+      {
+        "skill": {
+          "id": 53
+        },
+        "level": 2,
+        "name": null,
+        "description": "延長最有效距離",
+        "setPiecesRequired": null,
+        "id": 129
+      },
+      {
+        "skill": {
+          "id": 53
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅延長最有效距離，並提升於最有效 距離命中的射擊威力",
+        "setPiecesRequired": null,
+        "id": 130
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 53,
+    "gameId": -420608864
+  },
+  {
+    "name": "鎧龍之守護",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 54
+        },
+        "level": 1,
+        "name": "無傷重裝Ⅰ",
+        "description": "體力全滿時，所受傷害減少20%。",
+        "setPiecesRequired": 2,
+        "id": 131
+      },
+      {
+        "skill": {
+          "id": 54
+        },
+        "level": 2,
+        "name": "無傷重裝Ⅱ",
+        "description": "體力全滿時，所受傷害減少35%。",
+        "setPiecesRequired": 4,
+        "id": 132
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 54,
+    "gameId": -418246240
+  },
+  {
+    "name": "惡臭耐性",
+    "kind": "armor",
+    "description": "擁有對惡臭狀態的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 55
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少惡臭狀態的時間50%",
+        "setPiecesRequired": null,
+        "id": 133
+      },
+      {
+        "skill": {
+          "id": 55
+        },
+        "level": 2,
+        "name": null,
+        "description": "不會陷入惡臭狀態",
+        "setPiecesRequired": null,
+        "id": 134
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 55,
+    "gameId": -411441344
+  },
+  {
+    "name": "泡狐龍之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 56
+        },
+        "level": 1,
+        "name": "泡沫之舞Ⅰ",
+        "description": "不會陷入泡沫狀態【大】。迴避數次後 將陷入泡沫狀態【小】。",
+        "setPiecesRequired": 2,
+        "id": 135
+      },
+      {
+        "skill": {
+          "id": 56
+        },
+        "level": 2,
+        "name": "泡沫之舞Ⅱ",
+        "description": "發動與Ⅰ同樣的效果，並於陷入泡沫 狀態時強化迴避能力。",
+        "setPiecesRequired": 4,
+        "id": 136
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 56,
+    "gameId": -403054144
+  },
+  {
+    "name": "弱點特效",
+    "kind": "armor",
+    "description": "攻擊魔物時，若攻擊對該部位有效， 則增加會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 57
+        },
+        "level": 1,
+        "name": null,
+        "description": "攻擊有效部位時，會心率+5% 攻擊傷口時，會心率再+3%",
+        "setPiecesRequired": null,
+        "id": 137
+      },
+      {
+        "skill": {
+          "id": 57
+        },
+        "level": 2,
+        "name": null,
+        "description": "攻擊有效部位時，會心率+10% 攻擊傷口時，會心率再+5%",
+        "setPiecesRequired": null,
+        "id": 138
+      },
+      {
+        "skill": {
+          "id": 57
+        },
+        "level": 3,
+        "name": null,
+        "description": "攻擊有效部位時，會心率+15% 攻擊傷口時，會心率再+10%",
+        "setPiecesRequired": null,
+        "id": 139
+      },
+      {
+        "skill": {
+          "id": 57
+        },
+        "level": 4,
+        "name": null,
+        "description": "攻擊有效部位時，會心率+20% 攻擊傷口時，會心率再+15%",
+        "setPiecesRequired": null,
+        "id": 140
+      },
+      {
+        "skill": {
+          "id": 57
+        },
+        "level": 5,
+        "name": null,
+        "description": "攻擊有效部位時，會心率+30% 攻擊傷口時，會心率再+20%",
+        "setPiecesRequired": null,
+        "id": 141
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 57,
+    "gameId": -397570464
+  },
+  {
+    "name": "耐力急速回復",
+    "kind": "armor",
+    "description": "增加耐力的回復速度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 58
+        },
+        "level": 1,
+        "name": null,
+        "description": "回復速度1.1倍",
+        "setPiecesRequired": null,
+        "id": 142
+      },
+      {
+        "skill": {
+          "id": 58
+        },
+        "level": 2,
+        "name": null,
+        "description": "回復速度1.3倍",
+        "setPiecesRequired": null,
+        "id": 143
+      },
+      {
+        "skill": {
+          "id": 58
+        },
+        "level": 3,
+        "name": null,
+        "description": "回復速度1.5倍",
+        "setPiecesRequired": null,
+        "id": 144
+      }
+    ],
+    "icon": {
+      "id": 8,
+      "kind": "stamina"
+    },
+    "id": 58,
+    "gameId": -315492576
+  },
+  {
+    "name": "防禦性能",
+    "kind": "weapon",
+    "description": "減少防禦時的後仰和耐力消耗。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 59
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅減少攻擊威力， 減少耐力消耗量15%",
+        "setPiecesRequired": null,
+        "id": 145
+      },
+      {
+        "skill": {
+          "id": 59
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少攻擊威力， 減少耐力消耗量30%",
+        "setPiecesRequired": null,
+        "id": 146
+      },
+      {
+        "skill": {
+          "id": 59
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅減少攻擊威力， 減少耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 147
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 59,
+    "gameId": -307644128
+  },
+  {
+    "name": "集中",
+    "kind": "weapon",
+    "description": "增加蓄力攻擊的蓄力速度，加快太刀、 雙劍、銃槍、斬擊斧、充能斧、弩槍和 弓的計量表累積速度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 60
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅增加計量表上升率， 縮短蓄力時間5%",
+        "setPiecesRequired": null,
+        "id": 148
+      },
+      {
+        "skill": {
+          "id": 60
+        },
+        "level": 2,
+        "name": null,
+        "description": "增加計量表上升率 ， 縮短蓄力時間10%",
+        "setPiecesRequired": null,
+        "id": 149
+      },
+      {
+        "skill": {
+          "id": 60
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅增加計量表上升率， 縮短蓄力時間15%",
+        "setPiecesRequired": null,
+        "id": 150
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 60,
+    "gameId": -283334048
+  },
+  {
+    "name": "閃光強化",
+    "kind": "armor",
+    "description": "增強主動引發的閃光的效果。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 61
+        },
+        "level": 1,
+        "name": null,
+        "description": "提升閃光效果",
+        "setPiecesRequired": null,
+        "id": 151
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 61,
+    "gameId": -257693696
+  },
+  {
+    "name": "凍峰龍之叛逆",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 62
+        },
+        "level": 1,
+        "name": "束縛反攻Ⅰ",
+        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，提升 一定時間內的攻擊力。",
+        "setPiecesRequired": 2,
+        "id": 152
+      },
+      {
+        "skill": {
+          "id": 62
+        },
+        "level": 2,
+        "name": "束縛反攻Ⅱ",
+        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，大幅 提升一定時間內的攻擊力。",
+        "setPiecesRequired": 4,
+        "id": 153
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 62,
+    "gameId": -215826112
+  },
+  {
+    "name": "適應水域/油泥",
+    "kind": "armor",
+    "description": "擁有對水域、油泥和水流的 行動限制耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 63
+        },
+        "level": 1,
+        "name": null,
+        "description": "使水域、油泥的移動限制與濁流的影響 無效，並緩和龍骨油的移動限制",
+        "setPiecesRequired": null,
+        "id": 154
+      },
+      {
+        "skill": {
+          "id": 63
+        },
+        "level": 2,
+        "name": null,
+        "description": "使水域、油泥的移動限制與 濁流、波浪的影響無效",
+        "setPiecesRequired": null,
+        "id": 155
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 63,
+    "gameId": -201445760
+  },
+  {
+    "name": "睡眠耐性",
+    "kind": "armor",
+    "description": "縮短睡眠狀態的時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 64
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少睡眠狀態的時間30%",
+        "setPiecesRequired": null,
+        "id": 156
+      },
+      {
+        "skill": {
+          "id": 64
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少睡眠狀態的時間60%",
+        "setPiecesRequired": null,
+        "id": 157
+      },
+      {
+        "skill": {
+          "id": 64
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會進入睡眠狀態",
+        "setPiecesRequired": null,
+        "id": 158
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 64,
+    "gameId": -193031552
+  },
+  {
+    "name": "減氣瓶追加",
+    "kind": "weapon",
+    "description": "裝備弓時可裝填減氣瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 65
+        },
+        "level": 1,
+        "name": null,
+        "description": "可裝填減氣瓶",
+        "setPiecesRequired": null,
+        "id": 159
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 65,
+    "gameId": -181774400
+  },
+  {
+    "name": "攻擊守勢",
+    "kind": "weapon",
+    "description": "抓準時機防禦成功時， 增加一定時間內的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 66
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，攻擊力1.05倍",
+        "setPiecesRequired": null,
+        "id": 160
+      },
+      {
+        "skill": {
+          "id": 66
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，攻擊力1.1倍",
+        "setPiecesRequired": null,
+        "id": 161
+      },
+      {
+        "skill": {
+          "id": 66
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，攻擊力1.15倍",
+        "setPiecesRequired": null,
+        "id": 162
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 66,
+    "gameId": -181127504
+  },
+  {
+    "name": "急襲",
+    "kind": "armor",
+    "description": "成功對大型魔物發動突襲攻擊後， 增加一定時間內的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 67
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，攻擊力1.05倍",
+        "setPiecesRequired": null,
+        "id": 163
+      },
+      {
+        "skill": {
+          "id": 67
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，攻擊力1.1倍",
+        "setPiecesRequired": null,
+        "id": 164
+      },
+      {
+        "skill": {
+          "id": 67
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，攻擊力1.15倍",
+        "setPiecesRequired": null,
+        "id": 165
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 67,
+    "gameId": -171796848
+  },
+  {
+    "name": "會心擊【特殊】",
+    "kind": "weapon",
+    "description": "增加會心攻擊時的狀態異常值（麻痺、 毒、睡眠、爆破）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 68
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null,
+        "id": 166
+      },
+      {
+        "skill": {
+          "id": 68
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null,
+        "id": 167
+      },
+      {
+        "skill": {
+          "id": 68
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null,
+        "id": 168
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 68,
+    "gameId": -168922880
+  },
+  {
+    "name": "特殊射擊強化",
+    "kind": "weapon",
+    "description": "增加弩槍的特殊彈藥與弓的龍之箭、 龍之千矢和誘導箭的威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 69
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升上述彈藥和箭的威力",
+        "setPiecesRequired": null,
+        "id": 169
+      },
+      {
+        "skill": {
+          "id": 69
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升上述彈藥和箭的威力",
+        "setPiecesRequired": null,
+        "id": 170
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 69,
+    "gameId": -160562336
+  },
+  {
+    "name": "闢獸之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 70
+        },
+        "level": 1,
+        "name": "大力士Ⅰ",
+        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+10。",
+        "setPiecesRequired": 2,
+        "id": 171
+      },
+      {
+        "skill": {
+          "id": 70
+        },
+        "level": 2,
+        "name": "大力士Ⅱ",
+        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+25。",
+        "setPiecesRequired": 4,
+        "id": 172
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 70,
+    "gameId": -62248528
+  },
+  {
+    "name": "火龍之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 71
+        },
+        "level": 1,
+        "name": "炎熱化Ⅰ",
+        "description": "攻擊命中時，隨機造成 額外火屬性傷害。",
+        "setPiecesRequired": 2,
+        "id": 173
+      },
+      {
+        "skill": {
+          "id": 71
+        },
+        "level": 2,
+        "name": "炎熱化Ⅱ",
+        "description": "攻擊命中時，隨機造成更多 額外火屬性傷害。",
+        "setPiecesRequired": 4,
+        "id": 174
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 71,
+    "gameId": -3666104
+  },
+  {
+    "name": "攻擊",
+    "kind": "weapon",
+    "description": "增加角色的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 72
+        },
+        "level": 1,
+        "name": null,
+        "description": "基礎攻擊力+3",
+        "setPiecesRequired": null,
+        "id": 175
+      },
+      {
+        "skill": {
+          "id": 72
+        },
+        "level": 2,
+        "name": null,
+        "description": "基礎攻擊力+5",
+        "setPiecesRequired": null,
+        "id": 176
+      },
+      {
+        "skill": {
+          "id": 72
+        },
+        "level": 3,
+        "name": null,
+        "description": "基礎攻擊力+7",
+        "setPiecesRequired": null,
+        "id": 177
+      },
+      {
+        "skill": {
+          "id": 72
+        },
+        "level": 4,
+        "name": null,
+        "description": "攻擊力1.02倍後，基礎攻擊力+8",
+        "setPiecesRequired": null,
+        "id": 178
+      },
+      {
+        "skill": {
+          "id": 72
+        },
+        "level": 5,
+        "name": null,
+        "description": "攻擊力1.04倍後，基礎攻擊力+9",
+        "setPiecesRequired": null,
+        "id": 179
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 72,
+    "gameId": 1
+  },
+  {
+    "name": "榮光嘉譽",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 73
+        },
+        "level": 1,
+        "name": "幸運",
+        "description": "增加任務的目標報酬 （不會從任務中途發動）",
+        "setPiecesRequired": 3,
+        "id": 180
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 73,
+    "gameId": 2237
+  },
+  {
+    "name": "慶典巡禮",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 74
+        },
+        "level": 1,
+        "name": "剝取名人",
+        "description": "任務期間素材剝取次數+1 （不會從任務中途發動）",
+        "setPiecesRequired": 3,
+        "id": 181
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 74,
+    "gameId": 13941
+  },
+  {
+    "name": "攻勢",
+    "kind": "armor",
+    "description": "對毒或麻痺狀態的大型魔物 增加攻擊力和會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 75
+        },
+        "level": 1,
+        "name": null,
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+6",
+        "setPiecesRequired": null,
+        "id": 182
+      },
+      {
+        "skill": {
+          "id": 75
+        },
+        "level": 2,
+        "name": null,
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+8、會心率+5%",
+        "setPiecesRequired": null,
+        "id": 183
+      },
+      {
+        "skill": {
+          "id": 75
+        },
+        "level": 3,
+        "name": null,
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+10，會心率+10%",
+        "setPiecesRequired": null,
+        "id": 184
+      },
+      {
+        "skill": {
+          "id": 75
+        },
+        "level": 4,
+        "name": null,
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+12，會心率+15%",
+        "setPiecesRequired": null,
+        "id": 185
+      },
+      {
+        "skill": {
+          "id": 75
+        },
+        "level": 5,
+        "name": null,
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+15，會心率+20%",
+        "setPiecesRequired": null,
+        "id": 186
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 75,
+    "gameId": 27684744
+  },
+  {
+    "name": "跳躍鐵人",
+    "kind": "armor",
+    "description": "跳躍時即使受攻擊也不會後仰。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 76
+        },
+        "level": 1,
+        "name": null,
+        "description": "跳躍時不會後仰",
+        "setPiecesRequired": null,
+        "id": 187
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 76,
+    "gameId": 78208296
+  },
+  {
+    "name": "迴避性能",
+    "kind": "armor",
+    "description": "延長迴避時的無敵時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 77
+        },
+        "level": 1,
+        "name": null,
+        "description": "極小幅延長無敵時間",
+        "setPiecesRequired": null,
+        "id": 188
+      },
+      {
+        "skill": {
+          "id": 77
+        },
+        "level": 2,
+        "name": null,
+        "description": "小幅延長無敵時間",
+        "setPiecesRequired": null,
+        "id": 189
+      },
+      {
+        "skill": {
+          "id": 77
+        },
+        "level": 3,
+        "name": null,
+        "description": "延長無敵時間",
+        "setPiecesRequired": null,
+        "id": 190
+      },
+      {
+        "skill": {
+          "id": 77
+        },
+        "level": 4,
+        "name": null,
+        "description": "大幅延長無敵時間",
+        "setPiecesRequired": null,
+        "id": 191
+      },
+      {
+        "skill": {
+          "id": 77
+        },
+        "level": 5,
+        "name": null,
+        "description": "極大幅延長無敵時間",
+        "setPiecesRequired": null,
+        "id": 192
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 77,
+    "gameId": 144660544
+  },
+  {
+    "name": "睡眠屬性強化",
+    "kind": "weapon",
+    "description": "強化武器的睡眠屬性累積值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 78
+        },
+        "level": 1,
+        "name": null,
+        "description": "睡眠累積值1.05倍後+10",
+        "setPiecesRequired": null,
+        "id": 193
+      },
+      {
+        "skill": {
+          "id": 78
+        },
+        "level": 2,
+        "name": null,
+        "description": "睡眠累積值1.1倍後+20",
+        "setPiecesRequired": null,
+        "id": 194
+      },
+      {
+        "skill": {
+          "id": 78
+        },
+        "level": 3,
+        "name": null,
+        "description": "睡眠累積值1.2倍後+50",
+        "setPiecesRequired": null,
+        "id": 195
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 78,
+    "gameId": 166057120
+  },
+  {
+    "name": "睡眠瓶追加",
+    "kind": "weapon",
+    "description": "裝備弓時可裝填睡眠瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 79
+        },
+        "level": 1,
+        "name": null,
+        "description": "可裝填睡眠瓶",
+        "setPiecesRequired": null,
+        "id": 196
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 79,
+    "gameId": 169998480
+  },
+  {
+    "name": "耳塞",
+    "kind": "armor",
+    "description": "擁有對大型魔物咆哮的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 80
+        },
+        "level": 1,
+        "name": null,
+        "description": "減輕咆哮【小】的影響",
+        "setPiecesRequired": null,
+        "id": 197
+      },
+      {
+        "skill": {
+          "id": 80
+        },
+        "level": 2,
+        "name": null,
+        "description": "使咆哮【小】無效， 減輕咆哮【大】的影響",
+        "setPiecesRequired": null,
+        "id": 198
+      },
+      {
+        "skill": {
+          "id": 80
+        },
+        "level": 3,
+        "name": null,
+        "description": "使咆哮【小】【大】無效",
+        "setPiecesRequired": null,
+        "id": 199
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 80,
+    "gameId": 192746944
+  },
+  {
+    "name": "逆襲",
+    "kind": "armor",
+    "description": "被擊飛後，增加一定時間內的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 81
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null,
+        "id": 200
+      },
+      {
+        "skill": {
+          "id": 81
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+15， 小幅延長效果時間",
+        "setPiecesRequired": null,
+        "id": 201
+      },
+      {
+        "skill": {
+          "id": 81
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+25， 延長效果時間",
+        "setPiecesRequired": null,
+        "id": 202
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 81,
+    "gameId": 280489184
+  },
+  {
+    "name": "會心擊【屬性】",
+    "kind": "weapon",
+    "description": "增加會心攻擊時的屬性傷害 （火、水、雷、冰、龍）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 82
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動時，稍微增加屬性傷害",
+        "setPiecesRequired": null,
+        "id": 203
+      },
+      {
+        "skill": {
+          "id": 82
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果發動時，增加屬性傷害",
+        "setPiecesRequired": null,
+        "id": 204
+      },
+      {
+        "skill": {
+          "id": 82
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果發動時，大幅增加屬性傷害",
+        "setPiecesRequired": null,
+        "id": 205
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 82,
+    "gameId": 313598432
+  },
+  {
+    "name": "蓄攻強化",
+    "kind": "weapon",
+    "description": "大錘的蓄力攻擊命中時，增加該攻擊的 傷害和觸發昏厥的能力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 83
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 206
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 83,
+    "gameId": 353114912
+  },
+  {
+    "name": "水耐性",
+    "kind": "armor",
+    "description": "增加水耐性。提升技能等級後， 也會影響防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 84
+        },
+        "level": 1,
+        "name": null,
+        "description": "水耐性+6",
+        "setPiecesRequired": null,
+        "id": 207
+      },
+      {
+        "skill": {
+          "id": 84
+        },
+        "level": 2,
+        "name": null,
+        "description": "水耐性+12",
+        "setPiecesRequired": null,
+        "id": 208
+      },
+      {
+        "skill": {
+          "id": 84
+        },
+        "level": 3,
+        "name": null,
+        "description": "水耐性+20、防禦力+10",
+        "setPiecesRequired": null,
+        "id": 209
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 84,
+    "gameId": 383104832
+  },
+  {
+    "name": "鈍器能手",
+    "kind": "weapon",
+    "description": "銳利度較低時增加傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 85
+        },
+        "level": 1,
+        "name": null,
+        "description": "銳利度在黃色或以下時， 傷害1.05倍",
+        "setPiecesRequired": null,
+        "id": 210
+      },
+      {
+        "skill": {
+          "id": 85
+        },
+        "level": 2,
+        "name": null,
+        "description": "銳利度在黃色或以下時， 傷害1.1倍",
+        "setPiecesRequired": null,
+        "id": 211
+      },
+      {
+        "skill": {
+          "id": 85
+        },
+        "level": 3,
+        "name": null,
+        "description": "銳利度在綠色或以下時， 傷害1.1倍",
+        "setPiecesRequired": null,
+        "id": 212
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 85,
+    "gameId": 397306144
+  },
+  {
+    "name": "飛燕",
+    "kind": "weapon",
+    "description": "強化跳躍攻擊。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 86
+        },
+        "level": 1,
+        "name": null,
+        "description": "跳躍攻擊傷害1.1倍",
+        "setPiecesRequired": null,
+        "id": 213
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 86,
+    "gameId": 402237312
+  },
+  {
+    "name": "火場怪力",
+    "kind": "armor",
+    "description": "體力在上限的35%以下時， 增加攻擊力與防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 87
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，防禦力+50",
+        "setPiecesRequired": null,
+        "id": 214
+      },
+      {
+        "skill": {
+          "id": 87
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，攻擊力1.05倍、 防禦力+50",
+        "setPiecesRequired": null,
+        "id": 215
+      },
+      {
+        "skill": {
+          "id": 87
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，攻擊力1.05倍、 防禦力+100",
+        "setPiecesRequired": null,
+        "id": 216
+      },
+      {
+        "skill": {
+          "id": 87
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，攻擊力1.1倍、 防禦力+100",
+        "setPiecesRequired": null,
+        "id": 217
+      },
+      {
+        "skill": {
+          "id": 87
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，攻擊力1.3倍， 但無提升防禦力效果",
+        "setPiecesRequired": null,
+        "id": 218
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 87,
+    "gameId": 422666624
+  },
+  {
+    "name": "適應環境",
+    "kind": "armor",
+    "description": "擁有對炎熱、寒冷和造成傷害的地形 的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 88
+        },
+        "level": 1,
+        "name": null,
+        "description": "使炎熱、寒冷的影響無效",
+        "setPiecesRequired": null,
+        "id": 219
+      },
+      {
+        "skill": {
+          "id": 88
+        },
+        "level": 2,
+        "name": null,
+        "description": "使炎熱、寒冷和地形造成的傷害無效",
+        "setPiecesRequired": null,
+        "id": 220
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 88,
+    "gameId": 424768352
+  },
+  {
+    "name": "皮革製品的滑順質感",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 89
+        },
+        "level": 1,
+        "name": "滑走強化",
+        "description": "利用地形滑行後，增加一定時間內的 會心率。",
+        "setPiecesRequired": 3,
+        "id": 221
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 89,
+    "gameId": 451472896
+  },
+  {
+    "name": "整備",
+    "kind": "armor",
+    "description": "縮短特殊裝備的冷卻時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 90
+        },
+        "level": 1,
+        "name": null,
+        "description": "縮短冷卻時間10%",
+        "setPiecesRequired": null,
+        "id": 222
+      },
+      {
+        "skill": {
+          "id": 90
+        },
+        "level": 2,
+        "name": null,
+        "description": "縮短冷卻時間20%",
+        "setPiecesRequired": null,
+        "id": 223
+      },
+      {
+        "skill": {
+          "id": 90
+        },
+        "level": 3,
+        "name": null,
+        "description": "縮短冷卻時間30%",
+        "setPiecesRequired": null,
+        "id": 224
+      },
+      {
+        "skill": {
+          "id": 90
+        },
+        "level": 4,
+        "name": null,
+        "description": "縮短冷卻時間40%",
+        "setPiecesRequired": null,
+        "id": 225
+      },
+      {
+        "skill": {
+          "id": 90
+        },
+        "level": 5,
+        "name": null,
+        "description": "縮短冷卻時間50%",
+        "setPiecesRequired": null,
+        "id": 226
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 90,
+    "gameId": 469540352
+  },
+  {
+    "name": "水屬性攻擊強化",
+    "kind": "weapon",
+    "description": "強化武器的水屬性值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 91
+        },
+        "level": 1,
+        "name": null,
+        "description": "水屬性攻擊值+40",
+        "setPiecesRequired": null,
+        "id": 227
+      },
+      {
+        "skill": {
+          "id": 91
+        },
+        "level": 2,
+        "name": null,
+        "description": "水屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null,
+        "id": 228
+      },
+      {
+        "skill": {
+          "id": 91
+        },
+        "level": 3,
+        "name": null,
+        "description": "水屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null,
+        "id": 229
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 91,
+    "gameId": 508916704
+  },
+  {
+    "name": "麻痺耐性",
+    "kind": "armor",
+    "description": "縮短麻痺狀態的時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 92
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少麻痺狀態的時間30%",
+        "setPiecesRequired": null,
+        "id": 230
+      },
+      {
+        "skill": {
+          "id": 92
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少麻痺狀態的時間60%",
+        "setPiecesRequired": null,
+        "id": 231
+      },
+      {
+        "skill": {
+          "id": 92
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會進入麻痺狀態",
+        "setPiecesRequired": null,
+        "id": 232
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 92,
+    "gameId": 522288832
+  },
+  {
+    "name": "煌雷龍之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 93
+        },
+        "level": 1,
+        "name": "雷霆響鳴Ⅰ",
+        "description": "小幅延長技能「力量解放」的發動時間。",
+        "setPiecesRequired": 2,
+        "id": 233
+      },
+      {
+        "skill": {
+          "id": 93
+        },
+        "level": 2,
+        "name": "雷霆響鳴Ⅱ",
+        "description": "延長技能「力量解放」的發動時間。",
+        "setPiecesRequired": 4,
+        "id": 234
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 93,
+    "gameId": 539707072
+  },
+  {
+    "name": "貫通彈・龍之箭強化",
+    "kind": "weapon",
+    "description": "增加弩槍的貫通彈和弓的龍之箭、 龍之千矢的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 94
+        },
+        "level": 1,
+        "name": null,
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null,
+        "id": 235
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 94,
+    "gameId": 552982656
+  },
+  {
+    "name": "連擊",
+    "kind": "armor",
+    "description": "攻擊不斷命中時，逐漸增加攻擊力和 屬性值。（增幅因武器種類而異）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 95
+        },
+        "level": 1,
+        "name": null,
+        "description": "攻擊命中後，一定時間內稍微提升 基礎攻擊力和屬性攻擊值；連續發動 5次時增幅上升",
+        "setPiecesRequired": null,
+        "id": 236
+      },
+      {
+        "skill": {
+          "id": 95
+        },
+        "level": 2,
+        "name": null,
+        "description": "小幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null,
+        "id": 237
+      },
+      {
+        "skill": {
+          "id": 95
+        },
+        "level": 3,
+        "name": null,
+        "description": "進一步強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null,
+        "id": 238
+      },
+      {
+        "skill": {
+          "id": 95
+        },
+        "level": 4,
+        "name": null,
+        "description": "大幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null,
+        "id": 239
+      },
+      {
+        "skill": {
+          "id": 95
+        },
+        "level": 5,
+        "name": null,
+        "description": "極大幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null,
+        "id": 240
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 95,
+    "gameId": 565867136
+  },
+  {
+    "name": "白熾奔流",
+    "kind": "weapon",
+    "description": "攻擊命中時，隨機造成額外傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 96
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果（與炎熱化並用時，將不會 發動炎熱化效果，但將造成額外火屬性 傷害）",
+        "setPiecesRequired": null,
+        "id": 241
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 96,
+    "gameId": 576193792
+  },
+  {
+    "name": "毛皮的誘惑",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 97
+        },
+        "level": 1,
+        "name": "佯攻",
+        "description": "攻擊命中時更能吸引魔物的注意。",
+        "setPiecesRequired": 3,
+        "id": 242
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 97,
+    "gameId": 583598144
+  },
+  {
+    "name": "地質學",
+    "kind": "armor",
+    "description": "增加採集點的道具取得數。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 98
+        },
+        "level": 1,
+        "name": null,
+        "description": "骸骨採集點的取得數+1",
+        "setPiecesRequired": null,
+        "id": 243
+      },
+      {
+        "skill": {
+          "id": 98
+        },
+        "level": 2,
+        "name": null,
+        "description": "骸骨、特產品採集點的取得數+1",
+        "setPiecesRequired": null,
+        "id": 244
+      },
+      {
+        "skill": {
+          "id": 98
+        },
+        "level": 3,
+        "name": null,
+        "description": "骸骨、特產品、礦石採掘點的取得數+1",
+        "setPiecesRequired": null,
+        "id": 245
+      }
+    ],
+    "icon": {
+      "id": 12,
+      "kind": "gathering"
+    },
+    "id": 98,
+    "gameId": 595870656
+  },
+  {
+    "name": "精神抖擻",
+    "kind": "armor",
+    "description": "維持耐力計量表全滿一段時間後， 增加會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 99
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動時，會心率+10%",
+        "setPiecesRequired": null,
+        "id": 246
+      },
+      {
+        "skill": {
+          "id": 99
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果發動時，會心率+20%",
+        "setPiecesRequired": null,
+        "id": 247
+      },
+      {
+        "skill": {
+          "id": 99
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果發動時，會心率+30%",
+        "setPiecesRequired": null,
+        "id": 248
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 99,
+    "gameId": 632127488
+  },
+  {
+    "name": "快吃",
+    "kind": "armor",
+    "description": "加快食用肉及道具的速度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 100
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅增加進食速度",
+        "setPiecesRequired": null,
+        "id": 249
+      },
+      {
+        "skill": {
+          "id": 100
+        },
+        "level": 2,
+        "name": null,
+        "description": "增加進食速度",
+        "setPiecesRequired": null,
+        "id": 250
+      },
+      {
+        "skill": {
+          "id": 100
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅增加進食速度",
+        "setPiecesRequired": null,
+        "id": 251
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 100,
+    "gameId": 634068352
+  },
+  {
+    "name": "冰耐性",
+    "kind": "armor",
+    "description": "增加冰耐性。提升技能等級後， 也會影響防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 101
+        },
+        "level": 1,
+        "name": null,
+        "description": "冰耐性+6",
+        "setPiecesRequired": null,
+        "id": 252
+      },
+      {
+        "skill": {
+          "id": 101
+        },
+        "level": 2,
+        "name": null,
+        "description": "冰耐性+12",
+        "setPiecesRequired": null,
+        "id": 253
+      },
+      {
+        "skill": {
+          "id": 101
+        },
+        "level": 3,
+        "name": null,
+        "description": "冰耐性+20、防禦力+10",
+        "setPiecesRequired": null,
+        "id": 254
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 101,
+    "gameId": 652161472
+  },
+  {
+    "name": "迴避距離上升",
+    "kind": "armor",
+    "description": "延長迴避時的移動距離。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 102
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅延長迴避距離",
+        "setPiecesRequired": null,
+        "id": 255
+      },
+      {
+        "skill": {
+          "id": 102
+        },
+        "level": 2,
+        "name": null,
+        "description": "延長迴避距離",
+        "setPiecesRequired": null,
+        "id": 256
+      },
+      {
+        "skill": {
+          "id": 102
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅延長迴避距離",
+        "setPiecesRequired": null,
+        "id": 257
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 102,
+    "gameId": 673822976
+  },
+  {
+    "name": "拔刀術【技】",
+    "kind": "weapon",
+    "description": "拔刀行動後，增加一定時間內的會心率。 （策騎時不會發動）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 103
+        },
+        "level": 1,
+        "name": null,
+        "description": "會心率+50%",
+        "setPiecesRequired": null,
+        "id": 258
+      },
+      {
+        "skill": {
+          "id": 103
+        },
+        "level": 2,
+        "name": null,
+        "description": "會心率+75%",
+        "setPiecesRequired": null,
+        "id": 259
+      },
+      {
+        "skill": {
+          "id": 103
+        },
+        "level": 3,
+        "name": null,
+        "description": "會心率+100%",
+        "setPiecesRequired": null,
+        "id": 260
+      }
+    ],
+    "icon": {
+      "id": 2,
+      "kind": "affinity"
+    },
+    "id": 103,
+    "gameId": 686533440
+  },
+  {
+    "name": "強化持續",
+    "kind": "weapon",
+    "description": "延長太刀、雙劍、斬擊斧、充能斧和 操蟲棍的強化狀態時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 104
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅延長強化時間",
+        "setPiecesRequired": null,
+        "id": 261
+      },
+      {
+        "skill": {
+          "id": 104
+        },
+        "level": 2,
+        "name": null,
+        "description": "延長強化時間",
+        "setPiecesRequired": null,
+        "id": 262
+      },
+      {
+        "skill": {
+          "id": 104
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅延長強化時間",
+        "setPiecesRequired": null,
+        "id": 263
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 104,
+    "gameId": 691199232
+  },
+  {
+    "name": "昏厥耐性",
+    "kind": "armor",
+    "description": "縮短昏厥狀態的時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 105
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少昏厥狀態的時間30%",
+        "setPiecesRequired": null,
+        "id": 264
+      },
+      {
+        "skill": {
+          "id": 105
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少昏厥狀態的時間60%",
+        "setPiecesRequired": null,
+        "id": 265
+      },
+      {
+        "skill": {
+          "id": 105
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入昏厥狀態",
+        "setPiecesRequired": null,
+        "id": 266
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 105,
+    "gameId": 705317568
+  },
+  {
+    "name": "黑蝕龍之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 106
+        },
+        "level": 1,
+        "name": "黑蝕一體Ⅰ",
+        "description": "狩獵大型魔物時感染狂龍病毒。",
+        "setPiecesRequired": 2,
+        "id": 267
+      },
+      {
+        "skill": {
+          "id": 106
+        },
+        "level": 2,
+        "name": "黑蝕一體Ⅱ",
+        "description": "狩獵大型魔物時感染狂龍病毒， 並提升攻擊力；克服狂龍症後 進一步提升攻擊力。",
+        "setPiecesRequired": 4,
+        "id": 268
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 106,
+    "gameId": 722735744
+  },
+  {
+    "name": "雪獅子王之鬥志",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 107
+        },
+        "level": 1,
+        "name": "戰嚎Ⅰ",
+        "description": "使用動作「吼叫」時，小幅提升周圍成員 一定時間內的攻擊力。隨從與支援獵人所 受的效果較大。",
+        "setPiecesRequired": 2,
+        "id": 269
+      },
+      {
+        "skill": {
+          "id": 107
+        },
+        "level": 2,
+        "name": "戰嚎Ⅱ",
+        "description": "使用動作「吼叫」時，提升周圍成員 一定時間內的攻擊力。隨從與支援獵人 所受的效果較大。",
+        "setPiecesRequired": 4,
+        "id": 270
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 107,
+    "gameId": 741102208
+  },
+  {
+    "name": "減輕膽怯",
+    "kind": "armor",
+    "description": "減輕受到小傷害時的反應。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 108
+        },
+        "level": 1,
+        "name": null,
+        "description": "使後仰無效",
+        "setPiecesRequired": null,
+        "id": 271
+      },
+      {
+        "skill": {
+          "id": 108
+        },
+        "level": 2,
+        "name": null,
+        "description": "使後仰無效，並將坐倒在地減輕至後仰",
+        "setPiecesRequired": null,
+        "id": 272
+      },
+      {
+        "skill": {
+          "id": 108
+        },
+        "level": 3,
+        "name": null,
+        "description": "使後仰和坐倒在地無效",
+        "setPiecesRequired": null,
+        "id": 273
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 108,
+    "gameId": 742695104
+  },
+  {
+    "name": "砲彈裝填",
+    "kind": "weapon",
+    "description": "使銃槍砲彈與充能斧的瓶的裝填變流暢， 並增加銃槍的裝填數與充能斧的充能 數量。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 109
+        },
+        "level": 1,
+        "name": null,
+        "description": "加快砲彈與瓶的裝填速度",
+        "setPiecesRequired": null,
+        "id": 274
+      },
+      {
+        "skill": {
+          "id": 109
+        },
+        "level": 2,
+        "name": null,
+        "description": "進一步加快砲彈與瓶的裝填速度， 銃槍的裝填數+1，並增加充能斧的 充能數量",
+        "setPiecesRequired": null,
+        "id": 275
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 109,
+    "gameId": 802725120
+  },
+  {
+    "name": "爆破異常耐性",
+    "kind": "armor",
+    "description": "擁有對爆破異常的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 110
+        },
+        "level": 1,
+        "name": null,
+        "description": "延遲爆炸，並減輕爆炸時的傷害",
+        "setPiecesRequired": null,
+        "id": 276
+      },
+      {
+        "skill": {
+          "id": 110
+        },
+        "level": 2,
+        "name": null,
+        "description": "進一步延遲爆炸，並大幅減輕 爆炸時的傷害",
+        "setPiecesRequired": null,
+        "id": 277
+      },
+      {
+        "skill": {
+          "id": 110
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入爆破異常",
+        "setPiecesRequired": null,
+        "id": 278
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 110,
+    "gameId": 820385792
+  },
+  {
+    "name": "滿足感",
+    "kind": "armor",
+    "description": "使用飲食道具時，有一定機率不消耗 該道具，並可再次使用。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 111
+        },
+        "level": 1,
+        "name": null,
+        "description": "有10%機率發動效果",
+        "setPiecesRequired": null,
+        "id": 279
+      },
+      {
+        "skill": {
+          "id": 111
+        },
+        "level": 2,
+        "name": null,
+        "description": "有25%機率發動效果",
+        "setPiecesRequired": null,
+        "id": 280
+      },
+      {
+        "skill": {
+          "id": 111
+        },
+        "level": 3,
+        "name": null,
+        "description": "有45%機率發動效果",
+        "setPiecesRequired": null,
+        "id": 281
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 111,
+    "gameId": 850626240
+  },
+  {
+    "name": "植生學",
+    "kind": "armor",
+    "description": "增加藥草等消耗道具的取得數。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 112
+        },
+        "level": 1,
+        "name": null,
+        "description": "草系消耗道具的取得數+1",
+        "setPiecesRequired": null,
+        "id": 282
+      },
+      {
+        "skill": {
+          "id": 112
+        },
+        "level": 2,
+        "name": null,
+        "description": "草系、果實、種子系消耗道具的取得數+1",
+        "setPiecesRequired": null,
+        "id": 283
+      },
+      {
+        "skill": {
+          "id": 112
+        },
+        "level": 3,
+        "name": null,
+        "description": "草系、果實、種子系、蟲系消耗道具的 取得數+1",
+        "setPiecesRequired": null,
+        "id": 284
+      },
+      {
+        "skill": {
+          "id": 112
+        },
+        "level": 4,
+        "name": null,
+        "description": "草系、果實、種子系、蟲系、菇系 消耗道具的取得數+1",
+        "setPiecesRequired": null,
+        "id": 285
+      }
+    ],
+    "icon": {
+      "id": 12,
+      "kind": "gathering"
+    },
+    "id": 112,
+    "gameId": 860517760
+  },
+  {
+    "name": "廣域化",
+    "kind": "armor",
+    "description": "擴展部分道具的效果至一定範圍內的 同伴。提升技能等級後，會加大範圍與 效果。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 113
+        },
+        "level": 1,
+        "name": null,
+        "description": "給予周圍同伴1/3的效果",
+        "setPiecesRequired": null,
+        "id": 286
+      },
+      {
+        "skill": {
+          "id": 113
+        },
+        "level": 2,
+        "name": null,
+        "description": "給予大範圍內同伴1/3的效果",
+        "setPiecesRequired": null,
+        "id": 287
+      },
+      {
+        "skill": {
+          "id": 113
+        },
+        "level": 3,
+        "name": null,
+        "description": "給予大範圍內同伴2/3的效果",
+        "setPiecesRequired": null,
+        "id": 288
+      },
+      {
+        "skill": {
+          "id": 113
+        },
+        "level": 4,
+        "name": null,
+        "description": "給予極大範圍內同伴2/3的效果",
+        "setPiecesRequired": null,
+        "id": 289
+      },
+      {
+        "skill": {
+          "id": 113
+        },
+        "level": 5,
+        "name": null,
+        "description": "給予極大範圍內同伴同等的效果",
+        "setPiecesRequired": null,
+        "id": 290
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 113,
+    "gameId": 894530496
+  },
+  {
+    "name": "昆蟲標本達人",
+    "kind": "armor",
+    "description": "以攻擊討伐昆蟲型的小型魔物時， 必會留下可剝取的屍體。 （部分魔物除外）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 114
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 291
+      }
+    ],
+    "icon": {
+      "id": 12,
+      "kind": "gathering"
+    },
+    "id": 114,
+    "gameId": 898284480
+  },
+  {
+    "name": "兇爪龍之力",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 115
+        },
+        "level": 1,
+        "name": "連擊強化Ⅰ",
+        "description": "技能「連擊」效果發動時延長其有效 時間，基礎攻擊力+8。",
+        "setPiecesRequired": 2,
+        "id": 292
+      },
+      {
+        "skill": {
+          "id": 115
+        },
+        "level": 2,
+        "name": "連擊強化Ⅱ",
+        "description": "技能「連擊」效果發動時進一步延長 其有效時間，基礎攻擊力+18。",
+        "setPiecesRequired": 4,
+        "id": 293
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 115,
+    "gameId": 918165056
+  },
+  {
+    "name": "毒瓶追加",
+    "kind": "weapon",
+    "description": "裝備弓時可裝填毒瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 116
+        },
+        "level": 1,
+        "name": null,
+        "description": "可裝填毒瓶",
+        "setPiecesRequired": null,
+        "id": 294
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 116,
+    "gameId": 919683456
+  },
+  {
+    "name": "利刃",
+    "kind": "weapon",
+    "description": "抑制銳利度消耗。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 117
+        },
+        "level": 1,
+        "name": null,
+        "description": "有10%機率不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 295
+      },
+      {
+        "skill": {
+          "id": 117
+        },
+        "level": 2,
+        "name": null,
+        "description": "有25%機率不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 296
+      },
+      {
+        "skill": {
+          "id": 117
+        },
+        "level": 3,
+        "name": null,
+        "description": "有50%機率不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 297
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 117,
+    "gameId": 1050520384
+  },
+  {
+    "name": "防禦",
+    "kind": "armor",
+    "description": "增加角色的防禦力。提升技能等級後， 也會影響耐性值。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 1,
+        "name": null,
+        "description": "防禦力+5",
+        "setPiecesRequired": null,
+        "id": 298
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 2,
+        "name": null,
+        "description": "防禦力+10",
+        "setPiecesRequired": null,
+        "id": 299
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 3,
+        "name": null,
+        "description": "防禦力1.05倍後+10",
+        "setPiecesRequired": null,
+        "id": 300
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 4,
+        "name": null,
+        "description": "防禦力1.05倍後+20， 全屬性耐性值+3",
+        "setPiecesRequired": null,
+        "id": 301
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 5,
+        "name": null,
+        "description": "防禦力1.08倍後+20， 全屬性耐性值+3",
+        "setPiecesRequired": null,
+        "id": 302
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 6,
+        "name": null,
+        "description": "防禦力1.08倍後+35， 全屬性耐性值+5",
+        "setPiecesRequired": null,
+        "id": 303
+      },
+      {
+        "skill": {
+          "id": 118
+        },
+        "level": 7,
+        "name": null,
+        "description": "防禦力1.1倍後+35， 全屬性耐性值+5",
+        "setPiecesRequired": null,
+        "id": 304
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 118,
+    "gameId": 1077686656
+  },
+  {
+    "name": "匠",
+    "kind": "weapon",
+    "description": "延長武器的銳利度計量表， 但不會超過上限。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 119
+        },
+        "level": 1,
+        "name": null,
+        "description": "武器銳利度+10",
+        "setPiecesRequired": null,
+        "id": 305
+      },
+      {
+        "skill": {
+          "id": 119
+        },
+        "level": 2,
+        "name": null,
+        "description": "武器銳利度+20",
+        "setPiecesRequired": null,
+        "id": 306
+      },
+      {
+        "skill": {
+          "id": 119
+        },
+        "level": 3,
+        "name": null,
+        "description": "武器銳利度+30",
+        "setPiecesRequired": null,
+        "id": 307
+      },
+      {
+        "skill": {
+          "id": 119
+        },
+        "level": 4,
+        "name": null,
+        "description": "武器銳利度+40",
+        "setPiecesRequired": null,
+        "id": 308
+      },
+      {
+        "skill": {
+          "id": 119
+        },
+        "level": 5,
+        "name": null,
+        "description": "武器銳利度+50",
+        "setPiecesRequired": null,
+        "id": 309
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 119,
+    "gameId": 1160639488
+  },
+  {
+    "name": "巧擊",
+    "kind": "armor",
+    "description": "迴避時，若時機正好與魔物的攻擊 重合，增加一定時間內的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 120
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null,
+        "id": 310
+      },
+      {
+        "skill": {
+          "id": 120
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null,
+        "id": 311
+      },
+      {
+        "skill": {
+          "id": 120
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null,
+        "id": 312
+      },
+      {
+        "skill": {
+          "id": 120
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+25",
+        "setPiecesRequired": null,
+        "id": 313
+      },
+      {
+        "skill": {
+          "id": 120
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+30",
+        "setPiecesRequired": null,
+        "id": 314
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 120,
+    "gameId": 1174975744
+  },
+  {
+    "name": "冰屬性攻擊強化",
+    "kind": "weapon",
+    "description": "強化武器的冰屬性值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 121
+        },
+        "level": 1,
+        "name": null,
+        "description": "冰屬性攻擊值+40",
+        "setPiecesRequired": null,
+        "id": 315
+      },
+      {
+        "skill": {
+          "id": 121
+        },
+        "level": 2,
+        "name": null,
+        "description": "冰屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null,
+        "id": 316
+      },
+      {
+        "skill": {
+          "id": 121
+        },
+        "level": 3,
+        "name": null,
+        "description": "冰屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null,
+        "id": 317
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 121,
+    "gameId": 1268070400
+  },
+  {
+    "name": "精靈加護",
+    "kind": "armor",
+    "description": "一定機率減少角色受到的傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 122
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動時，減少傷害15%",
+        "setPiecesRequired": null,
+        "id": 318
+      },
+      {
+        "skill": {
+          "id": 122
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果發動時，減少傷害30%",
+        "setPiecesRequired": null,
+        "id": 319
+      },
+      {
+        "skill": {
+          "id": 122
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果發動時，減少傷害50%",
+        "setPiecesRequired": null,
+        "id": 320
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 122,
+    "gameId": 1346775424
+  },
+  {
+    "name": "怨恨",
+    "kind": "armor",
+    "description": "體力計量表有紅色部分時，增加攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 123
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+5",
+        "setPiecesRequired": null,
+        "id": 321
+      },
+      {
+        "skill": {
+          "id": 123
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null,
+        "id": 322
+      },
+      {
+        "skill": {
+          "id": 123
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null,
+        "id": 323
+      },
+      {
+        "skill": {
+          "id": 123
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null,
+        "id": 324
+      },
+      {
+        "skill": {
+          "id": 123
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+25",
+        "setPiecesRequired": null,
+        "id": 325
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 123,
+    "gameId": 1359821952
+  },
+  {
+    "name": "達人藝",
+    "kind": "weapon",
+    "description": "會心攻擊時，抑制銳利度消耗。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 124
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動時，有80%機率 不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 326
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 124,
+    "gameId": 1389859584
+  },
+  {
+    "name": "火耐性",
+    "kind": "armor",
+    "description": "增加火耐性。提升技能等級後， 也會影響防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 125
+        },
+        "level": 1,
+        "name": null,
+        "description": "火耐性+6",
+        "setPiecesRequired": null,
+        "id": 327
+      },
+      {
+        "skill": {
+          "id": 125
+        },
+        "level": 2,
+        "name": null,
+        "description": "火耐性+12",
+        "setPiecesRequired": null,
+        "id": 328
+      },
+      {
+        "skill": {
+          "id": 125
+        },
+        "level": 3,
+        "name": null,
+        "description": "火耐性+20、防禦力+10",
+        "setPiecesRequired": null,
+        "id": 329
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 125,
+    "gameId": 1425756032
+  },
+  {
+    "name": "砥石使用高速化",
+    "kind": "weapon",
+    "description": "縮短砥石的使用時間。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 126
+        },
+        "level": 1,
+        "name": null,
+        "description": "省略1次研磨動作",
+        "setPiecesRequired": null,
+        "id": 330
+      },
+      {
+        "skill": {
+          "id": 126
+        },
+        "level": 2,
+        "name": null,
+        "description": "省略2次研磨動作",
+        "setPiecesRequired": null,
+        "id": 331
+      }
+    ],
+    "icon": {
+      "id": 11,
+      "kind": "item"
+    },
+    "id": 126,
+    "gameId": 1444935552
+  },
+  {
+    "name": "雷屬性攻擊強化",
+    "kind": "weapon",
+    "description": "強化武器的雷屬性值（有上限）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 127
+        },
+        "level": 1,
+        "name": null,
+        "description": "雷屬性攻擊值+40",
+        "setPiecesRequired": null,
+        "id": 332
+      },
+      {
+        "skill": {
+          "id": 127
+        },
+        "level": 2,
+        "name": null,
+        "description": "雷屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null,
+        "id": 333
+      },
+      {
+        "skill": {
+          "id": 127
+        },
+        "level": 3,
+        "name": null,
+        "description": "雷屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null,
+        "id": 334
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 127,
+    "gameId": 1452140672
+  },
+  {
+    "name": "毒耐性",
+    "kind": "armor",
+    "description": "減少毒狀態時受到的傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 128
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少受到中毒傷害的次數",
+        "setPiecesRequired": null,
+        "id": 335
+      },
+      {
+        "skill": {
+          "id": 128
+        },
+        "level": 2,
+        "name": null,
+        "description": "大幅減少受到中毒傷害的次數",
+        "setPiecesRequired": null,
+        "id": 336
+      },
+      {
+        "skill": {
+          "id": 128
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入中毒狀態",
+        "setPiecesRequired": null,
+        "id": 337
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 128,
+    "gameId": 1459579264
+  },
+  {
+    "name": "破壞王",
+    "kind": "armor",
+    "description": "變得容易破壞大型魔物的部位， 並增加以集中弱點攻擊破壞傷口時 造成的傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 129
+        },
+        "level": 1,
+        "name": null,
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.1倍",
+        "setPiecesRequired": null,
+        "id": 338
+      },
+      {
+        "skill": {
+          "id": 129
+        },
+        "level": 2,
+        "name": null,
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.2倍",
+        "setPiecesRequired": null,
+        "id": 339
+      },
+      {
+        "skill": {
+          "id": 129
+        },
+        "level": 3,
+        "name": null,
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.3倍",
+        "setPiecesRequired": null,
+        "id": 340
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 129,
+    "gameId": 1470960256
+  },
+  {
+    "name": "威嚇",
+    "kind": "armor",
+    "description": "即使被小型魔物發現也不容易進入戰鬥 狀態。（對甲蟲種等部分魔物無效）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 130
+        },
+        "level": 1,
+        "name": null,
+        "description": "即使被發現也不容易進入戰鬥狀態",
+        "setPiecesRequired": null,
+        "id": 341
+      },
+      {
+        "skill": {
+          "id": 130
+        },
+        "level": 2,
+        "name": null,
+        "description": "即使被發現也幾乎不會進入戰鬥狀態",
+        "setPiecesRequired": null,
+        "id": 342
+      },
+      {
+        "skill": {
+          "id": 130
+        },
+        "level": 3,
+        "name": null,
+        "description": "即使被發現也不會進入戰鬥狀態",
+        "setPiecesRequired": null,
+        "id": 343
+      }
+    ],
+    "icon": {
+      "id": 10,
+      "kind": "utility"
+    },
+    "id": 130,
+    "gameId": 1472632704
+  },
+  {
+    "name": "霸主之魂",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 131
+        },
+        "level": 1,
+        "name": "毅力【果斷】",
+        "description": "減輕致命傷害一次，並於傷害減輕效果 發動前提升攻擊力、降低防禦力； 發動後提升防禦力與耐性值",
+        "setPiecesRequired": 3,
+        "id": 344
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 131,
+    "gameId": 1484575872
+  },
+  {
+    "name": "鋪排鱗片的技巧",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 132
+        },
+        "level": 1,
+        "name": "騎乘名人",
+        "description": "較容易騎乘魔物，騎乘狀態時 亦較容易成功。",
+        "setPiecesRequired": 3,
+        "id": 345
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 132,
+    "gameId": 1487598336
+  },
+  {
+    "name": "屬性吸收",
+    "kind": "armor",
+    "description": "受到屬性攻擊後發動，於一定時間內獲得 和屬性相關的效果（效果結束後於一定時 間內不會再發動）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 133
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，極小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+4",
+        "setPiecesRequired": null,
+        "id": 346
+      },
+      {
+        "skill": {
+          "id": 133
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+6",
+        "setPiecesRequired": null,
+        "id": 347
+      },
+      {
+        "skill": {
+          "id": 133
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+8",
+        "setPiecesRequired": null,
+        "id": 348
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 133,
+    "gameId": 1489568384
+  },
+  {
+    "name": "剛刃研磨",
+    "kind": "weapon",
+    "description": "研磨武器後，一定時間內不會消耗 銳利度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 134
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動後，30秒內不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 349
+      },
+      {
+        "skill": {
+          "id": 134
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果發動後，60秒內不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 350
+      },
+      {
+        "skill": {
+          "id": 134
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果發動後，90秒內不會消耗銳利度",
+        "setPiecesRequired": null,
+        "id": 351
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 134,
+    "gameId": 1500129152
+  },
+  {
+    "name": "防禦力下降耐性",
+    "kind": "armor",
+    "description": "擁有對防禦力下降的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 135
+        },
+        "level": 1,
+        "name": null,
+        "description": "減少防禦力下降狀態的時間50%",
+        "setPiecesRequired": null,
+        "id": 352
+      },
+      {
+        "skill": {
+          "id": 135
+        },
+        "level": 2,
+        "name": null,
+        "description": "減少防禦力下降狀態的時間75%",
+        "setPiecesRequired": null,
+        "id": 353
+      },
+      {
+        "skill": {
+          "id": 135
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入防禦力下降狀態。",
+        "setPiecesRequired": null,
+        "id": 354
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 135,
+    "gameId": 1522518528
+  },
+  {
+    "name": "心眼",
+    "kind": "weapon",
+    "description": "攻擊較不易被彈開，增加對堅硬部位的 攻擊的威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 136
+        },
+        "level": 1,
+        "name": null,
+        "description": "攻擊有50%機率不會被彈開， 對堅硬部位的威力1.1倍",
+        "setPiecesRequired": null,
+        "id": 355
+      },
+      {
+        "skill": {
+          "id": 136
+        },
+        "level": 2,
+        "name": null,
+        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.15倍",
+        "setPiecesRequired": null,
+        "id": 356
+      },
+      {
+        "skill": {
+          "id": 136
+        },
+        "level": 3,
+        "name": null,
+        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.3倍",
+        "setPiecesRequired": null,
+        "id": 357
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 136,
+    "gameId": 1594792704
+  },
+  {
+    "name": "第四射擊",
+    "kind": "weapon",
+    "description": "提升弩槍和弓裝填瓶後的第四及第六發 射擊的攻擊力，以及第四發及後續射擊 的會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 137
+        },
+        "level": 1,
+        "name": null,
+        "description": "滿足條件時，極小幅提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null,
+        "id": 358
+      },
+      {
+        "skill": {
+          "id": 137
+        },
+        "level": 2,
+        "name": null,
+        "description": "滿足條件時，小幅提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null,
+        "id": 359
+      },
+      {
+        "skill": {
+          "id": 137
+        },
+        "level": 3,
+        "name": null,
+        "description": "滿足條件時，提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null,
+        "id": 360
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 137,
+    "gameId": 1613139840
+  },
+  {
+    "name": "鑽研",
+    "kind": "armor",
+    "description": "隨任務時間推移增加攻擊力與防禦力。 （增幅於30分鐘後達到上限）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 138
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 361
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 138,
+    "gameId": 1639440000
+  },
+  {
+    "name": "甲蟲的擬態",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 139
+        },
+        "level": 1,
+        "name": "躡足而行",
+        "description": "提升蹲下時的移動速度，不容易 被大型魔物發現。",
+        "setPiecesRequired": 3,
+        "id": 362
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 139,
+    "gameId": 1685697920
+  },
+  {
+    "name": "首發射擊",
+    "kind": "weapon",
+    "description": "提升弩槍的裝填速度，並於裝填至全滿時 增加彈藥威力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 140
+        },
+        "level": 1,
+        "name": null,
+        "description": "小幅提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null,
+        "id": 363
+      },
+      {
+        "skill": {
+          "id": 140
+        },
+        "level": 2,
+        "name": null,
+        "description": "提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null,
+        "id": 364
+      },
+      {
+        "skill": {
+          "id": 140
+        },
+        "level": 3,
+        "name": null,
+        "description": "大幅提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null,
+        "id": 365
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 140,
+    "gameId": 1711950720
+  },
+  {
+    "name": "奪取耐力",
+    "kind": "weapon",
+    "description": "提高特定攻擊使魔物疲勞的效果。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 141
+        },
+        "level": 1,
+        "name": null,
+        "description": "減氣威力1.2倍",
+        "setPiecesRequired": null,
+        "id": 366
+      },
+      {
+        "skill": {
+          "id": 141
+        },
+        "level": 2,
+        "name": null,
+        "description": "減氣威力1.3倍",
+        "setPiecesRequired": null,
+        "id": 367
+      },
+      {
+        "skill": {
+          "id": 141
+        },
+        "level": 3,
+        "name": null,
+        "description": "減氣威力1.4倍",
+        "setPiecesRequired": null,
+        "id": 368
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 141,
+    "gameId": 1758661504
+  },
+  {
+    "name": "力量解放",
+    "kind": "armor",
+    "description": "滿足特定條件後，增加一定時間內的 會心率，並減少耐力消耗量。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 142
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，會心率+10%， 減少耐力消耗量30%",
+        "setPiecesRequired": null,
+        "id": 369
+      },
+      {
+        "skill": {
+          "id": 142
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，會心率+20%， 減少耐力消耗量30%",
+        "setPiecesRequired": null,
+        "id": 370
+      },
+      {
+        "skill": {
+          "id": 142
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，會心率+30%， 減少耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 371
+      },
+      {
+        "skill": {
+          "id": 142
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，會心率+40%， 減少耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 372
+      },
+      {
+        "skill": {
+          "id": 142
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，會心率+50%， 減少耐力消耗量50%",
+        "setPiecesRequired": null,
+        "id": 373
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 142,
+    "gameId": 1763191040
+  },
+  {
+    "name": "獵人生活",
+    "kind": "armor",
+    "description": "提升釣魚、烤肉和搬運的技術。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 143
+        },
+        "level": 1,
+        "name": null,
+        "description": "提升釣魚、烤肉和搬運的技術",
+        "setPiecesRequired": null,
+        "id": 374
+      }
+    ],
+    "icon": {
+      "id": 12,
+      "kind": "gathering"
+    },
+    "id": 143,
+    "gameId": 1845834112
+  },
+  {
+    "name": "挑戰者",
+    "kind": "armor",
+    "description": "戰鬥中的大型魔物發怒時， 增加攻擊力與會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 144
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+4， 會心率+3%",
+        "setPiecesRequired": null,
+        "id": 375
+      },
+      {
+        "skill": {
+          "id": 144
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+8， 會心率+5%",
+        "setPiecesRequired": null,
+        "id": 376
+      },
+      {
+        "skill": {
+          "id": 144
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+12， 會心率+7%",
+        "setPiecesRequired": null,
+        "id": 377
+      },
+      {
+        "skill": {
+          "id": 144
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+16， 會心率+10%",
+        "setPiecesRequired": null,
+        "id": 378
+      },
+      {
+        "skill": {
+          "id": 144
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+20， 會心率+15%",
+        "setPiecesRequired": null,
+        "id": 379
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 144,
+    "gameId": 1865909632
+  },
+  {
+    "name": "指示隨從",
+    "kind": "armor",
+    "description": "增加隨從的攻擊力與防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 145
+        },
+        "level": 1,
+        "name": null,
+        "description": "隨從的攻擊力與防禦力1.05倍",
+        "setPiecesRequired": null,
+        "id": 380
+      },
+      {
+        "skill": {
+          "id": 145
+        },
+        "level": 2,
+        "name": null,
+        "description": "隨從的攻擊力與防禦力1.1倍",
+        "setPiecesRequired": null,
+        "id": 381
+      },
+      {
+        "skill": {
+          "id": 145
+        },
+        "level": 3,
+        "name": null,
+        "description": "隨從的攻擊力與防禦力1.15倍",
+        "setPiecesRequired": null,
+        "id": 382
+      },
+      {
+        "skill": {
+          "id": 145
+        },
+        "level": 4,
+        "name": null,
+        "description": "隨從的攻擊力與防禦力1.2倍",
+        "setPiecesRequired": null,
+        "id": 383
+      },
+      {
+        "skill": {
+          "id": 145
+        },
+        "level": 5,
+        "name": null,
+        "description": "隨從的攻擊力與防禦力1.25倍",
+        "setPiecesRequired": null,
+        "id": 384
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 145,
+    "gameId": 1934955136
+  },
+  {
+    "name": "裂傷耐性",
+    "kind": "armor",
+    "description": "擁有對裂傷狀態的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 146
+        },
+        "level": 1,
+        "name": null,
+        "description": "減輕裂傷狀態造成的傷害",
+        "setPiecesRequired": null,
+        "id": 385
+      },
+      {
+        "skill": {
+          "id": 146
+        },
+        "level": 2,
+        "name": null,
+        "description": "大幅減輕裂傷狀態造成的傷害",
+        "setPiecesRequired": null,
+        "id": 386
+      },
+      {
+        "skill": {
+          "id": 146
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入裂傷狀態",
+        "setPiecesRequired": null,
+        "id": 387
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 146,
+    "gameId": 1940820864
+  },
+  {
+    "name": "束縛耐性",
+    "kind": "armor",
+    "description": "擁有對繩束縛狀態與凍結狀態的耐性。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 147
+        },
+        "level": 1,
+        "name": null,
+        "description": "能快速地從繩束縛狀態 與凍結狀態中回復",
+        "setPiecesRequired": null,
+        "id": 388
+      },
+      {
+        "skill": {
+          "id": 147
+        },
+        "level": 2,
+        "name": null,
+        "description": "能非常快速地從繩束縛狀態 與凍結狀態中回復",
+        "setPiecesRequired": null,
+        "id": 389
+      },
+      {
+        "skill": {
+          "id": 147
+        },
+        "level": 3,
+        "name": null,
+        "description": "不會陷入繩束縛狀態或凍結狀態",
+        "setPiecesRequired": null,
+        "id": 390
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 147,
+    "gameId": 1966172160
+  },
+  {
+    "name": "甲蟲的直覺",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 148
+        },
+        "level": 1,
+        "name": "蜂蜜獵人",
+        "description": "增加在原野採集蜂蜜的取得數。",
+        "setPiecesRequired": 3,
+        "id": 391
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 148,
+    "gameId": 1968728576
+  },
+  {
+    "name": "獄焰鱆之叛逆",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 149
+        },
+        "level": 1,
+        "name": "恨擊Ⅰ",
+        "description": "技能「怨恨」發動時，造成少量 額外傷害。",
+        "setPiecesRequired": 2,
+        "id": 392
+      },
+      {
+        "skill": {
+          "id": 149
+        },
+        "level": 2,
+        "name": "恨擊Ⅱ",
+        "description": "技能「怨恨」發動時，造成額外傷害。",
+        "setPiecesRequired": 4,
+        "id": 393
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 149,
+    "gameId": 1980404096
+  },
+  {
+    "name": "毛皮的昂揚",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 150
+        },
+        "level": 1,
+        "name": "不屈",
+        "description": "任務期間每次力竭倒下後， 提升攻擊力與防禦力。（最多2次）",
+        "setPiecesRequired": 3,
+        "id": 394
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 150,
+    "gameId": 1998066176
+  },
+  {
+    "name": "飢餓耐性",
+    "kind": "armor",
+    "description": "抑制耐力計量表上限隨時間減少的量。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 151
+        },
+        "level": 1,
+        "name": null,
+        "description": "延長耐力減少的間隔時間50%",
+        "setPiecesRequired": null,
+        "id": 395
+      },
+      {
+        "skill": {
+          "id": 151
+        },
+        "level": 2,
+        "name": null,
+        "description": "延長耐力減少的間隔時間100%",
+        "setPiecesRequired": null,
+        "id": 396
+      },
+      {
+        "skill": {
+          "id": 151
+        },
+        "level": 3,
+        "name": null,
+        "description": "耐力上限不會減少",
+        "setPiecesRequired": null,
+        "id": 397
+      }
+    ],
+    "icon": {
+      "id": 8,
+      "kind": "stamina"
+    },
+    "id": 151,
+    "gameId": 2045149568
+  },
+  {
+    "name": "屬性轉換",
+    "kind": "armor",
+    "description": "受到屬性攻擊後發動，於一定時間內獲得 和龍屬性相關的效果（效果結束後於一定 時間內不會再發動）。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 152
+        },
+        "level": 1,
+        "name": null,
+        "description": "效果發動時，小幅提升龍屬性攻擊值， 並於累積屬性傷害後造成額外龍屬性傷害",
+        "setPiecesRequired": null,
+        "id": 398
+      },
+      {
+        "skill": {
+          "id": 152
+        },
+        "level": 2,
+        "name": null,
+        "description": "效果發動時，提升龍屬性攻擊值，並於 累積屬性傷害後造成較多額外龍屬性傷害",
+        "setPiecesRequired": null,
+        "id": 399
+      },
+      {
+        "skill": {
+          "id": 152
+        },
+        "level": 3,
+        "name": null,
+        "description": "效果發動時，大幅提升龍屬性攻擊值， 並於累積屬性傷害後造成更多額外龍屬性 傷害",
+        "setPiecesRequired": null,
+        "id": 400
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 152,
+    "gameId": 2083363072
+  },
+  {
+    "name": "波衣龍之守護",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 153
+        },
+        "level": 1,
+        "name": "守護的液膜Ⅰ",
+        "description": "使用特殊裝備時，提升一定時間內的 防禦力。",
+        "setPiecesRequired": 2,
+        "id": 401
+      },
+      {
+        "skill": {
+          "id": 153
+        },
+        "level": 2,
+        "name": "守護的液膜Ⅱ",
+        "description": "使用特殊裝備時，大幅提升一定時間內的 防禦力和耐性值。",
+        "setPiecesRequired": 4,
+        "id": 402
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 153,
+    "gameId": 2104075392
+  },
+  {
+    "name": "無傷",
+    "kind": "armor",
+    "description": "體力全滿時，增加攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 154
+        },
+        "level": 1,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+3",
+        "setPiecesRequired": null,
+        "id": 403
+      },
+      {
+        "skill": {
+          "id": 154
+        },
+        "level": 2,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+6",
+        "setPiecesRequired": null,
+        "id": 404
+      },
+      {
+        "skill": {
+          "id": 154
+        },
+        "level": 3,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null,
+        "id": 405
+      },
+      {
+        "skill": {
+          "id": 154
+        },
+        "level": 4,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null,
+        "id": 406
+      },
+      {
+        "skill": {
+          "id": 154
+        },
+        "level": 5,
+        "name": null,
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null,
+        "id": 407
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 154,
+    "gameId": 2106877312
+  },
+  {
+    "name": "霸主的盛怒",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 155
+        },
+        "level": 1,
+        "name": "死裡逃生",
+        "description": "陷入狀態異常時提升攻擊力。",
+        "setPiecesRequired": 3,
+        "id": 408
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 155,
+    "gameId": 2107855744
+  },
+  {
+    "name": "雷耐性",
+    "kind": "armor",
+    "description": "增加雷耐性。提升技能等級後， 也會影響防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 156
+        },
+        "level": 1,
+        "name": null,
+        "description": "雷耐性+6",
+        "setPiecesRequired": null,
+        "id": 409
+      },
+      {
+        "skill": {
+          "id": 156
+        },
+        "level": 2,
+        "name": null,
+        "description": "雷耐性+12",
+        "setPiecesRequired": null,
+        "id": 410
+      },
+      {
+        "skill": {
+          "id": 156
+        },
+        "level": 3,
+        "name": null,
+        "description": "雷耐性+20、防禦力+10",
+        "setPiecesRequired": null,
+        "id": 411
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 156,
+    "gameId": 2143068800
+  },
+  {
+    "name": "拳法的極意者",
+    "kind": "group",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 157
+        },
+        "level": 1,
+        "name": "殺意波動",
+        "description": "強化特殊動作的威力，對動力衝擊追加 抵消效果，並於成功連消帶打後於一定 時間內再度強化",
+        "setPiecesRequired": 3,
+        "id": 412
+      }
+    ],
+    "icon": {
+      "id": 13,
+      "kind": "group"
+    },
+    "id": 157,
+    "gameId": 4554
+  },
+  {
+    "name": "飯糰",
+    "kind": "armor",
+    "description": "豪鬼專用動作的攻擊力與觸發昏厥的效果 上升",
+    "ranks": [
+      {
+        "skill": {
+          "id": 158
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 413
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 158,
+    "gameId": 10503
+  },
+  {
+    "name": "烤玉米砲",
+    "kind": "weapon",
+    "description": "銃槍的龍擊計量表紅光閃爍時，提升砲擊 的威力與火屬性攻擊值。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 159
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 414
+      }
+    ],
+    "icon": {
+      "id": 9,
+      "kind": "offense"
+    },
+    "id": 159,
+    "gameId": 1826
+  },
+  {
+    "name": "刃鱗增裝",
+    "kind": "weapon",
+    "description": "拔刀後，若迴避的時機正好與魔物的攻擊 重合，獲得特殊裝填的彈藥或瓶。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 160
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 415
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 160,
+    "gameId": 3504
+  },
+  {
+    "name": "火蹈祈願",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 161
+        },
+        "level": 1,
+        "name": "大地恩惠【火蹈】Ⅰ",
+        "description": "於火蹈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2,
+        "id": 416
+      },
+      {
+        "skill": {
+          "id": 161
+        },
+        "level": 2,
+        "name": "大地恩惠【火蹈】Ⅱ",
+        "description": "於火蹈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4,
+        "id": 417
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 161,
+    "gameId": 8694
+  },
+  {
+    "name": "海龍的渦雷",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 162
+        },
+        "level": 1,
+        "name": "蒼雷一閃Ⅰ",
+        "description": "以攻擊累積傷害後造成額外雷屬性傷害， 並於一定時間內提升會心率（部分攻擊 除外）",
+        "setPiecesRequired": 2,
+        "id": 418
+      },
+      {
+        "skill": {
+          "id": 162
+        },
+        "level": 2,
+        "name": "蒼雷一閃Ⅱ",
+        "description": "發動與Ⅰ同樣的效果，並增加額外雷屬性 傷害，且小幅延長會心率提升的時間",
+        "setPiecesRequired": 4,
+        "id": 419
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 162,
+    "gameId": 16835
+  },
+  {
+    "name": "刃鱗研裝",
+    "kind": "weapon",
+    "description": "拔刀後，若迴避的時機正好與魔物的攻擊 重合，獲得特殊的銳利度。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 163
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 420
+      }
+    ],
+    "icon": {
+      "id": 4,
+      "kind": "handicraft"
+    },
+    "id": 163,
+    "gameId": 25070
+  },
+  {
+    "name": "力量之石",
+    "kind": "weapon",
+    "description": "獲得礦石後，提升一定時間內的攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 164
+        },
+        "level": 1,
+        "name": null,
+        "description": "礦石的稀有度越高，攻擊力上升幅度 越大（上升值有上限）",
+        "setPiecesRequired": null,
+        "id": 421
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 164,
+    "gameId": 28385
+  },
+  {
+    "name": "轉換耐性【雷】",
+    "kind": "weapon",
+    "description": "按雷屬性耐性值提升武器的屬性攻擊值， 雷屬性耐性值越高，上升幅度越大。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 165
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 422
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 165,
+    "gameId": 30201
+  },
+  {
+    "name": "迴避裝填",
+    "kind": "weapon",
+    "description": "迴避時會自動裝填當前選擇的彈藥。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 166
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 423
+      }
+    ],
+    "icon": {
+      "id": 5,
+      "kind": "ranged"
+    },
+    "id": 166,
+    "gameId": 30828
+  },
+  {
+    "name": "千刃龍之鬥志",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 167
+        },
+        "level": 1,
+        "name": "千刃閃身Ⅰ",
+        "description": "延長技能「巧擊」的效果時間，並於發動 期間再次滿足條件時小幅延長效果時間 （僅限一次）",
+        "setPiecesRequired": 2,
+        "id": 424
+      },
+      {
+        "skill": {
+          "id": 167
+        },
+        "level": 2,
+        "name": "千刃閃身Ⅱ",
+        "description": "發動與Ⅰ同樣的效果，並於發動期間再次 滿足條件時提升攻擊力",
+        "setPiecesRequired": 4,
+        "id": 425
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 167,
+    "gameId": 30992
+  },
+  {
+    "name": "暗黑",
+    "kind": "weapon",
+    "description": "使出第二階段或以上的部分蓄力斬時， 自身將受到傷害。另外於一定時間內 提升攻擊力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 168
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果 （發動後一定時間內無法再次發動， 　但使出蓄力斬時仍會受到傷害）",
+        "setPiecesRequired": null,
+        "id": 426
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 168,
+    "gameId": 3813
+  },
+  {
+    "name": "合成盾",
+    "kind": "weapon",
+    "description": "精準防禦成功後，一定時間內提升自己 與一定範圍內的夥伴的防禦力。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 169
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 427
+      }
+    ],
+    "icon": {
+      "id": 6,
+      "kind": "defense"
+    },
+    "id": 169,
+    "gameId": 7506
+  },
+  {
+    "name": "夢燈祈願",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 170
+        },
+        "level": 1,
+        "name": "大地恩惠【夢燈】Ⅰ",
+        "description": "於夢燈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2,
+        "id": 428
+      },
+      {
+        "skill": {
+          "id": 170
+        },
+        "level": 2,
+        "name": "大地恩惠【夢燈】Ⅱ",
+        "description": "於夢燈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4,
+        "id": 429
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 170,
+    "gameId": 11709
+  },
+  {
+    "name": "火之大廚",
+    "kind": "weapon",
+    "description": "烤肉後回復銳利度，並在一定時間內 提升攻擊性能。（效果時間與內容會 因烤肉結果而異）",
+    "ranks": [
+      {
+        "skill": {
+          "id": 171
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 430
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 171,
+    "gameId": 16931
+  },
+  {
+    "name": "暗黑騎士之證",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 172
+        },
+        "level": 1,
+        "name": "暗技",
+        "description": "體力計量表有紅色部分時，增加屬性 攻擊值；大劍的部分蓄力斬蓄力到 第三階段會獲得強化",
+        "setPiecesRequired": 2,
+        "id": 431
+      },
+      {
+        "skill": {
+          "id": 172
+        },
+        "level": 2,
+        "name": "至黑之夜",
+        "description": "可使用特殊動作「至黑之夜」",
+        "setPiecesRequired": 4,
+        "id": 432
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 172,
+    "gameId": 24531
+  },
+  {
+    "name": "歐米茄共鳴",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 173
+        },
+        "level": 1,
+        "name": "共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率",
+        "setPiecesRequired": 2,
+        "id": 433
+      },
+      {
+        "skill": {
+          "id": 173
+        },
+        "level": 2,
+        "name": "共鳴Ⅱ",
+        "description": "提升共鳴Ⅰ的效果，以及武器技能 「合成盾」或「協作程式」的效果",
+        "setPiecesRequired": 4,
+        "id": 434
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 173,
+    "gameId": 31540
+  },
+  {
+    "name": "協作程式",
+    "kind": "weapon",
+    "description": "使用飛天螺旋斬後，一定時間內提升自己 與一定範圍內的夥伴的會心率。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 174
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 435
+      }
+    ],
+    "icon": {
+      "id": 2,
+      "kind": "affinity"
+    },
+    "id": 174,
+    "gameId": 31998
+  },
+  {
+    "name": "巨戟龍的啟示錄",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 178
+        },
+        "level": 1,
+        "name": "宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。",
+        "setPiecesRequired": 2,
+        "id": 441
+      },
+      {
+        "skill": {
+          "id": 178
+        },
+        "level": 2,
+        "name": "宣戰呼應Ⅱ",
+        "description": "提升Ⅰ的效果，並於一定時間內獲得抵擋 傷害的護盾（護盾發動後需等候一定時間 才會再次發動）",
+        "setPiecesRequired": 4,
+        "id": 442
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 178,
+    "gameId": 5590
+  },
+  {
+    "name": "喵喵棒",
+    "kind": "weapon",
+    "description": "發動會心攻擊時，有低機率獲得各種道具",
+    "ranks": [
+      {
+        "skill": {
+          "id": 179
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 443
+      }
+    ],
+    "icon": {
+      "id": 12,
+      "kind": "gathering"
+    },
+    "id": 179,
+    "gameId": 30554
+  },
+  {
+    "name": "祝謠祈願",
+    "kind": "set",
+    "description": null,
+    "ranks": [
+      {
+        "skill": {
+          "id": 180
+        },
+        "level": 1,
+        "name": "大地恩惠【祝謠】Ⅰ",
+        "description": "於祝謠之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2,
+        "id": 444
+      },
+      {
+        "skill": {
+          "id": 180
+        },
+        "level": 2,
+        "name": "大地恩惠【祝謠】Ⅱ",
+        "description": "於祝謠之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4,
+        "id": 445
+      }
+    ],
+    "icon": {
+      "id": 14,
+      "kind": "set"
+    },
+    "id": 180,
+    "gameId": 30815
+  },
+  {
+    "name": "轉換耐性【水】",
+    "kind": "weapon",
+    "description": "按水屬性耐性值提升武器的屬性攻擊值， 水屬性耐性值越高，上升幅度越大。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 181
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 446
+      }
+    ],
+    "icon": {
+      "id": 3,
+      "kind": "element"
+    },
+    "id": 181,
+    "gameId": 11481
+  },
+  {
+    "name": "解放鏡刃碎片",
+    "kind": "weapon",
+    "description": "以蓄力到第三階段的蓄力斬砍向地面時， 會對一定範圍內的目標造成傷害。",
+    "ranks": [
+      {
+        "skill": {
+          "id": 182
+        },
+        "level": 1,
+        "name": null,
+        "description": "發動技能效果",
+        "setPiecesRequired": null,
+        "id": 447
+      }
+    ],
+    "icon": {
+      "id": 1,
+      "kind": "attack"
+    },
+    "id": 182,
+    "gameId": 12877
+  }
+]

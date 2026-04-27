@@ -1,0 +1,126 @@
+{
+  "fetchedAt": "2026-04-27T19:53:06.616Z",
+  "mhdb": [
+    {
+      "locale": "en",
+      "endpoint": "armor",
+      "url": "https://wilds.mhdb.io/en/armor",
+      "count": 714
+    },
+    {
+      "locale": "en",
+      "endpoint": "armor/sets",
+      "url": "https://wilds.mhdb.io/en/armor/sets",
+      "count": 194
+    },
+    {
+      "locale": "en",
+      "endpoint": "skills",
+      "url": "https://wilds.mhdb.io/en/skills",
+      "count": 179
+    },
+    {
+      "locale": "en",
+      "endpoint": "decorations",
+      "url": "https://wilds.mhdb.io/en/decorations",
+      "count": 361
+    },
+    {
+      "locale": "en",
+      "endpoint": "charms",
+      "url": "https://wilds.mhdb.io/en/charms",
+      "count": 64
+    },
+    {
+      "locale": "en",
+      "endpoint": "weapons",
+      "url": "https://wilds.mhdb.io/en/weapons",
+      "count": 1188
+    },
+    {
+      "locale": "en",
+      "endpoint": "items",
+      "url": "https://wilds.mhdb.io/en/items",
+      "count": 773
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "armor",
+      "url": "https://wilds.mhdb.io/zh-Hant/armor",
+      "count": 714
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "armor/sets",
+      "url": "https://wilds.mhdb.io/zh-Hant/armor/sets",
+      "count": 194
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "skills",
+      "url": "https://wilds.mhdb.io/zh-Hant/skills",
+      "count": 179
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "decorations",
+      "url": "https://wilds.mhdb.io/zh-Hant/decorations",
+      "count": 361
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "charms",
+      "url": "https://wilds.mhdb.io/zh-Hant/charms",
+      "count": 64
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "weapons",
+      "url": "https://wilds.mhdb.io/zh-Hant/weapons",
+      "count": 1188
+    },
+    {
+      "locale": "zh-Hant",
+      "endpoint": "items",
+      "url": "https://wilds.mhdb.io/zh-Hant/items",
+      "count": 773
+    }
+  ],
+  "kiranico": [
+    {
+      "locale": "zh-Hant",
+      "page": "skills",
+      "url": "https://mhwilds.kiranico.com/zh-Hant/data/skills",
+      "version": "1.040",
+      "bytes": 508291
+    },
+    {
+      "locale": "zh-Hant",
+      "page": "armor-series",
+      "url": "https://mhwilds.kiranico.com/zh-Hant/data/armor-series",
+      "version": "1.040",
+      "bytes": 1201595
+    },
+    {
+      "locale": "zh-Hant",
+      "page": "decorations",
+      "url": "https://mhwilds.kiranico.com/zh-Hant/data/decorations",
+      "version": "1.040",
+      "bytes": 1061769
+    },
+    {
+      "locale": "zh-Hant",
+      "page": "weapons",
+      "url": "https://mhwilds.kiranico.com/zh-Hant/data/weapons",
+      "version": "1.040",
+      "bytes": 4172997
+    },
+    {
+      "locale": "zh-Hant",
+      "page": "items",
+      "url": "https://mhwilds.kiranico.com/zh-Hant/data/items",
+      "version": "1.040",
+      "bytes": 861808
+    }
+  ]
+}

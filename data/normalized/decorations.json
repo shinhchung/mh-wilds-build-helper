@@ -1,0 +1,7553 @@
+[
+  {
+    "id": "deco-1",
+    "sourceId": 1,
+    "gameId": -2144349312,
+    "name": "毒珠【1】",
+    "nameEn": "Venom Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "poison-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動毒屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-2",
+    "sourceId": 2,
+    "gameId": -2136274304,
+    "name": "匠珠Ⅱ【2】",
+    "nameEn": "Handicraft Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "handicraft",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 2
+      }
+    ],
+    "description": "發動匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-3",
+    "sourceId": 3,
+    "gameId": -2135118208,
+    "name": "刺擊珠【3】",
+    "nameEn": "Flayer Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "flayer",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "flayer",
+        "level": 1
+      }
+    ],
+    "description": "發動鎖刃刺擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-4",
+    "sourceId": 4,
+    "gameId": -2098600064,
+    "name": "特會・匠珠【3】",
+    "nameEn": "Crit Stat/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "critical-status",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-status",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【特殊】技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-5",
+    "sourceId": 5,
+    "gameId": -2092760832,
+    "name": "睡眠珠【1】",
+    "nameEn": "Sleep Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "sleep-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "sleep-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動睡眠屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-6",
+    "sourceId": 6,
+    "gameId": -2046315136,
+    "name": "射法珠Ⅱ【2】",
+    "nameEn": "Precise Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "ballistics",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 2
+      }
+    ],
+    "description": "發動彈道強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-7",
+    "sourceId": 7,
+    "gameId": -2040726144,
+    "name": "雷光・射法珠【3】",
+    "nameEn": "Bolt/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-8",
+    "sourceId": 8,
+    "gameId": -1958732416,
+    "name": "耐水珠【1】",
+    "nameEn": "Water Res Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "water-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動水耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-9",
+    "sourceId": 9,
+    "gameId": -1957828352,
+    "name": "睡眠珠Ⅱ【2】",
+    "nameEn": "Sleep Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "sleep-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "sleep-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動睡眠屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-10",
+    "sourceId": 10,
+    "gameId": -1918136064,
+    "name": "奪氣珠Ⅲ【3】",
+    "nameEn": "Drain Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "stamina-thief",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "stamina-thief",
+        "level": 3
+      }
+    ],
+    "description": "發動奪取耐力技能的裝飾品。"
+  },
+  {
+    "id": "deco-11",
+    "sourceId": 11,
+    "gameId": -1911376000,
+    "name": "重擊珠【2】",
+    "nameEn": "Destroyer Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "partbreaker",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "partbreaker",
+        "level": 1
+      }
+    ],
+    "description": "發動破壞王技能的裝飾品。"
+  },
+  {
+    "id": "deco-12",
+    "sourceId": 12,
+    "gameId": -1907467776,
+    "name": "積彈珠Ⅲ【3】",
+    "nameEn": "Bandolier Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "tetrad-shot",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-13",
+    "sourceId": 13,
+    "gameId": -1898312320,
+    "name": "耐縛珠【1】",
+    "nameEn": "Escape Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "bind-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "bind-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動束縛耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-14",
+    "sourceId": 14,
+    "gameId": -1890995072,
+    "name": "強蓄珠【1】",
+    "nameEn": "Charge Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "charge-master",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "charge-master",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄力大師技能的裝飾品。"
+  },
+  {
+    "id": "deco-15",
+    "sourceId": 15,
+    "gameId": -1843593600,
+    "name": "攻擊珠Ⅱ【2】",
+    "nameEn": "Attack Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "attack-boost",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 2
+      }
+    ],
+    "description": "發動攻擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-16",
+    "sourceId": 16,
+    "gameId": -1838842752,
+    "name": "積彈・鐵壁珠【3】",
+    "nameEn": "Bandolier/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-17",
+    "sourceId": 17,
+    "gameId": -1826260608,
+    "name": "火炎・射法珠【3】",
+    "nameEn": "Blaze/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "ballistics",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-18",
+    "sourceId": 18,
+    "gameId": -1814261888,
+    "name": "雷光珠【1】",
+    "nameEn": "Bolt Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "thunder-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-19",
+    "sourceId": 19,
+    "gameId": -1808385664,
+    "name": "耐裂珠【1】",
+    "nameEn": "Suture Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "bleeding-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "bleeding-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動裂傷耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-20",
+    "sourceId": 20,
+    "gameId": -1801961088,
+    "name": "耐火珠【1】",
+    "nameEn": "Fire Res Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "fire-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動火耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-21",
+    "sourceId": 21,
+    "gameId": -1780766976,
+    "name": "研磨・匠珠【3】",
+    "nameEn": "Grinder/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "handicraft",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-22",
+    "sourceId": 22,
+    "gameId": -1779241856,
+    "name": "強毒珠【2】",
+    "nameEn": "Poison Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 5,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-23",
+    "sourceId": 23,
+    "gameId": -1775008128,
+    "name": "無食珠【1】",
+    "nameEn": "Hungerless Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "hunger-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "hunger-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動飢餓耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-24",
+    "sourceId": 24,
+    "gameId": -1770074240,
+    "name": "昂揚珠【1】",
+    "nameEn": "Enhancer Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "power-prolonger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      }
+    ],
+    "description": "發動強化持續技能的裝飾品。"
+  },
+  {
+    "id": "deco-25",
+    "sourceId": 25,
+    "gameId": -1769520768,
+    "name": "雷光・匠珠【3】",
+    "nameEn": "Bolt/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "handicraft",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-26",
+    "sourceId": 26,
+    "gameId": -1749412352,
+    "name": "標本珠【1】",
+    "nameEn": "Specimen Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "entomologist",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "entomologist",
+        "level": 1
+      }
+    ],
+    "description": "發動昆蟲標本達人技能的裝飾品。"
+  },
+  {
+    "id": "deco-27",
+    "sourceId": 27,
+    "gameId": -1730551168,
+    "name": "速射珠【3】",
+    "nameEn": "Salvo Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "rapid-fire-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-fire-up",
+        "level": 1
+      }
+    ],
+    "description": "發動速射強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-28",
+    "sourceId": 28,
+    "gameId": -1726768640,
+    "name": "沼渡珠【1】",
+    "nameEn": "Mirewalker Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "aquaticoilsilt-mobility",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "aquaticoilsilt-mobility",
+        "level": 1
+      }
+    ],
+    "description": "發動適應水域/油泥技能的裝飾品。"
+  },
+  {
+    "id": "deco-29",
+    "sourceId": 29,
+    "gameId": -1723727616,
+    "name": "增彈珠Ⅱ【2】",
+    "nameEn": "Magazine Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "load-shells",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "load-shells",
+        "level": 2
+      }
+    ],
+    "description": "發動砲彈裝填技能的裝飾品。"
+  },
+  {
+    "id": "deco-30",
+    "sourceId": 30,
+    "gameId": -1720284416,
+    "name": "利刃珠Ⅲ【3】",
+    "nameEn": "Rzr Sharp Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "razor-sharp",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能的裝飾品。"
+  },
+  {
+    "id": "deco-31",
+    "sourceId": 31,
+    "gameId": -1714653184,
+    "name": "睡眠珠Ⅲ【3】",
+    "nameEn": "Sleep Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "sleep-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "sleep-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動睡眠屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-32",
+    "sourceId": 32,
+    "gameId": -1709840128,
+    "name": "破龍珠Ⅲ【3】",
+    "nameEn": "Dragon Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-33",
+    "sourceId": 33,
+    "gameId": -1708108928,
+    "name": "鼓笛・攻擊珠【3】",
+    "nameEn": "Sonorous/Attack Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "horn-maestro",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "horn-maestro",
+        "level": 2
+      },
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動吹笛名人技能與攻擊技能的 裝飾品。"
+  },
+  {
+    "id": "deco-34",
+    "sourceId": 34,
+    "gameId": -1706210176,
+    "name": "特會珠Ⅲ【3】",
+    "nameEn": "Crit Stat Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-status",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-status",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【特殊】技能的裝飾品。"
+  },
+  {
+    "id": "deco-35",
+    "sourceId": 35,
+    "gameId": -1693028992,
+    "name": "雷光珠Ⅱ【2】",
+    "nameEn": "Bolt Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "thunder-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-36",
+    "sourceId": 36,
+    "gameId": -1672815872,
+    "name": "火炎・守勢珠【3】",
+    "nameEn": "Blaze/Guardian Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與攻擊守勢 技能的裝飾品。"
+  },
+  {
+    "id": "deco-37",
+    "sourceId": 37,
+    "gameId": -1669066368,
+    "name": "毒珠Ⅱ【2】",
+    "nameEn": "Venom Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "poison-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "poison-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動毒屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-38",
+    "sourceId": 38,
+    "gameId": -1664513664,
+    "name": "奪氣珠Ⅱ【2】",
+    "nameEn": "Drain Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "stamina-thief",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "stamina-thief",
+        "level": 2
+      }
+    ],
+    "description": "發動奪取耐力技能的裝飾品。"
+  },
+  {
+    "id": "deco-39",
+    "sourceId": 39,
+    "gameId": -1645940096,
+    "name": "攻勢珠【3】",
+    "nameEn": "Foray Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "foray",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "foray",
+        "level": 1
+      }
+    ],
+    "description": "發動攻勢技能的裝飾品。"
+  },
+  {
+    "id": "deco-40",
+    "sourceId": 40,
+    "gameId": -1631437696,
+    "name": "研磨・鐵壁珠【3】",
+    "nameEn": "Grinder/Ironwall Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-41",
+    "sourceId": 41,
+    "gameId": -1626218240,
+    "name": "耐防珠【1】",
+    "nameEn": "Def Lock Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "iron-skin",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "iron-skin",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦力下降耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-42",
+    "sourceId": 42,
+    "gameId": -1622630272,
+    "name": "破龍・KO珠【3】",
+    "nameEn": "Dragon/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-43",
+    "sourceId": 43,
+    "gameId": -1609962496,
+    "name": "研磨・拔刀珠【3】",
+    "nameEn": "Grinder/Draw Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-draw",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與拔刀術 【技】技能的裝飾品。"
+  },
+  {
+    "id": "deco-44",
+    "sourceId": 44,
+    "gameId": -1604621952,
+    "name": "初彈珠Ⅱ【2】",
+    "nameEn": "Opener Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "opening-shot",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "opening-shot",
+        "level": 2
+      }
+    ],
+    "description": "發動首發射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-45",
+    "sourceId": 45,
+    "gameId": -1581788032,
+    "name": "蓄攻・攻擊珠【3】",
+    "nameEn": "Charge Up/Attack Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "attack-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      },
+      {
+        "skillId": "charge-up",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能與攻擊技能的 裝飾品。"
+  },
+  {
+    "id": "deco-46",
+    "sourceId": 46,
+    "gameId": -1569165952,
+    "name": "速變珠Ⅲ【3】",
+    "nameEn": "Quickswitch Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      }
+    ],
+    "description": "發動高速變形技能的裝飾品。"
+  },
+  {
+    "id": "deco-47",
+    "sourceId": 47,
+    "gameId": -1550869760,
+    "name": "渾身珠【2】",
+    "nameEn": "Mighty Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "maximum-might",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "maximum-might",
+        "level": 1
+      }
+    ],
+    "description": "發動精神抖擻技能的裝飾品。"
+  },
+  {
+    "id": "deco-48",
+    "sourceId": 48,
+    "gameId": -1549794304,
+    "name": "守勢珠【1】",
+    "nameEn": "Guardian Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "offensive-guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊守勢技能的裝飾品。"
+  },
+  {
+    "id": "deco-49",
+    "sourceId": 49,
+    "gameId": -1545069696,
+    "name": "剛刃珠Ⅱ【2】",
+    "nameEn": "Sharp Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "protective-polish",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "protective-polish",
+        "level": 2
+      }
+    ],
+    "description": "發動剛刃研磨技能的裝飾品。"
+  },
+  {
+    "id": "deco-50",
+    "sourceId": 50,
+    "gameId": -1518352896,
+    "name": "雷光珠Ⅲ【3】",
+    "nameEn": "Bolt Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "thunder-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-51",
+    "sourceId": 51,
+    "gameId": -1489248128,
+    "name": "守勢・鐵壁珠【3】",
+    "nameEn": "Guardian/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      }
+    ],
+    "description": "發動攻擊守勢技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-52",
+    "sourceId": 52,
+    "gameId": -1485261696,
+    "name": "跳躍珠【2】",
+    "nameEn": "Jumping Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "evade-extender",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "evade-extender",
+        "level": 1
+      }
+    ],
+    "description": "發動迴避距離上升技能的裝飾品。"
+  },
+  {
+    "id": "deco-53",
+    "sourceId": 53,
+    "gameId": -1465477120,
+    "name": "雷光・KO珠【3】",
+    "nameEn": "Bolt/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-54",
+    "sourceId": 54,
+    "gameId": -1463543552,
+    "name": "心眼珠【1】",
+    "nameEn": "Mind's Eye Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "minds-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "minds-eye",
+        "level": 1
+      }
+    ],
+    "description": "發動心眼技能的裝飾品。"
+  },
+  {
+    "id": "deco-55",
+    "sourceId": 55,
+    "gameId": -1452017024,
+    "name": "利刃・鐵壁珠【3】",
+    "nameEn": "Rzr Sharp/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-56",
+    "sourceId": 56,
+    "gameId": -1449268352,
+    "name": "早復珠【1】",
+    "nameEn": "Recovery Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "recovery-speed",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "recovery-speed",
+        "level": 1
+      }
+    ],
+    "description": "發動回復速度技能的裝飾品。"
+  },
+  {
+    "id": "deco-57",
+    "sourceId": 57,
+    "gameId": -1434375936,
+    "name": "耐眠珠【1】",
+    "nameEn": "Pep Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "sleep-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "sleep-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動睡眠耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-58",
+    "sourceId": 58,
+    "gameId": -1416808832,
+    "name": "耐龍珠【1】",
+    "nameEn": "Dragon Res Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "dragon-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動龍耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-59",
+    "sourceId": 59,
+    "gameId": -1401571456,
+    "name": "抗狂珠【1】",
+    "nameEn": "Sane Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 5,
+    "skillId": "antivirus",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "antivirus",
+        "level": 1
+      }
+    ],
+    "description": "發動無我境界技能的裝飾品。"
+  },
+  {
+    "id": "deco-60",
+    "sourceId": 60,
+    "gameId": -1397276160,
+    "name": "特射珠Ⅱ【2】",
+    "nameEn": "Trueshot Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "special-ammo-boost",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "special-ammo-boost",
+        "level": 2
+      }
+    ],
+    "description": "發動特殊射擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-61",
+    "sourceId": 61,
+    "gameId": -1394596736,
+    "name": "流水珠【1】",
+    "nameEn": "Stream Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "water-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-62",
+    "sourceId": 62,
+    "gameId": -1392648576,
+    "name": "防音珠【2】",
+    "nameEn": "Earplugs Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "earplugs",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "earplugs",
+        "level": 1
+      }
+    ],
+    "description": "發動耳塞技能的裝飾品。"
+  },
+  {
+    "id": "deco-63",
+    "sourceId": 63,
+    "gameId": -1381641984,
+    "name": "體術珠【1】",
+    "nameEn": "Physique Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "constitution",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "constitution",
+        "level": 1
+      }
+    ],
+    "description": "發動體術技能的裝飾品。"
+  },
+  {
+    "id": "deco-64",
+    "sourceId": 64,
+    "gameId": -1374390656,
+    "name": "初彈珠Ⅲ【3】",
+    "nameEn": "Opener Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "opening-shot",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-65",
+    "sourceId": 65,
+    "gameId": -1345708800,
+    "name": "火炎・鐵壁珠【3】",
+    "nameEn": "Blaze/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-66",
+    "sourceId": 66,
+    "gameId": -1340047744,
+    "name": "達藝珠【3】",
+    "nameEn": "Mastery Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "masters-touch",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "masters-touch",
+        "level": 1
+      }
+    ],
+    "description": "發動達人藝技能的裝飾品。"
+  },
+  {
+    "id": "deco-67",
+    "sourceId": 67,
+    "gameId": -1319399040,
+    "name": "拔打・KO珠【3】",
+    "nameEn": "Gambit/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "punishing-draw",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 3
+      },
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動拔刀術【力】技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-68",
+    "sourceId": 68,
+    "gameId": -1318893952,
+    "name": "環境珠【1】",
+    "nameEn": "Survival Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "survival-expert",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "survival-expert",
+        "level": 1
+      }
+    ],
+    "description": "發動環境利用知識技能的裝飾品。"
+  },
+  {
+    "id": "deco-69",
+    "sourceId": 69,
+    "gameId": -1267187456,
+    "name": "耐雷珠【1】",
+    "nameEn": "Thunder Res Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "thunder-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "thunder-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動雷耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-70",
+    "sourceId": 70,
+    "gameId": -1220470528,
+    "name": "拔刀珠Ⅲ【3】",
+    "nameEn": "Draw Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-draw",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-draw",
+        "level": 3
+      }
+    ],
+    "description": "發動拔刀術【技】技能的裝飾品。"
+  },
+  {
+    "id": "deco-71",
+    "sourceId": 71,
+    "gameId": -1218528128,
+    "name": "守勢珠Ⅲ【3】",
+    "nameEn": "Guardian Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "offensive-guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      }
+    ],
+    "description": "發動攻擊守勢技能的裝飾品。"
+  },
+  {
+    "id": "deco-72",
+    "sourceId": 72,
+    "gameId": -1205597696,
+    "name": "速變・匠珠【3】",
+    "nameEn": "Quickswitch/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-73",
+    "sourceId": 73,
+    "gameId": -1188973056,
+    "name": "流水珠Ⅱ【2】",
+    "nameEn": "Stream Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "water-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-74",
+    "sourceId": 74,
+    "gameId": -1178454912,
+    "name": "飛燕珠【2】",
+    "nameEn": "Flight Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "airborne",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "airborne",
+        "level": 1
+      }
+    ],
+    "description": "發動飛燕技能的裝飾品。"
+  },
+  {
+    "id": "deco-75",
+    "sourceId": 75,
+    "gameId": -1166585472,
+    "name": "射法珠【1】",
+    "nameEn": "Precise Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      }
+    ],
+    "description": "發動彈道強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-76",
+    "sourceId": 76,
+    "gameId": -1163377152,
+    "name": "鈍器珠Ⅲ【3】",
+    "nameEn": "Blunt Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "bludgeoner",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "bludgeoner",
+        "level": 3
+      }
+    ],
+    "description": "發動鈍器能手技能的裝飾品。"
+  },
+  {
+    "id": "deco-77",
+    "sourceId": 77,
+    "gameId": -1161972480,
+    "name": "毒瓶珠【2】",
+    "nameEn": "Poisoncoat Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "poison-functionality",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-functionality",
+        "level": 1
+      }
+    ],
+    "description": "發動毒瓶追加技能的裝飾品。"
+  },
+  {
+    "id": "deco-78",
+    "sourceId": 78,
+    "gameId": -1159995904,
+    "name": "眠瓶珠【3】",
+    "nameEn": "Sleepcoat Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "sleep-functionality",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "sleep-functionality",
+        "level": 1
+      }
+    ],
+    "description": "發動睡眠瓶追加技能的裝飾品。"
+  },
+  {
+    "id": "deco-79",
+    "sourceId": 79,
+    "gameId": -1152759424,
+    "name": "屬會・匠珠【3】",
+    "nameEn": "Crit Elem/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-element",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-80",
+    "sourceId": 80,
+    "gameId": -1139186816,
+    "name": "強跳珠【1】",
+    "nameEn": "Leap Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "jump-master",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "jump-master",
+        "level": 1
+      }
+    ],
+    "description": "發動跳躍鐵人技能的裝飾品。"
+  },
+  {
+    "id": "deco-81",
+    "sourceId": 81,
+    "gameId": -1133012096,
+    "name": "毒珠Ⅲ【3】",
+    "nameEn": "Venom Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "poison-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "poison-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動毒屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-82",
+    "sourceId": 82,
+    "gameId": -1113106688,
+    "name": "適應珠【1】",
+    "nameEn": "Adapt Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "adaptability",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "adaptability",
+        "level": 1
+      }
+    ],
+    "description": "發動適應環境技能的裝飾品。"
+  },
+  {
+    "id": "deco-83",
+    "sourceId": 83,
+    "gameId": -1108771200,
+    "name": "特會・鐵壁珠【3】",
+    "nameEn": "Crit Stat/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "critical-status",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【特殊】技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-84",
+    "sourceId": 84,
+    "gameId": -1082640896,
+    "name": "增彈・達人珠【3】",
+    "nameEn": "Magazine/Expert Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "load-shells",
+        "level": 2
+      }
+    ],
+    "description": "發動砲彈裝填技能與看破技能的 裝飾品。"
+  },
+  {
+    "id": "deco-85",
+    "sourceId": 85,
+    "gameId": -1081371008,
+    "name": "達人珠Ⅲ【3】",
+    "nameEn": "Expert Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 3
+      }
+    ],
+    "description": "發動看破技能的裝飾品。"
+  },
+  {
+    "id": "deco-86",
+    "sourceId": 86,
+    "gameId": -1072040640,
+    "name": "耐冰珠【1】",
+    "nameEn": "Ice Res Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "ice-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ice-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動冰耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-87",
+    "sourceId": 87,
+    "gameId": -1055912640,
+    "name": "拔打・匠珠【3】",
+    "nameEn": "Gambit/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "punishing-draw",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動拔刀術【力】技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-88",
+    "sourceId": 88,
+    "gameId": -1050453888,
+    "name": "屬會・KO珠【3】",
+    "nameEn": "Crit Elem/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-89",
+    "sourceId": 89,
+    "gameId": -1034943744,
+    "name": "拔打珠【1】",
+    "nameEn": "Gambit Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "punishing-draw",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動拔刀術【力】技能的裝飾品。"
+  },
+  {
+    "id": "deco-90",
+    "sourceId": 90,
+    "gameId": -1016655360,
+    "name": "耐麻珠【1】",
+    "nameEn": "Antipara Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "paralysis-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "paralysis-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動麻痺耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-91",
+    "sourceId": 91,
+    "gameId": -1016332736,
+    "name": "爆破珠【1】",
+    "nameEn": "Blast Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "blast-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "blast-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動爆破屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-92",
+    "sourceId": 92,
+    "gameId": -1003144960,
+    "name": "痺瓶珠【3】",
+    "nameEn": "Paracoat Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "para-functionality",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "para-functionality",
+        "level": 1
+      }
+    ],
+    "description": "發動麻痺瓶追加技能的裝飾品。"
+  },
+  {
+    "id": "deco-93",
+    "sourceId": 93,
+    "gameId": -949824384,
+    "name": "KO珠【1】",
+    "nameEn": "KO Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動KO術技能的裝飾品。"
+  },
+  {
+    "id": "deco-94",
+    "sourceId": 94,
+    "gameId": -937758144,
+    "name": "火炎・昂揚珠【3】",
+    "nameEn": "Blaze/Enhancer Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與強化持續 技能的裝飾品。"
+  },
+  {
+    "id": "deco-95",
+    "sourceId": 95,
+    "gameId": -933830080,
+    "name": "拔打・鐵壁珠【3】",
+    "nameEn": "Gambit/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "punishing-draw",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 3
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動拔刀術【力】技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-96",
+    "sourceId": 96,
+    "gameId": -919326784,
+    "name": "飛燕・拔刀珠【3】",
+    "nameEn": "Flight/Draw Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "airborne",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "airborne",
+        "level": 1
+      },
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動飛燕技能與拔刀術【技】技能的 裝飾品。"
+  },
+  {
+    "id": "deco-97",
+    "sourceId": 97,
+    "gameId": -857552768,
+    "name": "爆破珠Ⅱ【2】",
+    "nameEn": "Blast Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "blast-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "blast-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動爆破屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-98",
+    "sourceId": 98,
+    "gameId": -848728960,
+    "name": "超心珠Ⅱ【2】",
+    "nameEn": "Critical Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "critical-boost",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "critical-boost",
+        "level": 2
+      }
+    ],
+    "description": "發動超會心技能的裝飾品。"
+  },
+  {
+    "id": "deco-99",
+    "sourceId": 99,
+    "gameId": -790612736,
+    "name": "雷光・鐵壁珠【3】",
+    "nameEn": "Bolt/Ironwall Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-100",
+    "sourceId": 100,
+    "gameId": -777488128,
+    "name": "火炎・匠珠【3】",
+    "nameEn": "Blaze/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與匠技能 的裝飾品。"
+  },
+  {
+    "id": "deco-101",
+    "sourceId": 101,
+    "gameId": -773823488,
+    "name": "強蓄・KO珠【3】",
+    "nameEn": "Charge/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "charge-master",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "charge-master",
+        "level": 3
+      },
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄力大師技能與KO術技能的 裝飾品。"
+  },
+  {
+    "id": "deco-102",
+    "sourceId": 102,
+    "gameId": -753381888,
+    "name": "守勢珠Ⅱ【2】",
+    "nameEn": "Guardian Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "offensive-guard",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 2
+      }
+    ],
+    "description": "發動攻擊守勢技能的裝飾品。"
+  },
+  {
+    "id": "deco-103",
+    "sourceId": 103,
+    "gameId": -749488896,
+    "name": "屬會珠【1】",
+    "nameEn": "Crit Element Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "critical-element",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-104",
+    "sourceId": 104,
+    "gameId": -725659840,
+    "name": "防風珠【1】",
+    "nameEn": "Wind Resist Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "windproof",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "windproof",
+        "level": 1
+      }
+    ],
+    "description": "發動風壓耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-105",
+    "sourceId": 105,
+    "gameId": -714680256,
+    "name": "麻痺珠【1】",
+    "nameEn": "Paralyzer Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "paralysis-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "paralysis-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動麻痺屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-106",
+    "sourceId": 106,
+    "gameId": -712981504,
+    "name": "集中珠Ⅲ【3】",
+    "nameEn": "Focus Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "focus",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 3
+      }
+    ],
+    "description": "發動集中技能的裝飾品。"
+  },
+  {
+    "id": "deco-107",
+    "sourceId": 107,
+    "gameId": -706109632,
+    "name": "強毒・KO珠【3】",
+    "nameEn": "Poison/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與KO術技能的 裝飾品。"
+  },
+  {
+    "id": "deco-108",
+    "sourceId": 108,
+    "gameId": -699699904,
+    "name": "飛燕・攻擊珠【3】",
+    "nameEn": "Flight/Attack Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "attack-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      },
+      {
+        "skillId": "airborne",
+        "level": 1
+      }
+    ],
+    "description": "發動飛燕技能與攻擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-109",
+    "sourceId": 109,
+    "gameId": -693750528,
+    "name": "爆瓶珠【2】",
+    "nameEn": "Blastcoat Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "blast-functionality",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "blast-functionality",
+        "level": 1
+      }
+    ],
+    "description": "發動爆破瓶追加技能的裝飾品。"
+  },
+  {
+    "id": "deco-110",
+    "sourceId": 110,
+    "gameId": -682377152,
+    "name": "研磨・達人珠【3】",
+    "nameEn": "Grinder/Expert Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與看破技能 的裝飾品。"
+  },
+  {
+    "id": "deco-111",
+    "sourceId": 111,
+    "gameId": -677836288,
+    "name": "增彈・拔刀珠【3】",
+    "nameEn": "Magazine/Draw Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-draw",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      },
+      {
+        "skillId": "load-shells",
+        "level": 2
+      }
+    ],
+    "description": "發動砲彈裝填技能與拔刀術【技】 技能的裝飾品。"
+  },
+  {
+    "id": "deco-112",
+    "sourceId": 112,
+    "gameId": -673317952,
+    "name": "早氣珠【2】",
+    "nameEn": "Refresh Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "stamina-surge",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "stamina-surge",
+        "level": 1
+      }
+    ],
+    "description": "發動耐力急速回復技能的裝飾品。"
+  },
+  {
+    "id": "deco-113",
+    "sourceId": 113,
+    "gameId": -645579072,
+    "name": "火炎・集中珠【3】",
+    "nameEn": "Blaze/Focus Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "focus",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與集中技能 的裝飾品。"
+  },
+  {
+    "id": "deco-114",
+    "sourceId": 114,
+    "gameId": -645377408,
+    "name": "蓄攻・KO珠【3】",
+    "nameEn": "Charge Up/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "charge-up",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能與KO術技能的 裝飾品。"
+  },
+  {
+    "id": "deco-115",
+    "sourceId": 115,
+    "gameId": -621608832,
+    "name": "集中・匠珠【3】",
+    "nameEn": "Focus/Handicraft Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "focus",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動集中技能與匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-116",
+    "sourceId": 116,
+    "gameId": -595931264,
+    "name": "鼓笛・KO珠【3】",
+    "nameEn": "Sonorous/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "horn-maestro",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "horn-maestro",
+        "level": 2
+      },
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動吹笛名人技能與KO術技能的 裝飾品。"
+  },
+  {
+    "id": "deco-117",
+    "sourceId": 117,
+    "gameId": -590616064,
+    "name": "鑽研珠【1】",
+    "nameEn": "Growth Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "self-improvement",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "self-improvement",
+        "level": 1
+      }
+    ],
+    "description": "發動鑽研技能的裝飾品。"
+  },
+  {
+    "id": "deco-118",
+    "sourceId": 118,
+    "gameId": -557270784,
+    "name": "積彈珠Ⅱ【2】",
+    "nameEn": "Bandolier Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "tetrad-shot",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "tetrad-shot",
+        "level": 2
+      }
+    ],
+    "description": "發動第四射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-119",
+    "sourceId": 119,
+    "gameId": -546783040,
+    "name": "強壁・匠珠【3】",
+    "nameEn": "Shield/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-120",
+    "sourceId": 120,
+    "gameId": -534202944,
+    "name": "加護珠【1】",
+    "nameEn": "Protection Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "divine-blessing",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "divine-blessing",
+        "level": 1
+      }
+    ],
+    "description": "發動精靈加護技能的裝飾品。"
+  },
+  {
+    "id": "deco-121",
+    "sourceId": 121,
+    "gameId": -522458240,
+    "name": "麻痺珠Ⅲ【3】",
+    "nameEn": "Paralyzer Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "paralysis-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "paralysis-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動麻痺屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-122",
+    "sourceId": 122,
+    "gameId": -510575936,
+    "name": "流水・KO珠【3】",
+    "nameEn": "Stream/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-123",
+    "sourceId": 123,
+    "gameId": -508830240,
+    "name": "鼓笛珠【2】",
+    "nameEn": "Sonorous Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "horn-maestro",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "horn-maestro",
+        "level": 1
+      }
+    ],
+    "description": "發動吹笛名人技能的裝飾品。"
+  },
+  {
+    "id": "deco-124",
+    "sourceId": 124,
+    "gameId": -493483136,
+    "name": "利刃珠【1】",
+    "nameEn": "Razor Sharp Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "razor-sharp",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      }
+    ],
+    "description": "發動利刃技能的裝飾品。"
+  },
+  {
+    "id": "deco-125",
+    "sourceId": 125,
+    "gameId": -487601632,
+    "name": "速變・鐵壁珠【3】",
+    "nameEn": "Quickswitch/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-126",
+    "sourceId": 126,
+    "gameId": -477564992,
+    "name": "破龍・鐵壁珠【3】",
+    "nameEn": "Dragon/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-127",
+    "sourceId": 127,
+    "gameId": -463114720,
+    "name": "守勢・匠珠【3】",
+    "nameEn": "Guardian/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "offensive-guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊守勢技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-128",
+    "sourceId": 128,
+    "gameId": -451614112,
+    "name": "達人珠【1】",
+    "nameEn": "Expert Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      }
+    ],
+    "description": "發動看破技能的裝飾品。"
+  },
+  {
+    "id": "deco-129",
+    "sourceId": 129,
+    "gameId": -447558304,
+    "name": "連擊珠【3】",
+    "nameEn": "Chain Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "burst",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "burst",
+        "level": 1
+      }
+    ],
+    "description": "發動連擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-130",
+    "sourceId": 130,
+    "gameId": -430198272,
+    "name": "增彈・匠珠【3】",
+    "nameEn": "Magazine/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "load-shells",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "load-shells",
+        "level": 2
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動砲彈裝填技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-131",
+    "sourceId": 131,
+    "gameId": -417484064,
+    "name": "耐衝珠【1】",
+    "nameEn": "Brace Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "flinch-free",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "flinch-free",
+        "level": 1
+      }
+    ],
+    "description": "發動減輕膽怯技能的裝飾品。"
+  },
+  {
+    "id": "deco-132",
+    "sourceId": 132,
+    "gameId": -394478144,
+    "name": "飛躍珠【1】",
+    "nameEn": "Dive Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "leap-of-faith",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "leap-of-faith",
+        "level": 1
+      }
+    ],
+    "description": "發動飛身躍入技能的裝飾品。"
+  },
+  {
+    "id": "deco-133",
+    "sourceId": 133,
+    "gameId": -389889248,
+    "name": "強毒・鐵壁珠【3】",
+    "nameEn": "Poison/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與防禦性能技能 的裝飾品。"
+  },
+  {
+    "id": "deco-134",
+    "sourceId": 134,
+    "gameId": -384925600,
+    "name": "耐毒珠【1】",
+    "nameEn": "Antidote Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "poison-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動毒耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-135",
+    "sourceId": 135,
+    "gameId": -325572000,
+    "name": "爆師珠【1】",
+    "nameEn": "Bomber Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "bombardier",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "bombardier",
+        "level": 1
+      }
+    ],
+    "description": "發動炸彈客技能的裝飾品。"
+  },
+  {
+    "id": "deco-136",
+    "sourceId": 136,
+    "gameId": -316552800,
+    "name": "地學珠【1】",
+    "nameEn": "Geology Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "geologist",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "geologist",
+        "level": 1
+      }
+    ],
+    "description": "發動地質學技能的裝飾品。"
+  },
+  {
+    "id": "deco-137",
+    "sourceId": 137,
+    "gameId": -301443072,
+    "name": "昂揚珠Ⅱ【2】",
+    "nameEn": "Enhancer Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "power-prolonger",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 2
+      }
+    ],
+    "description": "發動強化持續技能的裝飾品。"
+  },
+  {
+    "id": "deco-138",
+    "sourceId": 138,
+    "gameId": -292390464,
+    "name": "火炎・KO珠【3】",
+    "nameEn": "Blaze/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-139",
+    "sourceId": 139,
+    "gameId": -245086656,
+    "name": "拔刀珠【1】",
+    "nameEn": "Draw Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "critical-draw",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動拔刀術【技】技能的裝飾品。"
+  },
+  {
+    "id": "deco-140",
+    "sourceId": 140,
+    "gameId": -243518144,
+    "name": "強蓄珠Ⅱ【2】",
+    "nameEn": "Charge Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "charge-master",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "charge-master",
+        "level": 2
+      }
+    ],
+    "description": "發動蓄力大師技能的裝飾品。"
+  },
+  {
+    "id": "deco-141",
+    "sourceId": 141,
+    "gameId": -198925264,
+    "name": "速納珠【1】",
+    "nameEn": "Sheath Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "quick-sheathe",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "quick-sheathe",
+        "level": 1
+      }
+    ],
+    "description": "發動收刀術技能的裝飾品。"
+  },
+  {
+    "id": "deco-142",
+    "sourceId": 142,
+    "gameId": -198819232,
+    "name": "強壁珠Ⅱ【2】",
+    "nameEn": "Shield Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "guard-up",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 2
+      }
+    ],
+    "description": "發動防禦強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-143",
+    "sourceId": 143,
+    "gameId": -177096704,
+    "name": "節食珠【1】",
+    "nameEn": "Satiated Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "free-meal",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "free-meal",
+        "level": 1
+      }
+    ],
+    "description": "發動滿足感技能的裝飾品。"
+  },
+  {
+    "id": "deco-144",
+    "sourceId": 144,
+    "gameId": -150840288,
+    "name": "破龍珠Ⅱ【2】",
+    "nameEn": "Dragon Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "dragon-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-145",
+    "sourceId": 145,
+    "gameId": -145991360,
+    "name": "利刃珠Ⅱ【2】",
+    "nameEn": "Razor Sharp Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "razor-sharp",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 2
+      }
+    ],
+    "description": "發動利刃技能的裝飾品。"
+  },
+  {
+    "id": "deco-146",
+    "sourceId": 146,
+    "gameId": -143560672,
+    "name": "鼓笛・達人珠【3】",
+    "nameEn": "Sonorous/Expert Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "horn-maestro",
+        "level": 2
+      }
+    ],
+    "description": "發動吹笛名人技能與看破技能的 裝飾品。"
+  },
+  {
+    "id": "deco-147",
+    "sourceId": 147,
+    "gameId": -140702464,
+    "name": "強毒・拔刀珠【3】",
+    "nameEn": "Poison/Draw Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與拔刀術【技】 技能的裝飾品。"
+  },
+  {
+    "id": "deco-148",
+    "sourceId": 148,
+    "gameId": -102120712,
+    "name": "研磨・KO珠【3】",
+    "nameEn": "Grinder/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-149",
+    "sourceId": 149,
+    "gameId": -98207152,
+    "name": "鐵壁珠【1】",
+    "nameEn": "Ironwall Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦性能技能的裝飾品。"
+  },
+  {
+    "id": "deco-150",
+    "sourceId": 150,
+    "gameId": -92885912,
+    "name": "火炎・強壁珠【3】",
+    "nameEn": "Blaze/Shield Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      },
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與防禦強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-151",
+    "sourceId": 151,
+    "gameId": -87428912,
+    "name": "砲術珠Ⅱ【2】",
+    "nameEn": "Artillery Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "artillery",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "artillery",
+        "level": 2
+      }
+    ],
+    "description": "發動砲術技能的裝飾品。"
+  },
+  {
+    "id": "deco-152",
+    "sourceId": 152,
+    "gameId": -35111916,
+    "name": "愛菇珠【2】",
+    "nameEn": "Fungiform Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "mushroomancer",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "mushroomancer",
+        "level": 1
+      }
+    ],
+    "description": "發動最愛菇類技能的裝飾品。"
+  },
+  {
+    "id": "deco-153",
+    "sourceId": 153,
+    "gameId": -19370102,
+    "name": "初彈・射法珠【3】",
+    "nameEn": "Opener/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與彈道強化技能的 裝飾品。"
+  },
+  {
+    "id": "deco-154",
+    "sourceId": 154,
+    "gameId": -15284539,
+    "name": "火炎珠Ⅱ【2】",
+    "nameEn": "Blaze Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "fire-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-155",
+    "sourceId": 155,
+    "gameId": -12878304,
+    "name": "火炎珠【1】",
+    "nameEn": "Blaze Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-156",
+    "sourceId": 156,
+    "gameId": 276,
+    "name": "強壁・流水珠【3】",
+    "nameEn": "Shield/Stream Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-157",
+    "sourceId": 157,
+    "gameId": 783,
+    "name": "雷光・初彈珠【3】",
+    "nameEn": "Bolt/Opener Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "thunder-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與首發射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-158",
+    "sourceId": 158,
+    "gameId": 1508,
+    "name": "破龍・守勢珠【3】",
+    "nameEn": "Dragon/Guardian Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與攻擊守勢 技能的裝飾品。"
+  },
+  {
+    "id": "deco-159",
+    "sourceId": 159,
+    "gameId": 1570,
+    "name": "破龍・集中珠【3】",
+    "nameEn": "Dragon/Focus Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "focus",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與集中技能 的裝飾品。"
+  },
+  {
+    "id": "deco-160",
+    "sourceId": 160,
+    "gameId": 1591,
+    "name": "屬會・火炎珠【3】",
+    "nameEn": "Crit Elem/Blaze Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與火屬性 攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-161",
+    "sourceId": 161,
+    "gameId": 1625,
+    "name": "冰結・利刃珠【3】",
+    "nameEn": "Frost/Rzr Sharp Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "razor-sharp",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與利刃技能 的裝飾品。"
+  },
+  {
+    "id": "deco-162",
+    "sourceId": 162,
+    "gameId": 1919,
+    "name": "集中・冰結珠【3】",
+    "nameEn": "Focus/Frost Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "focus",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動集中技能與冰屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-163",
+    "sourceId": 163,
+    "gameId": 2186,
+    "name": "利刃・冰結珠【3】",
+    "nameEn": "Rzr Sharp/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "razor-sharp",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動利刃技能與冰屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-164",
+    "sourceId": 164,
+    "gameId": 2420,
+    "name": "破龍・初彈珠【3】",
+    "nameEn": "Dragon/Opener Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與首發射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-165",
+    "sourceId": 165,
+    "gameId": 3416,
+    "name": "集中・流水珠【3】",
+    "nameEn": "Focus/Stream Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "focus",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 3
+      },
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動集中技能與水屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-166",
+    "sourceId": 166,
+    "gameId": 3690,
+    "name": "速變・破龍珠【3】",
+    "nameEn": "Quickswitch/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-167",
+    "sourceId": 167,
+    "gameId": 4514,
+    "name": "積彈・火炎珠【3】",
+    "nameEn": "Bandolier/Blaze Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-168",
+    "sourceId": 168,
+    "gameId": 4715,
+    "name": "利刃・流水珠【3】",
+    "nameEn": "Rzr Sharp/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "water-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 1
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能與水屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-169",
+    "sourceId": 169,
+    "gameId": 4781,
+    "name": "火炎・初彈珠【3】",
+    "nameEn": "Blaze/Opener Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與首發射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-170",
+    "sourceId": 170,
+    "gameId": 5173,
+    "name": "雷光・集中珠【3】",
+    "nameEn": "Bolt/Focus Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "focus",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與集中技能 的裝飾品。"
+  },
+  {
+    "id": "deco-171",
+    "sourceId": 171,
+    "gameId": 5731,
+    "name": "昂揚・火炎珠【3】",
+    "nameEn": "Enhancer/Blaze Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      }
+    ],
+    "description": "發動強化持續技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-172",
+    "sourceId": 172,
+    "gameId": 5876,
+    "name": "屬會・流水珠【3】",
+    "nameEn": "Crit Elem/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "critical-element",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 3
+      },
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與水屬性 攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-173",
+    "sourceId": 173,
+    "gameId": 6393,
+    "name": "雷光・利刃珠【3】",
+    "nameEn": "Bolt/Rzr Sharp Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "razor-sharp",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與利刃技能 的裝飾品。"
+  },
+  {
+    "id": "deco-174",
+    "sourceId": 174,
+    "gameId": 6455,
+    "name": "昂揚・冰結珠【3】",
+    "nameEn": "Enhancer/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "power-prolonger",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動強化持續技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-175",
+    "sourceId": 175,
+    "gameId": 6866,
+    "name": "屬會・雷光珠【3】",
+    "nameEn": "Crit Elem/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "critical-element",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與雷屬性 攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-176",
+    "sourceId": 176,
+    "gameId": 7249,
+    "name": "破龍・屬會珠【3】",
+    "nameEn": "Dragon/Crit Elem Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "critical-element",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與會心擊 【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-177",
+    "sourceId": 177,
+    "gameId": 7817,
+    "name": "冰結・積彈珠【3】",
+    "nameEn": "Frost/Bandolier Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ice-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與第四射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-178",
+    "sourceId": 178,
+    "gameId": 8302,
+    "name": "破龍・強壁珠【3】",
+    "nameEn": "Dragon/Shield Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      },
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與防禦強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-179",
+    "sourceId": 179,
+    "gameId": 8988,
+    "name": "速變・火炎珠【3】",
+    "nameEn": "Quickswitch/Blaze Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-180",
+    "sourceId": 180,
+    "gameId": 9096,
+    "name": "強壁・冰結珠【3】",
+    "nameEn": "Shield/Frost Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-181",
+    "sourceId": 181,
+    "gameId": 11183,
+    "name": "雷光・速變珠【3】",
+    "nameEn": "Bolt/Quickswitch Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與高速變形 技能的裝飾品。"
+  },
+  {
+    "id": "deco-182",
+    "sourceId": 182,
+    "gameId": 12151,
+    "name": "屬會・冰結珠【3】",
+    "nameEn": "Crit Elem/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "critical-element",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與冰屬性 攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-183",
+    "sourceId": 183,
+    "gameId": 12241,
+    "name": "強壁・雷光珠【3】",
+    "nameEn": "Shield/Bolt Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-184",
+    "sourceId": 184,
+    "gameId": 12727,
+    "name": "流水・利刃珠【3】",
+    "nameEn": "Stream/Rzr Sharp Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與利刃技能 的裝飾品。"
+  },
+  {
+    "id": "deco-185",
+    "sourceId": 185,
+    "gameId": 13386,
+    "name": "流水・強壁珠【3】",
+    "nameEn": "Stream/Shield Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與防禦強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-186",
+    "sourceId": 186,
+    "gameId": 13550,
+    "name": "冰結・集中珠【3】",
+    "nameEn": "Frost/Focus Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "focus",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與集中技能 的裝飾品。"
+  },
+  {
+    "id": "deco-187",
+    "sourceId": 187,
+    "gameId": 14731,
+    "name": "流水・屬會珠【3】",
+    "nameEn": "Stream/Crit Elem Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "critical-element",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與會心擊 【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-188",
+    "sourceId": 188,
+    "gameId": 14794,
+    "name": "初彈・雷光珠【3】",
+    "nameEn": "Opener/Bolt Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "thunder-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-189",
+    "sourceId": 189,
+    "gameId": 14855,
+    "name": "破龍・昂揚珠【3】",
+    "nameEn": "Dragon/Enhancer Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與強化持續 技能的裝飾品。"
+  },
+  {
+    "id": "deco-190",
+    "sourceId": 190,
+    "gameId": 14956,
+    "name": "利刃・火炎珠【3】",
+    "nameEn": "Rzr Sharp/Blaze Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能與火屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-191",
+    "sourceId": 191,
+    "gameId": 15379,
+    "name": "初彈・流水珠【3】",
+    "nameEn": "Opener/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "water-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-192",
+    "sourceId": 192,
+    "gameId": 16193,
+    "name": "守勢・火炎珠【3】",
+    "nameEn": "Guardian/Blaze Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      }
+    ],
+    "description": "發動攻擊守勢技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-193",
+    "sourceId": 193,
+    "gameId": 16930,
+    "name": "集中・雷光珠【3】",
+    "nameEn": "Focus/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "focus",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動集中技能與雷屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-194",
+    "sourceId": 194,
+    "gameId": 17415,
+    "name": "冰結・昂揚珠【3】",
+    "nameEn": "Frost/Enhancer Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "power-prolonger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與強化持續 技能的裝飾品。"
+  },
+  {
+    "id": "deco-195",
+    "sourceId": 195,
+    "gameId": 17610,
+    "name": "集中・破龍珠【3】",
+    "nameEn": "Focus/Dragon Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "focus",
+        "level": 3
+      }
+    ],
+    "description": "發動集中技能與龍屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-196",
+    "sourceId": 196,
+    "gameId": 17913,
+    "name": "雷光・強壁珠【3】",
+    "nameEn": "Bolt/Shield Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與防禦強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-197",
+    "sourceId": 197,
+    "gameId": 17949,
+    "name": "積彈・流水珠【3】",
+    "nameEn": "Bandolier/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "water-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-198",
+    "sourceId": 198,
+    "gameId": 18359,
+    "name": "積彈・冰結珠【3】",
+    "nameEn": "Bandolier/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "ice-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-199",
+    "sourceId": 199,
+    "gameId": 18958,
+    "name": "速變・冰結珠【3】",
+    "nameEn": "Quickswitch/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-200",
+    "sourceId": 200,
+    "gameId": 19383,
+    "name": "雷光・屬會珠【3】",
+    "nameEn": "Bolt/Crit Elem Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "critical-element",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與會心擊 【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-201",
+    "sourceId": 201,
+    "gameId": 20183,
+    "name": "破龍・速變珠【3】",
+    "nameEn": "Dragon/Quickswitch Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      },
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與高速變形 技能的裝飾品。"
+  },
+  {
+    "id": "deco-202",
+    "sourceId": 202,
+    "gameId": 20287,
+    "name": "強壁・破龍珠【3】",
+    "nameEn": "Shield/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-203",
+    "sourceId": 203,
+    "gameId": 20306,
+    "name": "冰結・守勢珠【3】",
+    "nameEn": "Frost/Guardian Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "offensive-guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與攻擊守勢 技能的裝飾品。"
+  },
+  {
+    "id": "deco-204",
+    "sourceId": 204,
+    "gameId": 20412,
+    "name": "火炎・屬會珠【3】",
+    "nameEn": "Blaze/Crit Elem Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "critical-element",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與會心擊 【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-205",
+    "sourceId": 205,
+    "gameId": 21045,
+    "name": "冰結・屬會珠【3】",
+    "nameEn": "Frost/Crit Elem Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "critical-element",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與會心擊 【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-206",
+    "sourceId": 206,
+    "gameId": 21328,
+    "name": "守勢・破龍珠【3】",
+    "nameEn": "Guardian/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      }
+    ],
+    "description": "發動攻擊守勢技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-207",
+    "sourceId": 207,
+    "gameId": 21515,
+    "name": "破龍・積彈珠【3】",
+    "nameEn": "Dragon/Bandolier Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與第四射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-208",
+    "sourceId": 208,
+    "gameId": 21891,
+    "name": "雷光・守勢珠【3】",
+    "nameEn": "Bolt/Guardian Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "offensive-guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與攻擊守勢 技能的裝飾品。"
+  },
+  {
+    "id": "deco-209",
+    "sourceId": 209,
+    "gameId": 22048,
+    "name": "流水・昂揚珠【3】",
+    "nameEn": "Stream/Enhancer Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與強化持續 技能的裝飾品。"
+  },
+  {
+    "id": "deco-210",
+    "sourceId": 210,
+    "gameId": 22310,
+    "name": "流水・守勢珠【3】",
+    "nameEn": "Stream/Guardian Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "offensive-guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與攻擊守勢 技能的裝飾品。"
+  },
+  {
+    "id": "deco-211",
+    "sourceId": 211,
+    "gameId": 22604,
+    "name": "積彈・雷光珠【3】",
+    "nameEn": "Bandolier/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "thunder-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-212",
+    "sourceId": 212,
+    "gameId": 22673,
+    "name": "守勢・流水珠【3】",
+    "nameEn": "Guardian/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "offensive-guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      },
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊守勢技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-213",
+    "sourceId": 213,
+    "gameId": 22681,
+    "name": "昂揚・流水珠【3】",
+    "nameEn": "Enhancer/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "water-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 1
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      }
+    ],
+    "description": "發動強化持續技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-214",
+    "sourceId": 214,
+    "gameId": 23236,
+    "name": "雷光・積彈珠【3】",
+    "nameEn": "Bolt/Bandolier Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "thunder-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與第四射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-215",
+    "sourceId": 215,
+    "gameId": 23494,
+    "name": "破龍・利刃珠【3】",
+    "nameEn": "Dragon/Rzr Sharp Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與利刃技能 的裝飾品。"
+  },
+  {
+    "id": "deco-216",
+    "sourceId": 216,
+    "gameId": 23522,
+    "name": "集中・火炎珠【3】",
+    "nameEn": "Focus/Blaze Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "focus",
+        "level": 3
+      }
+    ],
+    "description": "發動集中技能與火屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-217",
+    "sourceId": 217,
+    "gameId": 23556,
+    "name": "守勢・雷光珠【3】",
+    "nameEn": "Guardian/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "offensive-guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊守勢技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-218",
+    "sourceId": 218,
+    "gameId": 23622,
+    "name": "速變・雷光珠【3】",
+    "nameEn": "Quickswitch/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-219",
+    "sourceId": 219,
+    "gameId": 23677,
+    "name": "冰結・速變珠【3】",
+    "nameEn": "Frost/Quickswitch Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與高速變形 技能的裝飾品。"
+  },
+  {
+    "id": "deco-220",
+    "sourceId": 220,
+    "gameId": 24211,
+    "name": "守勢・冰結珠【3】",
+    "nameEn": "Guardian/Frost Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "offensive-guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "offensive-guard",
+        "level": 3
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊守勢技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-221",
+    "sourceId": 221,
+    "gameId": 24561,
+    "name": "初彈・冰結珠【3】",
+    "nameEn": "Opener/Frost Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "ice-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與冰屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-222",
+    "sourceId": 222,
+    "gameId": 24768,
+    "name": "流水・積彈珠【3】",
+    "nameEn": "Stream/Bandolier Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與第四射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-223",
+    "sourceId": 223,
+    "gameId": 24865,
+    "name": "利刃・破龍珠【3】",
+    "nameEn": "Rzr Sharp/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能與龍屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-224",
+    "sourceId": 224,
+    "gameId": 24927,
+    "name": "初彈・火炎珠【3】",
+    "nameEn": "Opener/Blaze Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "fire-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-225",
+    "sourceId": 225,
+    "gameId": 25926,
+    "name": "火炎・積彈珠【3】",
+    "nameEn": "Blaze/Bandolier Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與第四射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-226",
+    "sourceId": 226,
+    "gameId": 25952,
+    "name": "昂揚・雷光珠【3】",
+    "nameEn": "Enhancer/Bolt Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "power-prolonger",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動強化持續技能與雷屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-227",
+    "sourceId": 227,
+    "gameId": 26003,
+    "name": "強壁・火炎珠【3】",
+    "nameEn": "Shield/Blaze Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "fire-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與火屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-228",
+    "sourceId": 228,
+    "gameId": 26077,
+    "name": "昂揚・破龍珠【3】",
+    "nameEn": "Enhancer/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      }
+    ],
+    "description": "發動強化持續技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-229",
+    "sourceId": 229,
+    "gameId": 27036,
+    "name": "速變・流水珠【3】",
+    "nameEn": "Quickswitch/Stream Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "water-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與水屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-230",
+    "sourceId": 230,
+    "gameId": 27791,
+    "name": "積彈・破龍珠【3】",
+    "nameEn": "Bandolier/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-231",
+    "sourceId": 231,
+    "gameId": 28076,
+    "name": "初彈・破龍珠【3】",
+    "nameEn": "Opener/Dragon Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與龍屬性攻擊強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-232",
+    "sourceId": 232,
+    "gameId": 30137,
+    "name": "屬會・破龍珠【3】",
+    "nameEn": "Crit Elem/Dragon Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      },
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與龍屬性 攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-233",
+    "sourceId": 233,
+    "gameId": 30161,
+    "name": "冰結・初彈珠【3】",
+    "nameEn": "Frost/Opener Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ice-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與首發射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-234",
+    "sourceId": 234,
+    "gameId": 30405,
+    "name": "利刃・雷光珠【3】",
+    "nameEn": "Rzr Sharp/Bolt Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "razor-sharp",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動利刃技能與雷屬性攻擊強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-235",
+    "sourceId": 235,
+    "gameId": 30490,
+    "name": "流水・速變珠【3】",
+    "nameEn": "Stream/Quickswitch Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與高速變形 技能的裝飾品。"
+  },
+  {
+    "id": "deco-236",
+    "sourceId": 236,
+    "gameId": 31893,
+    "name": "冰結・強壁珠【3】",
+    "nameEn": "Frost/Shield Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與防禦強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-237",
+    "sourceId": 237,
+    "gameId": 32288,
+    "name": "雷光・昂揚珠【3】",
+    "nameEn": "Bolt/Enhancer Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "power-prolonger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 1
+      },
+      {
+        "skillId": "thunder-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動雷屬性攻擊強化技能與強化持續 技能的裝飾品。"
+  },
+  {
+    "id": "deco-238",
+    "sourceId": 238,
+    "gameId": 32433,
+    "name": "流水・集中珠【3】",
+    "nameEn": "Stream/Focus Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "focus",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與集中技能 的裝飾品。"
+  },
+  {
+    "id": "deco-239",
+    "sourceId": 239,
+    "gameId": 32676,
+    "name": "流水・初彈珠【3】",
+    "nameEn": "Stream/Opener Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與首發射擊 技能的裝飾品。"
+  },
+  {
+    "id": "deco-240",
+    "sourceId": 240,
+    "gameId": 5028590,
+    "name": "研磨珠Ⅱ【2】",
+    "nameEn": "Grinder Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "speed-sharpening",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能的裝飾品。"
+  },
+  {
+    "id": "deco-241",
+    "sourceId": 241,
+    "gameId": 5672852,
+    "name": "防禦珠【1】",
+    "nameEn": "Defense Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "defense-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "defense-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦技能的裝飾品。"
+  },
+  {
+    "id": "deco-242",
+    "sourceId": 242,
+    "gameId": 7844454,
+    "name": "研磨珠【1】",
+    "nameEn": "Grinder Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "speed-sharpening",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "speed-sharpening",
+        "level": 1
+      }
+    ],
+    "description": "發動砥石使用高速化技能的裝飾品。"
+  },
+  {
+    "id": "deco-243",
+    "sourceId": 243,
+    "gameId": 17525612,
+    "name": "強毒・射法珠【3】",
+    "nameEn": "Poison/Precise Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "ballistics",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與彈道強化技能 的裝飾品。"
+  },
+  {
+    "id": "deco-244",
+    "sourceId": 244,
+    "gameId": 19401228,
+    "name": "拔打珠Ⅲ【3】",
+    "nameEn": "Gambit Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "punishing-draw",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 3
+      }
+    ],
+    "description": "發動拔刀術【力】技能的裝飾品。"
+  },
+  {
+    "id": "deco-245",
+    "sourceId": 245,
+    "gameId": 23951036,
+    "name": "利刃・KO珠【3】",
+    "nameEn": "Razor Sharp/KO Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      }
+    ],
+    "description": "發動利刃技能與KO術技能的裝飾品。"
+  },
+  {
+    "id": "deco-246",
+    "sourceId": 246,
+    "gameId": 34988560,
+    "name": "散彈珠【3】",
+    "nameEn": "Spread Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "spreadpower-shots",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "spreadpower-shots",
+        "level": 1
+      }
+    ],
+    "description": "發動散彈・剛射強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-247",
+    "sourceId": 247,
+    "gameId": 44196940,
+    "name": "KO珠Ⅱ【2】",
+    "nameEn": "KO Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "slugger",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 2
+      }
+    ],
+    "description": "發動KO術技能的裝飾品。"
+  },
+  {
+    "id": "deco-248",
+    "sourceId": 248,
+    "gameId": 64300272,
+    "name": "集中・KO珠【3】",
+    "nameEn": "Focus/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "focus",
+        "level": 3
+      }
+    ],
+    "description": "發動集中技能與KO術技能的裝飾品。"
+  },
+  {
+    "id": "deco-249",
+    "sourceId": 249,
+    "gameId": 67372504,
+    "name": "剛刃珠【1】",
+    "nameEn": "Sharp Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "protective-polish",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "protective-polish",
+        "level": 1
+      }
+    ],
+    "description": "發動剛刃研磨技能的裝飾品。"
+  },
+  {
+    "id": "deco-250",
+    "sourceId": 250,
+    "gameId": 72596768,
+    "name": "獵人珠【1】",
+    "nameEn": "Ranger Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "outdoorsman",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "outdoorsman",
+        "level": 1
+      }
+    ],
+    "description": "發動獵人生活技能的裝飾品。"
+  },
+  {
+    "id": "deco-251",
+    "sourceId": 251,
+    "gameId": 97814240,
+    "name": "砲術珠【1】",
+    "nameEn": "Artillery Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "artillery",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "artillery",
+        "level": 1
+      }
+    ],
+    "description": "發動砲術技能的裝飾品。"
+  },
+  {
+    "id": "deco-252",
+    "sourceId": 252,
+    "gameId": 103198480,
+    "name": "積彈・射法珠【3】",
+    "nameEn": "Bandolier/Precise Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "tetrad-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動第四射擊技能與彈道強化技能的 裝飾品。"
+  },
+  {
+    "id": "deco-253",
+    "sourceId": 253,
+    "gameId": 115284000,
+    "name": "強蓄・匠珠【3】",
+    "nameEn": "Charge/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "charge-master",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "charge-master",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄力大師技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-254",
+    "sourceId": 254,
+    "gameId": 124240896,
+    "name": "特會珠【1】",
+    "nameEn": "Crit Status Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "critical-status",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-status",
+        "level": 1
+      }
+    ],
+    "description": "發動會心擊【特殊】技能的裝飾品。"
+  },
+  {
+    "id": "deco-255",
+    "sourceId": 255,
+    "gameId": 130724024,
+    "name": "攻擊珠【1】",
+    "nameEn": "Attack Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "attack-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動攻擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-256",
+    "sourceId": 256,
+    "gameId": 146040608,
+    "name": "匠珠Ⅲ【3】",
+    "nameEn": "Handicraft Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "handicraft",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 3
+      }
+    ],
+    "description": "發動匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-257",
+    "sourceId": 257,
+    "gameId": 163043584,
+    "name": "初彈・鐵壁珠【3】",
+    "nameEn": "Opener/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "opening-shot",
+        "level": 3
+      }
+    ],
+    "description": "發動首發射擊技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-258",
+    "sourceId": 258,
+    "gameId": 183160800,
+    "name": "速變珠Ⅱ【2】",
+    "nameEn": "Quickswitch Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "rapid-morph",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 2
+      }
+    ],
+    "description": "發動高速變形技能的裝飾品。"
+  },
+  {
+    "id": "deco-259",
+    "sourceId": 259,
+    "gameId": 186552368,
+    "name": "冰結珠【1】",
+    "nameEn": "Frost Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "ice-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-260",
+    "sourceId": 260,
+    "gameId": 213184688,
+    "name": "無傷珠【2】",
+    "nameEn": "Flawless Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "peak-performance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "peak-performance",
+        "level": 1
+      }
+    ],
+    "description": "發動無傷技能的裝飾品。"
+  },
+  {
+    "id": "deco-261",
+    "sourceId": 261,
+    "gameId": 219173888,
+    "name": "破龍・射法珠【3】",
+    "nameEn": "Dragon/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "ballistics",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-262",
+    "sourceId": 262,
+    "gameId": 248848256,
+    "name": "達人珠Ⅱ【2】",
+    "nameEn": "Expert Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "critical-eye",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 2
+      }
+    ],
+    "description": "發動看破技能的裝飾品。"
+  },
+  {
+    "id": "deco-263",
+    "sourceId": 263,
+    "gameId": 280205024,
+    "name": "攻擊珠Ⅲ【3】",
+    "nameEn": "Attack Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "attack-boost",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 3
+      }
+    ],
+    "description": "發動攻擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-264",
+    "sourceId": 264,
+    "gameId": 298345088,
+    "name": "增彈珠【1】",
+    "nameEn": "Magazine Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "load-shells",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "load-shells",
+        "level": 1
+      }
+    ],
+    "description": "發動砲彈裝填技能的裝飾品。"
+  },
+  {
+    "id": "deco-265",
+    "sourceId": 265,
+    "gameId": 336866720,
+    "name": "強毒・達人珠【3】",
+    "nameEn": "Poison/Expert Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與看破技能的 裝飾品。"
+  },
+  {
+    "id": "deco-266",
+    "sourceId": 266,
+    "gameId": 386498304,
+    "name": "冰結珠Ⅲ【3】",
+    "nameEn": "Frost Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "ice-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-267",
+    "sourceId": 267,
+    "gameId": 391149760,
+    "name": "強毒・匠珠【3】",
+    "nameEn": "Poison/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-268",
+    "sourceId": 268,
+    "gameId": 435353600,
+    "name": "匠珠【1】",
+    "nameEn": "Handicraft Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "handicraft",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-269",
+    "sourceId": 269,
+    "gameId": 446613472,
+    "name": "昂揚珠Ⅲ【3】",
+    "nameEn": "Enhancer Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "power-prolonger",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      }
+    ],
+    "description": "發動強化持續技能的裝飾品。"
+  },
+  {
+    "id": "deco-270",
+    "sourceId": 270,
+    "gameId": 454747104,
+    "name": "治癒珠【1】",
+    "nameEn": "Medicine Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "recovery-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "recovery-up",
+        "level": 1
+      }
+    ],
+    "description": "發動體力回復量上升技能的裝飾品。"
+  },
+  {
+    "id": "deco-271",
+    "sourceId": 271,
+    "gameId": 457280288,
+    "name": "強蓄珠Ⅲ【3】",
+    "nameEn": "Charge Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "charge-master",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "charge-master",
+        "level": 3
+      }
+    ],
+    "description": "發動蓄力大師技能的裝飾品。"
+  },
+  {
+    "id": "deco-272",
+    "sourceId": 272,
+    "gameId": 460437856,
+    "name": "飛燕・達人珠【3】",
+    "nameEn": "Flight/Expert Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "airborne",
+        "level": 1
+      }
+    ],
+    "description": "發動飛燕技能與看破技能的裝飾品。"
+  },
+  {
+    "id": "deco-273",
+    "sourceId": 273,
+    "gameId": 499818016,
+    "name": "鼓笛・拔刀珠【3】",
+    "nameEn": "Sonorous/Draw Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "horn-maestro",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "horn-maestro",
+        "level": 2
+      },
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動吹笛名人技能與拔刀術【技】 技能的裝飾品。"
+  },
+  {
+    "id": "deco-274",
+    "sourceId": 274,
+    "gameId": 519959680,
+    "name": "暴怒珠【2】",
+    "nameEn": "Furor Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "resentment",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "resentment",
+        "level": 1
+      }
+    ],
+    "description": "發動怨恨技能的裝飾品。"
+  },
+  {
+    "id": "deco-275",
+    "sourceId": 275,
+    "gameId": 520733824,
+    "name": "特會・射法珠【3】",
+    "nameEn": "Crit Stat/Precise Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "critical-status",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【特殊】技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-276",
+    "sourceId": 276,
+    "gameId": 583988672,
+    "name": "心眼珠Ⅲ【3】",
+    "nameEn": "Mind's Eye Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "minds-eye",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "minds-eye",
+        "level": 3
+      }
+    ],
+    "description": "發動心眼技能的裝飾品。"
+  },
+  {
+    "id": "deco-277",
+    "sourceId": 277,
+    "gameId": 594204352,
+    "name": "KO珠Ⅲ【3】",
+    "nameEn": "KO Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "slugger",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 3
+      }
+    ],
+    "description": "發動KO術技能的裝飾品。"
+  },
+  {
+    "id": "deco-278",
+    "sourceId": 278,
+    "gameId": 618579264,
+    "name": "增彈・鐵壁珠【3】",
+    "nameEn": "Magazine/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "load-shells",
+        "level": 2
+      }
+    ],
+    "description": "發動砲彈裝填技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-279",
+    "sourceId": 279,
+    "gameId": 639622592,
+    "name": "麻痺珠Ⅱ【2】",
+    "nameEn": "Paralyzer Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "paralysis-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "paralysis-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動麻痺屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-280",
+    "sourceId": 280,
+    "gameId": 645053056,
+    "name": "快吃珠【1】",
+    "nameEn": "Gobbler Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "speed-eating",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "speed-eating",
+        "level": 1
+      }
+    ],
+    "description": "發動快吃技能的裝飾品。"
+  },
+  {
+    "id": "deco-281",
+    "sourceId": 281,
+    "gameId": 654954304,
+    "name": "流水・鐵壁珠【3】",
+    "nameEn": "Stream/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-282",
+    "sourceId": 282,
+    "gameId": 656487488,
+    "name": "急襲珠【2】",
+    "nameEn": "Ambush Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "ambush",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ambush",
+        "level": 1
+      }
+    ],
+    "description": "發動急襲技能的裝飾品。"
+  },
+  {
+    "id": "deco-283",
+    "sourceId": 283,
+    "gameId": 668852032,
+    "name": "轉福珠【2】",
+    "nameEn": "Phoenix Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 7,
+    "skillId": "coalescence",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "coalescence",
+        "level": 1
+      }
+    ],
+    "description": "發動轉禍為福技能的裝飾品。"
+  },
+  {
+    "id": "deco-284",
+    "sourceId": 284,
+    "gameId": 694060672,
+    "name": "耐絕珠【1】",
+    "nameEn": "Steadfast Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "stun-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "stun-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動昏厥耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-285",
+    "sourceId": 285,
+    "gameId": 701807872,
+    "name": "耐爆珠【1】",
+    "nameEn": "Antiblast Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "blast-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "blast-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動爆破異常耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-286",
+    "sourceId": 286,
+    "gameId": 714935168,
+    "name": "奪氣珠【1】",
+    "nameEn": "Drain Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "stamina-thief",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "stamina-thief",
+        "level": 1
+      }
+    ],
+    "description": "發動奪取耐力技能的裝飾品。"
+  },
+  {
+    "id": "deco-287",
+    "sourceId": 287,
+    "gameId": 759889920,
+    "name": "心眼珠Ⅱ【2】",
+    "nameEn": "Mind's Eye Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "minds-eye",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "minds-eye",
+        "level": 2
+      }
+    ],
+    "description": "發動心眼技能的裝飾品。"
+  },
+  {
+    "id": "deco-288",
+    "sourceId": 288,
+    "gameId": 767051200,
+    "name": "痛擊珠【3】",
+    "nameEn": "Tenderizer Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "weakness-exploit",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "weakness-exploit",
+        "level": 1
+      }
+    ],
+    "description": "發動弱點特效技能的裝飾品。"
+  },
+  {
+    "id": "deco-289",
+    "sourceId": 289,
+    "gameId": 771935488,
+    "name": "砲術珠Ⅲ【3】",
+    "nameEn": "Artillery Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "artillery",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "artillery",
+        "level": 3
+      }
+    ],
+    "description": "發動砲術技能的裝飾品。"
+  },
+  {
+    "id": "deco-290",
+    "sourceId": 290,
+    "gameId": 795180288,
+    "name": "蓄攻珠【2】",
+    "nameEn": "Charge Up Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "charge-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "charge-up",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-291",
+    "sourceId": 291,
+    "gameId": 797303936,
+    "name": "集中珠Ⅱ【2】",
+    "nameEn": "Focus Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "focus",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 2
+      }
+    ],
+    "description": "發動集中技能的裝飾品。"
+  },
+  {
+    "id": "deco-292",
+    "sourceId": 292,
+    "gameId": 839957184,
+    "name": "蓄攻・匠珠【3】",
+    "nameEn": "Charge Up/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "charge-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "charge-up",
+        "level": 1
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-293",
+    "sourceId": 293,
+    "gameId": 865685248,
+    "name": "緩衝珠【1】",
+    "nameEn": "Shockproof Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "shock-absorber",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "shock-absorber",
+        "level": 1
+      }
+    ],
+    "description": "發動緩衝技能的裝飾品。"
+  },
+  {
+    "id": "deco-294",
+    "sourceId": 294,
+    "gameId": 886913856,
+    "name": "火炎珠Ⅲ【3】",
+    "nameEn": "Blaze Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-295",
+    "sourceId": 295,
+    "gameId": 895028672,
+    "name": "冰結珠Ⅱ【2】",
+    "nameEn": "Frost Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "ice-attack",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "ice-attack",
+        "level": 2
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-296",
+    "sourceId": 296,
+    "gameId": 897466048,
+    "name": "破龍・匠珠【3】",
+    "nameEn": "Dragon/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "dragon-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-297",
+    "sourceId": 297,
+    "gameId": 910101056,
+    "name": "屬會・鐵壁珠【3】",
+    "nameEn": "Crit Elem/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-298",
+    "sourceId": 298,
+    "gameId": 912898176,
+    "name": "火炎・速變珠【3】",
+    "nameEn": "Blaze/Quickswitch Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      },
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與高速變形 技能的裝飾品。"
+  },
+  {
+    "id": "deco-299",
+    "sourceId": 299,
+    "gameId": 914233472,
+    "name": "流水・匠珠【3】",
+    "nameEn": "Stream/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-300",
+    "sourceId": 300,
+    "gameId": 934416192,
+    "name": "蓄攻・達人珠【3】",
+    "nameEn": "Charge Up/Expert Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-eye",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-eye",
+        "level": 1
+      },
+      {
+        "skillId": "charge-up",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能與看破技能的 裝飾品。"
+  },
+  {
+    "id": "deco-301",
+    "sourceId": 301,
+    "gameId": 944809600,
+    "name": "屬會・射法珠【3】",
+    "nameEn": "Crit Element/Precise Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-302",
+    "sourceId": 302,
+    "gameId": 948977536,
+    "name": "全開珠【3】",
+    "nameEn": "Throttle Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "latent-power",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "latent-power",
+        "level": 1
+      }
+    ],
+    "description": "發動力量解放技能的裝飾品。"
+  },
+  {
+    "id": "deco-303",
+    "sourceId": 303,
+    "gameId": 949857152,
+    "name": "耐臭珠【1】",
+    "nameEn": "Perfume Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "stench-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "stench-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動惡臭耐性技能的裝飾品。"
+  },
+  {
+    "id": "deco-304",
+    "sourceId": 304,
+    "gameId": 954350400,
+    "name": "整備珠【2】",
+    "nameEn": "Maintenance Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "tool-specialist",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "tool-specialist",
+        "level": 1
+      }
+    ],
+    "description": "發動整備技能的裝飾品。"
+  },
+  {
+    "id": "deco-305",
+    "sourceId": 305,
+    "gameId": 986212736,
+    "name": "超心珠Ⅲ【3】",
+    "nameEn": "Critical Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-boost",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-boost",
+        "level": 3
+      }
+    ],
+    "description": "發動超會心技能的裝飾品。"
+  },
+  {
+    "id": "deco-306",
+    "sourceId": 306,
+    "gameId": 1024615424,
+    "name": "冰結・射法珠【3】",
+    "nameEn": "Frost/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-307",
+    "sourceId": 307,
+    "gameId": 1031937152,
+    "name": "火炎・利刃珠【3】",
+    "nameEn": "Blaze/Rzr Sharp Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "fire-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "fire-attack",
+        "level": 3
+      },
+      {
+        "skillId": "razor-sharp",
+        "level": 1
+      }
+    ],
+    "description": "發動火屬性攻擊強化技能與利刃技能 的裝飾品。"
+  },
+  {
+    "id": "deco-308",
+    "sourceId": 308,
+    "gameId": 1067880832,
+    "name": "疲瓶珠【2】",
+    "nameEn": "Draincoat Jewel [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "exhaust-functionality",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "exhaust-functionality",
+        "level": 1
+      }
+    ],
+    "description": "發動減氣瓶追加技能的裝飾品。"
+  },
+  {
+    "id": "deco-309",
+    "sourceId": 309,
+    "gameId": 1088947584,
+    "name": "強壁珠Ⅲ【3】",
+    "nameEn": "Shield Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      }
+    ],
+    "description": "發動防禦強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-310",
+    "sourceId": 310,
+    "gameId": 1096472320,
+    "name": "研磨・攻擊珠【3】",
+    "nameEn": "Grinder/Attack Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "attack-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      },
+      {
+        "skillId": "speed-sharpening",
+        "level": 2
+      }
+    ],
+    "description": "發動砥石使用高速化技能與攻擊技能 的裝飾品。"
+  },
+  {
+    "id": "deco-311",
+    "sourceId": 311,
+    "gameId": 1115345024,
+    "name": "鈍器珠Ⅱ【2】",
+    "nameEn": "Blunt Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "bludgeoner",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "bludgeoner",
+        "level": 2
+      }
+    ],
+    "description": "發動鈍器能手技能的裝飾品。"
+  },
+  {
+    "id": "deco-312",
+    "sourceId": 312,
+    "gameId": 1150766464,
+    "name": "超心珠【1】",
+    "nameEn": "Critical Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "critical-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "critical-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動超會心技能的裝飾品。"
+  },
+  {
+    "id": "deco-313",
+    "sourceId": 313,
+    "gameId": 1162934272,
+    "name": "剛刃珠Ⅲ【3】",
+    "nameEn": "Sharp Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "protective-polish",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "protective-polish",
+        "level": 3
+      }
+    ],
+    "description": "發動剛刃研磨技能的裝飾品。"
+  },
+  {
+    "id": "deco-314",
+    "sourceId": 314,
+    "gameId": 1174071168,
+    "name": "集中・射法珠【3】",
+    "nameEn": "Focus/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "focus",
+        "level": 3
+      }
+    ],
+    "description": "發動集中技能與彈道強化技能的 裝飾品。"
+  },
+  {
+    "id": "deco-315",
+    "sourceId": 315,
+    "gameId": 1179637760,
+    "name": "拔打珠Ⅱ【2】",
+    "nameEn": "Gambit Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "punishing-draw",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "punishing-draw",
+        "level": 2
+      }
+    ],
+    "description": "發動拔刀術【力】技能的裝飾品。"
+  },
+  {
+    "id": "deco-316",
+    "sourceId": 316,
+    "gameId": 1190642816,
+    "name": "積彈珠【1】",
+    "nameEn": "Bandolier Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "tetrad-shot",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "tetrad-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動第四射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-317",
+    "sourceId": 317,
+    "gameId": 1194220032,
+    "name": "鈍器珠【1】",
+    "nameEn": "Blunt Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "bludgeoner",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "bludgeoner",
+        "level": 1
+      }
+    ],
+    "description": "發動鈍器能手技能的裝飾品。"
+  },
+  {
+    "id": "deco-318",
+    "sourceId": 318,
+    "gameId": 1202986624,
+    "name": "強彈珠【3】",
+    "nameEn": "Forceshot Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "normal-shots",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "normal-shots",
+        "level": 1
+      }
+    ],
+    "description": "發動通常彈・通常箭強化技能的 裝飾品。"
+  },
+  {
+    "id": "deco-319",
+    "sourceId": 319,
+    "gameId": 1213481984,
+    "name": "速變珠【1】",
+    "nameEn": "Quickswitch Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "rapid-morph",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能的裝飾品。"
+  },
+  {
+    "id": "deco-320",
+    "sourceId": 320,
+    "gameId": 1216872320,
+    "name": "屬會珠Ⅱ【2】",
+    "nameEn": "Crit Element Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "critical-element",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 2
+      }
+    ],
+    "description": "發動會心擊【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-321",
+    "sourceId": 321,
+    "gameId": 1230875008,
+    "name": "閃光珠【1】",
+    "nameEn": "Flash Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "blindsider",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "blindsider",
+        "level": 1
+      }
+    ],
+    "description": "發動閃光強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-322",
+    "sourceId": 322,
+    "gameId": 1287680640,
+    "name": "飛燕・匠珠【3】",
+    "nameEn": "Flight/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "airborne",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "airborne",
+        "level": 1
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動飛燕技能與匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-323",
+    "sourceId": 323,
+    "gameId": 1305797760,
+    "name": "逆襲珠【2】",
+    "nameEn": "Counter Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "counterstrike",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "counterstrike",
+        "level": 1
+      }
+    ],
+    "description": "發動逆襲技能的裝飾品。"
+  },
+  {
+    "id": "deco-324",
+    "sourceId": 324,
+    "gameId": 1343145856,
+    "name": "射法珠Ⅲ【3】",
+    "nameEn": "Precise Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "ballistics",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 3
+      }
+    ],
+    "description": "發動彈道強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-325",
+    "sourceId": 325,
+    "gameId": 1377760768,
+    "name": "特射珠【1】",
+    "nameEn": "Trueshot Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "special-ammo-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "special-ammo-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動特殊射擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-326",
+    "sourceId": 326,
+    "gameId": 1389113984,
+    "name": "冰結・KO珠【3】",
+    "nameEn": "Frost/KO Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與KO術技能 的裝飾品。"
+  },
+  {
+    "id": "deco-327",
+    "sourceId": 327,
+    "gameId": 1397927296,
+    "name": "特會・KO珠【3】",
+    "nameEn": "Crit Status/KO Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "slugger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "slugger",
+        "level": 1
+      },
+      {
+        "skillId": "critical-status",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【特殊】技能與KO術 技能的裝飾品。"
+  },
+  {
+    "id": "deco-328",
+    "sourceId": 328,
+    "gameId": 1414248576,
+    "name": "潛力珠【2】",
+    "nameEn": "Potential Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "heroics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "heroics",
+        "level": 1
+      }
+    ],
+    "description": "發動火場怪力技能的裝飾品。"
+  },
+  {
+    "id": "deco-329",
+    "sourceId": 329,
+    "gameId": 1427190272,
+    "name": "特會珠Ⅱ【2】",
+    "nameEn": "Crit Status Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "critical-status",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "critical-status",
+        "level": 2
+      }
+    ],
+    "description": "發動會心擊【特殊】技能的裝飾品。"
+  },
+  {
+    "id": "deco-330",
+    "sourceId": 330,
+    "gameId": 1443679488,
+    "name": "強壁・鐵壁珠【3】",
+    "nameEn": "Shield/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard-up",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 3
+      },
+      {
+        "skillId": "guard",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能與防禦性能技能的 裝飾品。"
+  },
+  {
+    "id": "deco-331",
+    "sourceId": 331,
+    "gameId": 1444555776,
+    "name": "強壁珠【1】",
+    "nameEn": "Shield Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "guard-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard-up",
+        "level": 1
+      }
+    ],
+    "description": "發動防禦強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-332",
+    "sourceId": 332,
+    "gameId": 1478235520,
+    "name": "迴避珠【2】",
+    "nameEn": "Evasion Jewel [2]",
+    "kind": "armor",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "evade-window",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "evade-window",
+        "level": 1
+      }
+    ],
+    "description": "發動迴避性能技能的裝飾品。"
+  },
+  {
+    "id": "deco-333",
+    "sourceId": 333,
+    "gameId": 1494637824,
+    "name": "冰結・匠珠【3】",
+    "nameEn": "Frost/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "handicraft",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "handicraft",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-334",
+    "sourceId": 334,
+    "gameId": 1536980096,
+    "name": "流水珠Ⅲ【3】",
+    "nameEn": "Stream Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "water-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-335",
+    "sourceId": 335,
+    "gameId": 1596720768,
+    "name": "冰結・鐵壁珠【3】",
+    "nameEn": "Frost/Ironwall Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "guard",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 1
+      },
+      {
+        "skillId": "ice-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動冰屬性攻擊強化技能與防禦性能 技能的裝飾品。"
+  },
+  {
+    "id": "deco-336",
+    "sourceId": 336,
+    "gameId": 1597431680,
+    "name": "拔刀珠Ⅱ【2】",
+    "nameEn": "Draw Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "critical-draw",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "critical-draw",
+        "level": 2
+      }
+    ],
+    "description": "發動拔刀術【技】技能的裝飾品。"
+  },
+  {
+    "id": "deco-337",
+    "sourceId": 337,
+    "gameId": 1598502400,
+    "name": "反攻珠【3】",
+    "nameEn": "Counterattack Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "adrenaline-rush",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "adrenaline-rush",
+        "level": 1
+      }
+    ],
+    "description": "發動巧擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-338",
+    "sourceId": 338,
+    "gameId": 1619248640,
+    "name": "速變・KO珠【3】",
+    "nameEn": "Quickswitch/KO Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "rapid-morph",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "rapid-morph",
+        "level": 3
+      },
+      {
+        "skillId": "slugger",
+        "level": 1
+      }
+    ],
+    "description": "發動高速變形技能與KO術技能的 裝飾品。"
+  },
+  {
+    "id": "deco-339",
+    "sourceId": 339,
+    "gameId": 1636575872,
+    "name": "利刃・匠珠【3】",
+    "nameEn": "Rzr Sharp/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "razor-sharp",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "razor-sharp",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動利刃技能與匠技能的裝飾品。"
+  },
+  {
+    "id": "deco-340",
+    "sourceId": 340,
+    "gameId": 1701043584,
+    "name": "貫通珠【3】",
+    "nameEn": "Pierce Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "piercing-shots",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "piercing-shots",
+        "level": 1
+      }
+    ],
+    "description": "發動貫通彈・龍之箭強化技能的 裝飾品。"
+  },
+  {
+    "id": "deco-341",
+    "sourceId": 341,
+    "gameId": 1731714432,
+    "name": "友愛珠【1】",
+    "nameEn": "Friendship Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "wide-range",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "wide-range",
+        "level": 1
+      }
+    ],
+    "description": "發動廣域化技能的裝飾品。"
+  },
+  {
+    "id": "deco-342",
+    "sourceId": 342,
+    "gameId": 1738329216,
+    "name": "強走珠【1】",
+    "nameEn": "Sprinter Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "marathon-runner",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "marathon-runner",
+        "level": 1
+      }
+    ],
+    "description": "發動跑者技能的裝飾品。"
+  },
+  {
+    "id": "deco-343",
+    "sourceId": 343,
+    "gameId": 1789092864,
+    "name": "屬會珠Ⅲ【3】",
+    "nameEn": "Crit Elem Jwl III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "critical-element",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "critical-element",
+        "level": 3
+      }
+    ],
+    "description": "發動會心擊【屬性】技能的裝飾品。"
+  },
+  {
+    "id": "deco-344",
+    "sourceId": 344,
+    "gameId": 1832912384,
+    "name": "爆破珠Ⅲ【3】",
+    "nameEn": "Blast Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "blast-attack",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "blast-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動爆破屬性強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-345",
+    "sourceId": 345,
+    "gameId": 1833462144,
+    "name": "流水・射法珠【3】",
+    "nameEn": "Stream/Precise Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "ballistics",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "ballistics",
+        "level": 1
+      },
+      {
+        "skillId": "water-attack",
+        "level": 3
+      }
+    ],
+    "description": "發動水屬性攻擊強化技能與彈道強化 技能的裝飾品。"
+  },
+  {
+    "id": "deco-346",
+    "sourceId": 346,
+    "gameId": 1887590400,
+    "name": "昂揚・匠珠【3】",
+    "nameEn": "Enhancer/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 7,
+    "skillId": "power-prolonger",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "power-prolonger",
+        "level": 3
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動強化持續技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-347",
+    "sourceId": 347,
+    "gameId": 1906356096,
+    "name": "集中珠【1】",
+    "nameEn": "Focus Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "focus",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "focus",
+        "level": 1
+      }
+    ],
+    "description": "發動集中技能的裝飾品。"
+  },
+  {
+    "id": "deco-348",
+    "sourceId": 348,
+    "gameId": 1910118400,
+    "name": "蓄攻・拔刀珠【3】",
+    "nameEn": "Charge Up/Draw Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "charge-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "charge-up",
+        "level": 1
+      },
+      {
+        "skillId": "critical-draw",
+        "level": 1
+      }
+    ],
+    "description": "發動蓄攻強化技能與拔刀術【技】 技能的裝飾品。"
+  },
+  {
+    "id": "deco-349",
+    "sourceId": 349,
+    "gameId": 1933586560,
+    "name": "登壁珠【1】",
+    "nameEn": "Climber Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "cliffhanger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "cliffhanger",
+        "level": 1
+      }
+    ],
+    "description": "發動攀岩者技能的裝飾品。"
+  },
+  {
+    "id": "deco-350",
+    "sourceId": 350,
+    "gameId": 1967618304,
+    "name": "鐵壁珠Ⅱ【2】",
+    "nameEn": "Ironwall Jewel II [2]",
+    "kind": "weapon",
+    "slotSize": 2,
+    "rarity": 4,
+    "skillId": "guard",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 2
+      }
+    ],
+    "description": "發動防禦性能技能的裝飾品。"
+  },
+  {
+    "id": "deco-351",
+    "sourceId": 351,
+    "gameId": 1979979520,
+    "name": "植學珠【1】",
+    "nameEn": "Botany Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "botanist",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "botanist",
+        "level": 1
+      }
+    ],
+    "description": "發動植生學技能的裝飾品。"
+  },
+  {
+    "id": "deco-352",
+    "sourceId": 352,
+    "gameId": 2003488640,
+    "name": "挑戰珠【3】",
+    "nameEn": "Challenger Jewel [3]",
+    "kind": "armor",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "agitator",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "agitator",
+        "level": 1
+      }
+    ],
+    "description": "發動挑戰者技能的裝飾品。"
+  },
+  {
+    "id": "deco-353",
+    "sourceId": 353,
+    "gameId": 2004238976,
+    "name": "增彈・攻擊珠【3】",
+    "nameEn": "Magazine/Attack Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "attack-boost",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      },
+      {
+        "skillId": "load-shells",
+        "level": 2
+      }
+    ],
+    "description": "發動砲彈裝填技能與攻擊技能的 裝飾品。"
+  },
+  {
+    "id": "deco-354",
+    "sourceId": 354,
+    "gameId": 2005516288,
+    "name": "鐵壁珠Ⅲ【3】",
+    "nameEn": "Ironwall Jewel III [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "guard",
+    "skillLevel": 3,
+    "skills": [
+      {
+        "skillId": "guard",
+        "level": 3
+      }
+    ],
+    "description": "發動防禦性能技能的裝飾品。"
+  },
+  {
+    "id": "deco-355",
+    "sourceId": 355,
+    "gameId": 2071836160,
+    "name": "鼓笛・匠珠【3】",
+    "nameEn": "Sonorous/Handicraft Jwl [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 5,
+    "skillId": "horn-maestro",
+    "skillLevel": 2,
+    "skills": [
+      {
+        "skillId": "horn-maestro",
+        "level": 2
+      },
+      {
+        "skillId": "handicraft",
+        "level": 1
+      }
+    ],
+    "description": "發動吹笛名人技能與匠技能的 裝飾品。"
+  },
+  {
+    "id": "deco-356",
+    "sourceId": 356,
+    "gameId": 2074953216,
+    "name": "持續珠【1】",
+    "nameEn": "Enduring Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "item-prolonger",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "item-prolonger",
+        "level": 1
+      }
+    ],
+    "description": "發動道具使用強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-357",
+    "sourceId": 357,
+    "gameId": 2088515968,
+    "name": "破龍珠【1】",
+    "nameEn": "Dragon Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "dragon-attack",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "dragon-attack",
+        "level": 1
+      }
+    ],
+    "description": "發動龍屬性攻擊強化技能的裝飾品。"
+  },
+  {
+    "id": "deco-358",
+    "sourceId": 358,
+    "gameId": 2092268800,
+    "name": "初彈珠【1】",
+    "nameEn": "Opener Jewel [1]",
+    "kind": "weapon",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "opening-shot",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "opening-shot",
+        "level": 1
+      }
+    ],
+    "description": "發動首發射擊技能的裝飾品。"
+  },
+  {
+    "id": "deco-359",
+    "sourceId": 359,
+    "gameId": 2099419520,
+    "name": "耐震珠【1】",
+    "nameEn": "Footing Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "tremor-resistance",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "tremor-resistance",
+        "level": 1
+      }
+    ],
+    "description": "發動耐震技能的裝飾品。"
+  },
+  {
+    "id": "deco-360",
+    "sourceId": 360,
+    "gameId": 2117714048,
+    "name": "強毒・攻擊珠【3】",
+    "nameEn": "Poison/Attack Jewel [3]",
+    "kind": "weapon",
+    "slotSize": 3,
+    "rarity": 6,
+    "skillId": "poison-duration-up",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "poison-duration-up",
+        "level": 1
+      },
+      {
+        "skillId": "attack-boost",
+        "level": 1
+      }
+    ],
+    "description": "發動毒傷害強化技能與攻擊技能的 裝飾品。"
+  },
+  {
+    "id": "deco-361",
+    "sourceId": 361,
+    "gameId": 2145184512,
+    "name": "威嚇珠【1】",
+    "nameEn": "Intimidator Jewel [1]",
+    "kind": "armor",
+    "slotSize": 1,
+    "rarity": 3,
+    "skillId": "intimidator",
+    "skillLevel": 1,
+    "skills": [
+      {
+        "skillId": "intimidator",
+        "level": 1
+      }
+    ],
+    "description": "發動威嚇技能的裝飾品。"
+  }
+]

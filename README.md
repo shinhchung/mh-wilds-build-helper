@@ -95,15 +95,39 @@ npm run start
 
 Then open with Expo Go or an emulator.
 
+## Data pipeline
+
+```bash
+npm run data:refresh
+```
+
+This downloads MHDB API snapshots for `en` and `zh-Hant`, stores Kiranico `zh-Hant` HTML snapshots for cross-checking, normalizes the data, then regenerates app-facing TypeScript data under `src/data/generated`.
+
+Main generated inputs:
+
+- `data/raw/mhdb/**` - MHDB API snapshots
+- `data/raw/kiranico/zh-Hant/**` - Kiranico Traditional Chinese snapshots
+- `data/normalized/*.json` - local optimizer-ready data
+- `src/data/generated/*.ts` - app-facing generated data
+
+Run the MVP armor optimizer directly:
+
+```bash
+node scripts/optimize-build.mjs --skills=weakness-exploit:3,agitator:3,peak-performance:3 --limit=5
+```
+
+The first optimizer pass covers high-rank armor, armor decorations, decoration slots, target skill scoring, defense score, and basic set-piece preference. Weapon-skill optimization is intentionally separate because Wilds splits weapon and armor skill sources.
+
 ## Next recommended upgrades
 
-1. Replace sample data with verified Monster Hunter Wilds data files
+1. Add weapon-aware optimization and monster weakness scoring
 2. Add filtering by weapon type
 3. Add search and favorite builds
-4. Add multilingual skill text and richer stat calculations
+4. Add richer stat calculations
 
 
 ## Data validation status
 
-- Build presets now only reference equipment defined in `src/data/armor.ts` to avoid cross-title set names.
+- Build presets are generated from local MHDB snapshots and only reference equipment available in normalized data.
+- Kiranico `zh-Hant` snapshots are stored for source cross-checking.
 - This project is still an offline helper; verify final in-game values against your current game version/patch notes.
