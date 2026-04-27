@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useMemo, useState } from 'react';
-import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import heroImage from './assets/mh-wilds-hero.png';
 import { ElementSelector } from './src/components/ElementSelector';
 import { SectionCard } from './src/components/SectionCard';
 import { WeaponSelector } from './src/components/WeaponSelector';
@@ -149,14 +150,23 @@ export default function App() {
 
         {/* ── Hero ──────────────────────────────────── */}
         <View style={styles.hero}>
-          <Text style={styles.heroEyebrow}>◆ MONSTER HUNTER WILDS ◆</Text>
-          <Text style={styles.heroTitle}>陪裝助手</Text>
-          <Text style={styles.heroSub}>揀武器、選屬性、即時出配裝</Text>
-          <View style={styles.palicos}>
-            <Palico face="ฅ^•ﻌ•^ฅ" speech="係我最強！" />
-            <Palico face="(=^･ω･^=)" speech="打邊隻好？" />
-            <Palico face="(ﾉ•ω•)ﾉ" speech="出發囉！" />
-          </View>
+          <ImageBackground
+            source={{ uri: heroImage }}
+            resizeMode="cover"
+            style={styles.heroImage}
+            imageStyle={styles.heroImageInner}
+          >
+            <View style={styles.heroOverlay}>
+              <Text style={styles.heroEyebrow}>◆ MONSTER HUNTER WILDS ◆</Text>
+              <Text style={styles.heroTitle}>陪裝助手</Text>
+              <Text style={styles.heroSub}>揀武器、選屬性、即時出配裝</Text>
+              <View style={styles.palicos}>
+                <Palico face="ฅ^•ﻌ•^ฅ" speech="係我最強！" />
+                <Palico face="(=^･ω･^=)" speech="打邊隻好？" />
+                <Palico face="(ﾉ•ω•)ﾉ" speech="出發囉！" />
+              </View>
+            </View>
+          </ImageBackground>
         </View>
 
         {/* ── Step 1: Weapon ────────────────────────── */}
@@ -419,11 +429,29 @@ const styles = StyleSheet.create({
   // Hero
   hero: {
     alignItems: 'center',
-    paddingVertical: 20,
-    gap: 8,
     borderBottomWidth: 1,
     borderBottomColor: colors.border,
     marginBottom: 4,
+  },
+  heroImage: {
+    width: '100%',
+    minHeight: 260,
+    justifyContent: 'flex-end',
+  },
+  heroImageInner: {
+    borderRadius: 8,
+  },
+  heroOverlay: {
+    alignItems: 'center',
+    gap: 8,
+    width: '100%',
+    minHeight: 260,
+    justifyContent: 'flex-end',
+    paddingHorizontal: 16,
+    paddingTop: 56,
+    paddingBottom: 18,
+    backgroundColor: 'rgba(2, 6, 23, 0.36)',
+    borderRadius: 8,
   },
   heroEyebrow: {
     color: colors.primary,
@@ -760,6 +788,7 @@ const styles = StyleSheet.create({
   // Celebration
   celebRow: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 16,
@@ -768,11 +797,14 @@ const styles = StyleSheet.create({
   celebText: {
     alignItems: 'center',
     gap: 4,
+    flexShrink: 1,
+    minWidth: 180,
   },
   celebTitle: {
     color: colors.primaryMuted,
     fontSize: 16,
     fontWeight: '800',
+    textAlign: 'center',
   },
 
   // Shared
