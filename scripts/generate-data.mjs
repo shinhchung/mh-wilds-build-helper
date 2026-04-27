@@ -90,6 +90,7 @@ const skills = enSkills.map((skill) => ({
   levels: (zhSkills.find((item) => item.id === skill.id)?.ranks ?? skill.ranks ?? []).map((rank) => ({
     level: rank.level,
     description: rank.description ?? '',
+    setPiecesRequired: rank.setPiecesRequired ?? null,
   })),
 }));
 
@@ -335,21 +336,42 @@ function defenseStats(armor) {
 }
 
 const armorDecorations = normalizedDecorations.filter((deco) => deco.kind === 'armor');
+const BUILD_VARIANTS_PER_PLAYSTYLE = 5;
+
+function variantLabel(index) {
+  return ['標準', '高防', '多孔', '混裝', '備選'][index] ?? `方案${index + 1}`;
+}
+
+function describeVariant(best) {
+  const slots = best.armor.flatMap((piece) => piece.slots);
+  const slotText = slots.length ? `${slots.length} 孔 / 孔位總值 ${slots.reduce((sum, slot) => sum + slot, 0)}` : '無孔位';
+  const achieved = best.achievedSkills.map((skill) => `${skill.skillId} ${skill.achievedLevel}/${skill.targetLevel}`).join(', ');
+  return `分數 ${best.score.toFixed(1)}，防禦 ${best.totalDefense}，${slotText}。目標技能：${achieved}`;
+}
+
 const builds = targetSets.flatMap((targetSet) => {
-  const [best] = optimizeArmorBuild({
+  const variants = optimizeArmorBuild({
     armor: normalizedArmor,
     decorations: armorDecorations,
     targets: targetSet.targets,
-    limit: 1,
+    limit: BUILD_VARIANTS_PER_PLAYSTYLE,
     rank: 'high',
   });
-  if (!best) return [];
 
-  return [{
-    id: targetSet.id,
+  return variants.map((best, index) => {
+    const highlightedSkillIds = [
+      ...new Set([
+        ...targetSet.targets.map((target) => target.skillId),
+        ...best.armor.flatMap((piece) => piece.skillBonuses.map((bonus) => bonus.skillId)),
+        ...best.decorations.map((deco) => deco.skillId),
+      ]),
+    ];
+
+    return {
+    id: `${targetSet.id}-${index + 1}`,
     playstyle: targetSet.playstyle,
-    title: targetSet.title,
-    summary: targetSet.summary,
+    title: `${variantLabel(index)}｜${targetSet.title}`,
+    summary: `${targetSet.summary} ${describeVariant(best)}`,
     weapon: {
       label: '請按目標魔物弱點另選武器',
       weaponType: '通用',
@@ -358,14 +380,16 @@ const builds = targetSets.flatMap((targetSet) => {
     armor: best.armor.map(toAppArmor),
     decorations: best.decorations.map(toAppDecoration),
     setBonuses: [],
-    highlightedSkillIds: targetSet.targets.map((target) => target.skillId),
+    highlightedSkillIds,
     defenseStats: defenseStats(best.armor),
     notes: [
+      `方案排名 #${index + 1} / ${BUILD_VARIANTS_PER_PLAYSTYLE}`,
       `Data source: MHDB API snapshot ${manifest.fetchedAt}`,
       'Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.',
       'Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference.',
     ],
-  }];
+    };
+  });
 });
 
 await writeJson(path.join(NORMALIZED_DIR, 'armor.json'), normalizedArmor);

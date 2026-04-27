@@ -19,6 +19,7 @@ export type DefenseStats = {
 export type SkillLevelEffect = {
   level: number;
   description: string;
+  setPiecesRequired?: number | null;
 };
 
 export type Skill = {

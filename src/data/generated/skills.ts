@@ -14,15 +14,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "龍耐性+6"
+        "description": "龍耐性+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "龍耐性+12"
+        "description": "龍耐性+12",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "龍耐性+20，防禦力+10"
+        "description": "龍耐性+20，防禦力+10",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -37,7 +40,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "稍微提升上述彈藥和箭的威力"
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -52,23 +56,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "會心率+4%"
+        "description": "會心率+4%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "會心率+8%"
+        "description": "會心率+8%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "會心率+12%"
+        "description": "會心率+12%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "會心率+16%"
+        "description": "會心率+16%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "會心率+20%"
+        "description": "會心率+20%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -83,7 +92,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "位於龍都遺跡時，減輕屬性傷害與 特殊傷害。"
+        "description": "位於龍都遺跡時，減輕屬性傷害與 特殊傷害。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -98,7 +108,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可裝填爆破瓶"
+        "description": "可裝填爆破瓶",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -113,7 +124,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "稍微提升上述彈藥和箭的威力"
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -128,15 +140,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "變形速度1.1倍"
+        "description": "變形速度1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "變形速度1.2倍，變形攻擊威力1.1倍"
+        "description": "變形速度1.2倍，變形攻擊威力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "變形速度1.3倍，變形攻擊威力1.2倍"
+        "description": "變形速度1.3倍，變形攻擊威力1.2倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -151,15 +166,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "武器拔刀攻擊的基礎攻擊力+3， 並附加少量昏厥值"
+        "description": "武器拔刀攻擊的基礎攻擊力+3， 並附加少量昏厥值",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "武器拔刀攻擊的基礎攻擊力+5， 並附加昏厥值"
+        "description": "武器拔刀攻擊的基礎攻擊力+5， 並附加昏厥值",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "武器拔刀攻擊的基礎攻擊力+7， 並附加大量昏厥值"
+        "description": "武器拔刀攻擊的基礎攻擊力+7， 並附加大量昏厥值",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -174,15 +192,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "麻痺累積值1.05倍後+10"
+        "description": "麻痺累積值1.05倍後+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "麻痺累積值1.1倍後+20"
+        "description": "麻痺累積值1.1倍後+20",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "麻痺累積值1.2倍後+50"
+        "description": "麻痺累積值1.2倍後+50",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -197,7 +218,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動於一定範圍內對同伴生效的效果 （如旋律效果）時，一定時間內附加 攻擊力上升效果。"
+        "description": "發動於一定範圍內對同伴生效的效果 （如旋律效果）時，一定時間內附加 攻擊力上升效果。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -212,11 +234,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "獲得額外耐力計量表。"
+        "description": "獲得額外耐力計量表。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "獲得較長的額外耐力計量表。"
+        "description": "獲得較長的額外耐力計量表。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -231,15 +255,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "毒累積值1.05倍後+10"
+        "description": "毒累積值1.05倍後+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "毒累積值1.1倍後+20"
+        "description": "毒累積值1.1倍後+20",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "毒累積值1.2倍後+50"
+        "description": "毒累積值1.2倍後+50",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -254,15 +281,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，屬性攻擊值和 狀態異常累積值小幅上升"
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值小幅上升",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，屬性攻擊值和 狀態異常累積值上升"
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值上升",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，屬性攻擊值和 狀態異常累積值大幅上升"
+        "description": "技能發動時，屬性攻擊值和 狀態異常累積值大幅上升",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -277,23 +307,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少定量耐力消耗量10%"
+        "description": "減少定量耐力消耗量10%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少定量耐力消耗量20%"
+        "description": "減少定量耐力消耗量20%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "減少定量耐力消耗量30%"
+        "description": "減少定量耐力消耗量30%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "減少定量耐力消耗量40%"
+        "description": "減少定量耐力消耗量40%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "減少定量耐力消耗量50%"
+        "description": "減少定量耐力消耗量50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -308,15 +343,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果時間1.1倍"
+        "description": "效果時間1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果時間1.25倍"
+        "description": "效果時間1.25倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果時間1.5倍"
+        "description": "效果時間1.5倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -331,15 +369,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少傷害10%，並於滿足條件時 再減少20%"
+        "description": "減少傷害10%，並於滿足條件時 再減少20%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少傷害20%，並於滿足條件時 再減少30%"
+        "description": "減少傷害20%，並於滿足條件時 再減少30%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "減少傷害30%，並於滿足條件時 再減少50%"
+        "description": "減少傷害30%，並於滿足條件時 再減少50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -354,7 +395,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "體力降至40%或以下時， 減少一定時間內的耐力消耗量。"
+        "description": "體力降至40%或以下時， 減少一定時間內的耐力消耗量。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -369,15 +411,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "感染狂龍病毒時稍微容易克服， 克服時會心率+3%"
+        "description": "感染狂龍病毒時稍微容易克服， 克服時會心率+3%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "感染狂龍病毒時容易克服， 克服時會心率+6%"
+        "description": "感染狂龍病毒時容易克服， 克服時會心率+6%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "感染狂龍病毒時更容易克服， 克服時會心率+10%"
+        "description": "感染狂龍病毒時更容易克服， 克服時會心率+10%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -392,7 +437,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "加快採集行動的速度，並且採集和剝取時 即使受攻擊也不會後仰。"
+        "description": "加快採集行動的速度，並且採集和剝取時 即使受攻擊也不會後仰。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -407,7 +453,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "提高活躍化採集點的發生率。"
+        "description": "提高活躍化採集點的發生率。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -422,7 +469,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "毒的效果時間1.2倍"
+        "description": "毒的效果時間1.2倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -437,23 +485,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "會心攻擊時的傷害倍率增強至1.28倍"
+        "description": "會心攻擊時的傷害倍率增強至1.28倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "會心攻擊時的傷害倍率增強至1.31倍"
+        "description": "會心攻擊時的傷害倍率增強至1.31倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "會心攻擊時的傷害倍率增強至1.34倍"
+        "description": "會心攻擊時的傷害倍率增強至1.34倍",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "會心攻擊時的傷害倍率增強至1.37倍"
+        "description": "會心攻擊時的傷害倍率增強至1.37倍",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "會心攻擊時的傷害倍率增強至1.4倍"
+        "description": "會心攻擊時的傷害倍率增強至1.4倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -468,7 +521,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "速射威力1.05倍"
+        "description": "速射威力1.05倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -483,15 +537,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值"
+        "description": "小幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升蓄力攻擊的屬性攻擊值與 狀態異常累積值"
+        "description": "提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值"
+        "description": "大幅提升蓄力攻擊的屬性攻擊值與 狀態異常累積值",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -506,11 +563,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+15。"
+        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+15。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+30。"
+        "description": "食用全熟肉等道具後，一定時間內 基礎攻擊力+30。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -525,11 +584,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "破壞大型魔物的傷口時回復少量體力。"
+        "description": "破壞大型魔物的傷口時回復少量體力。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "破壞大型魔物的傷口時回復體力。"
+        "description": "破壞大型魔物的傷口時回復體力。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -544,7 +605,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "接近龍乳結晶時，提升體力的紅色計量表 及耐力的回復速度。"
+        "description": "接近龍乳結晶時，提升體力的紅色計量表 及耐力的回復速度。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -559,7 +621,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可發動技能"
+        "description": "可發動技能",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -574,11 +637,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "延長狩獵笛的旋律效果時間， 並增加體力回復的上升率"
+        "description": "延長狩獵笛的旋律效果時間， 並增加體力回復的上升率",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "進一步延長狩獵笛的旋律效果時間"
+        "description": "進一步延長狩獵笛的旋律效果時間",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -593,15 +658,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "極小幅增加回復量"
+        "description": "極小幅增加回復量",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "小幅增加回復量"
+        "description": "小幅增加回復量",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅增加回復量"
+        "description": "大幅增加回復量",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -616,15 +684,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "紅色計量表的自動回復速度2倍"
+        "description": "紅色計量表的自動回復速度2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "紅色計量表的自動回復速度3倍"
+        "description": "紅色計量表的自動回復速度3倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "紅色計量表的自動回復速度4倍"
+        "description": "紅色計量表的自動回復速度4倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -639,15 +710,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升速度"
+        "description": "小幅提升速度",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升速度"
+        "description": "提升速度",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅提升速度"
+        "description": "大幅提升速度",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -662,11 +736,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊不斷命中魔物時回復少量體力。 （回復量依武器種類而不同）"
+        "description": "攻擊不斷命中魔物時回復少量體力。 （回復量依武器種類而不同）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "攻擊不斷命中魔物時回復體力。 （回復量依武器種類而不同）"
+        "description": "攻擊不斷命中魔物時回復體力。 （回復量依武器種類而不同）",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -681,11 +757,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "於花舞之儀期間追加特別道具至 任務報酬（不會從任務中途發動）"
+        "description": "於花舞之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "於花舞之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力"
+        "description": "於花舞之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -700,15 +778,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使風壓【小】無效，並將風壓【大】的 影響減半"
+        "description": "使風壓【小】無效，並將風壓【大】的 影響減半",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使風壓【小】和【大】無效， 並使龍風壓的影響減半"
+        "description": "使風壓【小】和【大】無效， 並使龍風壓的影響減半",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "使全部風壓無效"
+        "description": "使全部風壓無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -723,15 +804,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "昏厥威力1.2倍"
+        "description": "昏厥威力1.2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "昏厥威力1.3倍"
+        "description": "昏厥威力1.3倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "昏厥威力1.4倍"
+        "description": "昏厥威力1.4倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -746,15 +830,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "威力1.1倍"
+        "description": "威力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "威力1.2倍"
+        "description": "威力1.2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "威力1.3倍"
+        "description": "威力1.3倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -769,23 +856,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "稍微容易造成創傷，並造成額外 無屬性傷害"
+        "description": "稍微容易造成創傷，並造成額外 無屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "容易造成創傷，並極小幅提升 額外無屬性傷害"
+        "description": "容易造成創傷，並極小幅提升 額外無屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "很容易造成創傷，並小幅提升 額外無屬性傷害"
+        "description": "很容易造成創傷，並小幅提升 額外無屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "非常容易造成創傷，並提升 額外無屬性傷害"
+        "description": "非常容易造成創傷，並提升 額外無屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "極容易造成創傷，並大幅提升 額外無屬性傷害"
+        "description": "極容易造成創傷，並大幅提升 額外無屬性傷害",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -800,15 +892,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "被水沾濕時，會心率+3%； 陷入泡沫狀態時，會心率+7%"
+        "description": "被水沾濕時，會心率+3%； 陷入泡沫狀態時，會心率+7%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "被水沾濕時，會心率+6%； 陷入泡沫狀態時，會心率+14%"
+        "description": "被水沾濕時，會心率+6%； 陷入泡沫狀態時，會心率+14%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "被水沾濕時，會心率+9%； 陷入泡沫狀態時，會心率+21%"
+        "description": "被水沾濕時，會心率+9%； 陷入泡沫狀態時，會心率+21%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -823,15 +918,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "爆破累積值1.05倍後+10"
+        "description": "爆破累積值1.05倍後+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "爆破累積值1.1倍後+20"
+        "description": "爆破累積值1.1倍後+20",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "爆破累積值1.2倍後+50"
+        "description": "爆破累積值1.2倍後+50",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -846,15 +944,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "龍屬性攻擊值+40"
+        "description": "龍屬性攻擊值+40",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "龍屬性攻擊值1.1倍後+50"
+        "description": "龍屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "龍屬性攻擊值1.2倍後+60"
+        "description": "龍屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -869,7 +970,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少耐力消耗量50%"
+        "description": "減少耐力消耗量50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -884,15 +986,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少持續耐力消耗量15%"
+        "description": "減少持續耐力消耗量15%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少持續耐力消耗量30%"
+        "description": "減少持續耐力消耗量30%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "減少持續耐力消耗量50%"
+        "description": "減少持續耐力消耗量50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -907,7 +1012,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可裝填麻痺瓶"
+        "description": "可裝填麻痺瓶",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -922,7 +1028,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -937,15 +1044,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使震動【極小】無效，並將震動【小】 的影響減半"
+        "description": "使震動【極小】無效，並將震動【小】 的影響減半",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使震動【極小】和【小】無效， 並大幅減輕震動【大】的影響"
+        "description": "使震動【極小】和【小】無效， 並大幅減輕震動【大】的影響",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "使全部震動無效"
+        "description": "使全部震動無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -960,15 +1070,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+30"
+        "description": "小幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+30",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+60"
+        "description": "提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+60",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+90"
+        "description": "大幅提升對象的攻擊威力和龍擊砲的 發射速度，砲擊的火屬性攻擊值+90",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -983,15 +1096,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "回復50體力"
+        "description": "回復50體力",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "回復80體力"
+        "description": "回復80體力",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "回復100體力"
+        "description": "回復100體力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1006,15 +1122,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少所有屬性異常的效果時間50％"
+        "description": "減少所有屬性異常的效果時間50％",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少所有屬性異常的效果時間75%"
+        "description": "減少所有屬性異常的效果時間75%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "使所有屬性異常無效"
+        "description": "使所有屬性異常無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1029,15 +1148,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "火屬性攻擊值+40"
+        "description": "火屬性攻擊值+40",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "火屬性攻擊值1.1倍後+50"
+        "description": "火屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "火屬性攻擊值1.2倍後+60"
+        "description": "火屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1052,11 +1174,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "即使體力計量表沒有紅色部分， 仍會緩緩自動回復至上限"
+        "description": "即使體力計量表沒有紅色部分， 仍會緩緩自動回復至上限",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "即使體力計量表沒有紅色部分， 仍會自動回復至上限"
+        "description": "即使體力計量表沒有紅色部分， 仍會自動回復至上限",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1071,15 +1195,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可進食青菇與毒菇"
+        "description": "可進食青菇與毒菇",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "可進食青菇、毒菇、爆炸菇與麻痺菇"
+        "description": "可進食青菇、毒菇、爆炸菇與麻痺菇",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "可進食青菇、毒菇、爆炸菇、麻痺菇、 風茄、鬼爆炸菇與心跳加速菇"
+        "description": "可進食青菇、毒菇、爆炸菇、麻痺菇、 風茄、鬼爆炸菇與心跳加速菇",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1094,15 +1221,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅延長最有效距離"
+        "description": "小幅延長最有效距離",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "延長最有效距離"
+        "description": "延長最有效距離",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅延長最有效距離，並提升於最有效 距離命中的射擊威力"
+        "description": "大幅延長最有效距離，並提升於最有效 距離命中的射擊威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1117,11 +1247,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "體力全滿時，所受傷害減少20%。"
+        "description": "體力全滿時，所受傷害減少20%。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "體力全滿時，所受傷害減少35%。"
+        "description": "體力全滿時，所受傷害減少35%。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1136,11 +1268,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少惡臭狀態的時間50%"
+        "description": "減少惡臭狀態的時間50%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "不會陷入惡臭狀態"
+        "description": "不會陷入惡臭狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1155,11 +1289,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "不會陷入泡沫狀態【大】。迴避數次後 將陷入泡沫狀態【小】。"
+        "description": "不會陷入泡沫狀態【大】。迴避數次後 將陷入泡沫狀態【小】。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "發動與Ⅰ同樣的效果，並於陷入泡沫 狀態時強化迴避能力。"
+        "description": "發動與Ⅰ同樣的效果，並於陷入泡沫 狀態時強化迴避能力。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1174,23 +1310,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊有效部位時，會心率+5% 攻擊傷口時，會心率再+3%"
+        "description": "攻擊有效部位時，會心率+5% 攻擊傷口時，會心率再+3%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "攻擊有效部位時，會心率+10% 攻擊傷口時，會心率再+5%"
+        "description": "攻擊有效部位時，會心率+10% 攻擊傷口時，會心率再+5%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "攻擊有效部位時，會心率+15% 攻擊傷口時，會心率再+10%"
+        "description": "攻擊有效部位時，會心率+15% 攻擊傷口時，會心率再+10%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "攻擊有效部位時，會心率+20% 攻擊傷口時，會心率再+15%"
+        "description": "攻擊有效部位時，會心率+20% 攻擊傷口時，會心率再+15%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "攻擊有效部位時，會心率+30% 攻擊傷口時，會心率再+20%"
+        "description": "攻擊有效部位時，會心率+30% 攻擊傷口時，會心率再+20%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1205,15 +1346,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "回復速度1.1倍"
+        "description": "回復速度1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "回復速度1.3倍"
+        "description": "回復速度1.3倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "回復速度1.5倍"
+        "description": "回復速度1.5倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1228,15 +1372,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅減少攻擊威力， 減少耐力消耗量15%"
+        "description": "小幅減少攻擊威力， 減少耐力消耗量15%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少攻擊威力， 減少耐力消耗量30%"
+        "description": "減少攻擊威力， 減少耐力消耗量30%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅減少攻擊威力， 減少耐力消耗量50%"
+        "description": "大幅減少攻擊威力， 減少耐力消耗量50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1251,15 +1398,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅增加計量表上升率， 縮短蓄力時間5%"
+        "description": "小幅增加計量表上升率， 縮短蓄力時間5%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "增加計量表上升率 ， 縮短蓄力時間10%"
+        "description": "增加計量表上升率 ， 縮短蓄力時間10%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅增加計量表上升率， 縮短蓄力時間15%"
+        "description": "大幅增加計量表上升率， 縮短蓄力時間15%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1274,7 +1424,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "提升閃光效果"
+        "description": "提升閃光效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1289,11 +1440,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，提升 一定時間內的攻擊力。"
+        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，提升 一定時間內的攻擊力。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，大幅 提升一定時間內的攻擊力。"
+        "description": "從繩束縛狀態或凍結狀態回復後、 從拘束攻擊解放後或角力後，大幅 提升一定時間內的攻擊力。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1308,11 +1461,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使水域、油泥的移動限制與濁流的影響 無效，並緩和龍骨油的移動限制"
+        "description": "使水域、油泥的移動限制與濁流的影響 無效，並緩和龍骨油的移動限制",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使水域、油泥的移動限制與 濁流、波浪的影響無效"
+        "description": "使水域、油泥的移動限制與 濁流、波浪的影響無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1327,15 +1482,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少睡眠狀態的時間30%"
+        "description": "減少睡眠狀態的時間30%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少睡眠狀態的時間60%"
+        "description": "減少睡眠狀態的時間60%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會進入睡眠狀態"
+        "description": "不會進入睡眠狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1350,7 +1508,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可裝填減氣瓶"
+        "description": "可裝填減氣瓶",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1365,15 +1524,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，攻擊力1.05倍"
+        "description": "技能發動時，攻擊力1.05倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，攻擊力1.1倍"
+        "description": "技能發動時，攻擊力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，攻擊力1.15倍"
+        "description": "技能發動時，攻擊力1.15倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1388,15 +1550,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，攻擊力1.05倍"
+        "description": "技能發動時，攻擊力1.05倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，攻擊力1.1倍"
+        "description": "技能發動時，攻擊力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，攻擊力1.15倍"
+        "description": "技能發動時，攻擊力1.15倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1411,15 +1576,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升會心攻擊時的狀態異常值"
+        "description": "小幅提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升會心攻擊時的狀態異常值"
+        "description": "提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅提升會心攻擊時的狀態異常值"
+        "description": "大幅提升會心攻擊時的狀態異常值",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1434,11 +1602,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升上述彈藥和箭的威力"
+        "description": "小幅提升上述彈藥和箭的威力",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升上述彈藥和箭的威力"
+        "description": "提升上述彈藥和箭的威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1453,11 +1623,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+10。"
+        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+10。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+25。"
+        "description": "角力或連消帶打成功時，一定時間內 基礎攻擊力+25。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1472,11 +1644,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊命中時，隨機造成 額外火屬性傷害。"
+        "description": "攻擊命中時，隨機造成 額外火屬性傷害。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "攻擊命中時，隨機造成更多 額外火屬性傷害。"
+        "description": "攻擊命中時，隨機造成更多 額外火屬性傷害。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1491,23 +1665,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "基礎攻擊力+3"
+        "description": "基礎攻擊力+3",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "基礎攻擊力+5"
+        "description": "基礎攻擊力+5",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "基礎攻擊力+7"
+        "description": "基礎攻擊力+7",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "攻擊力1.02倍後，基礎攻擊力+8"
+        "description": "攻擊力1.02倍後，基礎攻擊力+8",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "攻擊力1.04倍後，基礎攻擊力+9"
+        "description": "攻擊力1.04倍後，基礎攻擊力+9",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1522,7 +1701,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "增加任務的目標報酬 （不會從任務中途發動）"
+        "description": "增加任務的目標報酬 （不會從任務中途發動）",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -1537,7 +1717,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "任務期間素材剝取次數+1 （不會從任務中途發動）"
+        "description": "任務期間素材剝取次數+1 （不會從任務中途發動）",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -1552,23 +1733,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+6"
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+8、會心率+5%"
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+8、會心率+5%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+10，會心率+10%"
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+10，會心率+10%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+12，會心率+15%"
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+12，會心率+15%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+15，會心率+20%"
+        "description": "對毒或麻痺狀態的大型魔物的 基礎攻擊力+15，會心率+20%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1583,7 +1769,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "跳躍時不會後仰"
+        "description": "跳躍時不會後仰",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1598,23 +1785,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "極小幅延長無敵時間"
+        "description": "極小幅延長無敵時間",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "小幅延長無敵時間"
+        "description": "小幅延長無敵時間",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "延長無敵時間"
+        "description": "延長無敵時間",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "大幅延長無敵時間"
+        "description": "大幅延長無敵時間",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "極大幅延長無敵時間"
+        "description": "極大幅延長無敵時間",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1629,15 +1821,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "睡眠累積值1.05倍後+10"
+        "description": "睡眠累積值1.05倍後+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "睡眠累積值1.1倍後+20"
+        "description": "睡眠累積值1.1倍後+20",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "睡眠累積值1.2倍後+50"
+        "description": "睡眠累積值1.2倍後+50",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1652,7 +1847,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可裝填睡眠瓶"
+        "description": "可裝填睡眠瓶",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1667,15 +1863,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減輕咆哮【小】的影響"
+        "description": "減輕咆哮【小】的影響",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使咆哮【小】無效， 減輕咆哮【大】的影響"
+        "description": "使咆哮【小】無效， 減輕咆哮【大】的影響",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "使咆哮【小】【大】無效"
+        "description": "使咆哮【小】【大】無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1690,15 +1889,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，基礎攻擊力+10"
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，基礎攻擊力+15， 小幅延長效果時間"
+        "description": "技能發動時，基礎攻擊力+15， 小幅延長效果時間",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，基礎攻擊力+25， 延長效果時間"
+        "description": "技能發動時，基礎攻擊力+25， 延長效果時間",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1713,15 +1915,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動時，稍微增加屬性傷害"
+        "description": "效果發動時，稍微增加屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果發動時，增加屬性傷害"
+        "description": "效果發動時，增加屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果發動時，大幅增加屬性傷害"
+        "description": "效果發動時，大幅增加屬性傷害",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1736,7 +1941,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1751,15 +1957,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "水耐性+6"
+        "description": "水耐性+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "水耐性+12"
+        "description": "水耐性+12",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "水耐性+20、防禦力+10"
+        "description": "水耐性+20、防禦力+10",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1774,15 +1983,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "銳利度在黃色或以下時， 傷害1.05倍"
+        "description": "銳利度在黃色或以下時， 傷害1.05倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "銳利度在黃色或以下時， 傷害1.1倍"
+        "description": "銳利度在黃色或以下時， 傷害1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "銳利度在綠色或以下時， 傷害1.1倍"
+        "description": "銳利度在綠色或以下時， 傷害1.1倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1797,7 +2009,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "跳躍攻擊傷害1.1倍"
+        "description": "跳躍攻擊傷害1.1倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1812,23 +2025,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，防禦力+50"
+        "description": "技能發動時，防禦力+50",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，攻擊力1.05倍、 防禦力+50"
+        "description": "技能發動時，攻擊力1.05倍、 防禦力+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，攻擊力1.05倍、 防禦力+100"
+        "description": "技能發動時，攻擊力1.05倍、 防禦力+100",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，攻擊力1.1倍、 防禦力+100"
+        "description": "技能發動時，攻擊力1.1倍、 防禦力+100",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，攻擊力1.3倍， 但無提升防禦力效果"
+        "description": "技能發動時，攻擊力1.3倍， 但無提升防禦力效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1843,11 +2061,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使炎熱、寒冷的影響無效"
+        "description": "使炎熱、寒冷的影響無效",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使炎熱、寒冷和地形造成的傷害無效"
+        "description": "使炎熱、寒冷和地形造成的傷害無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1862,7 +2082,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "利用地形滑行後，增加一定時間內的 會心率。"
+        "description": "利用地形滑行後，增加一定時間內的 會心率。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -1877,23 +2098,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "縮短冷卻時間10%"
+        "description": "縮短冷卻時間10%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "縮短冷卻時間20%"
+        "description": "縮短冷卻時間20%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "縮短冷卻時間30%"
+        "description": "縮短冷卻時間30%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "縮短冷卻時間40%"
+        "description": "縮短冷卻時間40%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "縮短冷卻時間50%"
+        "description": "縮短冷卻時間50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1908,15 +2134,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "水屬性攻擊值+40"
+        "description": "水屬性攻擊值+40",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "水屬性攻擊值1.1倍後+50"
+        "description": "水屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "水屬性攻擊值1.2倍後+60"
+        "description": "水屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1931,15 +2160,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少麻痺狀態的時間30%"
+        "description": "減少麻痺狀態的時間30%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少麻痺狀態的時間60%"
+        "description": "減少麻痺狀態的時間60%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會進入麻痺狀態"
+        "description": "不會進入麻痺狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1954,11 +2186,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅延長技能「力量解放」的發動時間。"
+        "description": "小幅延長技能「力量解放」的發動時間。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "延長技能「力量解放」的發動時間。"
+        "description": "延長技能「力量解放」的發動時間。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -1973,7 +2207,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "稍微提升上述彈藥和箭的威力"
+        "description": "稍微提升上述彈藥和箭的威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -1988,23 +2223,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊命中後，一定時間內稍微提升 基礎攻擊力和屬性攻擊值；連續發動 5次時增幅上升"
+        "description": "攻擊命中後，一定時間內稍微提升 基礎攻擊力和屬性攻擊值；連續發動 5次時增幅上升",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "小幅強化連續發動技能5次時的 能力增幅"
+        "description": "小幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "進一步強化連續發動技能5次時的 能力增幅"
+        "description": "進一步強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "大幅強化連續發動技能5次時的 能力增幅"
+        "description": "大幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "極大幅強化連續發動技能5次時的 能力增幅"
+        "description": "極大幅強化連續發動技能5次時的 能力增幅",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2019,7 +2259,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果（與炎熱化並用時，將不會 發動炎熱化效果，但將造成額外火屬性 傷害）"
+        "description": "發動技能效果（與炎熱化並用時，將不會 發動炎熱化效果，但將造成額外火屬性 傷害）",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2034,7 +2275,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊命中時更能吸引魔物的注意。"
+        "description": "攻擊命中時更能吸引魔物的注意。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -2049,15 +2291,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "骸骨採集點的取得數+1"
+        "description": "骸骨採集點的取得數+1",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "骸骨、特產品採集點的取得數+1"
+        "description": "骸骨、特產品採集點的取得數+1",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "骸骨、特產品、礦石採掘點的取得數+1"
+        "description": "骸骨、特產品、礦石採掘點的取得數+1",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2072,15 +2317,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動時，會心率+10%"
+        "description": "效果發動時，會心率+10%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果發動時，會心率+20%"
+        "description": "效果發動時，會心率+20%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果發動時，會心率+30%"
+        "description": "效果發動時，會心率+30%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2095,15 +2343,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅增加進食速度"
+        "description": "小幅增加進食速度",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "增加進食速度"
+        "description": "增加進食速度",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅增加進食速度"
+        "description": "大幅增加進食速度",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2118,15 +2369,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "冰耐性+6"
+        "description": "冰耐性+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "冰耐性+12"
+        "description": "冰耐性+12",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "冰耐性+20、防禦力+10"
+        "description": "冰耐性+20、防禦力+10",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2141,15 +2395,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅延長迴避距離"
+        "description": "小幅延長迴避距離",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "延長迴避距離"
+        "description": "延長迴避距離",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅延長迴避距離"
+        "description": "大幅延長迴避距離",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2164,15 +2421,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "會心率+50%"
+        "description": "會心率+50%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "會心率+75%"
+        "description": "會心率+75%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "會心率+100%"
+        "description": "會心率+100%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2187,15 +2447,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅延長強化時間"
+        "description": "小幅延長強化時間",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "延長強化時間"
+        "description": "延長強化時間",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅延長強化時間"
+        "description": "大幅延長強化時間",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2210,15 +2473,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少昏厥狀態的時間30%"
+        "description": "減少昏厥狀態的時間30%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少昏厥狀態的時間60%"
+        "description": "減少昏厥狀態的時間60%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入昏厥狀態"
+        "description": "不會陷入昏厥狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2233,11 +2499,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "狩獵大型魔物時感染狂龍病毒。"
+        "description": "狩獵大型魔物時感染狂龍病毒。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "狩獵大型魔物時感染狂龍病毒， 並提升攻擊力；克服狂龍症後 進一步提升攻擊力。"
+        "description": "狩獵大型魔物時感染狂龍病毒， 並提升攻擊力；克服狂龍症後 進一步提升攻擊力。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -2252,11 +2520,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使用動作「吼叫」時，小幅提升周圍成員 一定時間內的攻擊力。隨從與支援獵人所 受的效果較大。"
+        "description": "使用動作「吼叫」時，小幅提升周圍成員 一定時間內的攻擊力。隨從與支援獵人所 受的效果較大。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "使用動作「吼叫」時，提升周圍成員 一定時間內的攻擊力。隨從與支援獵人 所受的效果較大。"
+        "description": "使用動作「吼叫」時，提升周圍成員 一定時間內的攻擊力。隨從與支援獵人 所受的效果較大。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -2271,15 +2541,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使後仰無效"
+        "description": "使後仰無效",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "使後仰無效，並將坐倒在地減輕至後仰"
+        "description": "使後仰無效，並將坐倒在地減輕至後仰",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "使後仰和坐倒在地無效"
+        "description": "使後仰和坐倒在地無效",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2294,11 +2567,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "加快砲彈與瓶的裝填速度"
+        "description": "加快砲彈與瓶的裝填速度",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "進一步加快砲彈與瓶的裝填速度， 銃槍的裝填數+1，並增加充能斧的 充能數量"
+        "description": "進一步加快砲彈與瓶的裝填速度， 銃槍的裝填數+1，並增加充能斧的 充能數量",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2313,15 +2588,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "延遲爆炸，並減輕爆炸時的傷害"
+        "description": "延遲爆炸，並減輕爆炸時的傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "進一步延遲爆炸，並大幅減輕 爆炸時的傷害"
+        "description": "進一步延遲爆炸，並大幅減輕 爆炸時的傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入爆破異常"
+        "description": "不會陷入爆破異常",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2336,15 +2614,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "有10%機率發動效果"
+        "description": "有10%機率發動效果",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "有25%機率發動效果"
+        "description": "有25%機率發動效果",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "有45%機率發動效果"
+        "description": "有45%機率發動效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2359,19 +2640,23 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "草系消耗道具的取得數+1"
+        "description": "草系消耗道具的取得數+1",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "草系、果實、種子系消耗道具的取得數+1"
+        "description": "草系、果實、種子系消耗道具的取得數+1",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "草系、果實、種子系、蟲系消耗道具的 取得數+1"
+        "description": "草系、果實、種子系、蟲系消耗道具的 取得數+1",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "草系、果實、種子系、蟲系、菇系 消耗道具的取得數+1"
+        "description": "草系、果實、種子系、蟲系、菇系 消耗道具的取得數+1",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2386,23 +2671,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "給予周圍同伴1/3的效果"
+        "description": "給予周圍同伴1/3的效果",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "給予大範圍內同伴1/3的效果"
+        "description": "給予大範圍內同伴1/3的效果",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "給予大範圍內同伴2/3的效果"
+        "description": "給予大範圍內同伴2/3的效果",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "給予極大範圍內同伴2/3的效果"
+        "description": "給予極大範圍內同伴2/3的效果",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "給予極大範圍內同伴同等的效果"
+        "description": "給予極大範圍內同伴同等的效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2417,7 +2707,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2432,11 +2723,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能「連擊」效果發動時延長其有效 時間，基礎攻擊力+8。"
+        "description": "技能「連擊」效果發動時延長其有效 時間，基礎攻擊力+8。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "技能「連擊」效果發動時進一步延長 其有效時間，基礎攻擊力+18。"
+        "description": "技能「連擊」效果發動時進一步延長 其有效時間，基礎攻擊力+18。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -2451,7 +2744,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "可裝填毒瓶"
+        "description": "可裝填毒瓶",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2466,15 +2760,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "有10%機率不會消耗銳利度"
+        "description": "有10%機率不會消耗銳利度",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "有25%機率不會消耗銳利度"
+        "description": "有25%機率不會消耗銳利度",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "有50%機率不會消耗銳利度"
+        "description": "有50%機率不會消耗銳利度",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2489,31 +2786,38 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "防禦力+5"
+        "description": "防禦力+5",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "防禦力+10"
+        "description": "防禦力+10",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "防禦力1.05倍後+10"
+        "description": "防禦力1.05倍後+10",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "防禦力1.05倍後+20， 全屬性耐性值+3"
+        "description": "防禦力1.05倍後+20， 全屬性耐性值+3",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "防禦力1.08倍後+20， 全屬性耐性值+3"
+        "description": "防禦力1.08倍後+20， 全屬性耐性值+3",
+        "setPiecesRequired": null
       },
       {
         "level": 6,
-        "description": "防禦力1.08倍後+35， 全屬性耐性值+5"
+        "description": "防禦力1.08倍後+35， 全屬性耐性值+5",
+        "setPiecesRequired": null
       },
       {
         "level": 7,
-        "description": "防禦力1.1倍後+35， 全屬性耐性值+5"
+        "description": "防禦力1.1倍後+35， 全屬性耐性值+5",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2528,23 +2832,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "武器銳利度+10"
+        "description": "武器銳利度+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "武器銳利度+20"
+        "description": "武器銳利度+20",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "武器銳利度+30"
+        "description": "武器銳利度+30",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "武器銳利度+40"
+        "description": "武器銳利度+40",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "武器銳利度+50"
+        "description": "武器銳利度+50",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2559,23 +2868,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，基礎攻擊力+10"
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，基礎攻擊力+15"
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，基礎攻擊力+20"
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，基礎攻擊力+25"
+        "description": "技能發動時，基礎攻擊力+25",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，基礎攻擊力+30"
+        "description": "技能發動時，基礎攻擊力+30",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2590,15 +2904,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "冰屬性攻擊值+40"
+        "description": "冰屬性攻擊值+40",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "冰屬性攻擊值1.1倍後+50"
+        "description": "冰屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "冰屬性攻擊值1.2倍後+60"
+        "description": "冰屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2613,15 +2930,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動時，減少傷害15%"
+        "description": "效果發動時，減少傷害15%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果發動時，減少傷害30%"
+        "description": "效果發動時，減少傷害30%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果發動時，減少傷害50%"
+        "description": "效果發動時，減少傷害50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2636,23 +2956,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，基礎攻擊力+5"
+        "description": "技能發動時，基礎攻擊力+5",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，基礎攻擊力+10"
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，基礎攻擊力+15"
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，基礎攻擊力+20"
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，基礎攻擊力+25"
+        "description": "技能發動時，基礎攻擊力+25",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2667,7 +2992,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動時，有80%機率 不會消耗銳利度"
+        "description": "效果發動時，有80%機率 不會消耗銳利度",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2682,15 +3008,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "火耐性+6"
+        "description": "火耐性+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "火耐性+12"
+        "description": "火耐性+12",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "火耐性+20、防禦力+10"
+        "description": "火耐性+20、防禦力+10",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2705,11 +3034,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "省略1次研磨動作"
+        "description": "省略1次研磨動作",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "省略2次研磨動作"
+        "description": "省略2次研磨動作",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2724,15 +3055,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "雷屬性攻擊值+40"
+        "description": "雷屬性攻擊值+40",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "雷屬性攻擊值1.1倍後+50"
+        "description": "雷屬性攻擊值1.1倍後+50",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "雷屬性攻擊值1.2倍後+60"
+        "description": "雷屬性攻擊值1.2倍後+60",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2747,15 +3081,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少受到中毒傷害的次數"
+        "description": "減少受到中毒傷害的次數",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "大幅減少受到中毒傷害的次數"
+        "description": "大幅減少受到中毒傷害的次數",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入中毒狀態"
+        "description": "不會陷入中毒狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2770,15 +3107,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.1倍"
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.2倍"
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.3倍"
+        "description": "部位破壞的積蓄值與滿足條件時 造成的傷害1.3倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2793,15 +3133,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "即使被發現也不容易進入戰鬥狀態"
+        "description": "即使被發現也不容易進入戰鬥狀態",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "即使被發現也幾乎不會進入戰鬥狀態"
+        "description": "即使被發現也幾乎不會進入戰鬥狀態",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "即使被發現也不會進入戰鬥狀態"
+        "description": "即使被發現也不會進入戰鬥狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2816,7 +3159,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減輕致命傷害一次，並於傷害減輕效果 發動前提升攻擊力、降低防禦力； 發動後提升防禦力與耐性值"
+        "description": "減輕致命傷害一次，並於傷害減輕效果 發動前提升攻擊力、降低防禦力； 發動後提升防禦力與耐性值",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -2831,7 +3175,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "較容易騎乘魔物，騎乘狀態時 亦較容易成功。"
+        "description": "較容易騎乘魔物，騎乘狀態時 亦較容易成功。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -2846,15 +3191,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，極小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+4"
+        "description": "技能發動時，極小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+4",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+6"
+        "description": "技能發動時，小幅提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+6",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+8"
+        "description": "技能發動時，提升屬性攻擊值， 發動時所受攻擊的屬性的耐性值+8",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2869,15 +3217,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動後，30秒內不會消耗銳利度"
+        "description": "效果發動後，30秒內不會消耗銳利度",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果發動後，60秒內不會消耗銳利度"
+        "description": "效果發動後，60秒內不會消耗銳利度",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果發動後，90秒內不會消耗銳利度"
+        "description": "效果發動後，90秒內不會消耗銳利度",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2892,15 +3243,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減少防禦力下降狀態的時間50%"
+        "description": "減少防禦力下降狀態的時間50%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減少防禦力下降狀態的時間75%"
+        "description": "減少防禦力下降狀態的時間75%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入防禦力下降狀態。"
+        "description": "不會陷入防禦力下降狀態。",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2915,15 +3269,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "攻擊有50%機率不會被彈開， 對堅硬部位的威力1.1倍"
+        "description": "攻擊有50%機率不會被彈開， 對堅硬部位的威力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.15倍"
+        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.15倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.3倍"
+        "description": "攻擊有100%機率不會被彈開， 對堅硬部位的威力1.3倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2938,15 +3295,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "滿足條件時，極小幅提升射擊的 會心率與攻擊力"
+        "description": "滿足條件時，極小幅提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "滿足條件時，小幅提升射擊的 會心率與攻擊力"
+        "description": "滿足條件時，小幅提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "滿足條件時，提升射擊的 會心率與攻擊力"
+        "description": "滿足條件時，提升射擊的 會心率與攻擊力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2961,7 +3321,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -2976,7 +3337,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "提升蹲下時的移動速度，不容易 被大型魔物發現。"
+        "description": "提升蹲下時的移動速度，不容易 被大型魔物發現。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -2991,15 +3353,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "小幅提升弩槍的裝填速度與 滿足條件的彈藥威力"
+        "description": "小幅提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "提升弩槍的裝填速度與 滿足條件的彈藥威力"
+        "description": "提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "大幅提升弩槍的裝填速度與 滿足條件的彈藥威力"
+        "description": "大幅提升弩槍的裝填速度與 滿足條件的彈藥威力",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3014,15 +3379,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減氣威力1.2倍"
+        "description": "減氣威力1.2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "減氣威力1.3倍"
+        "description": "減氣威力1.3倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "減氣威力1.4倍"
+        "description": "減氣威力1.4倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3037,23 +3405,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，會心率+10%， 減少耐力消耗量30%"
+        "description": "技能發動時，會心率+10%， 減少耐力消耗量30%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，會心率+20%， 減少耐力消耗量30%"
+        "description": "技能發動時，會心率+20%， 減少耐力消耗量30%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，會心率+30%， 減少耐力消耗量50%"
+        "description": "技能發動時，會心率+30%， 減少耐力消耗量50%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，會心率+40%， 減少耐力消耗量50%"
+        "description": "技能發動時，會心率+40%， 減少耐力消耗量50%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，會心率+50%， 減少耐力消耗量50%"
+        "description": "技能發動時，會心率+50%， 減少耐力消耗量50%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3068,7 +3441,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "提升釣魚、烤肉和搬運的技術"
+        "description": "提升釣魚、烤肉和搬運的技術",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3083,23 +3457,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，基礎攻擊力+4， 會心率+3%"
+        "description": "技能發動時，基礎攻擊力+4， 會心率+3%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，基礎攻擊力+8， 會心率+5%"
+        "description": "技能發動時，基礎攻擊力+8， 會心率+5%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，基礎攻擊力+12， 會心率+7%"
+        "description": "技能發動時，基礎攻擊力+12， 會心率+7%",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，基礎攻擊力+16， 會心率+10%"
+        "description": "技能發動時，基礎攻擊力+16， 會心率+10%",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，基礎攻擊力+20， 會心率+15%"
+        "description": "技能發動時，基礎攻擊力+20， 會心率+15%",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3114,23 +3493,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "隨從的攻擊力與防禦力1.05倍"
+        "description": "隨從的攻擊力與防禦力1.05倍",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "隨從的攻擊力與防禦力1.1倍"
+        "description": "隨從的攻擊力與防禦力1.1倍",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "隨從的攻擊力與防禦力1.15倍"
+        "description": "隨從的攻擊力與防禦力1.15倍",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "隨從的攻擊力與防禦力1.2倍"
+        "description": "隨從的攻擊力與防禦力1.2倍",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "隨從的攻擊力與防禦力1.25倍"
+        "description": "隨從的攻擊力與防禦力1.25倍",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3145,15 +3529,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "減輕裂傷狀態造成的傷害"
+        "description": "減輕裂傷狀態造成的傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "大幅減輕裂傷狀態造成的傷害"
+        "description": "大幅減輕裂傷狀態造成的傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入裂傷狀態"
+        "description": "不會陷入裂傷狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3168,15 +3555,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "能快速地從繩束縛狀態 與凍結狀態中回復"
+        "description": "能快速地從繩束縛狀態 與凍結狀態中回復",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "能非常快速地從繩束縛狀態 與凍結狀態中回復"
+        "description": "能非常快速地從繩束縛狀態 與凍結狀態中回復",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "不會陷入繩束縛狀態或凍結狀態"
+        "description": "不會陷入繩束縛狀態或凍結狀態",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3191,7 +3581,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "增加在原野採集蜂蜜的取得數。"
+        "description": "增加在原野採集蜂蜜的取得數。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -3206,11 +3597,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能「怨恨」發動時，造成少量 額外傷害。"
+        "description": "技能「怨恨」發動時，造成少量 額外傷害。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "技能「怨恨」發動時，造成額外傷害。"
+        "description": "技能「怨恨」發動時，造成額外傷害。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3225,7 +3618,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "任務期間每次力竭倒下後， 提升攻擊力與防禦力。（最多2次）"
+        "description": "任務期間每次力竭倒下後， 提升攻擊力與防禦力。（最多2次）",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -3240,15 +3634,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "延長耐力減少的間隔時間50%"
+        "description": "延長耐力減少的間隔時間50%",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "延長耐力減少的間隔時間100%"
+        "description": "延長耐力減少的間隔時間100%",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "耐力上限不會減少"
+        "description": "耐力上限不會減少",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3263,15 +3660,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "效果發動時，小幅提升龍屬性攻擊值， 並於累積屬性傷害後造成額外龍屬性傷害"
+        "description": "效果發動時，小幅提升龍屬性攻擊值， 並於累積屬性傷害後造成額外龍屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "效果發動時，提升龍屬性攻擊值，並於 累積屬性傷害後造成較多額外龍屬性傷害"
+        "description": "效果發動時，提升龍屬性攻擊值，並於 累積屬性傷害後造成較多額外龍屬性傷害",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "效果發動時，大幅提升龍屬性攻擊值， 並於累積屬性傷害後造成更多額外龍屬性 傷害"
+        "description": "效果發動時，大幅提升龍屬性攻擊值， 並於累積屬性傷害後造成更多額外龍屬性 傷害",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3286,11 +3686,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "使用特殊裝備時，提升一定時間內的 防禦力。"
+        "description": "使用特殊裝備時，提升一定時間內的 防禦力。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "使用特殊裝備時，大幅提升一定時間內的 防禦力和耐性值。"
+        "description": "使用特殊裝備時，大幅提升一定時間內的 防禦力和耐性值。",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3305,23 +3707,28 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "技能發動時，基礎攻擊力+3"
+        "description": "技能發動時，基礎攻擊力+3",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "技能發動時，基礎攻擊力+6"
+        "description": "技能發動時，基礎攻擊力+6",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "技能發動時，基礎攻擊力+10"
+        "description": "技能發動時，基礎攻擊力+10",
+        "setPiecesRequired": null
       },
       {
         "level": 4,
-        "description": "技能發動時，基礎攻擊力+15"
+        "description": "技能發動時，基礎攻擊力+15",
+        "setPiecesRequired": null
       },
       {
         "level": 5,
-        "description": "技能發動時，基礎攻擊力+20"
+        "description": "技能發動時，基礎攻擊力+20",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3336,7 +3743,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "陷入狀態異常時提升攻擊力。"
+        "description": "陷入狀態異常時提升攻擊力。",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -3351,15 +3759,18 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "雷耐性+6"
+        "description": "雷耐性+6",
+        "setPiecesRequired": null
       },
       {
         "level": 2,
-        "description": "雷耐性+12"
+        "description": "雷耐性+12",
+        "setPiecesRequired": null
       },
       {
         "level": 3,
-        "description": "雷耐性+20、防禦力+10"
+        "description": "雷耐性+20、防禦力+10",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3374,7 +3785,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "強化特殊動作的威力，對動力衝擊追加 抵消效果，並於成功連消帶打後於一定 時間內再度強化"
+        "description": "強化特殊動作的威力，對動力衝擊追加 抵消效果，並於成功連消帶打後於一定 時間內再度強化",
+        "setPiecesRequired": 3
       }
     ]
   },
@@ -3389,7 +3801,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3404,7 +3817,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3419,7 +3833,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3434,11 +3849,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "於火蹈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）"
+        "description": "於火蹈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "於火蹈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力"
+        "description": "於火蹈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3453,11 +3870,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "以攻擊累積傷害後造成額外雷屬性傷害， 並於一定時間內提升會心率（部分攻擊 除外）"
+        "description": "以攻擊累積傷害後造成額外雷屬性傷害， 並於一定時間內提升會心率（部分攻擊 除外）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "發動與Ⅰ同樣的效果，並增加額外雷屬性 傷害，且小幅延長會心率提升的時間"
+        "description": "發動與Ⅰ同樣的效果，並增加額外雷屬性 傷害，且小幅延長會心率提升的時間",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3472,7 +3891,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3487,7 +3907,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "礦石的稀有度越高，攻擊力上升幅度 越大（上升值有上限）"
+        "description": "礦石的稀有度越高，攻擊力上升幅度 越大（上升值有上限）",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3502,7 +3923,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3517,7 +3939,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3532,11 +3955,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "延長技能「巧擊」的效果時間，並於發動 期間再次滿足條件時小幅延長效果時間 （僅限一次）"
+        "description": "延長技能「巧擊」的效果時間，並於發動 期間再次滿足條件時小幅延長效果時間 （僅限一次）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "發動與Ⅰ同樣的效果，並於發動期間再次 滿足條件時提升攻擊力"
+        "description": "發動與Ⅰ同樣的效果，並於發動期間再次 滿足條件時提升攻擊力",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3551,7 +3976,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果 （發動後一定時間內無法再次發動， 　但使出蓄力斬時仍會受到傷害）"
+        "description": "發動技能效果 （發動後一定時間內無法再次發動， 　但使出蓄力斬時仍會受到傷害）",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3566,7 +3992,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3581,11 +4008,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "於夢燈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）"
+        "description": "於夢燈之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "於夢燈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力"
+        "description": "於夢燈之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3600,7 +4029,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3615,11 +4045,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "體力計量表有紅色部分時，增加屬性 攻擊值；大劍的部分蓄力斬蓄力到 第三階段會獲得強化"
+        "description": "體力計量表有紅色部分時，增加屬性 攻擊值；大劍的部分蓄力斬蓄力到 第三階段會獲得強化",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "可使用特殊動作「至黑之夜」"
+        "description": "可使用特殊動作「至黑之夜」",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3634,11 +4066,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "提升共鳴Ⅰ的效果，以及武器技能 「合成盾」或「協作程式」的效果"
+        "description": "提升共鳴Ⅰ的效果，以及武器技能 「合成盾」或「協作程式」的效果",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3653,7 +4087,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3668,11 +4103,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "提升Ⅰ的效果，並於一定時間內獲得抵擋 傷害的護盾（護盾發動後需等候一定時間 才會再次發動）"
+        "description": "提升Ⅰ的效果，並於一定時間內獲得抵擋 傷害的護盾（護盾發動後需等候一定時間 才會再次發動）",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3687,7 +4124,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3702,11 +4140,13 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "於祝謠之儀期間追加特別道具至 任務報酬（不會從任務中途發動）"
+        "description": "於祝謠之儀期間追加特別道具至 任務報酬（不會從任務中途發動）",
+        "setPiecesRequired": 2
       },
       {
         "level": 2,
-        "description": "於祝謠之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力"
+        "description": "於祝謠之儀期間追加特別道具至 任務報酬，並大幅增加攻擊力與 防禦力",
+        "setPiecesRequired": 4
       }
     ]
   },
@@ -3721,7 +4161,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   },
@@ -3736,7 +4177,8 @@ export const skills: Skill[] = [
     "levels": [
       {
         "level": 1,
-        "description": "發動技能效果"
+        "description": "發動技能效果",
+        "setPiecesRequired": null
       }
     ]
   }

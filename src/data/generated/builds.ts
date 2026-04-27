@@ -4,10 +4,10 @@ import { Build } from '../../types';
 
 export const builds: Build[] = [
   {
-    "id": "generated-attack",
+    "id": "generated-attack-1",
     "playstyle": "attack",
-    "title": "高輸出技能優先配裝",
-    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。",
+    "title": "標準｜高輸出技能優先配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。 分數 1155.0，防禦 338，13 孔 / 孔位總值 26。目標技能：weakness-exploit 3/3, agitator 3/3, peak-performance 3/3, burst 2/2",
     "weapon": {
       "label": "請按目標魔物弱點另選武器",
       "weaponType": "通用",
@@ -377,7 +377,17 @@ export const builds: Build[] = [
       "weakness-exploit",
       "agitator",
       "peak-performance",
-      "burst"
+      "burst",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "arkvelds-hunger",
+      "alluring-pelt",
+      "divine-blessing",
+      "omega-resonance",
+      "ebony-odogarons-power",
+      "gogmapocalypse",
+      "doshagumas-might"
     ],
     "defenseStats": {
       "physical": 338,
@@ -391,16 +401,1653 @@ export const builds: Build[] = [
       }
     },
     "notes": [
+      "方案排名 #1 / 5",
       "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
   },
   {
-    "id": "generated-defense",
+    "id": "generated-attack-2",
+    "playstyle": "attack",
+    "title": "高防｜高輸出技能優先配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。 分數 1155.0，防禦 338，13 孔 / 孔位總值 26。目標技能：weakness-exploit 3/3, agitator 3/3, peak-performance 3/3, burst 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-311",
+        "name": "純潔龍冠β",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 538,
+              "gameId": 588,
+              "name": "Tough Guardian Bone",
+              "quantity": 5
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 6
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 2
+            },
+            {
+              "itemId": 652,
+              "gameId": 714,
+              "name": "Zoh Shia Crystalhorn",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-522",
+        "name": "鎖刃龍鎧甲β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "arkvelds-hunger",
+            "level": 1
+          },
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "alluring-pelt",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -1,
+          "dragon": -3
+        },
+        "armorSetName": "鎖刃龍β",
+        "crafting": {
+          "zennyCost": 10000,
+          "materials": [
+            {
+              "itemId": 422,
+              "gameId": 459,
+              "name": "Arkveld Scale+",
+              "quantity": 3
+            },
+            {
+              "itemId": 423,
+              "gameId": 460,
+              "name": "Arkveld Armorplate",
+              "quantity": 4
+            },
+            {
+              "itemId": 425,
+              "gameId": 463,
+              "name": "Arkveld Calloushell",
+              "quantity": 4
+            },
+            {
+              "itemId": 428,
+              "gameId": 466,
+              "name": "Arkveld Certificate S",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-678",
+        "name": "巨戟龍腰甲β",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "mizutsunes-prowess",
+            "level": 1
+          },
+          {
+            "skillId": "burst",
+            "level": 2
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 764,
+              "gameId": 748,
+              "name": "Gogmazios Rampart",
+              "quantity": 6
+            },
+            {
+              "itemId": 769,
+              "gameId": 753,
+              "name": "Gogmazios Thorntail",
+              "quantity": 2
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-679",
+        "name": "巨戟龍護腿β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "gravioss-protection",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      },
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "agitator",
+      "peak-performance",
+      "burst",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "arkvelds-hunger",
+      "alluring-pelt",
+      "divine-blessing",
+      "omega-resonance",
+      "mizutsunes-prowess",
+      "gogmapocalypse",
+      "gravioss-protection"
+    ],
+    "defenseStats": {
+      "physical": 338,
+      "elemental": -10,
+      "resistances": {
+        "fire": -5,
+        "water": 8,
+        "thunder": -2,
+        "ice": 8,
+        "dragon": -19
+      }
+    },
+    "notes": [
+      "方案排名 #2 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-attack-3",
+    "playstyle": "attack",
+    "title": "多孔｜高輸出技能優先配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。 分數 1154.9，防禦 336，14 孔 / 孔位總值 26。目標技能：weakness-exploit 3/3, agitator 3/3, peak-performance 3/3, burst 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-311",
+        "name": "純潔龍冠β",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 538,
+              "gameId": 588,
+              "name": "Tough Guardian Bone",
+              "quantity": 5
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 6
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 2
+            },
+            {
+              "itemId": 652,
+              "gameId": 714,
+              "name": "Zoh Shia Crystalhorn",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-610",
+        "name": "海龍鎧甲β",
+        "slot": "chest",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "stamina-surge",
+            "level": 1
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 695,
+              "gameId": 730,
+              "name": "Lagiacrus Scale+",
+              "quantity": 6
+            },
+            {
+              "itemId": 696,
+              "gameId": 731,
+              "name": "Lagiacrus Hide+",
+              "quantity": 6
+            },
+            {
+              "itemId": 697,
+              "gameId": 732,
+              "name": "Lagiacrus Shockspike",
+              "quantity": 3
+            },
+            {
+              "itemId": 699,
+              "gameId": 734,
+              "name": "Lagiacrus Tail",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-673",
+        "name": "巨戟龍腰甲α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 2
+          },
+          {
+            "skillId": "ebony-odogarons-power",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 764,
+              "gameId": 748,
+              "name": "Gogmazios Rampart",
+              "quantity": 6
+            },
+            {
+              "itemId": 769,
+              "gameId": 753,
+              "name": "Gogmazios Thorntail",
+              "quantity": 2
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-674",
+        "name": "巨戟龍護腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "doshagumas-might",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      },
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "agitator",
+      "peak-performance",
+      "burst",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "stamina-surge",
+      "buttery-leathercraft",
+      "leviathans-fury",
+      "divine-blessing",
+      "omega-resonance",
+      "ebony-odogarons-power",
+      "gogmapocalypse",
+      "doshagumas-might"
+    ],
+    "defenseStats": {
+      "physical": 336,
+      "elemental": -8,
+      "resistances": {
+        "fire": -10,
+        "water": 10,
+        "thunder": 3,
+        "ice": 7,
+        "dragon": -18
+      }
+    },
+    "notes": [
+      "方案排名 #3 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-attack-4",
+    "playstyle": "attack",
+    "title": "混裝｜高輸出技能優先配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。 分數 1154.9，防禦 336，14 孔 / 孔位總值 26。目標技能：weakness-exploit 3/3, agitator 3/3, peak-performance 3/3, burst 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-311",
+        "name": "純潔龍冠β",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 538,
+              "gameId": 588,
+              "name": "Tough Guardian Bone",
+              "quantity": 5
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 6
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 2
+            },
+            {
+              "itemId": 652,
+              "gameId": 714,
+              "name": "Zoh Shia Crystalhorn",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-610",
+        "name": "海龍鎧甲β",
+        "slot": "chest",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "stamina-surge",
+            "level": 1
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 695,
+              "gameId": 730,
+              "name": "Lagiacrus Scale+",
+              "quantity": 6
+            },
+            {
+              "itemId": 696,
+              "gameId": 731,
+              "name": "Lagiacrus Hide+",
+              "quantity": 6
+            },
+            {
+              "itemId": 697,
+              "gameId": 732,
+              "name": "Lagiacrus Shockspike",
+              "quantity": 3
+            },
+            {
+              "itemId": 699,
+              "gameId": 734,
+              "name": "Lagiacrus Tail",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-678",
+        "name": "巨戟龍腰甲β",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "mizutsunes-prowess",
+            "level": 1
+          },
+          {
+            "skillId": "burst",
+            "level": 2
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 764,
+              "gameId": 748,
+              "name": "Gogmazios Rampart",
+              "quantity": 6
+            },
+            {
+              "itemId": 769,
+              "gameId": 753,
+              "name": "Gogmazios Thorntail",
+              "quantity": 2
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-679",
+        "name": "巨戟龍護腿β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "gravioss-protection",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      },
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "agitator",
+      "peak-performance",
+      "burst",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "stamina-surge",
+      "buttery-leathercraft",
+      "leviathans-fury",
+      "divine-blessing",
+      "omega-resonance",
+      "mizutsunes-prowess",
+      "gogmapocalypse",
+      "gravioss-protection"
+    ],
+    "defenseStats": {
+      "physical": 336,
+      "elemental": -8,
+      "resistances": {
+        "fire": -10,
+        "water": 10,
+        "thunder": 3,
+        "ice": 7,
+        "dragon": -18
+      }
+    },
+    "notes": [
+      "方案排名 #4 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-attack-5",
+    "playstyle": "attack",
+    "title": "備選｜高輸出技能優先配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、挑戰者、無傷、連擊作目標自動搜尋。 分數 1153.4，防禦 324，13 孔 / 孔位總值 23。目標技能：weakness-exploit 3/3, agitator 3/3, peak-performance 3/3, burst 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-311",
+        "name": "純潔龍冠β",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 538,
+              "gameId": 588,
+              "name": "Tough Guardian Bone",
+              "quantity": 5
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 6
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 2
+            },
+            {
+              "itemId": 652,
+              "gameId": 714,
+              "name": "Zoh Shia Crystalhorn",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-312",
+        "name": "純潔龍鎧β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 2
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 557,
+              "gameId": 608,
+              "name": "Guardian Blood+",
+              "quantity": 3
+            },
+            {
+              "itemId": 648,
+              "gameId": 710,
+              "name": "Zoh Shia Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 650,
+              "gameId": 712,
+              "name": "Zoh Shia Layershell",
+              "quantity": 5
+            },
+            {
+              "itemId": 655,
+              "gameId": 719,
+              "name": "Blackember Mass",
+              "quantity": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-154",
+        "name": "波衣龍腕甲β",
+        "slot": "arms",
+        "rarity": 7,
+        "defense": 60,
+        "slots": [
+          3,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "quick-sheathe",
+            "level": 1
+          },
+          {
+            "skillId": "uth-dunas-cover",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "lords-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 82,
+        "resistances": {
+          "fire": -1,
+          "water": 4,
+          "ice": 0,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "armorSetName": "波衣龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 296,
+              "gameId": 329,
+              "name": "Uth Duna Scale+",
+              "quantity": 5
+            },
+            {
+              "itemId": 298,
+              "gameId": 331,
+              "name": "Uth Duna Cilia+",
+              "quantity": 3
+            },
+            {
+              "itemId": 300,
+              "gameId": 333,
+              "name": "Uth Duna Claw+",
+              "quantity": 3
+            },
+            {
+              "itemId": 603,
+              "gameId": 656,
+              "name": "Monster Hardbone",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-673",
+        "name": "巨戟龍腰甲α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 2
+          },
+          {
+            "skillId": "ebony-odogarons-power",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 764,
+              "gameId": 748,
+              "name": "Gogmazios Rampart",
+              "quantity": 6
+            },
+            {
+              "itemId": 769,
+              "gameId": 753,
+              "name": "Gogmazios Thorntail",
+              "quantity": 2
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-156",
+        "name": "波衣龍護腿β",
+        "slot": "legs",
+        "rarity": 7,
+        "defense": 60,
+        "slots": [
+          3,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "uth-dunas-cover",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          },
+          {
+            "skillId": "lords-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 82,
+        "resistances": {
+          "fire": -1,
+          "water": 4,
+          "ice": 0,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "armorSetName": "波衣龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 297,
+              "gameId": 330,
+              "name": "Uth Duna Hide+",
+              "quantity": 5
+            },
+            {
+              "itemId": 299,
+              "gameId": 332,
+              "name": "Uth Duna Tentacle+",
+              "quantity": 4
+            },
+            {
+              "itemId": 302,
+              "gameId": 335,
+              "name": "Uth Duna Certificate S",
+              "quantity": 2
+            },
+            {
+              "itemId": 455,
+              "gameId": 494,
+              "name": "Piragill Fin+",
+              "quantity": 2
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      },
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      },
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "agitator",
+      "peak-performance",
+      "burst",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "quick-sheathe",
+      "uth-dunas-cover",
+      "lords-fury",
+      "ebony-odogarons-power",
+      "gogmapocalypse"
+    ],
+    "defenseStats": {
+      "physical": 324,
+      "elemental": -7,
+      "resistances": {
+        "fire": -10,
+        "water": 15,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -13
+      }
+    },
+    "notes": [
+      "方案排名 #5 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-defense-1",
     "playstyle": "defense",
-    "title": "防守容錯優先配裝",
-    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。",
+    "title": "標準｜防守容錯優先配裝",
+    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。 分數 621.7，防禦 340，11 孔 / 孔位總值 26。目標技能：guard 0/3, defense-boost 3/3, divine-blessing 3/3, recovery-up 2/2",
     "weapon": {
       "label": "請按目標魔物弱點另選武器",
       "weaponType": "通用",
@@ -798,7 +2445,18 @@ export const builds: Build[] = [
       "guard",
       "defense-boost",
       "divine-blessing",
-      "recovery-up"
+      "recovery-up",
+      "weakness-exploit",
+      "omega-resonance",
+      "xu-wus-vigor",
+      "aquaticoilsilt-mobility",
+      "speed-eating",
+      "adrenaline-rush",
+      "gogmapocalypse",
+      "agitator",
+      "burst",
+      "doshagumas-might",
+      "peak-performance"
     ],
     "defenseStats": {
       "physical": 340,
@@ -812,16 +2470,1714 @@ export const builds: Build[] = [
       }
     },
     "notes": [
+      "方案排名 #1 / 5",
       "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
   },
   {
-    "id": "generated-balanced",
+    "id": "generated-defense-2",
+    "playstyle": "defense",
+    "title": "高防｜防守容錯優先配裝",
+    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。 分數 621.7，防禦 340，11 孔 / 孔位總值 26。目標技能：guard 0/3, defense-boost 3/3, divine-blessing 3/3, recovery-up 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-676",
+        "name": "巨戟龍鎧甲β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "aquaticoilsilt-mobility",
+            "level": 1
+          },
+          {
+            "skillId": "rathaloss-flare",
+            "level": 1
+          },
+          {
+            "skillId": "speed-eating",
+            "level": 2
+          },
+          {
+            "skillId": "adrenaline-rush",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 766,
+              "gameId": 750,
+              "name": "Gogmazios Lacerator",
+              "quantity": 5
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 6
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-679",
+        "name": "巨戟龍護腿β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "gravioss-protection",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "guard",
+      "defense-boost",
+      "divine-blessing",
+      "recovery-up",
+      "weakness-exploit",
+      "omega-resonance",
+      "aquaticoilsilt-mobility",
+      "rathaloss-flare",
+      "speed-eating",
+      "adrenaline-rush",
+      "gogmapocalypse",
+      "agitator",
+      "burst",
+      "gravioss-protection",
+      "peak-performance"
+    ],
+    "defenseStats": {
+      "physical": 340,
+      "elemental": -6,
+      "resistances": {
+        "fire": 1,
+        "water": 6,
+        "thunder": -9,
+        "ice": 12,
+        "dragon": -16
+      }
+    },
+    "notes": [
+      "方案排名 #2 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-defense-3",
+    "playstyle": "defense",
+    "title": "多孔｜防守容錯優先配裝",
+    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。 分數 621.7，防禦 340，10 孔 / 孔位總值 26。目標技能：guard 0/3, defense-boost 3/3, divine-blessing 3/3, recovery-up 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-706",
+        "name": "鎖刃龍鎧甲γ",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "arkvelds-hunger",
+            "level": 1
+          },
+          {
+            "skillId": "blight-resistance",
+            "level": 1
+          },
+          {
+            "skillId": "lords-soul",
+            "level": 1
+          },
+          {
+            "skillId": "convert-element",
+            "level": 3
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -1,
+          "dragon": -3
+        },
+        "armorSetName": "鎖刃龍γ",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 419,
+              "gameId": 456,
+              "name": "Arkveld Tail",
+              "quantity": 2
+            },
+            {
+              "itemId": 423,
+              "gameId": 460,
+              "name": "Arkveld Armorplate",
+              "quantity": 6
+            },
+            {
+              "itemId": 424,
+              "gameId": 462,
+              "name": "White Arkveld Pelt",
+              "quantity": 3
+            },
+            {
+              "itemId": 787,
+              "gameId": 762,
+              "name": "Arkveld Certificate γ",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-709",
+        "name": "鎖刃龍護腿γ",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          3
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "arkvelds-hunger",
+            "level": 1
+          },
+          {
+            "skillId": "flayer",
+            "level": 2
+          },
+          {
+            "skillId": "blight-resistance",
+            "level": 2
+          },
+          {
+            "skillId": "lords-soul",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -1,
+          "dragon": -3
+        },
+        "armorSetName": "鎖刃龍γ",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 424,
+              "gameId": 462,
+              "name": "White Arkveld Pelt",
+              "quantity": 4
+            },
+            {
+              "itemId": 425,
+              "gameId": 463,
+              "name": "Arkveld Calloushell",
+              "quantity": 3
+            },
+            {
+              "itemId": 427,
+              "gameId": 465,
+              "name": "Arkveld Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 787,
+              "gameId": 762,
+              "name": "Arkveld Certificate γ",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "guard",
+      "defense-boost",
+      "divine-blessing",
+      "recovery-up",
+      "weakness-exploit",
+      "omega-resonance",
+      "arkvelds-hunger",
+      "blight-resistance",
+      "lords-soul",
+      "convert-element",
+      "agitator",
+      "burst",
+      "flayer"
+    ],
+    "defenseStats": {
+      "physical": 340,
+      "elemental": -4,
+      "resistances": {
+        "fire": 13,
+        "water": 0,
+        "thunder": -11,
+        "ice": 6,
+        "dragon": -12
+      }
+    },
+    "notes": [
+      "方案排名 #3 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-defense-4",
+    "playstyle": "defense",
+    "title": "混裝｜防守容錯優先配裝",
+    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。 分數 621.2，防禦 340，11 孔 / 孔位總值 26。目標技能：guard 0/3, defense-boost 3/3, divine-blessing 3/3, recovery-up 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-311",
+        "name": "純潔龍冠β",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 538,
+              "gameId": 588,
+              "name": "Tough Guardian Bone",
+              "quantity": 5
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 6
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 2
+            },
+            {
+              "itemId": 652,
+              "gameId": 714,
+              "name": "Zoh Shia Crystalhorn",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-641",
+        "name": "歐米茄服α",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "partbreaker",
+            "level": 2
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 427,
+              "gameId": 465,
+              "name": "Arkveld Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 714,
+              "gameId": 737,
+              "name": "Omega Data 1.0",
+              "quantity": 1
+            },
+            {
+              "itemId": 716,
+              "gameId": 739,
+              "name": "Omega Spring",
+              "quantity": 7
+            },
+            {
+              "itemId": 720,
+              "gameId": 744,
+              "name": "Omega Nodule",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-315",
+        "name": "純潔龍靴β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "guardians-protection",
+            "level": 1
+          },
+          {
+            "skillId": "recovery-speed",
+            "level": 1
+          },
+          {
+            "skillId": "zoh-shias-pulse",
+            "level": 1
+          },
+          {
+            "skillId": "counterstrike",
+            "level": 1
+          },
+          {
+            "skillId": "elemental-absorption",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -2,
+          "water": 2,
+          "ice": 0,
+          "thunder": 2,
+          "dragon": -4
+        },
+        "armorSetName": "純潔龍β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 518,
+              "gameId": 568,
+              "name": "Gore Magala Nyctgem",
+              "quantity": 1
+            },
+            {
+              "itemId": 649,
+              "gameId": 711,
+              "name": "Zoh Shia Crystalscale",
+              "quantity": 3
+            },
+            {
+              "itemId": 651,
+              "gameId": 713,
+              "name": "Zoh Shia Stakeclaw",
+              "quantity": 4
+            },
+            {
+              "itemId": 653,
+              "gameId": 715,
+              "name": "Zoh Shia Crystaltail",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-120",
+        "name": "加護珠【1】",
+        "slotSize": 1,
+        "skillId": "divine-blessing",
+        "skillLevel": 1,
+        "description": "發動精靈加護技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-270",
+        "name": "治癒珠【1】",
+        "slotSize": 1,
+        "skillId": "recovery-up",
+        "skillLevel": 1,
+        "description": "發動體力回復量上升技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "guard",
+      "defense-boost",
+      "divine-blessing",
+      "recovery-up",
+      "guardians-protection",
+      "recovery-speed",
+      "zoh-shias-pulse",
+      "agitator",
+      "partbreaker",
+      "omega-resonance",
+      "burst",
+      "counterstrike",
+      "elemental-absorption"
+    ],
+    "defenseStats": {
+      "physical": 340,
+      "elemental": -4,
+      "resistances": {
+        "fire": 5,
+        "water": 4,
+        "thunder": -5,
+        "ice": 6,
+        "dragon": -14
+      }
+    },
+    "notes": [
+      "方案排名 #4 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-defense-5",
+    "playstyle": "defense",
+    "title": "備選｜防守容錯優先配裝",
+    "summary": "由 MHDB snapshot 以防禦性能、防禦、精靈加護、體力回復量上升作目標自動搜尋。 分數 621.1，防禦 332，13 孔 / 孔位總值 28。目標技能：guard 0/3, defense-boost 3/3, divine-blessing 3/3, recovery-up 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-710",
+        "name": "盛裝頭飾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "item-prolonger",
+            "level": 3
+          },
+          {
+            "skillId": "festival-spirit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 2
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": 1,
+          "dragon": 4
+        },
+        "armorSetName": "盛裝α",
+        "crafting": {
+          "zennyCost": 8000,
+          "materials": [
+            {
+              "itemId": 489,
+              "gameId": 531,
+              "name": "Gypceros Head",
+              "quantity": 1
+            },
+            {
+              "itemId": 529,
+              "gameId": 579,
+              "name": "Novacrystal",
+              "quantity": 1
+            },
+            {
+              "itemId": 608,
+              "gameId": 661,
+              "name": "Hunter Symbol III",
+              "quantity": 1
+            },
+            {
+              "itemId": 788,
+              "gameId": 775,
+              "name": "Gala Suit Ticket",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-711",
+        "name": "盛裝服飾α",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "coalescence",
+            "level": 2
+          },
+          {
+            "skillId": "festival-spirit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": 1,
+          "dragon": 4
+        },
+        "armorSetName": "盛裝α",
+        "crafting": {
+          "zennyCost": 8000,
+          "materials": [
+            {
+              "itemId": 122,
+              "gameId": 144,
+              "name": "Rey Dau Plate",
+              "quantity": 1
+            },
+            {
+              "itemId": 488,
+              "gameId": 530,
+              "name": "Gypceros Wing",
+              "quantity": 3
+            },
+            {
+              "itemId": 608,
+              "gameId": 661,
+              "name": "Hunter Symbol III",
+              "quantity": 1
+            },
+            {
+              "itemId": 788,
+              "gameId": 775,
+              "name": "Gala Suit Ticket",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-667",
+        "name": "獵戶星腕甲α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "recovery-up",
+            "level": 2
+          },
+          {
+            "skillId": "windproof",
+            "level": 1
+          },
+          {
+            "skillId": "festival-spirit",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 4,
+          "thunder": 1,
+          "dragon": 1
+        },
+        "armorSetName": "獵戶星α",
+        "crafting": {
+          "zennyCost": 8000,
+          "materials": [
+            {
+              "itemId": 35,
+              "gameId": 37,
+              "name": "Beast Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 495,
+              "gameId": 537,
+              "name": "Blangonga Pelt+",
+              "quantity": 5
+            },
+            {
+              "itemId": 608,
+              "gameId": 661,
+              "name": "Hunter Symbol III",
+              "quantity": 1
+            },
+            {
+              "itemId": 777,
+              "gameId": 800,
+              "name": "Orion Ticket",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-617",
+        "name": "波衣龍腰甲γ",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          3
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "tool-specialist",
+            "level": 2
+          },
+          {
+            "skillId": "lords-soul",
+            "level": 1
+          },
+          {
+            "skillId": "uth-dunas-cover",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -1,
+          "water": 4,
+          "ice": 0,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "armorSetName": "波衣龍γ",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 296,
+              "gameId": 329,
+              "name": "Uth Duna Scale+",
+              "quantity": 3
+            },
+            {
+              "itemId": 300,
+              "gameId": 333,
+              "name": "Uth Duna Claw+",
+              "quantity": 4
+            },
+            {
+              "itemId": 301,
+              "gameId": 334,
+              "name": "Uth Duna Watergem",
+              "quantity": 1
+            },
+            {
+              "itemId": 702,
+              "gameId": 759,
+              "name": "Uth Duna Certificate γ",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-714",
+        "name": "盛裝靴α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "festival-spirit",
+            "level": 1
+          },
+          {
+            "skillId": "maximum-might",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 1,
+          "water": 1,
+          "ice": 1,
+          "thunder": 1,
+          "dragon": 4
+        },
+        "armorSetName": "盛裝α",
+        "crafting": {
+          "zennyCost": 8000,
+          "materials": [
+            {
+              "itemId": 314,
+              "gameId": 347,
+              "name": "Rey Dau Scale+",
+              "quantity": 4
+            },
+            {
+              "itemId": 528,
+              "gameId": 578,
+              "name": "Lightcrystal",
+              "quantity": 2
+            },
+            {
+              "itemId": 608,
+              "gameId": 661,
+              "name": "Hunter Symbol III",
+              "quantity": 1
+            },
+            {
+              "itemId": 788,
+              "gameId": 775,
+              "name": "Gala Suit Ticket",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-241",
+        "name": "防禦珠【1】",
+        "slotSize": 1,
+        "skillId": "defense-boost",
+        "skillLevel": 1,
+        "description": "發動防禦技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "guard",
+      "defense-boost",
+      "divine-blessing",
+      "recovery-up",
+      "item-prolonger",
+      "festival-spirit",
+      "coalescence",
+      "windproof",
+      "tool-specialist",
+      "lords-soul",
+      "uth-dunas-cover",
+      "maximum-might",
+      "peak-performance"
+    ],
+    "defenseStats": {
+      "physical": 332,
+      "elemental": 32,
+      "resistances": {
+        "fire": 3,
+        "water": 8,
+        "thunder": 1,
+        "ice": 7,
+        "dragon": 13
+      }
+    },
+    "notes": [
+      "方案排名 #5 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-balanced-1",
     "playstyle": "balanced",
-    "title": "泛用攻守平衡配裝",
-    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。",
+    "title": "標準｜泛用攻守平衡配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。 分數 622.1，防禦 332，12 孔 / 孔位總值 25。目標技能：weakness-exploit 3/3, critical-eye 0/3, evade-window 3/3, divine-blessing 2/2",
     "weapon": {
       "label": "請按目標魔物弱點另選武器",
       "weaponType": "通用",
@@ -1172,7 +4528,13 @@ export const builds: Build[] = [
       "weakness-exploit",
       "critical-eye",
       "evade-window",
-      "divine-blessing"
+      "divine-blessing",
+      "omega-resonance",
+      "stamina-surge",
+      "buttery-leathercraft",
+      "leviathans-fury",
+      "agitator",
+      "maximum-might"
     ],
     "defenseStats": {
       "physical": 332,
@@ -1186,16 +4548,1530 @@ export const builds: Build[] = [
       }
     },
     "notes": [
+      "方案排名 #1 / 5",
       "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
     ]
   },
   {
-    "id": "generated-support",
+    "id": "generated-balanced-2",
+    "playstyle": "balanced",
+    "title": "高防｜泛用攻守平衡配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。 分數 620.1，防禦 332，10 孔 / 孔位總值 23。目標技能：weakness-exploit 3/3, critical-eye 0/3, evade-window 3/3, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-610",
+        "name": "海龍鎧甲β",
+        "slot": "chest",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "stamina-surge",
+            "level": 1
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 695,
+              "gameId": 730,
+              "name": "Lagiacrus Scale+",
+              "quantity": 6
+            },
+            {
+              "itemId": 696,
+              "gameId": 731,
+              "name": "Lagiacrus Hide+",
+              "quantity": 6
+            },
+            {
+              "itemId": 697,
+              "gameId": 732,
+              "name": "Lagiacrus Shockspike",
+              "quantity": 3
+            },
+            {
+              "itemId": 699,
+              "gameId": 734,
+              "name": "Lagiacrus Tail",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-611",
+        "name": "海龍腕甲β",
+        "slot": "arms",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          3
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "stamina-surge",
+            "level": 2
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 694,
+              "gameId": 729,
+              "name": "Lagiacrus Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 695,
+              "gameId": 730,
+              "name": "Lagiacrus Scale+",
+              "quantity": 5
+            },
+            {
+              "itemId": 700,
+              "gameId": 735,
+              "name": "Lagiacrus Claw+",
+              "quantity": 3
+            },
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-644",
+        "name": "歐米茄腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "evade-window",
+            "level": 2
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 692,
+              "gameId": 554,
+              "name": "Seregios Dissenter",
+              "quantity": 1
+            },
+            {
+              "itemId": 714,
+              "gameId": 737,
+              "name": "Omega Data 1.0",
+              "quantity": 1
+            },
+            {
+              "itemId": 716,
+              "gameId": 739,
+              "name": "Omega Spring",
+              "quantity": 7
+            },
+            {
+              "itemId": 720,
+              "gameId": 744,
+              "name": "Omega Nodule",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-332",
+        "name": "迴避珠【2】",
+        "slotSize": 2,
+        "skillId": "evade-window",
+        "skillLevel": 1,
+        "description": "發動迴避性能技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 4
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "critical-eye",
+      "evade-window",
+      "divine-blessing",
+      "omega-resonance",
+      "stamina-surge",
+      "buttery-leathercraft",
+      "leviathans-fury",
+      "burst"
+    ],
+    "defenseStats": {
+      "physical": 332,
+      "elemental": 0,
+      "resistances": {
+        "fire": 3,
+        "water": 4,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -10
+      }
+    },
+    "notes": [
+      "方案排名 #2 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-balanced-3",
+    "playstyle": "balanced",
+    "title": "多孔｜泛用攻守平衡配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。 分數 619.2，防禦 334，11 孔 / 孔位總值 25。目標技能：weakness-exploit 3/3, critical-eye 0/3, evade-window 3/3, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-522",
+        "name": "鎖刃龍鎧甲β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "arkvelds-hunger",
+            "level": 1
+          },
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "alluring-pelt",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -1,
+          "dragon": -3
+        },
+        "armorSetName": "鎖刃龍β",
+        "crafting": {
+          "zennyCost": 10000,
+          "materials": [
+            {
+              "itemId": 422,
+              "gameId": 459,
+              "name": "Arkveld Scale+",
+              "quantity": 3
+            },
+            {
+              "itemId": 423,
+              "gameId": 460,
+              "name": "Arkveld Armorplate",
+              "quantity": 4
+            },
+            {
+              "itemId": 425,
+              "gameId": 463,
+              "name": "Arkveld Calloushell",
+              "quantity": 4
+            },
+            {
+              "itemId": 428,
+              "gameId": 466,
+              "name": "Arkveld Certificate S",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-597",
+        "name": "千刃龍腰甲β",
+        "slot": "waist",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          3,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "scale-layering",
+            "level": 1
+          },
+          {
+            "skillId": "evade-window",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "seregioss-tenacity",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 4,
+          "water": 0,
+          "ice": -2,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "armorSetName": "千刃龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 686,
+              "gameId": 548,
+              "name": "Seregios Slavescale",
+              "quantity": 6
+            },
+            {
+              "itemId": 687,
+              "gameId": 549,
+              "name": "Seregios Airblade",
+              "quantity": 6
+            },
+            {
+              "itemId": 688,
+              "gameId": 550,
+              "name": "Seregios Carver",
+              "quantity": 3
+            },
+            {
+              "itemId": 689,
+              "gameId": 551,
+              "name": "Seregios Impaler",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-644",
+        "name": "歐米茄腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "evade-window",
+            "level": 2
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 692,
+              "gameId": 554,
+              "name": "Seregios Dissenter",
+              "quantity": 1
+            },
+            {
+              "itemId": 714,
+              "gameId": 737,
+              "name": "Omega Data 1.0",
+              "quantity": 1
+            },
+            {
+              "itemId": 716,
+              "gameId": 739,
+              "name": "Omega Spring",
+              "quantity": 7
+            },
+            {
+              "itemId": 720,
+              "gameId": 744,
+              "name": "Omega Nodule",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "critical-eye",
+      "evade-window",
+      "divine-blessing",
+      "omega-resonance",
+      "arkvelds-hunger",
+      "alluring-pelt",
+      "agitator",
+      "scale-layering",
+      "seregioss-tenacity"
+    ],
+    "defenseStats": {
+      "physical": 334,
+      "elemental": -3,
+      "resistances": {
+        "fire": 15,
+        "water": 0,
+        "thunder": -13,
+        "ice": 4,
+        "dragon": -9
+      }
+    },
+    "notes": [
+      "方案排名 #3 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-balanced-4",
+    "playstyle": "balanced",
+    "title": "混裝｜泛用攻守平衡配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。 分數 619.2，防禦 334，11 孔 / 孔位總值 25。目標技能：weakness-exploit 3/3, critical-eye 0/3, evade-window 3/3, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-522",
+        "name": "鎖刃龍鎧甲β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "arkvelds-hunger",
+            "level": 1
+          },
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "alluring-pelt",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 2,
+          "water": 0,
+          "ice": 0,
+          "thunder": -1,
+          "dragon": -3
+        },
+        "armorSetName": "鎖刃龍β",
+        "crafting": {
+          "zennyCost": 10000,
+          "materials": [
+            {
+              "itemId": 422,
+              "gameId": 459,
+              "name": "Arkveld Scale+",
+              "quantity": 3
+            },
+            {
+              "itemId": 423,
+              "gameId": 460,
+              "name": "Arkveld Armorplate",
+              "quantity": 4
+            },
+            {
+              "itemId": 425,
+              "gameId": 463,
+              "name": "Arkveld Calloushell",
+              "quantity": 4
+            },
+            {
+              "itemId": 428,
+              "gameId": 466,
+              "name": "Arkveld Certificate S",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-612",
+        "name": "海龍腰甲β",
+        "slot": "waist",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "maximum-might",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 694,
+              "gameId": 729,
+              "name": "Lagiacrus Certificate S",
+              "quantity": 2
+            },
+            {
+              "itemId": 698,
+              "gameId": 733,
+              "name": "Lagiacrus Horn+",
+              "quantity": 3
+            },
+            {
+              "itemId": 700,
+              "gameId": 735,
+              "name": "Lagiacrus Claw+",
+              "quantity": 4
+            },
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-644",
+        "name": "歐米茄腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "evade-window",
+            "level": 2
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 692,
+              "gameId": 554,
+              "name": "Seregios Dissenter",
+              "quantity": 1
+            },
+            {
+              "itemId": 714,
+              "gameId": 737,
+              "name": "Omega Data 1.0",
+              "quantity": 1
+            },
+            {
+              "itemId": 716,
+              "gameId": 739,
+              "name": "Omega Spring",
+              "quantity": 7
+            },
+            {
+              "itemId": 720,
+              "gameId": 744,
+              "name": "Omega Nodule",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-332",
+        "name": "迴避珠【2】",
+        "slotSize": 2,
+        "skillId": "evade-window",
+        "skillLevel": 1,
+        "description": "發動迴避性能技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 4
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "critical-eye",
+      "evade-window",
+      "divine-blessing",
+      "omega-resonance",
+      "arkvelds-hunger",
+      "alluring-pelt",
+      "agitator",
+      "buttery-leathercraft",
+      "maximum-might",
+      "leviathans-fury"
+    ],
+    "defenseStats": {
+      "physical": 334,
+      "elemental": -2,
+      "resistances": {
+        "fire": 8,
+        "water": 2,
+        "thunder": -6,
+        "ice": 5,
+        "dragon": -11
+      }
+    },
+    "notes": [
+      "方案排名 #4 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-balanced-5",
+    "playstyle": "balanced",
+    "title": "備選｜泛用攻守平衡配裝",
+    "summary": "由 MHDB snapshot 以弱點特效、看破、迴避性能、精靈加護作目標自動搜尋。 分數 619.1，防禦 332，12 孔 / 孔位總值 25。目標技能：weakness-exploit 3/3, critical-eye 0/3, evade-window 3/3, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-640",
+        "name": "歐米茄耳夾α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 701,
+              "gameId": 736,
+              "name": "Lagiacrus Sapphire",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 717,
+              "gameId": 740,
+              "name": "Omega Pedal",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-610",
+        "name": "海龍鎧甲β",
+        "slot": "chest",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          2,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "weakness-exploit",
+            "level": 1
+          },
+          {
+            "skillId": "stamina-surge",
+            "level": 1
+          },
+          {
+            "skillId": "buttery-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "leviathans-fury",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": -3,
+          "water": 2,
+          "ice": -1,
+          "thunder": 4,
+          "dragon": -2
+        },
+        "armorSetName": "海龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 695,
+              "gameId": 730,
+              "name": "Lagiacrus Scale+",
+              "quantity": 6
+            },
+            {
+              "itemId": 696,
+              "gameId": 731,
+              "name": "Lagiacrus Hide+",
+              "quantity": 6
+            },
+            {
+              "itemId": 697,
+              "gameId": 732,
+              "name": "Lagiacrus Shockspike",
+              "quantity": 3
+            },
+            {
+              "itemId": 699,
+              "gameId": 734,
+              "name": "Lagiacrus Tail",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-597",
+        "name": "千刃龍腰甲β",
+        "slot": "waist",
+        "rarity": 7,
+        "defense": 64,
+        "slots": [
+          3,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "scale-layering",
+            "level": 1
+          },
+          {
+            "skillId": "evade-window",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "seregioss-tenacity",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 4,
+          "water": 0,
+          "ice": -2,
+          "thunder": -3,
+          "dragon": 0
+        },
+        "armorSetName": "千刃龍β",
+        "crafting": {
+          "zennyCost": 7000,
+          "materials": [
+            {
+              "itemId": 686,
+              "gameId": 548,
+              "name": "Seregios Slavescale",
+              "quantity": 6
+            },
+            {
+              "itemId": 687,
+              "gameId": 549,
+              "name": "Seregios Airblade",
+              "quantity": 6
+            },
+            {
+              "itemId": 688,
+              "gameId": 550,
+              "name": "Seregios Carver",
+              "quantity": 3
+            },
+            {
+              "itemId": 689,
+              "gameId": 551,
+              "name": "Seregios Impaler",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-644",
+        "name": "歐米茄腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "evade-window",
+            "level": 2
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 692,
+              "gameId": 554,
+              "name": "Seregios Dissenter",
+              "quantity": 1
+            },
+            {
+              "itemId": 714,
+              "gameId": 737,
+              "name": "Omega Data 1.0",
+              "quantity": 1
+            },
+            {
+              "itemId": 716,
+              "gameId": 739,
+              "name": "Omega Spring",
+              "quantity": 7
+            },
+            {
+              "itemId": 720,
+              "gameId": 744,
+              "name": "Omega Nodule",
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-288",
+        "name": "痛擊珠【3】",
+        "slotSize": 3,
+        "skillId": "weakness-exploit",
+        "skillLevel": 1,
+        "description": "發動弱點特效技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 5
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "weakness-exploit",
+      "critical-eye",
+      "evade-window",
+      "divine-blessing",
+      "omega-resonance",
+      "stamina-surge",
+      "buttery-leathercraft",
+      "leviathans-fury",
+      "agitator",
+      "scale-layering",
+      "seregioss-tenacity"
+    ],
+    "defenseStats": {
+      "physical": 332,
+      "elemental": -1,
+      "resistances": {
+        "fire": 10,
+        "water": 2,
+        "thunder": -8,
+        "ice": 3,
+        "dragon": -8
+      }
+    },
+    "notes": [
+      "方案排名 #5 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-support-1",
     "playstyle": "support",
-    "title": "多人支援優先配裝",
-    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。",
+    "title": "標準｜多人支援優先配裝",
+    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。 分數 1154.2，防禦 302，12 孔 / 孔位總值 24。目標技能：wide-range 4/4, speed-eating 3/3, free-meal 2/2, divine-blessing 2/2",
     "weapon": {
       "label": "請按目標魔物弱點另選武器",
       "weaponType": "通用",
@@ -1562,7 +6438,14 @@ export const builds: Build[] = [
       "wide-range",
       "speed-eating",
       "free-meal",
-      "divine-blessing"
+      "divine-blessing",
+      "flexible-leathercraft",
+      "hunger-resistance",
+      "recovery-up",
+      "doshagumas-might",
+      "agitator",
+      "peak-performance",
+      "gogmapocalypse"
     ],
     "defenseStats": {
       "physical": 302,
@@ -1576,6 +6459,1675 @@ export const builds: Build[] = [
       }
     },
     "notes": [
+      "方案排名 #1 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-support-2",
+    "playstyle": "support",
+    "title": "高防｜多人支援優先配裝",
+    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。 分數 1154.2，防禦 302，12 孔 / 孔位總值 24。目標技能：wide-range 4/4, speed-eating 3/3, free-meal 2/2, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-646",
+        "name": "膠鯢頭套α",
+        "slot": "head",
+        "rarity": 8,
+        "defense": 66,
+        "slots": [
+          3,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "flexible-leathercraft",
+            "level": 1
+          },
+          {
+            "skillId": "speed-eating",
+            "level": 2
+          },
+          {
+            "skillId": "free-meal",
+            "level": 1
+          },
+          {
+            "skillId": "hunger-resistance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 86,
+        "resistances": {
+          "fire": 4,
+          "water": 2,
+          "ice": -2,
+          "thunder": -4,
+          "dragon": 0
+        },
+        "armorSetName": "膠鯢α",
+        "crafting": {
+          "zennyCost": 8000,
+          "materials": [
+            {
+              "itemId": 487,
+              "gameId": 529,
+              "name": "Rubbery Hide+",
+              "quantity": 5
+            },
+            {
+              "itemId": 602,
+              "gameId": 655,
+              "name": "Monster Keenbone",
+              "quantity": 3
+            },
+            {
+              "itemId": 608,
+              "gameId": 661,
+              "name": "Hunter Symbol III",
+              "quantity": 1
+            },
+            {
+              "itemId": 725,
+              "gameId": 772,
+              "name": "Dreamspell Catalog",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-557",
+        "name": "大馬士革鎧甲α",
+        "slot": "chest",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          2,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "recovery-up",
+            "level": 2
+          },
+          {
+            "skillId": "wide-range",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 54,
+              "gameId": 56,
+              "name": "Carbalite Ore",
+              "quantity": 5
+            },
+            {
+              "itemId": 84,
+              "gameId": 92,
+              "name": "Wyvern Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 5
+            },
+            {
+              "itemId": 557,
+              "gameId": 608,
+              "name": "Guardian Blood+",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-558",
+        "name": "大馬士革腕甲α",
+        "slot": "arms",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          3,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "wide-range",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 35,
+              "gameId": 37,
+              "name": "Beast Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 4
+            },
+            {
+              "itemId": 612,
+              "gameId": 665,
+              "name": "Guardian Pelt+",
+              "quantity": 4
+            },
+            {
+              "itemId": 637,
+              "gameId": 698,
+              "name": "Gracium",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-559",
+        "name": "大馬士革腰甲α",
+        "slot": "waist",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "recovery-up",
+            "level": 1
+          },
+          {
+            "skillId": "wide-range",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 418,
+              "gameId": 455,
+              "name": "Guardian Scale+",
+              "quantity": 4
+            },
+            {
+              "itemId": 529,
+              "gameId": 579,
+              "name": "Novacrystal",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-679",
+        "name": "巨戟龍護腿β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "gravioss-protection",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-280",
+        "name": "快吃珠【1】",
+        "slotSize": 1,
+        "skillId": "speed-eating",
+        "skillLevel": 1,
+        "description": "發動快吃技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-120",
+        "name": "加護珠【1】",
+        "slotSize": 1,
+        "skillId": "divine-blessing",
+        "skillLevel": 1,
+        "description": "發動精靈加護技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "wide-range",
+      "speed-eating",
+      "free-meal",
+      "divine-blessing",
+      "flexible-leathercraft",
+      "hunger-resistance",
+      "recovery-up",
+      "gravioss-protection",
+      "agitator",
+      "peak-performance",
+      "gogmapocalypse"
+    ],
+    "defenseStats": {
+      "physical": 302,
+      "elemental": 3,
+      "resistances": {
+        "fire": 12,
+        "water": -1,
+        "thunder": -4,
+        "ice": 1,
+        "dragon": -5
+      }
+    },
+    "notes": [
+      "方案排名 #2 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-support-3",
+    "playstyle": "support",
+    "title": "多孔｜多人支援優先配裝",
+    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。 分數 1154.1，防禦 320，12 孔 / 孔位總值 25。目標技能：wide-range 4/4, speed-eating 3/3, free-meal 2/2, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-16",
+        "name": "雪獅子王頭盔β",
+        "slot": "head",
+        "rarity": 6,
+        "defense": 48,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "alluring-pelt",
+            "level": 1
+          },
+          {
+            "skillId": "blangongas-spirit",
+            "level": 1
+          },
+          {
+            "skillId": "wide-range",
+            "level": 2
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 80,
+        "resistances": {
+          "fire": -4,
+          "water": 1,
+          "ice": 4,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "雪獅子王β",
+        "crafting": {
+          "zennyCost": 5000,
+          "materials": [
+            {
+              "itemId": 59,
+              "gameId": 61,
+              "name": "Colossal Bone",
+              "quantity": 2
+            },
+            {
+              "itemId": 495,
+              "gameId": 537,
+              "name": "Blangonga Pelt+",
+              "quantity": 3
+            },
+            {
+              "itemId": 496,
+              "gameId": 538,
+              "name": "Blangonga Fang+",
+              "quantity": 4
+            },
+            {
+              "itemId": 498,
+              "gameId": 540,
+              "name": "Blangonga Tail",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-671",
+        "name": "巨戟龍鎧甲α",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "xu-wus-vigor",
+            "level": 1
+          },
+          {
+            "skillId": "aquaticoilsilt-mobility",
+            "level": 1
+          },
+          {
+            "skillId": "speed-eating",
+            "level": 2
+          },
+          {
+            "skillId": "adrenaline-rush",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 766,
+              "gameId": 750,
+              "name": "Gogmazios Lacerator",
+              "quantity": 5
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 6
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-674",
+        "name": "巨戟龍護腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "doshagumas-might",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-280",
+        "name": "快吃珠【1】",
+        "slotSize": 1,
+        "skillId": "speed-eating",
+        "skillLevel": 1,
+        "description": "發動快吃技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "wide-range",
+      "speed-eating",
+      "free-meal",
+      "divine-blessing",
+      "alluring-pelt",
+      "blangongas-spirit",
+      "xu-wus-vigor",
+      "aquaticoilsilt-mobility",
+      "adrenaline-rush",
+      "gogmapocalypse",
+      "agitator",
+      "omega-resonance",
+      "burst",
+      "doshagumas-might",
+      "peak-performance"
+    ],
+    "defenseStats": {
+      "physical": 320,
+      "elemental": -5,
+      "resistances": {
+        "fire": -6,
+        "water": 7,
+        "thunder": -6,
+        "ice": 14,
+        "dragon": -14
+      }
+    },
+    "notes": [
+      "方案排名 #3 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-support-4",
+    "playstyle": "support",
+    "title": "混裝｜多人支援優先配裝",
+    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。 分數 1154.1，防禦 320，12 孔 / 孔位總值 25。目標技能：wide-range 4/4, speed-eating 3/3, free-meal 2/2, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-16",
+        "name": "雪獅子王頭盔β",
+        "slot": "head",
+        "rarity": 6,
+        "defense": 48,
+        "slots": [
+          2,
+          1,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "alluring-pelt",
+            "level": 1
+          },
+          {
+            "skillId": "blangongas-spirit",
+            "level": 1
+          },
+          {
+            "skillId": "wide-range",
+            "level": 2
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 80,
+        "resistances": {
+          "fire": -4,
+          "water": 1,
+          "ice": 4,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "雪獅子王β",
+        "crafting": {
+          "zennyCost": 5000,
+          "materials": [
+            {
+              "itemId": 59,
+              "gameId": 61,
+              "name": "Colossal Bone",
+              "quantity": 2
+            },
+            {
+              "itemId": 495,
+              "gameId": 537,
+              "name": "Blangonga Pelt+",
+              "quantity": 3
+            },
+            {
+              "itemId": 496,
+              "gameId": 538,
+              "name": "Blangonga Fang+",
+              "quantity": 4
+            },
+            {
+              "itemId": 498,
+              "gameId": 540,
+              "name": "Blangonga Tail",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-676",
+        "name": "巨戟龍鎧甲β",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "aquaticoilsilt-mobility",
+            "level": 1
+          },
+          {
+            "skillId": "rathaloss-flare",
+            "level": 1
+          },
+          {
+            "skillId": "speed-eating",
+            "level": 2
+          },
+          {
+            "skillId": "adrenaline-rush",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 766,
+              "gameId": 750,
+              "name": "Gogmazios Lacerator",
+              "quantity": 5
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 6
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-642",
+        "name": "歐米茄護臂α",
+        "slot": "arms",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 654,
+              "gameId": 717,
+              "name": "Faux Whitegleam Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 718,
+              "gameId": 741,
+              "name": "Omega Lens",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-643",
+        "name": "歐米茄飾品α",
+        "slot": "waist",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "burst",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          },
+          {
+            "skillId": "omega-resonance",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": 3,
+          "water": 0,
+          "ice": 2,
+          "thunder": -3,
+          "dragon": -2
+        },
+        "armorSetName": "歐米茄服裝α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 663,
+              "gameId": 728,
+              "name": "Mizutsune Water Orb",
+              "quantity": 1
+            },
+            {
+              "itemId": 715,
+              "gameId": 738,
+              "name": "Omega Screw",
+              "quantity": 6
+            },
+            {
+              "itemId": 719,
+              "gameId": 743,
+              "name": "Omega Axle",
+              "quantity": 3
+            },
+            {
+              "itemId": 721,
+              "gameId": 745,
+              "name": "Omega Data 2.0",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-679",
+        "name": "巨戟龍護腿β",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "gravioss-protection",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟β",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-280",
+        "name": "快吃珠【1】",
+        "slotSize": 1,
+        "skillId": "speed-eating",
+        "skillLevel": 1,
+        "description": "發動快吃技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "wide-range",
+      "speed-eating",
+      "free-meal",
+      "divine-blessing",
+      "alluring-pelt",
+      "blangongas-spirit",
+      "aquaticoilsilt-mobility",
+      "rathaloss-flare",
+      "adrenaline-rush",
+      "gogmapocalypse",
+      "agitator",
+      "omega-resonance",
+      "burst",
+      "gravioss-protection",
+      "peak-performance"
+    ],
+    "defenseStats": {
+      "physical": 320,
+      "elemental": -5,
+      "resistances": {
+        "fire": -6,
+        "water": 7,
+        "thunder": -6,
+        "ice": 14,
+        "dragon": -14
+      }
+    },
+    "notes": [
+      "方案排名 #4 / 5",
+      "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
+      "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
+      "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."
+    ]
+  },
+  {
+    "id": "generated-support-5",
+    "playstyle": "support",
+    "title": "備選｜多人支援優先配裝",
+    "summary": "由 MHDB snapshot 以廣域化、快吃、滿足感、精靈加護作目標自動搜尋。 分數 1153.3，防禦 304，11 孔 / 孔位總值 24。目標技能：wide-range 4/4, speed-eating 3/3, free-meal 2/2, divine-blessing 2/2",
+    "weapon": {
+      "label": "請按目標魔物弱點另選武器",
+      "weaponType": "通用",
+      "reason": "此 preset 先優化防具、技能與裝飾品；武器傷害模型留待下一階段加入。"
+    },
+    "armor": [
+      {
+        "id": "armor-556",
+        "name": "大馬士革頭盔α",
+        "slot": "head",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          3,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "wide-range",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 2
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 382,
+              "gameId": 418,
+              "name": "Frenzy Shard",
+              "quantity": 3
+            },
+            {
+              "itemId": 492,
+              "gameId": 534,
+              "name": "Bird Wyvern Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 4
+            },
+            {
+              "itemId": 612,
+              "gameId": 665,
+              "name": "Guardian Pelt+",
+              "quantity": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-671",
+        "name": "巨戟龍鎧甲α",
+        "slot": "chest",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "xu-wus-vigor",
+            "level": 1
+          },
+          {
+            "skillId": "aquaticoilsilt-mobility",
+            "level": 1
+          },
+          {
+            "skillId": "speed-eating",
+            "level": 2
+          },
+          {
+            "skillId": "adrenaline-rush",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 766,
+              "gameId": 750,
+              "name": "Gogmazios Lacerator",
+              "quantity": 5
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 6
+            },
+            {
+              "itemId": 771,
+              "gameId": 755,
+              "name": "Heavy Drakesbone Oil",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-558",
+        "name": "大馬士革腕甲α",
+        "slot": "arms",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          3,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "wide-range",
+            "level": 1
+          },
+          {
+            "skillId": "divine-blessing",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 35,
+              "gameId": 37,
+              "name": "Beast Gem",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 4
+            },
+            {
+              "itemId": 612,
+              "gameId": 665,
+              "name": "Guardian Pelt+",
+              "quantity": 4
+            },
+            {
+              "itemId": 637,
+              "gameId": 698,
+              "name": "Gracium",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-559",
+        "name": "大馬士革腰甲α",
+        "slot": "waist",
+        "rarity": 7,
+        "defense": 56,
+        "slots": [
+          3,
+          2
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "recovery-up",
+            "level": 1
+          },
+          {
+            "skillId": "wide-range",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 78,
+        "resistances": {
+          "fire": 4,
+          "water": -2,
+          "ice": 0,
+          "thunder": 0,
+          "dragon": 0
+        },
+        "armorSetName": "大馬士革α",
+        "crafting": {
+          "zennyCost": 6000,
+          "materials": [
+            {
+              "itemId": 418,
+              "gameId": 455,
+              "name": "Guardian Scale+",
+              "quantity": 4
+            },
+            {
+              "itemId": 529,
+              "gameId": 579,
+              "name": "Novacrystal",
+              "quantity": 1
+            },
+            {
+              "itemId": 532,
+              "gameId": 582,
+              "name": "Fucium Ore",
+              "quantity": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "armor-674",
+        "name": "巨戟龍護腿α",
+        "slot": "legs",
+        "rarity": 8,
+        "defense": 68,
+        "slots": [
+          3,
+          2,
+          1
+        ],
+        "skillBonuses": [
+          {
+            "skillId": "doshagumas-might",
+            "level": 1
+          },
+          {
+            "skillId": "agitator",
+            "level": 1
+          },
+          {
+            "skillId": "peak-performance",
+            "level": 2
+          },
+          {
+            "skillId": "gogmapocalypse",
+            "level": 1
+          }
+        ],
+        "rank": "high",
+        "maxDefense": 88,
+        "resistances": {
+          "fire": -4,
+          "water": 3,
+          "ice": 3,
+          "thunder": 0,
+          "dragon": -5
+        },
+        "armorSetName": "巨戟α",
+        "crafting": {
+          "zennyCost": 12000,
+          "materials": [
+            {
+              "itemId": 763,
+              "gameId": 747,
+              "name": "Gogmazios Certificate S",
+              "quantity": 1
+            },
+            {
+              "itemId": 765,
+              "gameId": 749,
+              "name": "Gogmazios Fortalice",
+              "quantity": 4
+            },
+            {
+              "itemId": 767,
+              "gameId": 751,
+              "name": "Gogmazios Shredders",
+              "quantity": 3
+            },
+            {
+              "itemId": 768,
+              "gameId": 752,
+              "name": "Gogmazios Fiberwing",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    ],
+    "decorations": [
+      {
+        "id": "deco-341",
+        "name": "友愛珠【1】",
+        "slotSize": 1,
+        "skillId": "wide-range",
+        "skillLevel": 1,
+        "description": "發動廣域化技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-280",
+        "name": "快吃珠【1】",
+        "slotSize": 1,
+        "skillId": "speed-eating",
+        "skillLevel": 1,
+        "description": "發動快吃技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      },
+      {
+        "id": "deco-143",
+        "name": "節食珠【1】",
+        "slotSize": 1,
+        "skillId": "free-meal",
+        "skillLevel": 1,
+        "description": "發動滿足感技能的裝飾品。",
+        "kind": "armor",
+        "rarity": 3
+      }
+    ],
+    "setBonuses": [],
+    "highlightedSkillIds": [
+      "wide-range",
+      "speed-eating",
+      "free-meal",
+      "divine-blessing",
+      "xu-wus-vigor",
+      "aquaticoilsilt-mobility",
+      "adrenaline-rush",
+      "gogmapocalypse",
+      "recovery-up",
+      "doshagumas-might",
+      "agitator",
+      "peak-performance"
+    ],
+    "defenseStats": {
+      "physical": 304,
+      "elemental": 0,
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 6,
+        "dragon": -10
+      }
+    },
+    "notes": [
+      "方案排名 #5 / 5",
       "Data source: MHDB API snapshot 2026-04-27T20:13:53.111Z",
       "Kiranico zh-Hant snapshot is stored for Chinese cross-check; generated app data currently uses MHDB zh-Hant names.",
       "Optimizer MVP includes high-rank armor, armor decorations, slots, target skills, defense score, and basic set-piece preference."

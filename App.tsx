@@ -12,6 +12,7 @@ import { colors } from './src/theme/colors';
 import { ArmorPieceSlot, ElementType, Playstyle } from './src/types';
 
 const skillNameMap = Object.fromEntries(skills.map((s) => [s.id, s.name]));
+const skillMetaMap = Object.fromEntries(skills.map((s) => [s.id, s]));
 
 const slotLabels: Record<ArmorPieceSlot, string> = {
   head: '頭',
@@ -109,7 +110,20 @@ export default function App() {
     armorBuild.build.decorations.forEach((d) => {
       map[d.skillId] = (map[d.skillId] ?? 0) + d.skillLevel;
     });
+
+    Object.entries(map).forEach(([id, level]) => {
+      const skill = skillMetaMap[id];
+      const setRanks = skill?.levels.filter((rank) => rank.setPiecesRequired != null) ?? [];
+      if (setRanks.length === 0) return;
+
+      const activeRank = setRanks
+        .filter((rank) => (rank.setPiecesRequired ?? 0) <= level)
+        .sort((a, b) => b.level - a.level)[0];
+      map[id] = activeRank?.level ?? 0;
+    });
+
     return Object.entries(map)
+      .filter(([, level]) => level > 0)
       .map(([id, level]) => ({ id, name: skillNameMap[id] ?? id, level }))
       .sort((a, b) => b.level - a.level);
   }, [armorBuild]);
