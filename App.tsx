@@ -55,7 +55,7 @@ function weaponElementLabel(weapon: Weapon): string {
       return `${special.element} ${special.damage?.display ?? special.damage?.raw ?? 0}`;
     })
     .filter(Boolean);
-  return specials.length ? specials.join(' / ') : 'ç„¡å±¬æ€§';
+  return specials.length ? specials.join(' / ') : '無屬性';
 }
 
 // ─── Palico component ────────────────────────────────────────────

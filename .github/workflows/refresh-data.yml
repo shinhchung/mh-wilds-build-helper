@@ -33,6 +33,9 @@ jobs:
       - name: Refresh data
         run: npm run data:refresh
 
+      - name: Audit data
+        run: npm run data:audit
+
       - name: Typecheck
         run: npm run typecheck
 

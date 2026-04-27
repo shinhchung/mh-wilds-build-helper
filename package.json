@@ -10,8 +10,10 @@
     "web": "expo start --web",
     "build:web": "vite build",
     "data:download": "node scripts/download-data.mjs",
+    "data:sanitize": "node scripts/sanitize-data.mjs",
     "data:generate": "node scripts/generate-data.mjs",
-    "data:refresh": "npm run data:download && npm run data:generate",
+    "data:audit": "node scripts/audit-data.mjs",
+    "data:refresh": "npm run data:download && npm run data:sanitize && npm run data:generate",
     "optimize:build": "node scripts/optimize-build.mjs",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"

@@ -67997,12 +67997,7 @@ export const weapons: Weapon[] = [
         "name": "Dosha Farsounder II",
         "id": 554
       },
-      "branches": [
-        {
-          "name": "Farsounder Honga",
-          "id": 602
-        }
-      ],
+      "branches": [],
       "craftingMaterials": [],
       "craftingZennyCost": 0,
       "upgradeMaterials": [
@@ -69236,12 +69231,7 @@ export const weapons: Weapon[] = [
         "name": "Dosha Grudgesounder I",
         "id": 563
       },
-      "branches": [
-        {
-          "name": "Grudgesounder Urga",
-          "id": 565
-        }
-      ],
+      "branches": [],
       "craftingMaterials": [
         {
           "item": {
@@ -95873,12 +95863,7 @@ export const weapons: Weapon[] = [
         "name": "Dosha Faithbreaker II",
         "id": 778
       },
-      "branches": [
-        {
-          "name": "Faithbreaker Leibolkule",
-          "id": 832
-        }
-      ],
+      "branches": [],
       "craftingMaterials": [],
       "craftingZennyCost": 0,
       "upgradeMaterials": [
@@ -96097,12 +96082,7 @@ export const weapons: Weapon[] = [
         "name": "Dosha Gigasbreaker I",
         "id": 780
       },
-      "branches": [
-        {
-          "name": "Gigasbreaker Urbolkule",
-          "id": 782
-        }
-      ],
+      "branches": [],
       "craftingMaterials": [
         {
           "item": {
