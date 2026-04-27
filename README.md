@@ -8,7 +8,7 @@ A lightweight Expo + React Native + TypeScript mobile app scaffold for recommend
 - View a recommended weapon and armor loadout
 - View recommended decorations / jewels
 - Read skill descriptions and level effects
-- Uses a local TypeScript data model so real game data can be expanded later
+- Uses a local TypeScript data model (currently limited to in-repo Wilds sample sets only)
 
 ## Project structure
 
@@ -34,3 +34,9 @@ Then open with Expo Go or an emulator.
 2. Add filtering by weapon type
 3. Add search and favorite builds
 4. Add multilingual skill text and richer stat calculations
+
+
+## Data validation status
+
+- Build presets now only reference equipment defined in `src/data/armor.ts` to avoid cross-title set names.
+- This project is still an offline helper; verify final in-game values against your current game version/patch notes.
