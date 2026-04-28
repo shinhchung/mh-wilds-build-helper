@@ -132,7 +132,6 @@ export default function App() {
   const [playstyle, setPlaystyle] = useState<Playstyle | null>(null);
   const [buildIdx, setBuildIdx] = useState<number>(0);
   const [expandedSetBonuses, setExpandedSetBonuses] = useState<Record<string, boolean>>({});
-  const [expandedSkills, setExpandedSkills] = useState<Record<string, boolean>>({});
 
   const armorBuilds = useMemo(
     () => (playstyle ? recommendBuilds(playstyle) : []),
@@ -249,7 +248,6 @@ export default function App() {
     setPlaystyle(p);
     setBuildIdx(0);
     setExpandedSetBonuses({});
-    setExpandedSkills({});
   };
 
   return (
@@ -348,7 +346,6 @@ export default function App() {
                       onPress={() => {
                         setBuildIdx(i);
                         setExpandedSetBonuses({});
-                        setExpandedSkills({});
                       }}
                       style={[styles.buildVariantChip, buildIdx === i && styles.buildVariantChipActive]}
                     >
@@ -496,38 +493,26 @@ export default function App() {
 
             {/* Skills */}
             <SectionCard title="核心技能詳解">
-              {armorBuild.highlightedSkills.map((skill) => {
-                const expanded = Boolean(expandedSkills[skill.id]);
-                return (
-                  <Pressable
-                    key={skill.id}
-                    onPress={() => setExpandedSkills((current) => ({ ...current, [skill.id]: !expanded }))}
-                    style={styles.skillBlock}
-                  >
-                    <View style={styles.skillHeader}>
-                      <Text style={styles.skillName}>{skill.name}</Text>
-                      <Text style={styles.skillCat}>
-                        {skill.category === 'offense'
-                          ? '攻擊'
-                          : skill.category === 'defense'
-                            ? '防禦'
-                            : '輔助'}
-                      </Text>
-                      <Text style={styles.expandMark}>{expanded ? '收起' : '展開'}</Text>
-                    </View>
-                    {expanded && (
-                      <>
-                        <Text style={styles.bodyText}>{skill.description}</Text>
-                        {skill.levels.map((lv) => (
-                          <Text key={lv.level} style={styles.levelLine}>
-                            ▸ Lv.{lv.level}{lv.name ? ` ${lv.name}` : ''}  {lv.description}
-                          </Text>
-                        ))}
-                      </>
-                    )}
-                  </Pressable>
-                );
-              })}
+              {armorBuild.highlightedSkills.map((skill) => (
+                <View key={skill.id} style={styles.skillBlock}>
+                  <View style={styles.skillHeader}>
+                    <Text style={styles.skillName}>{skill.name}</Text>
+                    <Text style={styles.skillCat}>
+                      {skill.category === 'offense'
+                        ? '攻擊'
+                        : skill.category === 'defense'
+                          ? '防禦'
+                          : '輔助'}
+                    </Text>
+                  </View>
+                  <Text style={styles.bodyText}>{skill.description}</Text>
+                  {skill.levels.map((lv) => (
+                    <Text key={lv.level} style={styles.levelLine}>
+                      ▸ Lv.{lv.level}{lv.name ? ` ${lv.name}` : ''}  {lv.description}
+                    </Text>
+                  ))}
+                </View>
+              ))}
             </SectionCard>
 
             {/* Defense */}
