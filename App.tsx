@@ -131,6 +131,8 @@ export default function App() {
   const [selectedElement, setSelectedElement] = useState<ElementType | null>(null);
   const [playstyle, setPlaystyle] = useState<Playstyle | null>(null);
   const [buildIdx, setBuildIdx] = useState<number>(0);
+  const [expandedSetBonuses, setExpandedSetBonuses] = useState<Record<string, boolean>>({});
+  const [expandedSkills, setExpandedSkills] = useState<Record<string, boolean>>({});
 
   const armorBuilds = useMemo(
     () => (playstyle ? recommendBuilds(playstyle) : []),
@@ -246,6 +248,8 @@ export default function App() {
   const handlePlaystyleSelect = (p: Playstyle) => {
     setPlaystyle(p);
     setBuildIdx(0);
+    setExpandedSetBonuses({});
+    setExpandedSkills({});
   };
 
   return (
@@ -341,7 +345,11 @@ export default function App() {
                   {armorBuilds.map((b, i) => (
                     <Pressable
                       key={b.build.id}
-                      onPress={() => setBuildIdx(i)}
+                      onPress={() => {
+                        setBuildIdx(i);
+                        setExpandedSetBonuses({});
+                        setExpandedSkills({});
+                      }}
                       style={[styles.buildVariantChip, buildIdx === i && styles.buildVariantChipActive]}
                     >
                       <Text style={[styles.buildVariantText, buildIdx === i && styles.buildVariantTextActive]}>
@@ -411,18 +419,29 @@ export default function App() {
 
             {/* Set bonuses */}
             <SectionCard title="套裝技能">
-              {armorBuild.build.setBonuses.map((sb, i) => (
-                <View key={i} style={styles.setBonusRow}>
-                  <View style={styles.setBonusHeader}>
-                    <View style={styles.setNameBadge}>
-                      <Text style={styles.setNameText}>{sb.setName}</Text>
+              {armorBuild.build.setBonuses.length ? armorBuild.build.setBonuses.map((sb, i) => {
+                const key = `${sb.setName}-${sb.bonusName}-${sb.piecesRequired}-${i}`;
+                const expanded = Boolean(expandedSetBonuses[key]);
+                return (
+                  <Pressable
+                    key={key}
+                    onPress={() => setExpandedSetBonuses((current) => ({ ...current, [key]: !expanded }))}
+                    style={styles.setBonusRow}
+                  >
+                    <View style={styles.setBonusHeader}>
+                      <View style={styles.setNameBadge}>
+                        <Text style={styles.setNameText}>{sb.setName}</Text>
+                      </View>
+                      <Text style={styles.setPiecesText}>{sb.piecesRequired}件效果</Text>
+                      <Text style={styles.setBonusName}>{sb.bonusName}</Text>
+                      <Text style={styles.expandMark}>{expanded ? '收起' : '展開'}</Text>
                     </View>
-                    <Text style={styles.setPiecesText}>{sb.piecesRequired}件效果</Text>
-                    <Text style={styles.setBonusName}>{sb.bonusName}</Text>
-                  </View>
-                  <Text style={styles.bodyText}>{sb.description}</Text>
-                </View>
-              ))}
+                    {expanded && <Text style={styles.bodyText}>{sb.description}</Text>}
+                  </Pressable>
+                );
+              }) : (
+                <Text style={styles.bodyText}>此方案未啟動套裝技能。</Text>
+              )}
             </SectionCard>
 
             {/* Decorations grouped */}
@@ -477,26 +496,38 @@ export default function App() {
 
             {/* Skills */}
             <SectionCard title="核心技能詳解">
-              {armorBuild.highlightedSkills.map((skill) => (
-                <View key={skill.id} style={styles.skillBlock}>
-                  <View style={styles.skillHeader}>
-                    <Text style={styles.skillName}>{skill.name}</Text>
-                    <Text style={styles.skillCat}>
-                      {skill.category === 'offense'
-                        ? '攻擊'
-                        : skill.category === 'defense'
-                          ? '防禦'
-                          : '輔助'}
-                    </Text>
-                  </View>
-                  <Text style={styles.bodyText}>{skill.description}</Text>
-                  {skill.levels.map((lv) => (
-                    <Text key={lv.level} style={styles.levelLine}>
-                      ▸ Lv.{lv.level}  {lv.description}
-                    </Text>
-                  ))}
-                </View>
-              ))}
+              {armorBuild.highlightedSkills.map((skill) => {
+                const expanded = Boolean(expandedSkills[skill.id]);
+                return (
+                  <Pressable
+                    key={skill.id}
+                    onPress={() => setExpandedSkills((current) => ({ ...current, [skill.id]: !expanded }))}
+                    style={styles.skillBlock}
+                  >
+                    <View style={styles.skillHeader}>
+                      <Text style={styles.skillName}>{skill.name}</Text>
+                      <Text style={styles.skillCat}>
+                        {skill.category === 'offense'
+                          ? '攻擊'
+                          : skill.category === 'defense'
+                            ? '防禦'
+                            : '輔助'}
+                      </Text>
+                      <Text style={styles.expandMark}>{expanded ? '收起' : '展開'}</Text>
+                    </View>
+                    {expanded && (
+                      <>
+                        <Text style={styles.bodyText}>{skill.description}</Text>
+                        {skill.levels.map((lv) => (
+                          <Text key={lv.level} style={styles.levelLine}>
+                            ▸ Lv.{lv.level}{lv.name ? ` ${lv.name}` : ''}  {lv.description}
+                          </Text>
+                        ))}
+                      </>
+                    )}
+                  </Pressable>
+                );
+              })}
             </SectionCard>
 
             {/* Defense */}
@@ -798,6 +829,11 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '700',
     flex: 1,
+  },
+  expandMark: {
+    color: colors.primaryMuted,
+    fontSize: 11,
+    fontWeight: '800',
   },
 
   // Decoration chips

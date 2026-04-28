@@ -91,6 +91,7 @@ const skills = enSkills.map((skill) => ({
   description: zhSkills.find((item) => item.id === skill.id)?.description ?? skill.description ?? '',
   levels: (zhSkills.find((item) => item.id === skill.id)?.ranks ?? skill.ranks ?? []).map((rank) => ({
     level: rank.level,
+    name: rank.name ?? null,
     description: rank.description ?? '',
     setPiecesRequired: rank.setPiecesRequired ?? null,
   })),
@@ -384,6 +385,37 @@ function describeVariant(best) {
   return `分數 ${best.score.toFixed(1)}，防禦 ${best.totalDefense}，${slotText}。目標技能：${achieved}`;
 }
 
+function computeSetBonuses(armor) {
+  const totals = new Map();
+  const setNames = new Map();
+
+  for (const piece of armor) {
+    for (const bonus of piece.skillBonuses) {
+      const skill = skills.find((item) => item.id === bonus.skillId);
+      const setRanks = skill?.levels.filter((rank) => rank.setPiecesRequired != null) ?? [];
+      if (!skill || setRanks.length === 0) continue;
+
+      totals.set(skill.id, (totals.get(skill.id) ?? 0) + bonus.level);
+      if (!setNames.has(skill.id)) setNames.set(skill.id, new Set());
+      if (piece.armorSetName) setNames.get(skill.id).add(piece.armorSetName);
+    }
+  }
+
+  return [...totals.entries()].flatMap(([skillId, pieces]) => {
+    const skill = skills.find((item) => item.id === skillId);
+    const activeRanks = (skill?.levels ?? [])
+      .filter((rank) => rank.setPiecesRequired != null && (rank.setPiecesRequired ?? 0) <= pieces)
+      .sort((a, b) => (a.setPiecesRequired ?? 0) - (b.setPiecesRequired ?? 0));
+
+    return activeRanks.map((rank) => ({
+      setName: [...(setNames.get(skillId) ?? [])].join(' / ') || skill?.name || skillId,
+      piecesRequired: rank.setPiecesRequired ?? pieces,
+      bonusName: rank.name ? `${skill?.name ?? skillId}：${rank.name}` : skill?.name ?? skillId,
+      description: rank.description,
+    }));
+  });
+}
+
 const builds = targetSets.flatMap((targetSet) => {
   const variants = optimizeArmorBuild({
     armor: normalizedArmor,
@@ -414,7 +446,7 @@ const builds = targetSets.flatMap((targetSet) => {
     },
     armor: best.armor.map(toAppArmor),
     decorations: best.decorations.map(toAppDecoration),
-    setBonuses: [],
+    setBonuses: computeSetBonuses(best.armor),
     highlightedSkillIds,
     defenseStats: defenseStats(best.armor),
     notes: [

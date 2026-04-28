@@ -372,7 +372,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟α",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "agitator",
@@ -776,7 +783,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟β",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "agitator",
@@ -1185,7 +1199,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟α",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "agitator",
@@ -1595,7 +1616,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟β",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "agitator",
@@ -2010,7 +2038,20 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "純潔龍β",
+        "piecesRequired": 2,
+        "bonusName": "白熾龍的脈動：超回復力Ⅰ",
+        "description": "即使體力計量表沒有紅色部分， 仍會緩緩自動回復至上限"
+      },
+      {
+        "setName": "波衣龍β",
+        "piecesRequired": 2,
+        "bonusName": "波衣龍之守護：守護的液膜Ⅰ",
+        "description": "使用特殊裝備時，提升一定時間內的 防禦力。"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "agitator",
@@ -2440,7 +2481,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      },
+      {
+        "setName": "巨戟α",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "guard",
       "defense-boost",
@@ -2873,7 +2927,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      },
+      {
+        "setName": "巨戟β",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "guard",
       "defense-boost",
@@ -3301,7 +3368,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      },
+      {
+        "setName": "鎖刃龍γ",
+        "piecesRequired": 2,
+        "bonusName": "鎖刃龍之飢餓：加速再生Ⅰ",
+        "description": "攻擊不斷命中魔物時回復少量體力。 （回復量依武器種類而不同）"
+      }
+    ],
     "highlightedSkillIds": [
       "guard",
       "defense-boost",
@@ -3738,7 +3818,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "純潔龍β",
+        "piecesRequired": 2,
+        "bonusName": "白熾龍的脈動：超回復力Ⅰ",
+        "description": "即使體力計量表沒有紅色部分， 仍會緩緩自動回復至上限"
+      },
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "guard",
       "defense-boost",
@@ -4139,7 +4232,14 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "盛裝α / 獵戶星α",
+        "piecesRequired": 3,
+        "bonusName": "慶典巡禮：剝取名人",
+        "description": "任務期間素材剝取次數+1 （不會從任務中途發動）"
+      }
+    ],
     "highlightedSkillIds": [
       "guard",
       "defense-boost",
@@ -4523,7 +4623,20 @@ export const builds: Build[] = [
         "rarity": 4
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      },
+      {
+        "setName": "海龍β",
+        "piecesRequired": 2,
+        "bonusName": "海龍的渦雷：蒼雷一閃Ⅰ",
+        "description": "以攻擊累積傷害後造成額外雷屬性傷害， 並於一定時間內提升會心率（部分攻擊 除外）"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "critical-eye",
@@ -4902,7 +5015,20 @@ export const builds: Build[] = [
         "rarity": 4
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      },
+      {
+        "setName": "海龍β",
+        "piecesRequired": 2,
+        "bonusName": "海龍的渦雷：蒼雷一閃Ⅰ",
+        "description": "以攻擊累積傷害後造成額外雷屬性傷害， 並於一定時間內提升會心率（部分攻擊 除外）"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "critical-eye",
@@ -5277,7 +5403,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "critical-eye",
@@ -5653,7 +5786,14 @@ export const builds: Build[] = [
         "rarity": 4
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "critical-eye",
@@ -6035,7 +6175,14 @@ export const builds: Build[] = [
         "rarity": 5
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "weakness-exploit",
       "critical-eye",
@@ -7261,7 +7408,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟α",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      },
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "wide-range",
       "speed-eating",
@@ -7695,7 +7855,20 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟β",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      },
+      {
+        "setName": "歐米茄服裝α",
+        "piecesRequired": 2,
+        "bonusName": "歐米茄共鳴：共鳴Ⅰ",
+        "description": "任務開始後，共鳴：遠和共鳴：近會交替 發動，滿足條件後提升攻擊力或會心率"
+      }
+    ],
     "highlightedSkillIds": [
       "wide-range",
       "speed-eating",
@@ -8100,7 +8273,14 @@ export const builds: Build[] = [
         "rarity": 3
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "setName": "巨戟α",
+        "piecesRequired": 2,
+        "bonusName": "巨戟龍的啟示錄：宣戰呼應Ⅰ",
+        "description": "戰鬥中的大型魔物發怒時， 增加屬性攻擊值。"
+      }
+    ],
     "highlightedSkillIds": [
       "wide-range",
       "speed-eating",
